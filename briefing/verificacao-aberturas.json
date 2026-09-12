@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "id": "video-noomo-story",
+      "duration": 13,
+      "width": 1280,
+      "height": 800,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "video-igloo",
+      "duration": 12,
+      "width": 1280,
+      "height": 800,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "video-kikk",
+      "duration": 8.15,
+      "width": 1280,
+      "height": 800,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "missingLinks": [],
+  "errors": [],
+  "mobileOverflow": false,
+  "reducedMotionPaused": true
+}

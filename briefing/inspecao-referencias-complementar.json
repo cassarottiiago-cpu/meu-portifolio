@@ -1,0 +1,463 @@
+[
+  {
+    "id": "nicky-case",
+    "url": "https://ncase.me/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:53:42.970Z",
+    "status": 200,
+    "title": "It's Nicky Case!",
+    "finalUrl": "https://ncase.me/",
+    "text": "blog · faq/contact · toss monies at me\n\nHi, I'm Nicky! I make shtuff for curious & playful folks.\n\nWanna know when I make new shtuff? Well, the algorithms would rather show you mental-health-eroding clickbait, so let's get around 'em with...\n\nmy infrequent newsletter! or better yet, let's do RSS!\nmax 1 update per month · see full archive\nSHTUFF YOU CAN PLAY\nadventures with anxiety – an interactive story about anxiety, where you are the anxiety\n \nexplorable explanations – a hub for learning through play\n \nthe evolution of trust – an interactive guide to the game theory of why & how we trust each other\n \nwe become what we behold – a game about news cycles, vicious cycles, infinite cycles\n \nnutshell – a tool to make expandable explanations\n \nemoji simulator – a tool to make cellular automata, with emoji\n(see all projects)\nSHTUFF YOU CAN READ\nai safety for fleshy humans – a whirlwind tour, in three acts\n \nmental health tips ft. anxiety wolf – my mental health journey, some science & practical tips\n \nparable of the hill climber – a kids' picture book about life & stochastic gradient ascent\n \nmake plushie patterns with play-doh & paper towels – a craftsy tutorial\n(see my blog)\nSHTUFF YOU CAN WATCH\nhow to explain things real good – a Stanford mini-talk\n \nhuman brains are awesome, human brains suck – my GDC 2019 microtalk\n \nlearning & games: a confession – my NYU Games Center 2019 talk\n(see my youtube)\n\n\n\n\nall my work is freely available under a public domain waiver! so feel free to reuse & remix it in your blog or classroom – attribution is amazing & appreciated, but i won't send legal goons over it\n\n💸 support me making free educational shtuff\n💌 faq / contact (i am bad at emails)\n💖 rss feed for cool people (?)",
+    "headings": [
+      "SHTUFF YOU CAN PLAY",
+      "SHTUFF YOU CAN READ",
+      "SHTUFF YOU CAN WATCH"
+    ],
+    "links": [
+      {
+        "text": "blog",
+        "href": "https://blog.ncase.me/"
+      },
+      {
+        "text": "faq/contact",
+        "href": "https://ncase.me/faq"
+      },
+      {
+        "text": "toss monies at me",
+        "href": "https://ko-fi.com/nickycase"
+      },
+      {
+        "text": "my infrequent newsletter!",
+        "href": "https://ncase.me/sub"
+      },
+      {
+        "text": "let's do RSS!",
+        "href": "https://ncase.me/rss"
+      },
+      {
+        "text": "see full archive",
+        "href": "https://ncase.me/archive"
+      },
+      {
+        "text": "adventures with anxiety – an interactive story about anxiety, where you are the anxiety",
+        "href": "https://ncase.me/anxiety/"
+      },
+      {
+        "text": "explorable explanations – a hub for learning through play",
+        "href": "https://explorabl.es/"
+      },
+      {
+        "text": "the evolution of trust – an interactive guide to the game theory of why & how we trust each other",
+        "href": "https://ncase.me/trust/"
+      },
+      {
+        "text": "we become what we behold – a game about news cycles, vicious cycles, infinite cycles",
+        "href": "https://ncase.itch.io/wbwwb"
+      },
+      {
+        "text": "nutshell – a tool to make expandable explanations",
+        "href": "https://ncase.me/nutshell/"
+      },
+      {
+        "text": "emoji simulator – a tool to make cellular automata, with emoji",
+        "href": "https://ncase.me/sim/"
+      },
+      {
+        "text": "(see all projects)",
+        "href": "https://ncase.me/projects"
+      },
+      {
+        "text": "ai safety for fleshy humans – a whirlwind tour, in three acts",
+        "href": "https://aisafety.dance/"
+      },
+      {
+        "text": "mental health tips ft. anxiety wolf – my mental health journey, some science & practical tips",
+        "href": "https://ncase.me/mental-health/"
+      },
+      {
+        "text": "parable of the hill climber – a kids' picture book about life & stochastic gradient ascent",
+        "href": "https://blog.ncase.me/parable-of-the-hill-climber/"
+      },
+      {
+        "text": "make plushie patterns with play-doh & paper towels – a craftsy tutorial",
+        "href": "https://blog.ncase.me/make-plushie-patterns-with-play-doh-paper-towels/"
+      },
+      {
+        "text": "(see my blog)",
+        "href": "https://blog.ncase.me/"
+      },
+      {
+        "text": "how to explain things real good – a Stanford mini-talk",
+        "href": "https://youtu.be/b-M2U3Jl1Cg"
+      },
+      {
+        "text": "human brains are awesome, human brains suck – my GDC 2019 microtalk",
+        "href": "https://vimeo.com/327793736"
+      },
+      {
+        "text": "learning & games: a confession – my NYU Games Center 2019 talk",
+        "href": "https://ncase.me/learning/"
+      },
+      {
+        "text": "(see my youtube)",
+        "href": "https://www.youtube.com/channel/UC2_zZ8QA-J3r-UiATQImmWg"
+      },
+      {
+        "text": "a public domain waiver!",
+        "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "text": "support me",
+        "href": "https://www.patreon.com/ncase"
+      },
+      {
+        "text": "faq / contact",
+        "href": "https://ncase.me/faq"
+      },
+      {
+        "text": "rss feed",
+        "href": "https://ncase.me/feed.xml"
+      },
+      {
+        "text": "(?)",
+        "href": "https://ncase.me/rss"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "ciechanowski",
+    "url": "https://ciechanow.ski/mechanical-watch/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:53:42.958Z",
+    "status": 200,
+    "title": "Mechanical Watch – Bartosz Ciechanowski",
+    "finalUrl": "https://ciechanow.ski/mechanical-watch/",
+    "text": "Bartosz Ciechanowski\nBlog Archives\nPatreon\n \nX / Twitter\n \nInstagram\n \ne-mail\n \nRSS\nMay 4, 2022\nMechanical Watch\n\nIn the world of modern portable devices, it may be hard to believe that merely a few decades ago the most convenient way to keep track of time was a mechanical watch. Unlike their quartz and smart siblings, mechanical watches can run without using any batteries or other electronic components.\n\nOver the course of this article, I’ll explain the workings of the mechanism seen in the demonstration below. You can drag the device around to change your viewing angle, and you can use the slider to peek at what’s going on inside:\n\nLoading...\n\nWhat you see here is known as the movement – the inner part of a mechanical watch that’s usually enclosed in a metal case. In this article, I’m focusing on a watch movement itself, since beautiful watch cases merely hide the intricate mechanisms which are the real stars of the show.\n\nThe entire watch movement has a lot of parts, and in this blog post I’ll explain the purpose of each one. The world of watchmaking is jargon-heavy, so many of the components may have unfamiliar names, but you shouldn’t feel pressured to remember them – the names and parts will be color-coded for easy reference.\n\nIn a functioning watch many parts are in constant motion. By default, all animations in this article are enabled, but if you find them distracting, or if you want to save power, you can globally pause all the following demonstrations.\n\nWhile the entire watch movement has many parts, the timekeeping system, which forms the core function of any watch, consists of just seven major elements which we can lay out in a straight line:\n\nLoading...\n\nIt may not look like much, but these parts still have a lot of interesting details about them that contribute to the second hand rotating at a correct pace. We’ll start exploring these details by focusing on the source of power for this entire contraption.\n\nPower\n\nPurely mechanical devices have a few different ways to power themselves, but one of the simplest methods to store energy is to use a spring. Most springs we see in daily life are coil springs. In the demonstration below, you can move the mass attached to this type of spring to see it bounce:\n\nLoading...\n\nWhen a spring like this is compressed, it stores some energy that is then released when the compressing tension is removed. Mechanical watches typically use a different kind of spring – a spiral torsion spring. This type of spring is loaded when it’s twisted. When let go, the spring unwinds in the opposite direction to eventually settle in its natural state:\n\nLoading...\n\nIn a mechanical watch, we ultimately want to show rotating hands, so a spinning motion that a torsion spring provides is particularly useful. A spring in a typical mechanical watch has a slightly more complicated shape – you can see it below in its relaxed state. By dragging the slider, you can try to wind it midair, but as soon as you let go, it will snap back to its original shape:\n\nLoading...\n\nAs you can see, this spring is quite strong, and it wants to expand very rapidly. To contain the spring, we have to put it in a casing known as a barrel:\n\nLoading...\n\nOnce in the barrel, the spring still wants to expand to its original state, but the barrel’s wall keeps it in place. This spring is the storage of energy for the watch, and its name, the mainspring, reflects its importance.\n\nUnfortunately, we can’t really get any useful work from the mainspring in this state – it has already expanded to the largest possible size. To store more energy in it, we need to wind it tightly using the arbor that we’ll first attach on the inner side of the mainspring:\n\nLoading...\n\nIf you look closely, the mainspring has a little hole near its end – you can see it in the center of the demonstration. The arbor has a little hook that grabs onto that hole:\n\nLoading...\n\nWhen the arbor is turned, it pulls the mainspring with it, causing it to wind. In the demonstration below, we’re holding the barrel tight, and you can turn the arbor by dragging the slider:\n\nLoading...\n\nNotice that as soon as you let go of the arbor by releasing the slider, the mainspring will turn the arbor right back. This is less than desired – we want the barrel to turn instead, so that it can power the other parts of the watch. To get some useful work from the mainspring, we’ll have to keep holding on to the arbor and instead let the barrel go when we want to use the stored energy:\n\nLoading...\n\nWe’ll soon see how this is accomplished in practice, but for now, we’ll assume that the arbor is held tight and the mainspring ends up rotating the barrel, just like in the demonstration above. Before we finish up with the mainspring and the barrel, let’s discuss two other details that make this mechanism more reliable. Let me bring up the relaxed spring one more time:\n\nLoading...\n\nThe metal strip attached to the mainspring provides additional tension to its outer part. That metal strip really wants to snap back to its straight shape, so it pushes against the wall of the barrel, creating a lot of friction that keeps the mainspring in place:\n\nLoading...\n\nThis locks the outer end of the mainspring when the arbor moves the inner. If we were to keep winding the spring past its maximum capacity, we’d overpower that friction, letting the mainspring slip inside – this acts as a safety mechanism to prevent the parts from breaking.\n\nAs we’ve seen, in its relaxed state, the mainspring forms an S-shape with varied curvature throughout. This helps to balance the tension in the mainspring’s different sections when it is inside the barrel. Notice that the inner sections of the wound spring have a much smaller radius than the outer parts. If the relaxed spring was just a straight piece of metal, then after winding, the inner parts would be bent much more than the outer parts. With the S-shaped spring, the outer sections of the spring are also under a similar tension because they want to get back to their curve that is bent in the opposite direction.\n\nTo secure the mainspring and prevent dust from getting in, we close the barrel with a lid that snaps into its place:\n\nLoading...\n\nWe’ve managed to make some parts rotate, and one could naively think that we could just attach a watch hand to the barrel to make it track time. Unfortunately, that won’t really work – you can witness this in the demonstration below. You can see how this “watch” behaves after you wind the mainspring with the slider and let it go:\n\nLoading...\n\nWe clearly have some work to do – the hand spins way too fast, and it only does a few rotations before the mainspring inside the barrel runs out of the stored energy. Clearly, this contraption won’t let us track time in any reliable way.\n\nIf we wanted our watch to run continuously for around 40 hours on a single wind, we’d need the minute hand to complete 40 rotations in that time. Moreover, the second hand should cover around 40 × 60 = 2400 complete rotations in that time. We need to find a way to convert a small number of revolutions of the barrel into a large number of revolutions of the hands. This is where gears come in.\n\nGears\n\nI’ve talked about gears on this blog before, so let me just recap things very briefly. Gears can be used to change the speed of rotation between two different axes. In the demonstration below, you can witness that by observing little dots I put on each gear – the yellow gear, which is powered by the bigger red gear, takes much less time to finish a single revolution:\n\nLoading...\n\nAn important aspect of two matching gears is their number of teeth. Each tooth in one gear meets with a space between teeth in the other gear, so within a unit of time, both gears rotate by the same number of teeth. If the number of teeth in two gears is different, those gears can take a different amount of time to complete a single rotation. In the demonstration below, you can change the ratio of the number of teeth between the driving red gear and the driven yellow gear to see how it affects the speed of rotation of that yellow gear:\n\nLoading...\n1:2\n1:1\n2:1\n\nThese gears are intended to work with each other, so the ratio of teeth is equivalent to the ratio of the gear radii. When the driving gear has more teeth than the driven gear, the driven gear makes more rotations than the driving gear. We can use this behavior to make the second hand of a watch rotate many times on a single rotation of the barrel.\n\nLet’s consider how much of a speed increase we have to do here. The barrel can rotate close to 7 times on a single wind, but we want the second hand to complete around 2400 revolutions in the same time. We need the ratio of teeth, or the ratio of radii, to be around 343:1. Let’s see how that would look in practice. In the demonstration below, you can use the slider to look at the two gears from further away:\n\nLoading...\n\nAs you can see, these proportions are ridiculous – to make the red gear fit in any reasonably sized watch, the yellow gear would have to be absolutely tiny, and both gears would have to have very fragile, microscopic teeth.\n\nInstead, mechanical watches use a train of gears with multiple gears working in pairs – each pair increases the speed to some extent. In the demonstration below, you can see the four wheels participating in this reduction. Notice that there are two gears on most axes of rotation. You can control the speed of rotation of this gear train using the slider:\n\nLoading...\n\nThe barrel acts as the first wheel. It drives the second wheel, which drives the third wheel, which finally drives the fourth wheel. Notice that each big gear drives a smaller gear called a pinion. A pinion is mounted on the same shaft as the next big gear, so we’re able to keep increasing the speed on each axis. This approach has significant advantages – we’re able to make the overall mechanism much smaller, and we’ll soon use one of the intermediate wheels that rotates at a slower rate to drive minute and hour hands.\n\nBefore we finish up with gears, let me quickly mention the shape of their teeth. While many bigger machines use an involute shape for the profile of their gear teeth, mechanical watches commonly use cycloidal profiles which are obtained by rolling a circle on the surface of another circle.\n\nLet’s see how the so-called going train that we’ve assembled works when we wind the mainspring through the arbor and let the watch run:\n\nLoading...\n\nWe’ve certainly achieved the goal of the second hand rotating many times on a single rotation of the barrel, but the speed of revolution of that hand is still completely untamed. We need to find a way to control the rate of release of the energy stored in the mainspring – we’ll do this with the escapement.\n\nEscapement\n\nLet’s start by looking at the two components that create the escapement – the escape wheel and the pallet fork:\n\nLoading...\n\nNotice the unusual shape of the teeth of the escape wheel – it’s very different than the gears we’ve seen before. Its top part hosts a regularly shaped gear that can be used to turn that wheel.\n\nThe pallet fork itself is made of metal, but notice the two pinkish transparent parts at its end. These are jewels made from synthetic ruby. That compound is not only very hard, which prevents its wear, but it also has a low coefficient of friction with steel. Let’s see why these properties are important by observing how these two components interact with each other:\n\nLoading...\n\nThe escape wheel wants to rotate as indicated by the red arrow. The pallet fork prevents that motion, but as we pivot that pallet fork back and forth, we let the escape wheel briefly escape from that jail only to be stopped again.\n\nWe’ll see the details of that interaction in a few paragraphs, but right now, this mechanism lets us control the rotation of the escape wheel by simply moving the pallet fork from one side to another. Let’s see how these pieces fit into the rest of the assembly. In the demonstration below, I’ve wound the spring for you, so the barrel, through the gear train, ends up trying to rotate the escape wheel. Using the two buttons, you can switch the position of the pallet fork:\n\nLoading...\nTick\nTock\n\nThe mainspring wants to unwind by rotating the escape wheel, but the pallet fork only allows this to happen for a brief period of time. Because of the gear reduction, the rotation of the barrel is pretty much invisible. However, if you observe the hand attached to the fourth wheel, you can see it gently rotate as you swing the pallet fork back and forth.\n\nThe little timekeeping mechanism is almost fully functional now. The last remaining piece here is a device that will automatically tick the pallet fork back and forth. However, for the watch to track time correctly, that ticking action has to happen at an appropriate cadence. This is where the balance comes in – it forms the beating heart of a watch.\n\nBalance\n\nLet’s bring up the first torsion spring we saw before – recall that once you twist it from its original position, it will oscillate back and forth, only to settle after a while:\n\nLoading...\n\nWe can control the rate of this periodic motion by adjusting two parameters. The first one is the stiffness of the spring, which primarily depends on its height, thickness, and length, as well as the type of material from which it’s made. The second one is the mass and its distribution, or, more precisely, the moment of inertia of the object that the spring rotates. Moment of inertia increases when more mass is put further away from the axis of rotation. In the demonstration below, you can tweak both the stiffness of the spring and moment of inertia of the attached mass to see how these parameters affect the period of rotation:\n\nLoading...\n\nBy carefully tuning these parameters, we can make this system oscillate at a desired rate. This idea of using a torsion spring with attached mass is exactly what mechanical watches use as their source of precise time tracking. The balance is formed by the balance wheel attached to the balance spring. In this watch, the balance wheel oscillates back and forth at a fairly high frequency:\n\nLoading...\n\nAt the bottom side of the balance wheel, you’ll find another pinkish transparent jewel called a jewel roller. While small, this part is very important – this jewel hits the other end of the pallet fork as the balance wheel rotates, which in turn pushes the pallet fork back and forth. Let’s first look at an overview of how the balance wheel interacts with the other parts. In the demonstration below, you can slow things down with the slider:\n\nLoading...\n\nLet’s look at this interaction up close, as it deserves closer attention. In the demonstration below, you can scrub back and forth in time to see all the action as it happens:\n\nLoading...\n\nAs the balance wheel swings, the jewel roller strikes the pallet fork, which unlocks the escape wheel. Once unlocked, the escape wheel, powered by the mainspring, pushes on the pallet fork, which, through the jewel roller, pushes on the balance wheel itself. This causes the balance wheel to gain some energy, which prevents it from stopping after a while – it’s equivalent to giving a push to a person swinging on a swing. When the balance wheel comes back, it performs the same action, just in the other direction.\n\nYou may also have noticed a subtle dance between the little horn at the end of the pallet fork and the notched disk on the balance wheel. Those parts make sure that the pallet fork can switch sides only at the appropriate time – it’s a safety mechanism that prevents the watch from locking up when the watch is shaken or dropped:\n\nLoading...\n\nOnce the pallet fork unlocks the escape wheel, that wheel has to start spinning very quickly. This is why gears in the gear train have holes in them – it reduces their moment of inertia so that the barrel can accelerate them more quickly.\n\nIt’s also important to mention that the gear train not only increases the speed of the gears, but it also reduces the forces acting on the balance. The barrel itself turns quite forcefully, but at the escape wheel, the torque is greatly reduced, which prevents the escape wheel from pushing the pallet fork and thus the balance wheel with too much vigor.\n\nLet’s look at the entirety of what we’ve built so far one last time. I’m now running the mechanism at its normal speed:\n\nLoading...\n\nIn this watch movement, the balance wheel does a full back-and-forth swing four times per second, hitting the pallet fork twice during each cycle, for a total of 8 beats per second or 28,800 beats per hour. While different watches may have different rates, they all do a tiny turn of the second hand many times per second, which gives mechanical watches the illusion of a very smooth hand motion.\n\nIn principle, all the pieces we have here are sufficient for the watch to run, but we’re still missing a few details. More importantly, we’ve just been hanging the parts in the air, so it’s time we started a proper assembly of the complete watch movement.\n\nMainplate\n\nWe’ll start with the mainplate, which forms the main body of the movement:\n\nLoading...\n\nNotice that it has a lot of different openings – we’ll fill them in by the end of this article. The pink elements are yet again ruby jewels. They form bearings in which the axes of various components can rotate. Let’s look at a simple jewel up close:\n\nLoading...\n\nNotice that a jewel has a small basin in it. To even further reduce energy losses of the rotating components, a small amount of special oil is placed in that cavity. That oil sticks to the jewel and a shaft that rotates inside it to further decrease the friction, which lets the watch run longer on a single wind, while also reducing wear on the delicate mechanical parts.\n\nThe first two components we will mount onto the mainplate are the escape wheel and the pallet fork:\n\nLoading...\n\nThe pallet fork itself is then topped with the pallet fork bridge. That bridge holds the other end of the pallet fork’s axis, and it is attached to the mainplate with two screws:\n\nLoading...\n\nNotice that in this watch, the side-to-side movement of the pallet fork is limited by the shape of the two knobs in the central part of the pallet fork bridge:\n\nLoading...\n\nThis ensures that the escape wheel can only push the pallet fork so far before the motion is physically stopped by these knobs.\n\nNext, we can put the rest of the gear train in. All four wheels are cleverly arranged so that they occupy only a small amount of space:\n\nLoading...\n\nNotice that the fourth wheel goes directly through the center of the watch – you can see its axis poking on the other side. By the end of our assembly, we’ll attach a second hand on the end of that long axis. To secure all elements in place, we cap them with a train wheel bridge, which provides the setting for the other ends of the shafts for all rotating parts. That bridge is screwed to the mainplate to hold everything in place:\n\nLoading...\n\nThe only remaining part from the initial mechanism that we haven’t yet mounted is the balance, which forms its own little assembly. Let’s build it up first by attaching all the parts to the balance bridge:\n\nLoading...\n\nNotice that the balance spring is very delicate, and the balance wheel ends up stretching it out. Because of its thinness, the balance spring is often referred to as a hairspring. The yellow and teal components both regulate the behavior of the balance. Let’s see how they work in action:\n\nLoading...\n\nThe yellow components are firmly attached to the balance spring, and by turning them, we can adjust the resting position of the balance wheel and its jewel roller. This ensures that both the “tick” and “tock” phases of the balance wheel swing take the same amount of time.\n\nThe teal components can freely slide on the hairspring, but they reduce or increase its effective length as they prevent the tail section of the hairspring from oscillating freely. By adjusting the position of these teal components, we can modify the duration of a single beat and make the watch run slightly faster or slower. That speed regulation can also be fine-tuned using the screw in the top part – its head is not centered, so when turned, it will gently rotate the little teal fork.\n\nThe hairspring is made from special alloys like Nivarox that keep the spring’s stiffness invariant to temperature differences, which improves the overall timekeeping accuracy.\n\nThe final portion of the balance assembly is the shock protector mechanism, which consists of the casing, two jewels, and a tiny spring that keeps everything in place:\n\nLoading...\n\nThis mechanism protects the fragile tips of the balance shaft from breaking when the watch experiences a sudden jerk. Let’s see how these pieces act together when the balance shaft is jolted around:\n\nLoading...\n\nWhen the watch is shaken, the motion of the shaft is absorbed by the spring, similarly to the suspension system in a car. If the jerk is very strong, then the much thicker and stronger part of the balance shaft carries the load through the case, which protects the fragile tip from breaking.\n\nLet’s attach the entire balance assembly to the rest of the movement we’ve built so far. Notice that the other end of the balance wheel’s axis also rests on the shock protection jewels embedded in the mainplate:\n\nLoading...\n\nWith that last step, we’ve actually finished recreating the core of the watch mechanism that we’ve previously seen floating in the air. However, you may remember that I’ve glossed over the little detail of how to make sure that the mainspring stays wound. Let’s see what happens if we actually try to wind the watch using the arbor. For the sake of clarity, I also cut a hole in the top part of the barrel so that you can see the spring inside:\n\nLoading...\n\nAs long as the arbor is held, the mainspring can power the rest of the watch – you can see the rotation of the second hand attached to t",
+    "headings": [
+      "Mechanical Watch",
+      "Power ",
+      "Gears ",
+      "Escapement ",
+      "Balance ",
+      "Mainplate ",
+      "Click ",
+      "Motion Works ",
+      "Date ",
+      "Keyless Works ",
+      "Automatic Winding ",
+      "The Size of it All ",
+      "Further Watching and Reading ",
+      "Final Words "
+    ],
+    "links": [
+      {
+        "text": "Bartosz Ciechanowski",
+        "href": "https://ciechanow.ski/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://ciechanow.ski/"
+      },
+      {
+        "text": "Archives",
+        "href": "https://ciechanow.ski/archives"
+      },
+      {
+        "text": "Patreon",
+        "href": "https://www.patreon.com/ciechanowski"
+      },
+      {
+        "text": "X / Twitter",
+        "href": "https://twitter.com/bciechanowski"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/bartoszciechanowski/"
+      },
+      {
+        "text": "e-mail",
+        "href": "mailto:bartosz@ciechanow.ski"
+      },
+      {
+        "text": "RSS",
+        "href": "https://ciechanow.ski/atom.xml"
+      },
+      {
+        "text": "Mechanical Watch",
+        "href": "https://ciechanow.ski/mechanical-watch/"
+      },
+      {
+        "text": "globally pause",
+        "href": "https://ciechanow.ski/mechanical-watch/#"
+      },
+      {
+        "text": "globally unpause",
+        "href": "https://ciechanow.ski/mechanical-watch/#"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#power"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#gears"
+      },
+      {
+        "text": "talked about gears",
+        "href": "https://ciechanow.ski/gears/"
+      },
+      {
+        "text": "more teeth",
+        "href": "https://ciechanow.ski/mechanical-watch/#"
+      },
+      {
+        "text": "involute shape",
+        "href": "https://ciechanow.ski/gears/#strings-attached"
+      },
+      {
+        "text": "rolling a circle on the surface of another circle",
+        "href": "https://www.tec-science.com/mechanical-power-transmission/cycloidal-gear/geometry-of-cycloidal-gears/"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#escapement"
+      },
+      {
+        "text": "ruby",
+        "href": "https://en.wikipedia.org/wiki/Ruby"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#balance"
+      },
+      {
+        "text": "moment of inertia",
+        "href": "https://en.wikipedia.org/wiki/Moment_of_inertia"
+      },
+      {
+        "text": "bottom side",
+        "href": "https://ciechanow.ski/mechanical-watch/#"
+      },
+      {
+        "text": "torque",
+        "href": "http://ciechanow.ski/gears/#torque"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#mainplate"
+      },
+      {
+        "text": "Nivarox",
+        "href": "https://en.wikipedia.org/wiki/Nivarox"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#click"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#motion-works"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#date"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#keyless-works"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#automatic-winding"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#the-size-of-it-all"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#further-watching-and-reading"
+      },
+      {
+        "text": "Wristwatch Revival",
+        "href": "https://www.youtube.com/c/WristwatchRevival/videos"
+      },
+      {
+        "text": "Watchmaking",
+        "href": "https://www.amazon.com/Watchmaking-George-Daniels/dp/0856677043"
+      },
+      {
+        "text": "",
+        "href": "https://ciechanow.ski/mechanical-watch/#final-words"
+      },
+      {
+        "text": "Patreon",
+        "href": "https://www.patreon.com/ciechanowski"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "dennis-snellenberg",
+    "url": "https://dennissnellenberg.com/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:53:51.112Z",
+    "status": 200,
+    "title": "Dennis Snellenberg • Freelance Designer & Developer",
+    "finalUrl": "https://dennissnellenberg.com/",
+    "text": "Hello\nBonjour\nस्वागत हे\nCiao\nOlá\nおい\nHallå\nGuten tag\nHallo\n\nView\n\nMenu\nNAVIGATION\nHome\nWork\nAbout\nContact\nSOCIALS\nAwwwards\n \nInstagram\n \nTwitter\n \nLinkedIn\n\nLocated\nin the\nNetherlands\n\n©\nCode byDennis\nSnellenberg\nWork\nAbout\nContact\nFreelance\nDesigner & Developer\nDennis Snellenberg\n—\nDennis Snellenberg\n—\nHelping\n \nbrands\n \nto\n \nstand\n \nout\n \nin\n \nthe\n \ndigital\n \nera.\n \nTogether\n \nwe\n \nwill\n \nset\n \nthe\n \nnew\n \nstatus\n \nquo.\n \nNo\n \nnonsense,\n \nalways\n \non\n \nthe\n \ncutting\n \nedge.\n\nThe combination of my passion for design, code & interaction positions me in a unique place in the web design world.\n\nAbout me\nRECENT WORK\nTWICE\n\nInteraction & Development\n\nThe Damai\n\nDesign & Development\n\nFABRIC™\n\nDesign & Development\n\nAanstekelijk\n\nDesign & Development\n\nMore work\n11\n Let’s work\ntogether\nGet in touch\ninfo@dennissnellenberg.com\n+31 6 27 84 74 30\nVERSION\n\n2022 © Edition\n\nLOCAL TIME\n\n12:54 AM GMT+2\n\nSOCIALS\nAwwwards\n \nInstagram\n \nTwitter\n \nLinkedIn",
+    "headings": [
+      "Hello",
+      "Bonjour",
+      "स्वागत हे",
+      "Ciao",
+      "Olá",
+      "おい",
+      "Hallå",
+      "Guten tag",
+      "Hallo",
+      "Home",
+      "Work",
+      "TWICE",
+      "The Damai",
+      "FABRIC™",
+      "Aanstekelijk",
+      "Base Create",
+      "AVVR",
+      "GraphicHunters",
+      "Future Goals",
+      "Atypikal",
+      "One:Nil",
+      "Andy Hardy",
+      "About",
+      "Contact",
+      "Success",
+      "Archive",
+      "Error",
+      "Styleguide",
+      "Dennis Snellenberg—",
+      "Dennis Snellenberg—",
+      " Let’s work  together"
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://dennissnellenberg.com/"
+      },
+      {
+        "text": "Work",
+        "href": "https://dennissnellenberg.com/work"
+      },
+      {
+        "text": "About",
+        "href": "https://dennissnellenberg.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://dennissnellenberg.com/contact"
+      },
+      {
+        "text": "Awwwards",
+        "href": "https://www.awwwards.com/dennissnellenberg/"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/codebydennis/"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com/codebydennis"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/dennissnellenberg/"
+      },
+      {
+        "text": "©\nCode byDennis\nSnellenberg",
+        "href": "https://dennissnellenberg.com/"
+      },
+      {
+        "text": "Work",
+        "href": "https://dennissnellenberg.com/work"
+      },
+      {
+        "text": "About",
+        "href": "https://dennissnellenberg.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://dennissnellenberg.com/contact"
+      },
+      {
+        "text": "About me",
+        "href": "https://dennissnellenberg.com/about"
+      },
+      {
+        "text": "TWICE\n\nInteraction & Development",
+        "href": "https://dennissnellenberg.com/work/twice"
+      },
+      {
+        "text": "The Damai\n\nDesign & Development",
+        "href": "https://dennissnellenberg.com/work/the-damai"
+      },
+      {
+        "text": "FABRIC™\n\nDesign & Development",
+        "href": "https://dennissnellenberg.com/work/fabric"
+      },
+      {
+        "text": "Aanstekelijk\n\nDesign & Development",
+        "href": "https://dennissnellenberg.com/work/aanstekelijk"
+      },
+      {
+        "text": "\n                  \n                     \n                                             \n                  \n                  \n                     TWICE\n                     \n                  \n                  \n                     Interaction & Development\n                  \n                  \n                     2024\n                  \n               ",
+        "href": "https://dennissnellenberg.com/work/twice"
+      },
+      {
+        "text": "\n                  \n                     \n                                             \n                  \n                  \n                     The Damai\n                     \n                  \n                  \n                     Design & Development\n                  \n                  \n                     2024\n                  \n               ",
+        "href": "https://dennissnellenberg.com/work/the-damai"
+      },
+      {
+        "text": "\n                  \n                     \n                                             \n                  \n                  \n                     FABRIC™\n                     \n                  \n                  \n                     Design & Development\n                  \n                  \n                     2023\n                  \n               ",
+        "href": "https://dennissnellenberg.com/work/fabric"
+      },
+      {
+        "text": "\n                  \n                     \n                                             \n                  \n                  \n                     Aanstekelijk\n                     \n                  \n                  \n                     Design & Development\n                  \n                  \n                     2023\n                  \n               ",
+        "href": "https://dennissnellenberg.com/work/aanstekelijk"
+      },
+      {
+        "text": "More work\n11",
+        "href": "https://dennissnellenberg.com/work"
+      },
+      {
+        "text": "Get in touch",
+        "href": "https://dennissnellenberg.com/contact"
+      },
+      {
+        "text": "info@dennissnellenberg.com",
+        "href": "mailto:info@dennissnellenberg.com"
+      },
+      {
+        "text": "+31 6 27 84 74 30",
+        "href": "tel:+31627847430"
+      },
+      {
+        "text": "Awwwards",
+        "href": "https://www.awwwards.com/dennissnellenberg/"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/codebydennis/"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com/codebydennis"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/dennissnellenberg/"
+      }
+    ],
+    "scriptErrors": []
+  }
+]

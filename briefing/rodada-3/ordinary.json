@@ -1,0 +1,287 @@
+{
+  "id": "ordinary",
+  "url": "https://www.ordinaryfolk.co/",
+  "inspectedAt": "2026-09-12T13:16:32.768Z",
+  "actions": [
+    "Movimento do ponteiro do canto superior esquerdo à região inferior direita.",
+    "Três rolagens de 650px, registradas separadamente."
+  ],
+  "frames": [
+    "ordinary-abertura.jpg",
+    "ordinary-ponteiro.jpg",
+    "ordinary-scroll-1.jpg",
+    "ordinary-scroll-2.jpg",
+    "ordinary-scroll-3.jpg"
+  ],
+  "errors": [
+    "Cannot read properties of null (reading 'addEventListener')"
+  ],
+  "status": 200,
+  "title": "Ordinary Folk",
+  "finalUrl": "https://www.ordinaryfolk.co/",
+  "text": "Home\nWork\nProcess\nPlay\nAbout\nContact\nHi. We are Ordinary Folk. We love good work.\n\nFeatured\nprojects\n\nOur motion design\n& animation process\n\nGoogle Doodle\n\nSalsa\n\nOrdinary Folk\n\nReel II\n\nEquilibrium\n\nCreation\n\nProcreate\n\nDreams\n\nWebflow\n\nA New Era of No-Code\n\nGoogle\n\nGemini\n\n  \n\nCryptoCubes\n\nSee all\nour projects\n\nInstagram\nTwitter\nBehance\nYouTube\n\n\nhola@ordinaryfolk.co\n(604) 243-5518\n\n\n3488 Commercial St.\nVancouver, BC\nV5N 4E9 Canada\n\n\nAbout\nus\n\nWebsite design by\nStudio Ahremark\nBuilt by Herman\n\n\n© 2026\nOrdinary Folk",
+  "links": [
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/ordinaryfolkco/"
+    },
+    {
+      "text": "Twitter",
+      "href": "https://twitter.com/ordinaryfolkco"
+    },
+    {
+      "text": "Behance",
+      "href": "https://www.behance.net/OrdinaryFolk"
+    },
+    {
+      "text": "Vimeo",
+      "href": "https://vimeo.com/ordinaryfolk"
+    },
+    {
+      "text": "Home",
+      "href": "https://www.ordinaryfolk.co/"
+    },
+    {
+      "text": "Work",
+      "href": "https://www.ordinaryfolk.co/work"
+    },
+    {
+      "text": "Process",
+      "href": "https://www.ordinaryfolk.co/process"
+    },
+    {
+      "text": "Play",
+      "href": "https://www.ordinaryfolk.co/play-old"
+    },
+    {
+      "text": "About",
+      "href": "https://www.ordinaryfolk.co/about"
+    },
+    {
+      "text": "Contact",
+      "href": "https://www.ordinaryfolk.co/contact"
+    },
+    {
+      "text": "",
+      "href": "https://www.ordinaryfolk.co/"
+    },
+    {
+      "text": "",
+      "href": "https://www.ordinaryfolk.co/"
+    },
+    {
+      "text": "Home",
+      "href": "https://www.ordinaryfolk.co/"
+    },
+    {
+      "text": "Work",
+      "href": "https://www.ordinaryfolk.co/work"
+    },
+    {
+      "text": "Process",
+      "href": "https://www.ordinaryfolk.co/process"
+    },
+    {
+      "text": "Play",
+      "href": "https://www.ordinaryfolk.co/play"
+    },
+    {
+      "text": "About",
+      "href": "https://www.ordinaryfolk.co/about"
+    },
+    {
+      "text": "Contact",
+      "href": "https://www.ordinaryfolk.co/contact"
+    },
+    {
+      "text": "",
+      "href": "https://www.ordinaryfolk.co/#"
+    },
+    {
+      "text": "Featured\nprojects",
+      "href": "https://www.ordinaryfolk.co/#featured"
+    },
+    {
+      "text": "Our motion design\n& animation process",
+      "href": "https://www.ordinaryfolk.co/process"
+    },
+    {
+      "text": "Google Doodle\n\nSalsa",
+      "href": "https://www.ordinaryfolk.co/project/google-doodle-salsa"
+    },
+    {
+      "text": "Ordinary Folk\n\nReel II",
+      "href": "https://www.ordinaryfolk.co/project/ordinary-folk-reel-ii"
+    },
+    {
+      "text": "Equilibrium",
+      "href": "https://www.ordinaryfolk.co/project/equilibrium"
+    },
+    {
+      "text": "Creation",
+      "href": "https://www.ordinaryfolk.co/project/creation"
+    },
+    {
+      "text": "Procreate\n\nDreams",
+      "href": "https://www.ordinaryfolk.co/project/procreate-dreams"
+    },
+    {
+      "text": "Webflow\n\nA New Era of No-Code",
+      "href": "https://www.ordinaryfolk.co/project/webflow-a-new-era-of-no-code"
+    },
+    {
+      "text": "Google\n\nGemini",
+      "href": "https://www.ordinaryfolk.co/project/gemini"
+    },
+    {
+      "text": "  \n\nCryptoCubes",
+      "href": "https://www.ordinaryfolk.co/project/cryptocubes"
+    },
+    {
+      "text": "See all\nour projects",
+      "href": "https://www.ordinaryfolk.co/work"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/ordinaryfolkco/"
+    },
+    {
+      "text": "Twitter",
+      "href": "https://twitter.com/ordinaryfolkco"
+    },
+    {
+      "text": "Behance",
+      "href": "https://www.behance.net/OrdinaryFolk"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/@OrdinaryFolk"
+    },
+    {
+      "text": "hola@ordinaryfolk.co",
+      "href": "mailto:hola@ordinaryfolk.co?subject=Hola%2C%20friends."
+    },
+    {
+      "text": "(604) 243-5518",
+      "href": "tel:(604)243-5518"
+    },
+    {
+      "text": "3488 Commercial St.\nVancouver, BC\nV5N 4E9 Canada",
+      "href": "https://goo.gl/maps/mgm25X3YKTd7agq47"
+    },
+    {
+      "text": "About\nus",
+      "href": "https://www.ordinaryfolk.co/about"
+    },
+    {
+      "text": "Studio Ahremark",
+      "href": "https://www.studioahremark.com/"
+    },
+    {
+      "text": "Herman",
+      "href": "https://www.herman.studio/"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "VIDEO",
+      "text": "  \n    \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/ordinary-folk-reel-ii.webm",
+      "box": {
+        "width": 76.75,
+        "height": 76.75
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n    \n    \n\t",
+      "type": null,
+      "src": "https://ordinaryfolk-assets.pages.dev/video/home/OF_Reel2_clean.webm",
+      "box": {
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "                                               \n                      ",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/google-doodle-salsa.webm",
+      "box": {
+        "width": 643.5625,
+        "height": 646.78125
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n   \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/ordinary-folk-reel-ii.webm",
+      "box": {
+        "width": 321.765625,
+        "height": 321.765625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n   \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/equilibrium.webm",
+      "box": {
+        "width": 321.765625,
+        "height": 321.765625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n   \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/creation.webm",
+      "box": {
+        "width": 643.5625,
+        "height": 643.5625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "\n                                               \n                     ",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/procreate-dreams.webm",
+      "box": {
+        "width": 643.5625,
+        "height": 643.5625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n  \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/webflow-a-new-era-of-no-code.webm",
+      "box": {
+        "width": 321.765625,
+        "height": 321.765625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n   \n\n\t",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/gemini.webm",
+      "box": {
+        "width": 321.765625,
+        "height": 0
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "  \n\n\n    ",
+      "type": null,
+      "src": "https://pub-56e21cb169af4746be142655f1882554.r2.dev/video/home/cryptocubes.webm",
+      "box": {
+        "width": 643.5625,
+        "height": 643.5625
+      }
+    }
+  ]
+}

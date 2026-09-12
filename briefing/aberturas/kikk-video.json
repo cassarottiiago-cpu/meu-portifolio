@@ -1,0 +1,286 @@
+{
+  "id": "kikk",
+  "url": "https://2025.kikk.be/",
+  "checkedAt": "2026-09-11T23:33:29.920Z",
+  "mobile": false,
+  "actions": [
+    {
+      "atMs": 18060,
+      "description": "Fechar aviso de migração para KIKK 2026 pelo X visível"
+    },
+    {
+      "atMs": 20503,
+      "description": "Movimento do cursor pela cena"
+    },
+    {
+      "atMs": 26035,
+      "description": "Quatro rolagens de 460 px"
+    }
+  ],
+  "frames": [
+    {
+      "file": "kikk-video-03s.jpg",
+      "startedAtMs": 3015,
+      "finishedAtMs": 3016,
+      "videoTimeSec": 2.4
+    },
+    {
+      "file": "kikk-video-loaded.jpg",
+      "startedAtMs": 18008,
+      "finishedAtMs": 18009,
+      "videoTimeSec": 14.7
+    },
+    {
+      "file": "kikk-video-experience.jpg",
+      "startedAtMs": 19910,
+      "finishedAtMs": 19911,
+      "videoTimeSec": 16.35
+    },
+    {
+      "file": "kikk-video-scroll.jpg",
+      "startedAtMs": 26035,
+      "finishedAtMs": 26036,
+      "videoTimeSec": 21.75
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://2025.kikk.be/wp-content/uploads/2025/06/KIKK_2024_4K-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://2025.kikk.be/wp-content/uploads/2025/05/WEB_FOOTER.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://cdn-cookieyes.com/client_data/dc44c6183fe5c991fd299618/script.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-60FTXK5NQY&gtm=45je6992h1v9164905017z89165526490za20gzb9165526490zd9165526490xf1&_p=1789169610395&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY2Q2ZW&cid=1748461339.1789169617&frm=0&ngs=1&pscdl=denied&rcb=1&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119793973~120213116~120385422~120469145~120469153~120912439&sid=1789169614&sct=1&seg=0&dl=https%3A%2F%2F2025.kikk.be%2F&dt=Home%20Page%20-%20Kikk%20Festival&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=6841",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://2025.kikk.be/wp-content/uploads/2025/05/WEB_MID.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-60FTXK5NQY&gtm=45je6992h1v9164905017za20gzb9165526490zd9165526490xf1&_p=1789169610395&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY2Q2ZW&_eu=AEA&ae=a&cid=1748461339.1789169617&frm=0&ngs=1&pscdl=denied&rcb=1&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=2&tag_exp=115616985~115938466~115938469~118897920~118897930~119793973~120213116~120385422~120469145~120469153~120912439&sid=1789169614&sct=1&seg=0&dl=https%3A%2F%2F2025.kikk.be%2F&dt=Home%20Page%20-%20Kikk%20Festival&_tu=CA&en=scroll&gap.plf=5&epn.percent_scrolled=90&_et=2&tfd=11844",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "status": 200,
+  "domContentLoadedAtMs": 1989,
+  "title": "Home Page - Kikk Festival",
+  "text": "ART TRAIL\nTALKS\nMARKET\nABOUT KIKK\nSCHEDULE\nTICKETS\nchoose a language\n(EN)\nSearch this site\nSearch\nKIKK FESTIVAL\n14TH EDITION - BOOM BOOM TCHAK\n2025\nInternational festival of digital & creative cultures, exploring the crossovers between art, science & technology: creative coding, art, web & UX design, AI, data viz, storytelling, research, interactive experience, graphic & motion design, VR, XR...\nNAMUR - \nWALLONIA\n23\n26TH\nOCTOBER\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nFOOTAGE FROM PREVIOUS KIKK FESTIVAL\nTALKS\n2025’\nFEATURED SPEAKERS\nKIKK 2025\nAURÉLIA DE AZAMBUJA – BASE DESIGN\nAURÉLIA DE AZAMBUJA – BASE DESIGN\n MÓNICA RIKIĆ\nMÓNICA RIKIĆ\n DANIEL SIMU WITH ACROBOT\nDANIEL SIMU WITH ACROBOT\n IOANA VREME MOSER\nIOANA VREME MOSER\n INES ALPHA\nINES ALPHA\n ROBERT HODGIN\nROBERT HODGIN\nAURÉLIA DE AZAMBUJA – BASE DESIGN\n‘How to make the logo bigger when the world is burning’\nABOUT\nSPEAKING AT:\n11:20AM (10.24.25)\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nART EXHIBITION\nAn art journey throughout Namur - more than 10 different indoor & outdoor locations all around the city.\nERSATZ\nMORE INFO\nALEXIS CHOPLAIN\nMORE INFO\nMY NAME IS FUZZY\nMORE INFO\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nIMMERSE YOURSELF\nIN\nINTERACTIVE INSTALLATIONS\nFrom the primal heartbeat heard in the womb to the music shaped by the voice, the hands, and the body, sound is rooted in our very essence. This year, the KIKK Festival explores the world of sound and the deep relationship between rhythm, vibration, and life itself. Rhythm is an invisible force running through all living forms, from the beating of the heart to the murmurs of nature. It is the pulse of existence, woven into matter, plants, animals, and the smallest organisms.\nBOOM BOOM TCHAK\n\nThe festival traces the evolution of sound, from its natural origins to its contemporary transformations, and questions how artificial intelligence and engineering are reshaping the way we listen and connect to the world. We dive into the realm of waves, resonances, and feedback loops, where sound meets rituals, traditions, and shared imagination.\n\nUniversal and primal, sound connects us across cultures, evoking mystical experiences and altered states of consciousness. Boom boom tchak, a fundamental rhythmic pattern found in many forms of music, embodies the dialogue between bass and snare, that pulse which drives motion and dance.\nIn this edition, we celebrate this universal rhythm as a bridge between the organic and the synthetic, the ancestral and the future. The exhibition invites you to listen, to feel, and to perceive the infinite harmonies of the world.\n\nMarie du Chastel, artistic director of KIKK festival\n\nFESTIVAL PASSES\n23   26 October\nCONFERENCE PASS\nGet inspired & connect\nTwo days of talks 23&24th/10\nAccess to the Art Trail\nAccess to KIKK DJ sets Parties (Thursday and Friday night)\nBuy 5, get 5% off all additional tickets\nAccess to the working area\n€149\nGET TICKETS\nGET TICKETS\nFULL PASS\nThe ultimate experience\nEverything in conference pass\n2 lunch boxes at the Market 23 & 24 October\n6 drinks at the Market bar\nKIKK Tote Bag with cool surprises\nVIP access to our Exclusive Networking Event (22nd/10, from 6pm)\nBuy 5, get 5% off all additional tickets\n€249\nGET TICKETS\nGET TICKETS\nKIKK IN TOWN\nAn art journey throughout Namur\n\nDuring the KIKK Festival, the city transforms into an open-air museum filled with interactive, digital art installations across iconic locations. A fun and immersive experience for families and curious minds of all ages—don’t miss this autumn highlight!\n\nFrom October 23th to 26th, 2025, 10am-6pm\nLate-night opening on Friday, October 24th, 6pm-10pm\nSuitable for children and people with reduced mobility.\n\nEXHIBITION PASS\nAn art journey throughout Namur\nAccess to installations \"boom boom tchak\" across Namur\nAccess to Le Pavillon (Citadel)\nDiscount on your train journey with SNCB\nFree for under-12s\n€7.5*\n*Included in all passes.\nGET TICKETS\nGET TICKETS\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nSTAY UP TO DATE\nABOUT KIKK\nEmail\nSUBSCRIBE\nSubscribe to our newsletter and don't miss a thing. We promise to not spam you!\nFollow us on social:\n@KIKK_FESTIVAL\nBACK TO TOP\n14TH EDITION - KIKK FESTIVAL\nTICKETS\nSCHEDULE\nTALKS\nART TRAIL\nMARKET\nFOR KIDS\nPARTIES\n\nOUR MAIN PARTNERS:\n\nFOUNDED BY:\n\nCONTACT US\nPARTNERS\nVOLUNTEERS\nPRIVACY POLICY\n\nWEBSITE BY : UNSEEN STUDIO\n\nCONNECT :\nKIKK FESTIVAL 2026\n\n22 — 25 OCT. 2026 | Namur\n\nThe KIKK Festival website has moved to kikkfestival.be (currently under development).\nThe full program will be available soon.\n\nVisit the new website → kikkfestival.be",
+  "controls": [
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/"
+    },
+    {
+      "tag": "A",
+      "text": "Art Trail",
+      "href": "https://2025.kikk.be/exhibitions/"
+    },
+    {
+      "tag": "A",
+      "text": "Talks",
+      "href": "https://2025.kikk.be/talks/"
+    },
+    {
+      "tag": "A",
+      "text": "Market",
+      "href": "https://2025.kikk.be/market/"
+    },
+    {
+      "tag": "A",
+      "text": "About KIKK",
+      "href": "https://2025.kikk.be/about-kikk/"
+    },
+    {
+      "tag": "A",
+      "text": "Schedule",
+      "href": "https://2025.kikk.be/schedule/"
+    },
+    {
+      "tag": "A",
+      "text": "Tickets",
+      "href": "https://2025.kikk.be/tickets/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "(EN)",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Search",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/tickets/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Aurélia de Azambuja – Base Design\n\n\nAurélia de Azambuja – Base Design",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Mónica Rikić\n\n\nMónica Rikić",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Daniel Simu with Acrobot\n\n\nDaniel Simu with Acrobot",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Ioana Vreme Moser\n\n\nIoana Vreme Moser",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Ines Alpha\n\n\nInes Alpha",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Robert Hodgin\n\n\nRobert Hodgin",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "href": "https://2025.kikk.be/talk/aurelia-de-azambuja-base-design/"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/schedule/"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/exhibitions/ersatz/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "More info",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/exhibitions/alexischoplain-hydroscope/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "More info",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/exhibitions/my-name-is-fuzzy/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "More info",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/exhibitions/"
+    },
+    {
+      "tag": "A",
+      "text": "Get tickets\n\n\nGet tickets",
+      "href": "https://kikkfestival2025-confpass.eventbrite.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Get tickets\n\n\nGet tickets",
+      "href": "https://kikkfestival2025-fullpass.eventbrite.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Get tickets\n\n\nGet tickets",
+      "href": "https://ticket.comitty.be/events/1749819302095"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://2025.kikk.be/locations/"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Subscribe",
+      "href": null
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.facebook.com/KIKK.Festival/"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.instagram.com/kikk_festival/"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.youtube.com/channel/UC8D7u7gDO0XZSPzJlOiEvsA"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.tiktok.com/@kikkfestival"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.threads.com/@kikk_festival"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://www.linkedin.com/company/kikk-festival"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Back to top",
+      "href": null
+    }
+  ],
+  "afterText": "ART TRAIL\nTALKS\nMARKET\nABOUT KIKK\nSCHEDULE\nTICKETS\nchoose a language\n(EN)\nSearch this site\nSearch\nKIKK FESTIVAL\n14TH EDITION - BOOM BOOM TCHAK\n2025\nInternational festival of digital & creative cultures, exploring the crossovers between art, science & technology: creative coding, art, web & UX design, AI, data viz, storytelling, research, interactive experience, graphic & motion design, VR, XR...\nNAMUR - \nWALLONIA\n23\n26TH\nOCTOBER\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nGET TICKETS\nFOOTAGE FROM PREVIOUS KIKK FESTIVAL\nTALKS\n2025’\nFEATURED SPEAKERS\nKIKK 2025\nAURÉLIA DE AZAMBUJA – BASE DESIGN\nAURÉLIA DE AZAMBUJA – BASE DESIGN\n MÓNICA RIKIĆ\nMÓNICA RIKIĆ\n DANIEL SIMU WITH ACROBOT\nDANIEL SIMU WITH ACROBOT\n IOANA VREME MOSER\nIOANA VREME MOSER\n INES ALPHA\nINES ALPHA\n ROBERT HODGIN\nROBERT HODGIN\nAURÉLIA DE AZAMBUJA – BASE DESIGN\n‘How to make the logo bigger when the world is burning’\nABOUT\nSPEAKING AT:\n11:20AM (10.24.25)\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nVIEW FULL SCHEDULE\nART EXHIBITION\nAn art journey throughout Namur - more than 10 different indoor & outdoor locations all around the city.\nERSATZ\nMORE INFO\nALEXIS CHOPLAIN\nMORE INFO\nMY NAME IS FUZZY\nMORE INFO\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nVIEW ALL EVENTS\nIMMERSE YOURSELF\nIN\nINTERACTIVE INSTALLATIONS\nFrom the primal heartbeat heard in the womb to the music shaped by the voice, the hands, and the body, sound is rooted in our very essence. This year, the KIKK Festival explores the world of sound and the deep relationship between rhythm, vibration, and life itself. Rhythm is an invisible force running through all living forms, from the beating of the heart to the murmurs of nature. It is the pulse of existence, woven into matter, plants, animals, and the smallest organisms.\nBOOM BOOM TCHAK\n\nThe festival traces the evolution of sound, from its natural origins to its contemporary transformations, and questions how artificial intelligence and engineering are reshaping the way we listen and connect to the world. We dive into the realm of waves, resonances, and feedback loops, where sound meets rituals, traditions, and shared imagination.\n\nUniversal and primal, sound connects us across cultures, evoking mystical experiences and altered states of consciousness. Boom boom tchak, a fundamental rhythmic pattern found in many forms of music, embodies the dialogue between bass and snare, that pulse which drives motion and dance.\nIn this edition, we celebrate this universal rhythm as a bridge between the organic and the synthetic, the ancestral and the future. The exhibition invites you to listen, to feel, and to perceive the infinite harmonies of the world.\n\nMarie du Chastel, artistic director of KIKK festival\n\nFESTIVAL PASSES\n23   26 October\nCONFERENCE PASS\nGet inspired & connect\nTwo days of talks 23&24th/10\nAccess to the Art Trail\nAccess to KIKK DJ sets Parties (Thursday and Friday night)\nBuy 5, get 5% off all additional tickets\nAccess to the working area\n€149\nGET TICKETS\nGET TICKETS\nFULL PASS\nThe ultimate experience\nEverything in conference pass\n2 lunch boxes at the Market 23 & 24 October\n6 drinks at the Market bar\nKIKK Tote Bag with cool surprises\nVIP access to our Exclusive Networking Event (22nd/10, from 6pm)\nBuy 5, get 5% off all additional tickets\n€249\nGET TICKETS\nGET TICKETS\nKIKK IN TOWN\nAn art journey throughout Namur\n\nDuring the KIKK Festival, the city transforms into an open-air museum filled with interactive, digital art installations across iconic locations. A fun and immersive experience for families and curious minds of all ages—don’t miss this autumn highlight!\n\nFrom October 23th to 26th, 2025, 10am-6pm\nLate-night opening on Friday, October 24th, 6pm-10pm\nSuitable for children and people with reduced mobility.\n\nEXHIBITION PASS\nAn art journey throughout Namur\nAccess to installations \"boom boom tchak\" across Namur\nAccess to Le Pavillon (Citadel)\nDiscount on your train journey with SNCB\nFree for under-12s\n€7.5*\n*Included in all passes.\nGET TICKETS\nGET TICKETS\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nVIEW TOWN MAP\nSTAY UP TO DATE\nABOUT KIKK\nEmail\nSUBSCRIBE\nSubscribe to our newsletter and don't miss a thing. We promise to not spam you!\nFollow us on social:\n@KIKK_FESTIVAL\nBACK TO TOP\n14TH EDITION - KIKK FESTIVAL\nTICKETS\nSCHEDULE\nTALKS\nART TRAIL\nMARKET\nFOR KIDS\nPARTIES\n\nOUR MAIN PARTNERS:\n\nFOUNDED BY:\n\nCONTACT US\nPARTNERS\nVOLUNTEERS\nPRIVACY POLICY\n\nWEBSITE BY : UNSEEN STUDIO\n\nCONNECT :",
+  "finalUrl": "https://2025.kikk.be/",
+  "video": {
+    "frames": 460,
+    "seconds": 23,
+    "notes": "Captura de navegador headless, sem áudio. Não é benchmark de desempenho nem medição de FPS do site."
+  }
+}

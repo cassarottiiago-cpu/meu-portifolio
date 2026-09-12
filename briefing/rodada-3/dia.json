@@ -1,0 +1,425 @@
+{
+  "id": "dia",
+  "url": "https://www.dia.studio/",
+  "inspectedAt": "2026-09-12T13:16:10.596Z",
+  "actions": [
+    "Movimento do ponteiro do canto superior esquerdo à região inferior direita.",
+    "Três rolagens de 650px, registradas separadamente."
+  ],
+  "frames": [
+    "dia-abertura.jpg",
+    "dia-ponteiro.jpg",
+    "dia-scroll-1.jpg",
+    "dia-scroll-2.jpg",
+    "dia-scroll-3.jpg"
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "DIA Studio",
+  "finalUrl": "https://www.dia.studio/",
+  "text": "DIA is a design, research and innovation studio.\nWork\nAbout\nProcess\nIndex\n[\nFilter\n]\n[\nSearch\n]\n[\nPrivacy Policy\n]\n[\nAccept\n]",
+  "links": [
+    {
+      "text": "DIA",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "DIA",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "Work",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "About",
+      "href": "https://www.dia.studio/about"
+    },
+    {
+      "text": "Process",
+      "href": "https://www.dia.studio/process"
+    },
+    {
+      "text": "Index",
+      "href": "https://www.dia.studio/index"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nuits-sonores"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/pinterest"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/typotheque-q-project"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/zhdk-knit"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/the-meaning-of-dia"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/la-becque-x-ecal"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-kd"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/smlxl"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/space10"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/berners-bowie-lee"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/adidas-london-flagship-store"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/moscow-workshop"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/alt-festival"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/smlxl"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nuits-sonores"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/chaumont-biennale"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/squarespace-x-secret7"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/zhdk-cifc"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nissan-journey-to-zero"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/catk"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/greg-sorensen"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ibm-aws"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/johnnie-walker"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/chaumont-biennale"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ibm-aws"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/wholier"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/mnky-type-caesar"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/bespoke"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-kd"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/chaumont-biennale"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/zhdk-cifc"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-kd"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/adidas-london-flagship-store"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-davos"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ouroboros-2"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/verizon-5g-launch"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/alt-festival"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/zhdk-cifc"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/flodesk"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/cohere-north"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ecal-tfft"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/flodesk"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-onchain-summer"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nuits-sonores"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/the-beat"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/primary"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/walker-street"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/head-media-design"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/fools-gold-radio"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-apparel"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ecal-tfft"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/mnky-elsa"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ouroboros-2"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/primary"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/bespoke"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/baseline-magnets"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-statement-house"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/primary"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/squarespace"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/design-fabric-fest"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/pinterest"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-onchain-summer"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/google-expressive-captions"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/pinterest"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-onchain-summer"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/google-design-notes"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-state-of-crypto-summit"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/berners-bowie-lee"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/mapping"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/le-mise-art-advisory"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/adc-ed-benguiat-x-mitch-paone"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/the-museum-of-contemporary-art-denver"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/space10"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/roblox"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/baseline-magnets"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/smlxl"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/ecal-tfft"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/bespoke"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nissan-journey-to-zero"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/coinbase-state-of-crypto-summit"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/johnnie-walker"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/nike-statement-house"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/typotheque-q-project"
+    },
+    {
+      "text": "",
+      "href": "https://www.dia.studio/work/verizon-5g-launch"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "text": "[ Filter ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 68.15625,
+        "height": 18
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Search ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 75.921875,
+        "height": 18
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Menu ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Accept ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 195,
+        "height": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+[
+  {
+    "id": "noomo-labs",
+    "url": "https://labs.noomoagency.com/",
+    "checkedAt": "2026-09-11T23:21:18.326Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12719,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18265,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "noomo-labs-scout-03s.jpg",
+        "startedAtMs": 3012,
+        "finishedAtMs": 5338
+      },
+      {
+        "file": "noomo-labs-scout-loaded.jpg",
+        "startedAtMs": 12008,
+        "finishedAtMs": 12039
+      },
+      {
+        "file": "noomo-labs-scout-experience.jpg",
+        "startedAtMs": 12086,
+        "finishedAtMs": 12119
+      },
+      {
+        "file": "noomo-labs-scout-scroll.jpg",
+        "startedAtMs": 18265,
+        "finishedAtMs": 18291
+      }
+    ],
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4LDG3NQ54B&gtm=45je6992v9185882877za20ozb9185833397zd9185833397&_p=1789168884973&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1900981699.1789168894&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120474864~120591197&sid=1789168893&sct=1&seg=0&dl=https%3A%2F%2Flabs.noomoagency.com%2F&dt=Noomo%20Labs&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=15523",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "status": 200,
+    "domContentLoadedAtMs": 6254,
+    "title": "Noomo Labs",
+    "text": "ARE YOU READY TO STEP INTO THE FUTURE?\nCLICK AND HOLD\n\nWELCOME TO A CREATIVE SPACE SHOWCASING GROUNDBREAKING PROJECTS THAT BLEND CREATIVITY AND TECHNOLOGY\n\nFOLLOW US INTO THE FUTURE OF INTERACTIVE AND IMMERSIVE DIGITAL EXPERIENCES\n\nENGAGE WITH US AT NOOMO LABS, WHERE TECHNOLOGY MEETS CREATIVITY, AND EVERY INTERACTION IS AN OPPORTUNITY FOR INNOVATION\n\nEACH PROJECT AT NOOMO LABS SERVES AS A TESTAMENT TO OUR COMMITMENT TO INNOVATION AND EXCELLENCE\n\nBROWSE OUR PORTFOLIO TO SEE THE MAGIC WE CREATE WITH CUTTING-EDGE TECHNOLOGIES INCLUDING XR, AR, AI AND 3D.\n\nAR\n3D\nAI\nXR\n\n0%\n\nON\n\n100\n0.04\n\nCUSTOMIZE ME\n\nIMMERSE\n\n[\n]\n[\n]\n\nSTART\n\nME IN \n\nLOADING\n\n25%\n\nON\n\nTО MAKE THIS EXPERIENCE MORE\nIMMERSIVE WE USE SOUND EFFECTS\n\n[WORK]\n[NOOMO AGENCY]\n[CONTACT]\nLET'S INNOVATE TOGETHER\n[\n]\n[\n]\n\nSEND\nMESSAGE\n\nLINKEDIN\nHELLO@NOOMOAGENCY.COM\nTWITTER\n\n© ALL RIGHTS RESERVED",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "",
+        "href": "https://labs.noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "[Work]",
+        "href": "https://labs.noomoagency.com/work"
+      },
+      {
+        "tag": "A",
+        "text": "[Noomo Agency]",
+        "href": "https://noomoagency.com/?ref=labs"
+      },
+      {
+        "tag": "A",
+        "text": "[Contact]",
+        "href": "https://labs.noomoagency.com/contact"
+      },
+      {
+        "tag": "A",
+        "text": "[][]send message",
+        "href": "https://labs.noomoagency.com/contact"
+      },
+      {
+        "tag": "A",
+        "text": "linkedin",
+        "href": "https://www.linkedin.com/company/noomoagency/mycompany/"
+      },
+      {
+        "tag": "A",
+        "text": "hello@noomoagency.com",
+        "href": "mailto:hello@noomoagency.com"
+      },
+      {
+        "tag": "A",
+        "text": "twitter",
+        "href": "https://twitter.com/NoomoAgency"
+      }
+    ],
+    "afterText": "ARE YOU READY TO STEP INTO THE FUTURE?\nCLICK AND HOLD\n\nWELCOME TO A CREATIVE SPACE SHOWCASING GROUNDBREAKING PROJECTS THAT BLEND CREATIVITY AND TECHNOLOGY\n\nFOLLOW US INTO THE FUTURE OF INTERACTIVE AND IMMERSIVE DIGITAL EXPERIENCES\n\nENGAGE WITH US AT NOOMO LABS, WHERE TECHNOLOGY MEETS CREATIVITY, AND EVERY INTERACTION IS AN OPPORTUNITY FOR INNOVATION\n\nEACH PROJECT AT NOOMO LABS SERVES AS A TESTAMENT TO OUR COMMITMENT TO INNOVATION AND EXCELLENCE\n\nBROWSE OUR PORTFOLIO TO SEE THE MAGIC WE CREATE WITH CUTTING-EDGE TECHNOLOGIES INCLUDING XR, AR, AI AND 3D.\n\nAR\n3D\nAI\nXR\n\n0%\n\nON\n\n100\n0.04\n\nCUSTOMIZE ME\n\nIMMERSE\n\n[\n]\n[\n]\n\nSTART\n\nME IN \n\nLOADING\n\n25%\n\nON\n\nTО MAKE THIS EXPERIENCE MORE\nIMMERSIVE WE USE SOUND EFFECTS\n\n[WORK]\n[NOOMO AGENCY]\n[CONTACT]\nLET'S INNOVATE TOGETHER\n[\n]\n[\n]\n\nSEND\nMESSAGE\n\nLINKEDIN\nHELLO@NOOMOAGENCY.COM\nTWITTER\n\n© ALL RIGHTS RESERVED",
+    "finalUrl": "https://labs.noomoagency.com/"
+  },
+  {
+    "id": "noomo-story",
+    "url": "https://storytelling.noomoagency.com/",
+    "checkedAt": "2026-09-11T23:21:18.325Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12720,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18305,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "noomo-story-scout-03s.jpg",
+        "startedAtMs": 3013,
+        "finishedAtMs": 5551
+      },
+      {
+        "file": "noomo-story-scout-loaded.jpg",
+        "startedAtMs": 12009,
+        "finishedAtMs": 12041
+      },
+      {
+        "file": "noomo-story-scout-experience.jpg",
+        "startedAtMs": 12091,
+        "finishedAtMs": 12119
+      },
+      {
+        "file": "noomo-story-scout-scroll.jpg",
+        "startedAtMs": 18305,
+        "finishedAtMs": 18423
+      }
+    ],
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7H4C5RTJQM&gtm=45je6992v9251503485za200zd9251503485&_p=1789168884866&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1109915466.1789168888&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789168888&sct=1&seg=0&dl=https%3A%2F%2Fstorytelling.noomoagency.com%2F&dt=Noomo%20%7C%20The%20power%20of%20digital%20Storytelling&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=9960",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "status": 200,
+    "domContentLoadedAtMs": 6538,
+    "title": "Noomo | The power of digital Storytelling",
+    "text": "The power\nof digital\nstorytelling\n\nIn a world that’s\n\nconstantly shifting,\n\n\nwhat\n\nguides\n\nus through\n\nchange,\n\nreinvention,\n\nand the unknown–\n\n\nStories emerge\nthrough\n\n\nThe best stories\n\ndon’t just\n\nspeak to\n\nus.\nThey\n\ninvite us inside.\n\n\nStorytelling is much\nmore than words.\n\nIt is how a spark\n\nbecomes a fire.\n\n\nStorytelling is what you\n\nsee, feel, hear, interactwith.\n\nis narrative.\n\n\nLight\n\nSpirit\n\nSound\n\nHow can the story live at the\nheart of the experience?\n\nStart with clarity\nKnow what you’re trying to say.\nWhether it’s launching a product or\nbuilding emotional connections,\nthe goal needs to be clear.\n\nLet the story guide design\nEvery animation, interaction,\nand visual should serve the\nnarrative. If it doesn’t help\ntell the story, it’s not needed.\n\nExperiment and iterate\nSome of the best ideas came from\nsimply trying things out, seeing\nwhat clicked, and refining from\nthere.\n\nMake it personal\nThe best stories create emotional\nconnections. Whether through AI\npersonalization or custom design\nelements, find ways to make the\nexperience unique for each user.\n\nWhere stories\nbecome experiences\n\nReimagine Phoenix\n\nScroll to explore\n\nLet us help you tell your story the way it was meant\n\nhello@noomoagency.com\nx\nInstagram\nLinkedIn\n>\nClick to start\nClick to start\nAgency\nLabs\nContact\nHome\nAgency\nLabs\nContact\nInstagram\nx\nLinkedin",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "hello@noomoagency.com",
+        "href": "mailto:hello@noomoagency.com"
+      },
+      {
+        "tag": "A",
+        "text": "x",
+        "href": "https://x.com/noomoagency"
+      },
+      {
+        "tag": "A",
+        "text": "Instagram",
+        "href": "https://www.instagram.com/noomoagency/"
+      },
+      {
+        "tag": "A",
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/noomoagency"
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "href": "https://storytelling.noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Agency",
+        "href": "https://noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Labs",
+        "href": "https://labs.noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Contact",
+        "href": "https://storytelling.noomoagency.com/contacts"
+      },
+      {
+        "tag": "A",
+        "text": "Home",
+        "href": "https://storytelling.noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Agency",
+        "href": "https://noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Labs",
+        "href": "https://labs.noomoagency.com/"
+      },
+      {
+        "tag": "A",
+        "text": "Contact",
+        "href": "https://storytelling.noomoagency.com/contacts"
+      },
+      {
+        "tag": "A",
+        "text": "Instagram",
+        "href": "https://www.instagram.com/noomoagency/"
+      },
+      {
+        "tag": "A",
+        "text": "x",
+        "href": "https://x.com/noomoagency"
+      },
+      {
+        "tag": "A",
+        "text": "Linkedin",
+        "href": "https://www.linkedin.com/company/noomoagency"
+      }
+    ],
+    "afterText": "In a world that’s\n\nconstantly shifting,\n\n\nwhat\n\nguides\n\nus through\n\nchange,\n\nreinvention,\n\nand the unknown–\n\n\nStories emerge\nthrough\n\n\nThe best stories\n\ndon’t just\n\nspeak to\n\nus.\nThey\n\ninvite us inside.\n\n\nStorytelling is much\nmore than words.\n\nIt is how a spark\n\nbecomes a fire.\n\n\nStorytelling is what you\n\nsee, feel, hear, interactwith.\n\nis narrative.\n\n\nLight\n\nSpirit\n\nSound\n\nHow can the story live at the\nheart of the experience?\n\nStart with clarity\nKnow what you’re trying to say.\nWhether it’s launching a product or\nbuilding emotional connections,\nthe goal needs to be clear.\n\nLet the story guide design\nEvery animation, interaction,\nand visual should serve the\nnarrative. If it doesn’t help\ntell the story, it’s not needed.\n\nExperiment and iterate\nSome of the best ideas came from\nsimply trying things out, seeing\nwhat clicked, and refining from\nthere.\n\nMake it personal\nThe best stories create emotional\nconnections. Whether through AI\npersonalization or custom design\nelements, find ways to make the\nexperience unique for each user.\n\nWhere stories\nbecome experiences\n\nReimagine Phoenix\n\nScroll to explore\n\nLet us help you tell your story the way it was meant\n\nhello@noomoagency.com\nx\nInstagram\nLinkedIn\n>\nClick to start\nClick to start\nAgency\nLabs\nContact\nHome\nAgency\nLabs\nContact\nInstagram\nx\nLinkedin",
+    "finalUrl": "https://storytelling.noomoagency.com/"
+  },
+  {
+    "id": "igloo",
+    "url": "https://www.igloo.inc/",
+    "checkedAt": "2026-09-11T23:21:36.730Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12712,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18256,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "igloo-scout-03s.jpg",
+        "startedAtMs": 3015,
+        "finishedAtMs": 3054
+      },
+      {
+        "file": "igloo-scout-loaded.jpg",
+        "startedAtMs": 12011,
+        "finishedAtMs": 12050
+      },
+      {
+        "file": "igloo-scout-experience.jpg",
+        "startedAtMs": 12084,
+        "finishedAtMs": 12113
+      },
+      {
+        "file": "igloo-scout-scroll.jpg",
+        "startedAtMs": 18256,
+        "finishedAtMs": 18281
+      }
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "status": 200,
+    "domContentLoadedAtMs": 456,
+    "title": "Igloo Inc.",
+    "text": "",
+    "controls": [],
+    "afterText": "",
+    "finalUrl": "https://www.igloo.inc/"
+  },
+  {
+    "id": "unseen",
+    "url": "https://unseen.co/",
+    "checkedAt": "2026-09-11T23:21:36.847Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12729,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18357,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "unseen-scout-03s.jpg",
+        "startedAtMs": 3008,
+        "finishedAtMs": 7303
+      },
+      {
+        "file": "unseen-scout-loaded.jpg",
+        "startedAtMs": 12001,
+        "finishedAtMs": 12039
+      },
+      {
+        "file": "unseen-scout-experience.jpg",
+        "startedAtMs": 12077,
+        "finishedAtMs": 12134
+      },
+      {
+        "file": "unseen-scout-scroll.jpg",
+        "startedAtMs": 18357,
+        "finishedAtMs": 18398
+      }
+    ],
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SHZRDC7G64&gtm=45je6992h1v897653653za200zd897653653&_p=1789168902431&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1780482529.1789168907&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120912438&sid=1789168907&sct=1&seg=0&dl=https%3A%2F%2Funseen.co%2F&dt=Unseen%20Studio%C2%AE%20%E2%80%93%20Brand%2C%20Digital%20%26%20Motion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=10415",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SHZRDC7G64&gtm=45je6992h1v897653653za200zd897653653&_p=1789168902431&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=1780482529.1789168907&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120912438&sid=1789168907&sct=1&seg=0&dl=https%3A%2F%2Funseen.co%2F&dt=Unseen%20Studio%C2%AE%20%E2%80%93%20Brand%2C%20Digital%20%26%20Motion&en=scroll&epn.percent_scrolled=90&_et=5&tfd=15433",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "status": 200,
+    "domContentLoadedAtMs": 11617,
+    "title": "Unseen Studio® – Brand, Digital & Motion",
+    "text": "U\nN\nS\nE\nN\nE\nUNSEEN STUDIO®\n\nA brand, digital and motion studio creating\nrefreshingly unexpected ideas and striking visuals\nthat help bold brands cut through the noise.\n\nU\nN\nS\nE\nN\nE\nUNSEEN STUDIO®\n\nA brand, digital and motion studio creating\nrefreshingly unexpected ideas and striking visuals\nthat help bold brands cut through the noise.\n\nIndex\nIndex\nProjects\nProjects\nContact\nContact\nToggle Menu\n01\nIndex\nIndex\n02\nProjects\nProjects\n03\nContact\nContact\n04\nWorld\nWorld\n⮡ \nprojects@unseen.co\n⮡ \n(+44) 0117 922 6892\n⮡ \nTWITTER\n⮡ \nINSTAGRAM\n⮡ \nLINKEDIN\n⮡ \nDRIBBBLE\n⮡ \nBEHANCE\nToggle Sound\nOur 2025 Wrapped\nUNSEEN\nWORLD\n©2026\nHome",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "Enter without audio",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Enter\n\n\n\n\n\n\n\n\n\nEnter",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "href": "https://unseen.co/"
+      },
+      {
+        "tag": "A",
+        "text": "Index\nIndex",
+        "href": "https://unseen.co/"
+      },
+      {
+        "tag": "A",
+        "text": "Projects\nProjects",
+        "href": "https://unseen.co/projects/"
+      },
+      {
+        "tag": "A",
+        "text": "Contact\nContact",
+        "href": "https://unseen.co/contact/"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle Menu",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "01\n\nIndex\nIndex",
+        "href": "https://unseen.co/"
+      },
+      {
+        "tag": "A",
+        "text": "02\n\nProjects\nProjects",
+        "href": "https://unseen.co/projects/"
+      },
+      {
+        "tag": "A",
+        "text": "03\n\nContact\nContact",
+        "href": "https://unseen.co/contact/"
+      },
+      {
+        "tag": "A",
+        "text": "04\n\nWorld\nWorld",
+        "href": "https://unseen.co/world/"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ projects@unseen.co",
+        "href": "mailto:projects@unseen.co"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ (+44) 0117 922 6892",
+        "href": "tel:(+44) 0117 922 6892"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ Twitter",
+        "href": "https://twitter.com/uns__nstudio"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ Instagram",
+        "href": "https://www.instagram.com/uns__nstudio/"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ LinkedIn",
+        "href": "https://www.linkedin.com/company/un-seen-studio"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ Dribbble",
+        "href": "https://dribbble.com/unseenstudio"
+      },
+      {
+        "tag": "A",
+        "text": "⮡ Behance",
+        "href": "https://www.behance.net/unseen-studio"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Toggle Sound",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "Our 2025 Wrapped",
+        "href": "https://2025.unseen.co/"
+      },
+      {
+        "tag": "A",
+        "text": "Unseen\n\n\nWorld",
+        "href": "https://unseen.co/world/"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "All\n20",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Branding\n5",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Digital\n20",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Motion\n5",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Experiment\n6",
+        "href": null
+      }
+    ],
+    "afterText": "U\nN\nS\nE\nN\nE\nUNSEEN STUDIO®\n\nA brand, digital and motion studio creating\nrefreshingly unexpected ideas and striking visuals\nthat help bold brands cut through the noise.\n\nU\nN\nS\nE\nN\nE\nUNSEEN STUDIO®\n\nA brand, digital and motion studio creating\nrefreshingly unexpected ideas and striking visuals\nthat help bold brands cut through the noise.\n\nIndex\nIndex\nProjects\nProjects\nContact\nContact\nToggle Menu\n01\nIndex\nIndex\n02\nProjects\nProjects\n03\nContact\nContact\n04\nWorld\nWorld\n⮡ \nprojects@unseen.co\n⮡ \n(+44) 0117 922 6892\n⮡ \nTWITTER\n⮡ \nINSTAGRAM\n⮡ \nLINKEDIN\n⮡ \nDRIBBBLE\n⮡ \nBEHANCE\nToggle Sound\nOur 2025 Wrapped\nUNSEEN\nWORLD\n©2026\nHome",
+    "finalUrl": "https://unseen.co/"
+  },
+  {
+    "id": "aristide",
+    "url": "https://aristidebenoist.com/",
+    "checkedAt": "2026-09-11T23:21:55.149Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12758,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18275,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "aristide-scout-03s.jpg",
+        "startedAtMs": 3012,
+        "finishedAtMs": 5018
+      },
+      {
+        "file": "aristide-scout-loaded.jpg",
+        "startedAtMs": 12002,
+        "finishedAtMs": 12059
+      },
+      {
+        "file": "aristide-scout-experience.jpg",
+        "startedAtMs": 12110,
+        "finishedAtMs": 12167
+      },
+      {
+        "file": "aristide-scout-scroll.jpg",
+        "startedAtMs": 18275,
+        "finishedAtMs": 18317
+      }
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "status": 200,
+    "domContentLoadedAtMs": 4980,
+    "title": "Aristide Benoist — Independent developer",
+    "text": "1\n0\n0\n01\n30\nh\no\nu\ns\ne\no\nf\nG\nu\nc\nc\nI\nEXPLORE\n02\n30\np\n&\nh\nEXPLORE\nPROJECTS\n↗\nVISIT SITE\nE\nS\nY\n6\n8\n3\n3\n0\n9\n8\nL\n\nARISTIDE BENOIST IS A DEVELOPER WHO SPECIALIZES IN\nMOTION AND INTERACTION. AS AN INDEPENDENT, HE WORKS\nWITH COMPANIES, AGENCIES, STARTUPS AND INDIVIDUALS\nALL OVER THE WORLD.\n\nEMAIL ↗\nINSTAGRAM ↗\nTWITTER ↗\nLINKEDIN ↗\nGITHUB ↗\nCLIENTS\nA\nBEAR GRYLLS\nDRIBBBLE\nFUSE PROJECT\nGOOGLE\nHIMS & HERS\nINSTAGRAM\nJACQUES MARIE MAGE\nMGM STUDIOS\nNETFLIX\nOBAMA FOUNDATION\nRAPPI\nSUPER FRIENDLY\nTWITCH\nWATSON DG\nZ\nAWWWARDS\n2\nINDEPENDENT OF THE YEAR\n3\nSITE OF THE MONTH\n30\nSITE OF THE DAY\n27\nDEVELOPER AWARD\n6\nMOBILE OF THE WEEK\n22\nMOBILE EXCELLENCE\n0\n1\n2\nFWA\n1\nFWA OF THE MONTH\n2\nFWAWWWARD\n22\nFWA OF THE DAY\n0\n1\n2\n3\nDESIGN BY JW.S (JON WAY STUDIO) ↗\nALL RIGHTS RESERVED\nARISTIDE BENOIST 2026®\nA\nR\nI\nS\nT\nI\nD\nE\nABOUT\nCLOSE\nINDEPENDENT DEVELOPER\nAVAILABLE APR. 2023\nEMAIL\nINSTAGRAM\nTWITTER",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "EXPLORE",
+        "href": "https://aristidebenoist.com/house-of-gucci"
+      },
+      {
+        "tag": "A",
+        "text": "EXPLORE",
+        "href": "https://aristidebenoist.com/paul-et-henriette"
+      },
+      {
+        "tag": "A",
+        "text": "PROJECTS",
+        "href": "https://aristidebenoist.com/"
+      },
+      {
+        "tag": "A",
+        "text": "↗VISIT SITE",
+        "href": "https://twitter.com/AristideBenoist"
+      },
+      {
+        "tag": "A",
+        "text": "EMAIL ↗",
+        "href": "mailto:aristide.benoist@gmail.com"
+      },
+      {
+        "tag": "A",
+        "text": "INSTAGRAM ↗",
+        "href": "https://www.instagram.com/aristidebenoist"
+      },
+      {
+        "tag": "A",
+        "text": "TWITTER ↗",
+        "href": "https://twitter.com/AristideBenoist"
+      },
+      {
+        "tag": "A",
+        "text": "LINKEDIN ↗",
+        "href": "https://www.linkedin.com/in/aristide-benoist"
+      },
+      {
+        "tag": "A",
+        "text": "GITHUB ↗",
+        "href": "https://github.com/aristidebenoist"
+      },
+      {
+        "tag": "A",
+        "text": "DESIGN BY JW.S (JON WAY STUDIO) ↗",
+        "href": "https://www.jonway.studio/"
+      },
+      {
+        "tag": "A",
+        "text": "A R I S T I D E",
+        "href": "https://aristidebenoist.com/"
+      },
+      {
+        "tag": "A",
+        "text": "ABOUT",
+        "href": "https://aristidebenoist.com/about"
+      },
+      {
+        "tag": "A",
+        "text": "CLOSE",
+        "href": "https://aristidebenoist.com/"
+      },
+      {
+        "tag": "A",
+        "text": "INDEPENDENT DEVELOPERAVAILABLE APR. 2023",
+        "href": "mailto:aristide.benoist@gmail.com"
+      },
+      {
+        "tag": "A",
+        "text": "EMAIL",
+        "href": "mailto:aristide.benoist@gmail.com"
+      },
+      {
+        "tag": "A",
+        "text": "INSTAGRAM",
+        "href": "https://www.instagram.com/aristidebenoist"
+      },
+      {
+        "tag": "A",
+        "text": "TWITTER",
+        "href": "https://twitter.com/AristideBenoist"
+      }
+    ],
+    "afterText": "1\n0\n0\n01\n30\nh\no\nu\ns\ne\no\nf\nG\nu\nc\nc\nI\nEXPLORE\n02\n30\np\n&\nh\nEXPLORE\nPROJECTS\n↗\nVISIT SITE\nE\nS\nY\n6\n8\n3\n3\n0\n9\n8\nL\n\nARISTIDE BENOIST IS A DEVELOPER WHO SPECIALIZES IN\nMOTION AND INTERACTION. AS AN INDEPENDENT, HE WORKS\nWITH COMPANIES, AGENCIES, STARTUPS AND INDIVIDUALS\nALL OVER THE WORLD.\n\nEMAIL ↗\nINSTAGRAM ↗\nTWITTER ↗\nLINKEDIN ↗\nGITHUB ↗\nCLIENTS\nA\nBEAR GRYLLS\nDRIBBBLE\nFUSE PROJECT\nGOOGLE\nHIMS & HERS\nINSTAGRAM\nJACQUES MARIE MAGE\nMGM STUDIOS\nNETFLIX\nOBAMA FOUNDATION\nRAPPI\nSUPER FRIENDLY\nTWITCH\nWATSON DG\nZ\nAWWWARDS\n2\nINDEPENDENT OF THE YEAR\n3\nSITE OF THE MONTH\n30\nSITE OF THE DAY\n27\nDEVELOPER AWARD\n6\nMOBILE OF THE WEEK\n22\nMOBILE EXCELLENCE\n0\n1\n2\nFWA\n1\nFWA OF THE MONTH\n2\nFWAWWWARD\n22\nFWA OF THE DAY\n0\n1\n2\n3\nDESIGN BY JW.S (JON WAY STUDIO) ↗\nALL RIGHTS RESERVED\nARISTIDE BENOIST 2026®\nA\nR\nI\nS\nT\nI\nD\nE\nABOUT\nCLOSE\nINDEPENDENT DEVELOPER\nAVAILABLE APR. 2023\nEMAIL\nINSTAGRAM\nTWITTER",
+    "finalUrl": "https://aristidebenoist.com/"
+  },
+  {
+    "id": "resn",
+    "url": "https://resn.co.nz/",
+    "checkedAt": "2026-09-11T23:21:55.352Z",
+    "mobile": false,
+    "actions": [
+      {
+        "atMs": 12739,
+        "description": "Movimento do cursor pela cena"
+      },
+      {
+        "atMs": 18257,
+        "description": "Quatro rolagens de 460 px"
+      }
+    ],
+    "frames": [
+      {
+        "file": "resn-scout-03s.jpg",
+        "startedAtMs": 3009,
+        "finishedAtMs": 4654
+      },
+      {
+        "file": "resn-scout-loaded.jpg",
+        "startedAtMs": 12000,
+        "finishedAtMs": 12058
+      },
+      {
+        "file": "resn-scout-experience.jpg",
+        "startedAtMs": 12102,
+        "finishedAtMs": 12150
+      },
+      {
+        "file": "resn-scout-scroll.jpg",
+        "startedAtMs": 18257,
+        "finishedAtMs": 18313
+      }
+    ],
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-RWMTZ1D17T&gtm=45je6992h1v9172049211za200zd9172049211&_p=1789168930980&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1017634067.1789168931&frm=0&pscdl=noapi&rcb=4&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120912438&sid=1789168930&sct=1&seg=0&dl=https%3A%2F%2Fresn.co.nz%2F&dt=Resn%20-%20Creative%20Digital%20Agency%20%7C%20Ideation%2C%20Design%2C%20and%20Development&en=preloader&_fv=1&_nsi=1&_ss=1&_ee=1&ep.event_action=start&ep.event_label=&tfd=15654",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "status": 200,
+    "domContentLoadedAtMs": 4634,
+    "title": "Resn - Creative Digital Agency | Ideation, Design, and Development",
+    "text": "VIEW ALL PROJECTS\nResn · Creative Studio\nEst. 2004\nAbout\nWork\nContact\nABOUT\nResn · Creative Studio\nBringing your story to life.\nBrand · Content · Experience · Digital\nSelected Clients\nTECH INNOVATION & FUTURE\nAppleGoogleMagic LeapSamsung\nCLIMATECH & STARTUPS\nAlpine BioBreakthrough EnergySavorTerraPower\nFASHION & BEAUTY\nadidas OriginalsCliniqueLa MerTiffany & Co\nWEB3\nKPRNavigateZentrySylo\nENTERTAINMENT & CULTURE\nNetflixHBORiot GamesPlaystationYouTube\nAUTOMOTIVE\nLexusToyotaLucid MotorsSubaruMaserati\nCOLLABORATIONS\nMCAEstée LauderGetty Research Institute\nAwards\nCannes LionsWebbyD&ADOne ShowAwwwardsFWA\nVIEW ALL PROJECTS\nContact\nnewbusiness@resn.co.nz\ncareers.resn.co.nz\nWELLINGTON\n\n+64 4 385 0705\n\nLevel 7/138\nWakefield Street\nWellington 6011\nNew Zealand\n\nAMSTERDAM\n\n+31 20 2610299\n\nAmsterdam\nThe Netherlands\n\nSOCIAL\n\nLinkedIn\n\nInstagram\n\nX\n\nGAZETTE\nPRIVACY\nIt looks like something went wrong. Please try again.\nThanks! You are now subscribed.\nPRIVACY\nResn Customer Privacy Notice\n\nThis privacy notice tells you what to expect us to do with your personal information.\n\nEMAIL\n\nhello@resn.co.nz\n\nADDRESS, NEW ZEALAND\n\nL7, 138-140 Wakefield Street,\nTe Aro, Wellington, 6011, NZ\n\nADDRESS, NETHERLANDS\n\nKeizersgracht 174 1e verdieping\n1016 DW, Amsterdam,\nNoord-Holland Netherlands\n\nWhat information we collect, use, and why\n\nWe collect or use the following information for service updates, marketing purposes and to comply with legal requirements:\n\nNames and contact details\nMarketing preferences\nLocation data\nIP addresses\nWebsite and app user journey information\nRecords of consent, where appropriate\nLAWFUL BASES\nPART 1\n\nOur lawful bases for collecting or using personal information for service updates or marketing purposes are:\n\nLegitimate Interest\n\nThe provision and management of worldwide support services (e.g., IT) for our business activities. Enhancing our Site and Services, creating trend analyses and benchmark reports, and comparable objectives. Managing customer relations and enhancing our Sites and Services, encompassing additional marketing and analytical activities. Detection and prevention of fraudulent activities, encompassing misuse of Services or money laundering. Safeguarding physical, IT, and network perimeter security. Conducting internal inquiries and investigations.\n\nLAWFUL BASES\nPART 2\n\nOur lawful bases for collecting or using personal information for legal requirements are:\n\nLegitimate Interest\n\nWe reserve the right to disclose information pursuant to subpoenas, court orders, and other lawful requests from regulators and law enforcement agencies, including those necessitated by national security or law enforcement disclosure obligations. Such disclosures are founded upon our legitimate interests and/or compliance with applicable laws.\n\nSafeguarding our legal rights and preventing misuse: to safeguard the integrity of the sites and our business operations; to prevent and identify fraud, unauthorized activities and access, and other forms of misuse; where deemed essential to investigate, prevent, or undertake measures in response to unlawful activities, suspected fraud, circumstances involving potential threats to the safety or legal rights of individuals or third parties, or breaches of our Terms of Use or this Privacy Policy.\n\nWHERE WE GET PERSONAL\nINFORMATION FROM\nPeople directly\nThird parties: We collect information from third-party sources including social networks, platform providers, payment processors, and operators of specific third-party services utilized by us.\nHOW LONG WE KEEP\nINFORMATION\n\nIn accordance with standard practices, we retain your personal information for the duration necessary to achieve the purposes for which it was collected, or as required to comply with our legal obligations, resolve disputes, maintain accurate business records, and enforce our contractual agreements. Typically, we retain pertinent personal information of clients and site visitors for a minimum of three years following our last interaction with you, and in alignment with our obligations under applicable laws. We may retain personal information for extended periods as mandated by our regulatory responsibilities, professional indemnity obligations, or where we believe it is necessary to establish, defend, or safeguard our legal rights and interests, or those of others.\n\nWHO WE SHARE\nINFORMATION WITH\n\nData Processors — Google Analytics\n\nThis data processor does the following activities for us: We employ Google Analytics to assess the use of our services and platforms, to enable us to collect non-personal information about users, and to enhance our Services and user experiences.\n\nOther Organizations\n\nOrganisations we need to share information with for safeguarding reasons\nProfessional or legal advisors\nFinancial or fraud investigation authorities\nRelevant regulatory authorities\nExternal auditors or inspectors\nWarranty and guarantee providers\nOrganisations we're legally obliged to share personal information with\nEmergency services (where necessary)\nOther relevant third parties: The data processor may use cookies and other technologies and may aggregate the information gathered about you on our sites with other data collected for their own purposes\nYOUR DATA\nPROTECTION RIGHTS\n\nUnder data protection law, you have rights including:\n\nYour right of access\nYou have the right to ask us for copies of your personal data.\n\nYour right to rectification\nYou have the right to ask us to rectify personal data you think is inaccurate. You also have the right to ask us to complete information you think is incomplete.\n\nYour right to erasure You have the right to ask us to erase your personal data in certain circumstances.\n\n\nYour right to restriction of processing\nYou have the right to ask us to restrict the processing of your personal data in certain circumstances.\n\nYour right to object to processing\nYou have the right to object to the processing of your personal data in certain circumstances.\n\nYour right to data portability\nYou have the right to ask that we transfer the personal data you gave us to another organisation, or to you, in certain circumstances.\n\nYour right to withdraw consent\nWhen we use consent as our lawful basis you have the right to withdraw your consent.\n\nYou don't usually need to pay a fee to exercise your rights. If you make a request, we have one calendar month to respond to you.\n\nTo make a data protection rights request, please contact us using the contact details at the top of this privacy notice.\n\nSECURITY MEASURES\n\nWe have instituted safeguards and technical measures to safeguard the personal information within our control against unauthorized access, use, or disclosure. Nonetheless, it is important to note that no data security measures can ensure absolute security.\n\nDIRECT MARKETING\n\nYou have the right to opt out of receiving direct marketing emails from us by following the instructions provided in such emails or by contacting us via email at hello@resn.co.nz. Please note that we may still send you transactional or service-related communications, including service announcements and administrative messages.\n\nINFORMATION\nREGARDING MINORS\n\nThe Resn website is designed for individuals aged 16 and above. We do not intentionally or specifically gather information about minors under the age of 16. If you suspect that we have inadvertently collected such information, please inform us at hello@resn.co.nz, so we can remove this information from our servers.\n\nAMENDMENTS TO\nOUR PRIVACY POLICY\n\nPeriodically, we may revise this Policy to incorporate new or modified privacy practices or to adhere to shifts in industry standards or legal mandates. When significant modifications are made to this Policy, we will publish a notice online. Furthermore, if these changes substantially impact the manner in which we utilize or disclose information, we will provide advance notification by posting a notice on our site. We urge you to periodically review this Policy for the most current information regarding our privacy practices.\n\nHOW TO COMPLAIN\n\nIf you have any concerns about our use of your personal data, you can make a complaint to us using the contact details at the top of this privacy notice.\n\nIf you remain unhappy with how we've used your data after raising a complaint with us, you can also complain to the relevant authority.\n\nUnited States\nFederal Trade Commission (FTC)\nEmail: spam@uce.gov (for reporting spam emails)\nAddress: Federal Trade Commission, Consumer Response Center, 600 Pennsylvania Avenue, NW, Washington, DC 20580\n\nEuropean Union\nEuropean Data Protection Supervisor (EDPS) or relevant national data protection authority (e.g., ICO in the UK, CNIL in France, etc.)\nEmail: Please refer to the specific authority's website for contact details.\nAddress: Please refer to the specific authority's website for postal address.\n\nCanada\nOffice of the Privacy Commissioner of Canada (OPC)\nEmail: info@priv.gc.ca\nAddress: Office of the Privacy Commissioner of Canada, 30 Victoria Street, Gatineau, Quebec, K1A 1H3\n\nAustralia\nOffice of the Australian Information Commissioner (OAIC) \\\nEmail: enquiries@oaic.gov.au\nAddress: Office of the Australian Information Commissioner, GPO Box 5218, Sydney NSW 2001\n\nNew Zealand\nOffice of the Privacy Commissioner\nEmail: enquiries@privacy.org.nz\nAddress: Office of the Privacy Commissioner, PO Box 10094, Wellington 6143, New Zealand\n\nUK\nInformation Commissioner's Office (ICO)\nAddress: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF\nHelpline number: 0303 123 1113\nWebsite:https://www.ico.org.uk/make-a-complaint\n\nLAST UPDATED\n\n10 May, 2024\n\nPLAY\nREPLAY",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "View All Projects",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "About",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "Work",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "Contact",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "View All Projects",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "newbusiness@resn.co.nz",
+        "href": "mailto:newbusiness@resn.co.nz"
+      },
+      {
+        "tag": "A",
+        "text": "careers.resn.co.nz",
+        "href": "https://careers.resn.co.nz/"
+      },
+      {
+        "tag": "A",
+        "text": "Level 7/138Wakefield StreetWellington 6011New Zealand",
+        "href": "https://www.google.nl/maps/place/Resn/@-41.2903055,174.7755511,17z/data=!3m1!4b1!4m2!3m1!1s0x6d38afd8174c2ebf:0x1def92b395560a56"
+      },
+      {
+        "tag": "A",
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/resnglobal"
+      },
+      {
+        "tag": "A",
+        "text": "Instagram",
+        "href": "https://www.instagram.com/resn_has_no_i/"
+      },
+      {
+        "tag": "A",
+        "text": "X",
+        "href": "https://x.com/resn_has_no_i/"
+      },
+      {
+        "tag": "A",
+        "text": "GAZETTE",
+        "href": "https://tr.ee/resnnews"
+      },
+      {
+        "tag": "A",
+        "text": "PRIVACY",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "hello@resn.co.nz",
+        "href": "mailto:hello@resn.co.nz"
+      },
+      {
+        "tag": "A",
+        "text": "hello@resn.co.nz",
+        "href": "mailto:hello@resn.co.nz"
+      },
+      {
+        "tag": "A",
+        "text": "hello@resn.co.nz",
+        "href": "mailto:hello@resn.co.nz"
+      },
+      {
+        "tag": "A",
+        "text": "spam@uce.gov",
+        "href": "mailto:spam@uce.gov"
+      },
+      {
+        "tag": "A",
+        "text": "info@priv.gc.ca",
+        "href": "mailto:info@priv.gc.ca"
+      },
+      {
+        "tag": "A",
+        "text": "enquiries@oaic.gov.au",
+        "href": "mailto:enquiries@oaic.gov.au"
+      },
+      {
+        "tag": "A",
+        "text": "enquiries@privacy.org.nz",
+        "href": "mailto:enquiries@privacy.org.nz"
+      },
+      {
+        "tag": "A",
+        "text": "https://www.ico.org.uk/make-a-complaint",
+        "href": "https://www.ico.org.uk/make-a-complaint"
+      }
+    ],
+    "afterText": "VIEW ALL PROJECTS",
+    "finalUrl": "https://resn.co.nz/"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "html",
+  "url": "https://kitasenjudesign.com/html/",
+  "inspectedAt": "2026-09-12T13:16:10.613Z",
+  "actions": [
+    "Movimento do ponteiro do canto superior esquerdo à região inferior direita.",
+    "Três rolagens de 650px, registradas separadamente."
+  ],
+  "frames": [
+    "html-abertura.jpg",
+    "html-ponteiro.jpg",
+    "html-scroll-1.jpg",
+    "html-scroll-2.jpg",
+    "html-scroll-3.jpg"
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "HTML SKETCHES",
+  "finalUrl": "https://kitasenjudesign.com/html/",
+  "text": "H〠ML SKE〠CHES\n⏪  ⏩\n☝️ ☝️ ☝️\n  ",
+  "links": [],
+  "controls": [
+    {
+      "tag": "INPUT",
+      "text": "",
+      "type": "range",
+      "src": null,
+      "box": {
+        "width": 1267.1875,
+        "height": 16
+      }
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "type": null,
+      "src": "https://kitasenjudesign.com/html/",
+      "box": {
+        "width": 1440,
+        "height": 733
+      }
+    }
+  ]
+}

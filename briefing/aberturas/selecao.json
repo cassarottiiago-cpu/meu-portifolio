@@ -1,0 +1,59 @@
+[
+  {
+    "id": "noomo-story",
+    "number": "01",
+    "name": "Noomo Storytelling",
+    "title": "Entrar em uma cena",
+    "url": "https://storytelling.noomoagency.com/",
+    "type": "Narrativa espacial",
+    "description": "Cristal, luz e mudança de enquadramento. A rolagem conduz a passagem da imagem às primeiras frases.",
+    "take": "Hipótese anterior arquivada após o feedback. Não adotar esta linguagem como direção do portfólio.",
+    "limit": "Há carregamento antes da cena. A referência tem controles em cápsula, que não fazem parte da direção de Iago.",
+    "credit": "Noomo Agency",
+    "source": "https://noomoagency.com/insights/the-power-of-digital-storytelling-website",
+    "feedback": "Considerado exagerado por Iago; descartado como direção visual.",
+    "clip": {
+      "start": 57.25,
+      "duration": 13,
+      "bytes": 4455571
+    }
+  },
+  {
+    "id": "igloo",
+    "number": "02",
+    "name": "Igloo Inc.",
+    "title": "Ver a matéria mudar",
+    "url": "https://www.igloo.inc/",
+    "type": "Transformação de um objeto",
+    "description": "Uma malha luminosa ganha volume e se transforma em um iglu. O objeto ocupa a cena e dá identidade à experiência.",
+    "take": "Hipótese anterior arquivada após o feedback. Não adotar esta linguagem como direção do portfólio.",
+    "limit": "O carregamento antecede a experiência. A linguagem de gelo e os efeitos ópticos pertencem a esta marca; a transformação precisa ganhar um sentido próprio no portfólio.",
+    "credit": "Igloo Inc., site oficial",
+    "source": "https://www.igloo.inc/",
+    "feedback": "Considerado exagerado por Iago; descartado como direção visual.",
+    "clip": {
+      "start": 28.85,
+      "duration": 12,
+      "bytes": 3988334
+    }
+  },
+  {
+    "id": "kikk",
+    "number": "03",
+    "name": "KIKK Festival 2025",
+    "title": "Sentir o ritmo gráfico",
+    "url": "https://2025.kikk.be/",
+    "type": "Cor e tipografia em movimento",
+    "description": "Cores saturadas, formas angulares e letras com volume. A entrada tem a energia de um cartaz que ganhou movimento.",
+    "take": "Investigar ritmo gráfico e composição autoral. Paleta, fontes e layout ainda não estão aprovados.",
+    "limit": "O endereço de 2025 exibe um aviso sobre a edição de 2026. Ele foi fechado pelo X para gravar a cena. Abaixo da abertura há bastante conteúdo de festival.",
+    "credit": "KIKK Festival; website por Unseen Studio",
+    "source": "https://2025.kikk.be/",
+    "feedback": "Interesse parcial: Iago considerou mais próximo do seu gosto.",
+    "clip": {
+      "start": 14.850000000000001,
+      "duration": 8.149999999999999,
+      "bytes": 1398077
+    }
+  }
+]

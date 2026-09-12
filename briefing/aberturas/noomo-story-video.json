@@ -1,0 +1,141 @@
+{
+  "id": "noomo-story",
+  "url": "https://storytelling.noomoagency.com/",
+  "checkedAt": "2026-09-11T23:32:21.248Z",
+  "mobile": false,
+  "actions": [
+    {
+      "atMs": 65056,
+      "description": "Clique no centro da cena, conforme convite Click to start"
+    },
+    {
+      "atMs": 71667,
+      "description": "Movimento do cursor pela cena"
+    },
+    {
+      "atMs": 77269,
+      "description": "Quatro rolagens de 460 px"
+    }
+  ],
+  "frames": [
+    {
+      "file": "noomo-story-video-03s.jpg",
+      "startedAtMs": 3020,
+      "finishedAtMs": 3021,
+      "videoTimeSec": 2.3
+    },
+    {
+      "file": "noomo-story-video-loaded.jpg",
+      "startedAtMs": 65001,
+      "finishedAtMs": 65003,
+      "videoTimeSec": 58.75
+    },
+    {
+      "file": "noomo-story-video-experience.jpg",
+      "startedAtMs": 71064,
+      "finishedAtMs": 71065,
+      "videoTimeSec": 64.25
+    },
+    {
+      "file": "noomo-story-video-scroll.jpg",
+      "startedAtMs": 77269,
+      "finishedAtMs": 77270,
+      "videoTimeSec": 70.1
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7H4C5RTJQM&gtm=45je6992h1v9251503485za200zd9251503485&_p=1789169546117&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1744939537.1789169547&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.83%7CNot%253FA_Brand%3B24.0.0.0%7CMicrosoft%2520Edge%3B152.0.4191.66&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120474864&sid=1789169547&sct=1&seg=0&dl=https%3A%2F%2Fstorytelling.noomoagency.com%2F&dt=Noomo%20%7C%20The%20power%20of%20digital%20Storytelling&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=6203",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "status": 200,
+  "domContentLoadedAtMs": 4867,
+  "title": "Noomo | The power of digital Storytelling",
+  "text": "The power\nof digital\nstorytelling\n\nIn a world that’s\n\nconstantly shifting,\n\n\nwhat\n\nguides\n\nus through\n\nchange,\n\nreinvention,\n\nand the unknown–\n\n\nStories emerge\nthrough\n\n\nThe best stories\n\ndon’t just\n\nspeak to\n\nus.\nThey\n\ninvite us inside.\n\n\nStorytelling is much\nmore than words.\n\nIt is how a spark\n\nbecomes a fire.\n\n\nStorytelling is what you\n\nsee, feel, hear, interactwith.\n\nis narrative.\n\n\nLight\n\nSpirit\n\nSound\n\nHow can the story live at the\nheart of the experience?\n\nStart with clarity\nKnow what you’re trying to say.\nWhether it’s launching a product or\nbuilding emotional connections,\nthe goal needs to be clear.\n\nLet the story guide design\nEvery animation, interaction,\nand visual should serve the\nnarrative. If it doesn’t help\ntell the story, it’s not needed.\n\nExperiment and iterate\nSome of the best ideas came from\nsimply trying things out, seeing\nwhat clicked, and refining from\nthere.\n\nMake it personal\nThe best stories create emotional\nconnections. Whether through AI\npersonalization or custom design\nelements, find ways to make the\nexperience unique for each user.\n\nWhere stories\nbecome experiences\n\nReimagine Phoenix\n\nScroll to explore\n\nLet us help you tell your story the way it was meant\n\nhello@noomoagency.com\nx\nInstagram\nLinkedIn\n>\nClick to start\nClick to start\nAgency\nLabs\nContact\nHome\nAgency\nLabs\nContact\nInstagram\nx\nLinkedin",
+  "controls": [
+    {
+      "tag": "A",
+      "text": "hello@noomoagency.com",
+      "href": "mailto:hello@noomoagency.com"
+    },
+    {
+      "tag": "A",
+      "text": "x",
+      "href": "https://x.com/noomoagency"
+    },
+    {
+      "tag": "A",
+      "text": "Instagram",
+      "href": "https://www.instagram.com/noomoagency/"
+    },
+    {
+      "tag": "A",
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/company/noomoagency"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://storytelling.noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Agency",
+      "href": "https://noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Labs",
+      "href": "https://labs.noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "href": "https://storytelling.noomoagency.com/contacts"
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "href": "https://storytelling.noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Agency",
+      "href": "https://noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Labs",
+      "href": "https://labs.noomoagency.com/"
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "href": "https://storytelling.noomoagency.com/contacts"
+    },
+    {
+      "tag": "A",
+      "text": "Instagram",
+      "href": "https://www.instagram.com/noomoagency/"
+    },
+    {
+      "tag": "A",
+      "text": "x",
+      "href": "https://x.com/noomoagency"
+    },
+    {
+      "tag": "A",
+      "text": "Linkedin",
+      "href": "https://www.linkedin.com/company/noomoagency"
+    }
+  ],
+  "afterText": "what\n\nguides\n\nus through\n\nchange,\n\nreinvention,\n\nand the unknown–\n\n\nStories emerge\nthrough\n\n\nThe best stories\n\ndon’t just\n\nspeak to\n\nus.\nThey\n\ninvite us inside.\n\n\nStorytelling is much\nmore than words.\n\nIt is how a spark\n\nbecomes a fire.\n\n\nStorytelling is what you\n\nsee, feel, hear, interactwith.\n\nis narrative.\n\n\nLight\n\nSpirit\n\nSound\n\nHow can the story live at the\nheart of the experience?\n\nStart with clarity\nKnow what you’re trying to say.\nWhether it’s launching a product or\nbuilding emotional connections,\nthe goal needs to be clear.\n\nLet the story guide design\nEvery animation, interaction,\nand visual should serve the\nnarrative. If it doesn’t help\ntell the story, it’s not needed.\n\nExperiment and iterate\nSome of the best ideas came from\nsimply trying things out, seeing\nwhat clicked, and refining from\nthere.\n\nMake it personal\nThe best stories create emotional\nconnections. Whether through AI\npersonalization or custom design\nelements, find ways to make the\nexperience unique for each user.\n\nWhere stories\nbecome experiences\n\nReimagine Phoenix\n\nScroll to explore\n\nLet us help you tell your story the way it was meant\n\nhello@noomoagency.com\nx\nInstagram\nLinkedIn\n>\nClick to start\nClick to start\nAgency\nLabs\nContact\nHome\nAgency\nLabs\nContact\nInstagram\nx\nLinkedin",
+  "finalUrl": "https://storytelling.noomoagency.com/",
+  "video": {
+    "frames": 1429,
+    "seconds": 71.45,
+    "notes": "Captura de navegador headless, sem áudio. Não é benchmark de desempenho nem medição de FPS do site."
+  }
+}

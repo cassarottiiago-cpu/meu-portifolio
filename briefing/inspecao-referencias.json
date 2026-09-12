@@ -1,0 +1,1455 @@
+[
+  {
+    "id": "rauno",
+    "url": "https://rauno.me/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:50:13.221Z",
+    "status": 200,
+    "title": "Rauno Freiberg",
+    "finalUrl": "https://rauno.me/",
+    "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details\nDevouring Details\nDD\nCraft\nCraft\nHistory of Software Design\nProjects\nProjects\nField Notes\nTwitter\n2023\n2022\nGitHub\n\nEmail\n\nCopied\n\nMake it fast.\nMake it beautiful.\nMake it consistent.\nMake it carefully.\nMake it timeless.\nMake it soulful.\nMake it.",
+    "headings": [
+      "Rauno Freibergis an Estonianinteractiondesignerworking with Verceland Devouring Details",
+      "DD",
+      "Craft",
+      "Projects"
+    ],
+    "links": [
+      {
+        "text": "Devouring Details\nDD",
+        "href": "https://www.devouringdetails.com/"
+      },
+      {
+        "text": "Craft\nCraft",
+        "href": "https://rauno.me/craft"
+      },
+      {
+        "text": "History of Software Design",
+        "href": "https://historyofsoftware.org/"
+      },
+      {
+        "text": "Projects\nProjects",
+        "href": "https://rauno.me/projects"
+      },
+      {
+        "text": "Field Notes",
+        "href": "https://rauno.me/notes"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://x.com/raunofreiberg"
+      },
+      {
+        "text": "2023",
+        "href": "https://2023.rauno.me/"
+      },
+      {
+        "text": "2022",
+        "href": "https://2022.rauno.me/"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/raunofreiberg"
+      },
+      {
+        "text": "",
+        "href": "https://rauno.me/"
+      },
+      {
+        "text": "",
+        "href": "https://rauno.me/craft"
+      },
+      {
+        "text": "",
+        "href": "https://rauno.me/projects"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "bruno-arizio",
+    "url": "https://brunoarizio.com/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:50:13.219Z",
+    "status": 200,
+    "title": "Bruno Arizio",
+    "finalUrl": "https://brunoarizio.com/",
+    "text": "",
+    "headings": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://brunoarizio.com/"
+      },
+      {
+        "text": "",
+        "href": "https://brunoarizio.com/selected-works"
+      },
+      {
+        "text": "",
+        "href": "https://brunoarizio.com/info"
+      },
+      {
+        "text": "",
+        "href": "mailto:hello@brunoarizio.com"
+      }
+    ],
+    "scriptErrors": [
+      "3000ms timeout exceeded"
+    ]
+  },
+  {
+    "id": "josh-comeau",
+    "url": "https://www.joshwcomeau.com/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:50:26.789Z",
+    "status": 200,
+    "title": "Josh W. Comeau",
+    "finalUrl": "https://www.joshwcomeau.com/",
+    "text": "Josh\nW\nComeau\nCategories\nCourses\nGoodies\nAbout\nJosh W Comeau homepage\nARTICLES AND TUTORIALS\nGetting Started with Anchor Positioning\n\nFor decades, one of the most notoriously-challenging problems on the web has been sticking one element to another element, for things like tooltips and nested menus. The CSSWG has decided to provide a first-class solution to this problem, and it’s pretty friggin’ cool! In this tutorial, I’ll share the most useful parts I’ve found from this modern CSS feature.\n\nRead more\n: Getting Started with Anchor Positioning\nCSS vs. JavaScript\n\nExploring the performance implications of different animation strategies\n\nThere are a bunch of JavaScript animation libraries out there, and you might have wondered whether there’s a performance cost compared to traditional CSS transitions and keyframe animations. In this blog post, we’ll compare the same animation across several different strategies and see the differences firsthand. There’s some interesting nuance here!\n\nRead more\n: CSS vs. JavaScript\nScroll-Driven Animations\n\nExploring the majestic new animation-timeline API\n\nThe new Animation Timeline API allows us to create dynamic scroll animations without any JavaScript! It’s honestly a very lovely API, and in this blog post, we’ll explore some of the super cool things we can do with it.\n\nRead more\n: Scroll-Driven Animations\nSquash and Stretch\n\nThe little secret that makes animations feel alive ✨\n\nHave you ever heard of Disney’s 12 Basic Principles of Animation? In this tutorial, we’ll explore how we can use the very first principle to create SVG micro-interactions that feel way more natural and believable. It’s one of those small things that has a big impact.\n\nRead more\n: Squash and Stretch\nSneaky Header Blocker Trick\n\nThere is a lil’ UI detail on this blog. Most people don’t even notice it, but the ones who do often reach out, asking how on earth it works. It feels like it defies the rules of CSS! In this blog post, I’ll break down the surprisingly-straightforward implementation so you can start using this trick yourself.\n\nRead more\n: Sneaky Header Blocker Trick\nSprites on the Web\n\nIn game development, it’s common to use spritesheets for animation, but this technique isn’t as widely used on the web these days. Which is a shame, because we can do some pretty cool stuff with sprites! In this post, we’ll share the niche CSS function you can use to leverage this technique, and explore some of the potential use cases.\n\nRead more\n: Sprites on the Web\nBrand New Layouts with CSS Subgrid\n\nSubgrid allows us to extend a grid template down through the DOM tree, so that deeply-nested elements can participate in the same grid layout. At first glance, I thought this would be a helpful convenience, but it turns out that it’s so much more. Subgrid unlocks exciting new layout possibilities, stuff we couldn’t do until now. ✨\n\nRead more\n: Brand New Layouts with CSS Subgrid\nSprings and Bounces in Native CSS\n\nThe magic of the linear() timing function\n\nThe “linear()” timing function is a game-changer; it allows us to model physics-based motion right in vanilla CSS! That said, there are some limitations and quirks to be aware of. I’ve been experimenting with this API for a while now, and in this post, I’ll share all of the tips and tricks I’ve learned for using it effectively. ✨\n\nRead more\n: Springs and Bounces in Native CSS\nThe Big Gotcha With @starting-style\n\nCSS has been on fire lately, with tons of great new features. @starting-style is an interesting one; it allows us to use CSS transitions for enter animations, something previously reserved for CSS keyframe animations. But is the juice worth the squeeze?\n\nRead more\n: The Big Gotcha With <code>@starting-style</code>\nColor Shifting in CSS\n\nAn Exploration of Color Animation Techniques\n\nA little while ago, I was trying to animate an element’s background color, so that it cycled through the rainbow. Seems easy, but it turns out, browsers have a surprisingly big limitation when it comes to color processing! In this tutorial, we’ll dig into the issue, and I’ll share a couple of strategies you can use to work around this limitation.\n\nRead more\n: Color Shifting in CSS\nAn Interactive Guide to SVG Paths\n\nSVG gives us many different primitives to work with, but by far the most powerful is the  element. Unfortunately, it’s also the most inscrutable, with its compact Regex-style syntax. In this tutorial, we’ll demystify this infamous element and see some of the cool things we can do with it!\n\nRead more\n: An Interactive Guide to SVG Paths\nA Friendly Introduction to SVG\n\nSVGs are one of the most remarkable technologies we have access to on the web. They’re first-class citizens, fully addressable with CSS and JavaScript. In this tutorial, I’ll cover all of the most important fundamentals, and show you some of the ridiculously-cool things we can do with this massively underrated tool. ✨\n\nRead more\n: A Friendly Introduction to SVG\nShow more\nBROWSE BY CATEGORY\nCSS\nReact\nAnimation\nCareer\nJavaScript\nSVG\nNext.js\nGeneral\nPOPULAR CONTENT\nAn Interactive Guide to Flexbox\nA Modern CSS Reset\nAn Interactive Guide to CSS Transitions\nHow To Center a Div\nThe End of Front-End Development\nAn Interactive Guide to CSS Grid\nDesigning Beautiful Shadows in CSS\nMaking Sense of React Server Components\nWhy React Re-Renders\nCSS Variables for React Devs\nJosh\nW\nComeau\nAre you a human? If so, please ignore this checkbox\n\nWant to know when I publish new content?\nEnter your email to join my free newsletter:\n\nEmail\nSubmit\nBROWSE BY CATEGORY\nCSS\nReact\nAnimation\nJavaScript\nCareer\nSVG\nNext.js\nGeneral\nINTERACTIVE COURSES\nCSS for JS Developers\n(opens in new tab)\nThe Joy of React\n(opens in new tab)\nWhimsical Animations\n(opens in new tab)\nGENERAL\nAbout Josh\nAbout This Blog\nContact\nSearch\nDisable sounds\nActivate dark mode\nRSS Feed\nJosh's BlueSky profile\nJosh's Github profile\nJosh's LinkedIn profile\n\n© 2018-present Joshua Comeau. All Rights Reserved.\n\nTerms of Use\n(opens in new tab)\nPrivacy Policy\n(opens in new tab)\nCode of Conduct\n(opens in new tab)",
+    "headings": [
+      "Josh W Comeau homepage",
+      "Articles and Tutorials",
+      "Browse By Category",
+      "Popular Content",
+      "Browse By Category",
+      "Interactive Courses",
+      "General"
+    ],
+    "links": [
+      {
+        "text": "Josh\nW\nComeau",
+        "href": "https://www.joshwcomeau.com/"
+      },
+      {
+        "text": "About",
+        "href": "https://www.joshwcomeau.com/about-josh/"
+      },
+      {
+        "text": "Getting Started with Anchor Positioning",
+        "href": "https://www.joshwcomeau.com/css/anchor-positioning/"
+      },
+      {
+        "text": "Read more\n: Getting Started with Anchor Positioning",
+        "href": "https://www.joshwcomeau.com/css/anchor-positioning/"
+      },
+      {
+        "text": "CSS vs. JavaScript",
+        "href": "https://www.joshwcomeau.com/animation/css-vs-javascript/"
+      },
+      {
+        "text": "Read more\n: CSS vs. JavaScript",
+        "href": "https://www.joshwcomeau.com/animation/css-vs-javascript/"
+      },
+      {
+        "text": "Scroll-Driven Animations",
+        "href": "https://www.joshwcomeau.com/animation/scroll-driven-animations/"
+      },
+      {
+        "text": "Read more\n: Scroll-Driven Animations",
+        "href": "https://www.joshwcomeau.com/animation/scroll-driven-animations/"
+      },
+      {
+        "text": "Squash and Stretch",
+        "href": "https://www.joshwcomeau.com/animation/squash-and-stretch/"
+      },
+      {
+        "text": "Read more\n: Squash and Stretch",
+        "href": "https://www.joshwcomeau.com/animation/squash-and-stretch/"
+      },
+      {
+        "text": "Sneaky Header Blocker Trick",
+        "href": "https://www.joshwcomeau.com/css/header-blockers/"
+      },
+      {
+        "text": "Read more\n: Sneaky Header Blocker Trick",
+        "href": "https://www.joshwcomeau.com/css/header-blockers/"
+      },
+      {
+        "text": "Sprites on the Web",
+        "href": "https://www.joshwcomeau.com/animation/sprites/"
+      },
+      {
+        "text": "Read more\n: Sprites on the Web",
+        "href": "https://www.joshwcomeau.com/animation/sprites/"
+      },
+      {
+        "text": "Brand New Layouts with CSS Subgrid",
+        "href": "https://www.joshwcomeau.com/css/subgrid/"
+      },
+      {
+        "text": "Read more\n: Brand New Layouts with CSS Subgrid",
+        "href": "https://www.joshwcomeau.com/css/subgrid/"
+      },
+      {
+        "text": "Springs and Bounces in Native CSS",
+        "href": "https://www.joshwcomeau.com/animation/linear-timing-function/"
+      },
+      {
+        "text": "Read more\n: Springs and Bounces in Native CSS",
+        "href": "https://www.joshwcomeau.com/animation/linear-timing-function/"
+      },
+      {
+        "text": "The Big Gotcha With @starting-style",
+        "href": "https://www.joshwcomeau.com/css/starting-style/"
+      },
+      {
+        "text": "Read more\n: The Big Gotcha With <code>@starting-style</code>",
+        "href": "https://www.joshwcomeau.com/css/starting-style/"
+      },
+      {
+        "text": "Color Shifting in CSS",
+        "href": "https://www.joshwcomeau.com/animation/color-shifting/"
+      },
+      {
+        "text": "Read more\n: Color Shifting in CSS",
+        "href": "https://www.joshwcomeau.com/animation/color-shifting/"
+      },
+      {
+        "text": "An Interactive Guide to SVG Paths",
+        "href": "https://www.joshwcomeau.com/svg/interactive-guide-to-paths/"
+      },
+      {
+        "text": "Read more\n: An Interactive Guide to SVG Paths",
+        "href": "https://www.joshwcomeau.com/svg/interactive-guide-to-paths/"
+      },
+      {
+        "text": "A Friendly Introduction to SVG",
+        "href": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/"
+      },
+      {
+        "text": "Read more\n: A Friendly Introduction to SVG",
+        "href": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/"
+      },
+      {
+        "text": "CSS",
+        "href": "https://www.joshwcomeau.com/css/"
+      },
+      {
+        "text": "React",
+        "href": "https://www.joshwcomeau.com/react/"
+      },
+      {
+        "text": "Animation",
+        "href": "https://www.joshwcomeau.com/animation/"
+      },
+      {
+        "text": "Career",
+        "href": "https://www.joshwcomeau.com/career/"
+      },
+      {
+        "text": "JavaScript",
+        "href": "https://www.joshwcomeau.com/javascript/"
+      },
+      {
+        "text": "SVG",
+        "href": "https://www.joshwcomeau.com/svg/"
+      },
+      {
+        "text": "Next.js",
+        "href": "https://www.joshwcomeau.com/nextjs/"
+      },
+      {
+        "text": "General",
+        "href": "https://www.joshwcomeau.com/blog/"
+      },
+      {
+        "text": "An Interactive Guide to Flexbox",
+        "href": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+      },
+      {
+        "text": "A Modern CSS Reset",
+        "href": "https://www.joshwcomeau.com/css/custom-css-reset/"
+      },
+      {
+        "text": "An Interactive Guide to CSS Transitions",
+        "href": "https://www.joshwcomeau.com/animation/css-transitions/"
+      },
+      {
+        "text": "How To Center a Div",
+        "href": "https://www.joshwcomeau.com/css/center-a-div/"
+      },
+      {
+        "text": "The End of Front-End Development",
+        "href": "https://www.joshwcomeau.com/blog/the-end-of-frontend-development/"
+      },
+      {
+        "text": "An Interactive Guide to CSS Grid",
+        "href": "https://www.joshwcomeau.com/css/interactive-guide-to-grid/"
+      },
+      {
+        "text": "Designing Beautiful Shadows in CSS",
+        "href": "https://www.joshwcomeau.com/css/designing-shadows/"
+      },
+      {
+        "text": "Making Sense of React Server Components",
+        "href": "https://www.joshwcomeau.com/react/server-components/"
+      },
+      {
+        "text": "Why React Re-Renders",
+        "href": "https://www.joshwcomeau.com/react/why-react-re-renders/"
+      },
+      {
+        "text": "CSS Variables for React Devs",
+        "href": "https://www.joshwcomeau.com/css/css-variables-for-react-devs/"
+      },
+      {
+        "text": "Josh\nW\nComeau",
+        "href": "https://www.joshwcomeau.com/"
+      },
+      {
+        "text": "CSS",
+        "href": "https://www.joshwcomeau.com/css/"
+      },
+      {
+        "text": "React",
+        "href": "https://www.joshwcomeau.com/react/"
+      },
+      {
+        "text": "Animation",
+        "href": "https://www.joshwcomeau.com/animation/"
+      },
+      {
+        "text": "JavaScript",
+        "href": "https://www.joshwcomeau.com/javascript/"
+      },
+      {
+        "text": "Career",
+        "href": "https://www.joshwcomeau.com/career/"
+      },
+      {
+        "text": "SVG",
+        "href": "https://www.joshwcomeau.com/svg/"
+      },
+      {
+        "text": "Next.js",
+        "href": "https://www.joshwcomeau.com/nextjs/"
+      },
+      {
+        "text": "General",
+        "href": "https://www.joshwcomeau.com/blog/"
+      },
+      {
+        "text": "CSS for JS Developers\n(opens in new tab)",
+        "href": "https://css-for-js.dev/"
+      },
+      {
+        "text": "The Joy of React\n(opens in new tab)",
+        "href": "https://joyofreact.com/"
+      },
+      {
+        "text": "Whimsical Animations\n(opens in new tab)",
+        "href": "https://whimsy.joshwcomeau.com/"
+      },
+      {
+        "text": "About Josh",
+        "href": "https://www.joshwcomeau.com/about-josh/"
+      },
+      {
+        "text": "About This Blog",
+        "href": "https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://www.joshwcomeau.com/contact/"
+      },
+      {
+        "text": "RSS Feed",
+        "href": "https://www.joshwcomeau.com/rss.xml"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "bruno-simon",
+    "url": "https://bruno-simon.com/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:50:42.400Z",
+    "status": 200,
+    "title": "Bruno's",
+    "finalUrl": "https://bruno-simon.com/",
+    "text": " \n \n ",
+    "headings": [
+      "Three.js",
+      "Three.js Journey",
+      "Devlogs",
+      "Source code",
+      "Musics",
+      "Some more links"
+    ],
+    "links": [
+      {
+        "text": "Three.js",
+        "href": "https://threejs.org/"
+      },
+      {
+        "text": "X",
+        "href": "https://x.com/mrdoob"
+      },
+      {
+        "text": "GitHub",
+        "href": "http://github.com/mrdoob"
+      },
+      {
+        "text": "X",
+        "href": "https://x.com/sea3dformat"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/sunag"
+      },
+      {
+        "text": "TSL",
+        "href": "https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language"
+      },
+      {
+        "text": "huge course",
+        "href": "https://threejs-journey.com/"
+      },
+      {
+        "text": "Youtube channel",
+        "href": "https://www.youtube.com/playlist?list=PL5nApUt6Z8sTZxEsEMd8x89OCKCAAfNL0"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/brunosimon/folio-2025"
+      },
+      {
+        "text": "MIT license",
+        "href": "https://choosealicense.com/licenses/mit/"
+      },
+      {
+        "text": "Linktree",
+        "href": "https://linktr.ee/Kounine"
+      },
+      {
+        "text": "CC0 license",
+        "href": "https://choosealicense.com/licenses/cc0-1.0/"
+      },
+      {
+        "text": "here",
+        "href": "https://github.com/brunosimon/folio-2025/tree/main/static/sounds/musics"
+      },
+      {
+        "text": "Rapier",
+        "href": "https://rapier.rs/"
+      },
+      {
+        "text": "Howler.js",
+        "href": "https://howlerjs.com/"
+      },
+      {
+        "text": "Amatic SC",
+        "href": "https://fonts.google.com/specimen/Amatic+SC"
+      },
+      {
+        "text": "Nunito",
+        "href": "https://fonts.google.com/specimen/Nunito?query=Nunito"
+      },
+      {
+        "text": "\n                                        Join server\n                                    ",
+        "href": "https://discord.com/channels/769928116701233152/1445064878384480288"
+      },
+      {
+        "text": "\n                                        Start chating\n                                    ",
+        "href": "https://discord.com/users/202907325722263553"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "masayuki-daijima",
+    "url": "https://daijima.jp/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:50:47.242Z",
+    "status": 200,
+    "title": "MASAYUKI DAIJIMA | Technical Director / Interaction Designer",
+    "finalUrl": "https://daijima.jp/",
+    "text": "MASAYUKI DAIJIMA\nABOUTBLOGCONTACT\nCOPYRIGHT © MASAYUKI DAIJIMA ALL RIGHTS RESERVED.\nSound by AYAKO TANIGUCHI\nTURN UP THE VOLUME",
+    "headings": [
+      "MASAYUKI DAIJIMA",
+      "ABOUT"
+    ],
+    "links": [
+      {
+        "text": "ABOUT",
+        "href": "javascript: void(0)"
+      },
+      {
+        "text": "BLOG",
+        "href": "https://daijima.jp/blog"
+      },
+      {
+        "text": "CONTACT",
+        "href": "mailto:hello@daijima.jp?subject=Hello"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/in/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "https://vimeo.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.pinterest.jp/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "javascript: void(0)"
+      },
+      {
+        "text": "Sound by AYAKO TANIGUCHI",
+        "href": "http://ayakotaniguchi.jp/"
+      },
+      {
+        "text": "Adobe Creative Stationデザイナーが選んだ。私が好きなデザイン 2018年3月号",
+        "href": "https://blogs.adobe.com/japan/web-designs-we-love-marrch-edition/"
+      },
+      {
+        "text": "Web Designing 2014年11月号あのHTML5サイトの舞台裏、見せます。",
+        "href": "https://book.mynavi.jp/wd/2014/11.html"
+      },
+      {
+        "text": "Web Designing 2013年12月号スクロール駆動型サイトの構造とテクニック",
+        "href": "https://book.mynavi.jp/wd/2013/12-feature1.html"
+      },
+      {
+        "text": "Think ITAS3.0用のライブラリを活用してみよう！",
+        "href": "https://thinkit.co.jp/article/783/1"
+      },
+      {
+        "text": "Think IT「Papervision3D」を試す！",
+        "href": "https://thinkit.co.jp/article/91/3"
+      },
+      {
+        "text": "Nauts Radio ディベロッパー座談会",
+        "href": "https://open.spotify.com/episode/74eMwceqgGia4o7OWfKK3F"
+      },
+      {
+        "text": "iDID 七夕納涼会 supported by iDID",
+        "href": "https://note.com/idid_team/n/n68875d0f9bbc"
+      },
+      {
+        "text": "CASESTUDYCASESTUDY #3",
+        "href": "https://www.youtube.com/watch?v=GDqi7n0cbnw"
+      },
+      {
+        "text": "normalize.fm009. 海外に踏み出すキッカケと肌身で感じたその違い",
+        "href": "https://normalize.fm/009/"
+      },
+      {
+        "text": "STUDIO DETAILS Inc.｜note細部の作り込みが繋いだ三大アワードの受賞 CIRCUS Shanghaiコーポレートサイト【God is in the details #1 】",
+        "href": "https://note.com/studiodetailsinc/n/n4d54de63e8c0"
+      },
+      {
+        "text": "hello@daijima.jp",
+        "href": "mailto:hello@daijima.jp?subject=Hello"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/in/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "https://vimeo.com/daijimachine"
+      },
+      {
+        "text": "",
+        "href": "https://www.pinterest.jp/daijimachine/"
+      },
+      {
+        "text": "",
+        "href": "javascript: void(0)"
+      },
+      {
+        "text": "",
+        "href": "https://www.google.com/chrome/browser/desktop/index.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.mozilla.org/en-US/firefox/new/"
+      },
+      {
+        "text": "",
+        "href": "https://support.apple.com/downloads/safari"
+      },
+      {
+        "text": "",
+        "href": "https://www.microsoft.com/en-gb/windows/microsoft-edge"
+      }
+    ],
+    "error": "page.screenshot: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n",
+    "scriptErrors": []
+  },
+  {
+    "id": "robby-leonardi",
+    "url": "https://www.rleonardi.com/interactive-resume/",
+    "type": "referencia",
+    "checkedAt": "2026-09-10T22:51:03.671Z",
+    "error": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.rleonardi.com/interactive-resume/\nCall log:\n\u001b[2m  - navigating to \"https://www.rleonardi.com/interactive-resume/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "scriptErrors": []
+  },
+  {
+    "id": "active-theory",
+    "url": "https://activetheory.net/",
+    "type": "estudio",
+    "checkedAt": "2026-09-10T22:51:06.900Z",
+    "status": 200,
+    "title": "Active Theory · Creative Digital Experiences",
+    "finalUrl": "https://activetheory.net/",
+    "text": "3//////3////3//3//////30////// /3//00//3//0//0///3/0///////// ///////////3/////3///3////0/// ///3/0/3/////////////0/3////// /////0//////3////////0//0\n/30",
+    "headings": [],
+    "links": [],
+    "scriptErrors": []
+  },
+  {
+    "id": "lusion",
+    "url": "https://lusion.co/",
+    "type": "estudio",
+    "checkedAt": "2026-09-10T22:51:06.695Z",
+    "status": 200,
+    "title": "Lusion - Award Winning 3D and Interactive Web Studio",
+    "finalUrl": "https://lusion.co/",
+    "text": "BACK\n\nLET'S TALK\nMENU\nCLOSE\nHOME\nHOME\nABOUT US\nABOUT US\nPROJECTS\nPROJECTS\nCONTACT\nCONTACT\nSubscribe to\nour newsletter\nLABS\nLABS\nWe create 3D visual storytelling and interactive web experiences that help brands stand out\nSCROLL TO EXPLORE\nBold Ideas,\nBrought to Life\nWe combine design, motion, 3D, and development to create digital experiences that feel visually striking and technically seamless. From campaign launches to immersive brand worlds, we build work that captures attention and invites interaction.\nOUR APPROACH\nPLAY REEL\nFeatured Work\nA SELECTION OF IMMERSIVE DIGITAL EXPERIENCES CREATED FOR AMBITIOUS BRANDS AND FORWARD THINKING TEAMS.\nCONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nO\nO\nO\nO\nr\nr\nr\nr\ny\ny\ny\ny\nz\nz\nz\nz\no\no\no\no\nA\nA\nA\nA\nI\nI\nI\nI\nCONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nA\nA\nA\nA\nt\nt\nt\nt\nl\nl\nl\nl\na\na\na\na\ns\ns\ns\ns\nM\nM\nM\nM\no\no\no\no\nt\nt\nt\nt\ni\ni\ni\ni\no\no\no\no\nn\nn\nn\nn\nWEB • DESIGN • DEVELOPMENT • 3D\nD\nD\nD\nD\ne\ne\ne\ne\nv\nv\nv\nv\ni\ni\ni\ni\nn\nn\nn\nn\nA\nA\nA\nA\nI\nI\nI\nI\nWEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nO\nO\nO\nO\nf\nf\nf\nf\nT\nT\nT\nT\nh\nh\nh\nh\ne\ne\ne\ne\nO\nO\nO\nO\na\na\na\na\nk\nk\nk\nk\nCONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nE\nE\nE\nE\nv\nv\nv\nv\ne\ne\ne\ne\nr\nr\nr\nr\ns\ns\ns\ns\nw\nw\nw\nw\na\na\na\na\np\np\np\np\nCONCEPT • 3D ILLUSTRATION • MOGRAPH • VIDEO\nP\nP\nP\nP\no\no\no\no\nr\nr\nr\nr\ns\ns\ns\ns\nc\nc\nc\nc\nh\nh\nh\nh\ne\ne\ne\ne\n:\n:\n:\n:\nD\nD\nD\nD\nr\nr\nr\nr\ne\ne\ne\ne\na\na\na\na\nm\nm\nm\nm\nM\nM\nM\nM\na\na\na\na\nc\nc\nc\nc\nh\nh\nh\nh\ni\ni\ni\ni\nn\nn\nn\nn\ne\ne\ne\ne\nWEB • DESIGN • DEVELOPMENT • 3D\nS\nS\nS\nS\ny\ny\ny\ny\nn\nn\nn\nn\nt\nt\nt\nt\nh\nh\nh\nh\ne\ne\ne\ne\nt\nt\nt\nt\ni\ni\ni\ni\nc\nc\nc\nc\nH\nH\nH\nH\nu\nu\nu\nu\nm\nm\nm\nm\na\na\na\na\nn\nn\nn\nn\nWEB • DESIGN • DEVELOPMENT • 3D\nM\nM\nM\nM\ne\ne\ne\ne\nt\nt\nt\nt\na\na\na\na\n:\n:\n:\n:\nS\nS\nS\nS\np\np\np\np\na\na\na\na\nt\nt\nt\nt\ni\ni\ni\ni\na\na\na\na\nl\nl\nl\nl\nF\nF\nF\nF\nu\nu\nu\nu\ns\ns\ns\ns\ni\ni\ni\ni\no\no\no\no\nn\nn\nn\nn\nWEB • DESIGN • DEVELOPMENT • 3D • WEB3\nS\nS\nS\nS\np\np\np\np\na\na\na\na\na\na\na\na\nc\nc\nc\nc\ne\ne\ne\ne\n-\n-\n-\n-\nN\nN\nN\nN\nF\nF\nF\nF\nT\nT\nT\nT\nM\nM\nM\nM\na\na\na\na\nr\nr\nr\nr\nk\nk\nk\nk\ne\ne\ne\ne\nt\nt\nt\nt\np\np\np\np\nl\nl\nl\nl\na\na\na\na\nc\nc\nc\nc\ne\ne\ne\ne\nWEB • DESIGN • DEVELOPMENT • 3D\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\n2\n2\n2\n2\n0\n0\n0\n0\n2\n2\n2\n2\n4\n4\n4\n4\nCONCEPT • WEB • GAME DESIGN • 3D\nC\nC\nC\nC\nh\nh\nh\nh\no\no\no\no\no\no\no\no\nC\nC\nC\nC\nh\nh\nh\nh\no\no\no\no\no\no\no\no\nW\nW\nW\nW\no\no\no\no\nr\nr\nr\nr\nl\nl\nl\nl\nd\nd\nd\nd\nAR • DEVELOPMENT • 3D\nS\nS\nS\nS\no\no\no\no\nd\nd\nd\nd\na\na\na\na\nE\nE\nE\nE\nx\nx\nx\nx\np\np\np\np\ne\ne\ne\ne\nr\nr\nr\nr\ni\ni\ni\ni\ne\ne\ne\ne\nn\nn\nn\nn\nc\nc\nc\nc\ne\ne\ne\ne\nSEE ALL PROJECTS\nWhere Creative Ideas Become Immersive Experiences\nWe do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.\nOur process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact.\nSTEPINTOANEWWORLD\nANDLETYOUR\nIMAGINATIONRUNWILD\nIS YOUR BIG IDEA READY TO GO WILD?\nL\nL\ne\ne\nt\nt\n'\n'\ns\ns\n \nw\nw\no\no\nr\nr\nk\nk\nt\nt\no\no\ng\ng\ne\ne\nt\nt\nh\nh\ne\ne\nr\nr\n!\n!\nCONTINUE TO SCROLL\nCONTINUE TO SCROLL\nSuite 2\n9 Marsh Street\nBristol, BS1 4AA\nUnited Kingdom\nTwitter / X\nInstagram\nLinkedin\nGeneral enquires\nhello@lusion.co\nNew business\nbusiness@lusion.co\nSubscribe to\nour newsletter\n©2026 LUSION Creative Studio\nR&D: labs.lusion.co\nBuilt by Lusion with ❤️\nKEEP SCROLLING\nTO LEARN MORE\nABOUT US\nNEXT PAGE\n0\n0\n0\n0\n5\n5",
+    "headings": [
+      " Subscribe to our newsletter ",
+      "We create 3D visual storytelling and interactive web experiences that help brands stand out",
+      "We combine design, motion, 3D, and development to create digital experiences that feel visually striking and technically seamless. From campaign launches to immersive brand worlds, we build work that captures attention and invites interaction."
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://lusion.co/"
+      },
+      {
+        "text": "",
+        "href": "mailto:hello@lusion.co"
+      },
+      {
+        "text": "HOME\nHOME",
+        "href": "https://lusion.co/"
+      },
+      {
+        "text": "ABOUT US\nABOUT US",
+        "href": "https://lusion.co/about"
+      },
+      {
+        "text": "PROJECTS\nPROJECTS",
+        "href": "https://lusion.co/projects"
+      },
+      {
+        "text": "",
+        "href": "mailto:hello@lusion.co"
+      },
+      {
+        "text": "LABS\nLABS",
+        "href": "https://labs.lusion.co/"
+      },
+      {
+        "text": "OUR APPROACH",
+        "href": "https://lusion.co/about"
+      },
+      {
+        "text": "CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nO\nO\nO\nO\nr\nr\nr\nr\ny\ny\ny\ny\nz\nz\nz\nz\no\no\no\no\nA\nA\nA\nA\nI\nI\nI\nI",
+        "href": "https://lusion.co/projects/oryzo_ai"
+      },
+      {
+        "text": "CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nA\nA\nA\nA\nt\nt\nt\nt\nl\nl\nl\nl\na\na\na\na\ns\ns\ns\ns\nM\nM\nM\nM\no\no\no\no\nt\nt\nt\nt\ni\ni\ni\ni\no\no\no\no\nn\nn\nn\nn",
+        "href": "https://lusion.co/projects/atlas_motion"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D\nD\nD\nD\nD\ne\ne\ne\ne\nv\nv\nv\nv\ni\ni\ni\ni\nn\nn\nn\nn\nA\nA\nA\nA\nI\nI\nI\nI",
+        "href": "https://lusion.co/projects/devin_ai"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nO\nO\nO\nO\nf\nf\nf\nf\nT\nT\nT\nT\nh\nh\nh\nh\ne\ne\ne\ne\nO\nO\nO\nO\na\na\na\na\nk\nk\nk\nk",
+        "href": "https://lusion.co/projects/of_the_oak"
+      },
+      {
+        "text": "CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION\nE\nE\nE\nE\nv\nv\nv\nv\ne\ne\ne\ne\nr\nr\nr\nr\ns\ns\ns\ns\nw\nw\nw\nw\na\na\na\na\np\np\np\np",
+        "href": "https://lusion.co/projects/everswap"
+      },
+      {
+        "text": "CONCEPT • 3D ILLUSTRATION • MOGRAPH • VIDEO\nP\nP\nP\nP\no\no\no\no\nr\nr\nr\nr\ns\ns\ns\ns\nc\nc\nc\nc\nh\nh\nh\nh\ne\ne\ne\ne\n:\n:\n:\n:\nD\nD\nD\nD\nr\nr\nr\nr\ne\ne\ne\ne\na\na\na\na\nm\nm\nm\nm\nM\nM\nM\nM\na\na\na\na\nc\nc\nc\nc\nh\nh\nh\nh\ni\ni\ni\ni\nn\nn\nn\nn\ne\ne\ne\ne",
+        "href": "https://lusion.co/projects/porsche_dream_machine"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D\nS\nS\nS\nS\ny\ny\ny\ny\nn\nn\nn\nn\nt\nt\nt\nt\nh\nh\nh\nh\ne\ne\ne\ne\nt\nt\nt\nt\ni\ni\ni\ni\nc\nc\nc\nc\nH\nH\nH\nH\nu\nu\nu\nu\nm\nm\nm\nm\na\na\na\na\nn\nn\nn\nn",
+        "href": "https://lusion.co/projects/synthetic_human"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D\nM\nM\nM\nM\ne\ne\ne\ne\nt\nt\nt\nt\na\na\na\na\n:\n:\n:\n:\nS\nS\nS\nS\np\np\np\np\na\na\na\na\nt\nt\nt\nt\ni\ni\ni\ni\na\na\na\na\nl\nl\nl\nl\nF\nF\nF\nF\nu\nu\nu\nu\ns\ns\ns\ns\ni\ni\ni\ni\no\no\no\no\nn\nn\nn\nn",
+        "href": "https://lusion.co/projects/spatial_fusion"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D • WEB3\nS\nS\nS\nS\np\np\np\np\na\na\na\na\na\na\na\na\nc\nc\nc\nc\ne\ne\ne\ne\n-\n-\n-\n-\nN\nN\nN\nN\nF\nF\nF\nF\nT\nT\nT\nT\nM\nM\nM\nM\na\na\na\na\nr\nr\nr\nr\nk\nk\nk\nk\ne\ne\ne\ne\nt\nt\nt\nt\np\np\np\np\nl\nl\nl\nl\na\na\na\na\nc\nc\nc\nc\ne\ne\ne\ne",
+        "href": "https://lusion.co/projects/spaace"
+      },
+      {
+        "text": "WEB • DESIGN • DEVELOPMENT • 3D\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\n2\n2\n2\n2\n0\n0\n0\n0\n2\n2\n2\n2\n4\n4\n4\n4",
+        "href": "https://lusion.co/projects/ddd_2024"
+      },
+      {
+        "text": "CONCEPT • WEB • GAME DESIGN • 3D\nC\nC\nC\nC\nh\nh\nh\nh\no\no\no\no\no\no\no\no\nC\nC\nC\nC\nh\nh\nh\nh\no\no\no\no\no\no\no\no\nW\nW\nW\nW\no\no\no\no\nr\nr\nr\nr\nl\nl\nl\nl\nd\nd\nd\nd",
+        "href": "https://lusion.co/projects/choo_choo_world"
+      },
+      {
+        "text": "AR • DEVELOPMENT • 3D\nS\nS\nS\nS\no\no\no\no\nd\nd\nd\nd\na\na\na\na\nE\nE\nE\nE\nx\nx\nx\nx\np\np\np\np\ne\ne\ne\ne\nr\nr\nr\nr\ni\ni\ni\ni\ne\ne\ne\ne\nn\nn\nn\nn\nc\nc\nc\nc\ne\ne\ne\ne",
+        "href": "https://lusion.co/projects/soda_experience"
+      },
+      {
+        "text": "SEE ALL PROJECTS",
+        "href": "https://lusion.co/projects"
+      },
+      {
+        "text": "Suite 2\n9 Marsh Street\nBristol, BS1 4AA\nUnited Kingdom",
+        "href": "https://goo.gl/maps/x9evc1NxZocjrM947"
+      },
+      {
+        "text": "Twitter / X",
+        "href": "https://twitter.com/lusionltd/"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/lusionltd/"
+      },
+      {
+        "text": "Linkedin",
+        "href": "https://www.linkedin.com/company/lusionltd/"
+      },
+      {
+        "text": "hello@lusion.co",
+        "href": "mailto:hello@lusion.co"
+      },
+      {
+        "text": "business@lusion.co",
+        "href": "mailto:business@lusion.co"
+      },
+      {
+        "text": "R&D: labs.lusion.co",
+        "href": "https://labs.lusion.co/"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "hachimitsu",
+    "url": "https://hachimitsuatelierdedelicias.vercel.app/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:13.084Z",
+    "status": 200,
+    "title": "Hachimitsu Atelier de Delícias | Onde a arte encontra o sabor",
+    "finalUrl": "https://hachimitsuatelierdedelicias.vercel.app/",
+    "text": "INÍCIO\nNOSSA HISTÓRIA\nCARDÁPIO\nNOSSAS LOJAS\nCONTATO\nFAZER PEDIDO\nAtelier de Delícias!\nINÍCIO\nNOSSA HISTÓRIA\nCARDÁPIO\nNOSSAS LOJAS\nCONTATO\nFAZER PEDIDO\nOnde a arte\nencontra o sabor!\n\nDescubra o prazer de cada mordida em nossas delicadas criações.\n\n(43) 3344-0314\nA HACHIMITSU\n\nExplore a história, paixão e dedicação por trás da Hachimitsu.\n\nUma jornada de amor pela confeitaria que se traduz em cada criação única.\n\nATELIER DE DELÍCIAS\nPEÇA AGORA\nPEÇA AGORA\nPEÇA AGORA\nPEÇA AGORA\nCONHEÇA NOSSOS PRODUTOS\nO QUE NOSSOS CLIENTES DIZEM\nMais que delícias,\nexperiências\ngastronômicas\n\nNa Hachimitsu, não apenas criamos delícias, mas também oferecemos uma experiência única de arte em cada mordida. De momentos de alegria a um verdadeiro atelier de delícias, cada visita é uma jornada culinária inesquecível.\n\nnos conheça no iFood\nHachimitsu:\nMAESTRIA DE SABOR\n\nEm cada doce, pão ou bebida, você descobre nossa paixão pela confeitaria de alto padrão. Fundada com dedicação e amor, a Hachimitsu é mais que uma confeitaria; é um atelier de delícias, um refúgio de sabores inesquecíveis.\n\n@hachimitsubrasil\n@hachimitsubrasil\n(43) 3344-0314\n(43) 3344-0314\ncontato@hachimitsu.com.br\nTodos os direitos reservados - HACHIMITSU ATELIER DE DELICIAS LTDA - 09.629.099/0001-60\nEndereço: Av. Esperanto, 400, Cilo II, Londrina - PR, 86067-100.",
+    "headings": [
+      "Onde a arte encontra o sabor!",
+      "A HACHIMITSU",
+      "ATELIER DE DELÍCIAS",
+      "O QUE NOSSOS CLIENTES DIZEM",
+      "Mais que delícias,experiências gastronômicas",
+      "Hachimitsu:",
+      "MAESTRIA DE SABOR"
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#inicio"
+      },
+      {
+        "text": "INÍCIO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#inicio"
+      },
+      {
+        "text": "NOSSA HISTÓRIA",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#historia"
+      },
+      {
+        "text": "CARDÁPIO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#atelier"
+      },
+      {
+        "text": "NOSSAS LOJAS",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#lojas"
+      },
+      {
+        "text": "CONTATO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#carrossel-lojas"
+      },
+      {
+        "text": "FAZER PEDIDO",
+        "href": "https://wa.me/554333440314"
+      },
+      {
+        "text": "INÍCIO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#inicio"
+      },
+      {
+        "text": "NOSSA HISTÓRIA",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#historia"
+      },
+      {
+        "text": "CARDÁPIO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#atelier"
+      },
+      {
+        "text": "NOSSAS LOJAS",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#lojas"
+      },
+      {
+        "text": "CONTATO",
+        "href": "https://hachimitsuatelierdedelicias.vercel.app/#carrossel-lojas"
+      },
+      {
+        "text": "FAZER PEDIDO",
+        "href": "https://wa.me/554333440314"
+      },
+      {
+        "text": "(43) 3344-0314",
+        "href": "https://wa.me/554333440314"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20del%C3%ADcias%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "PEÇA AGORA",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20del%C3%ADcias%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20del%C3%ADcias%20salgadas%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "PEÇA AGORA",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20del%C3%ADcias%20salgadas%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20bebidas%20e%20caf%C3%A9s%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "PEÇA AGORA",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20bebidas%20e%20caf%C3%A9s%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20Petit%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "PEÇA AGORA",
+        "href": "https://wa.me/554333440314?text=Ol%C3%A1!%20Gostaria%20de%20encomendar%20Petit%20do%20Atelier%20de%20Del%C3%ADcias%20Hachimitsu."
+      },
+      {
+        "text": "",
+        "href": "https://hachimitsu.cloudfy.net.br/home/inicio;id=32f673c4eec544dd94ad9776d1949382"
+      },
+      {
+        "text": "CONHEÇA NOSSOS PRODUTOS",
+        "href": "https://hachimitsu.cloudfy.net.br/home/inicio;id=32f673c4eec544dd94ad9776d1949382"
+      },
+      {
+        "text": "nos conheça no iFood",
+        "href": "https://www.ifood.com.br/delivery/londrina-pr/hachimitsu-atelier-de-delicias-parque-guanabara/2c7ca925-e638-49f3-9ed6-da5f653fdebb"
+      },
+      {
+        "text": "@hachimitsubrasil",
+        "href": "https://www.instagram.com/hachimitsubrasil"
+      },
+      {
+        "text": "@hachimitsubrasil",
+        "href": "https://www.facebook.com/hachimitsubrasil"
+      },
+      {
+        "text": "(43) 3344-0314",
+        "href": "tel:4333440314"
+      },
+      {
+        "text": "(43) 3344-0314",
+        "href": "https://wa.me/554333440314"
+      },
+      {
+        "text": "contato@hachimitsu.com.br",
+        "href": "mailto:contato@hachimitsu.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554333440314"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "consultingnow",
+    "url": "https://lpconsultingnow.vercel.app/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:13.804Z",
+    "status": 200,
+    "title": "Consulting Now - Rede Sul | Diagnóstico Empresarial",
+    "finalUrl": "https://lpconsultingnow.vercel.app/",
+    "text": "A Solução\nMetodologia\nConsultores\nUnidades\nDiferenciais\nClientes\nSolicitar contato\nSUA EMPRESA JÁ VENDE. A PERGUNTA É:\nELA ESTÁ PREPARADA PARA LUCRAR COM SOLIDEZ?\n\nTransforme faturamento em lucro real através de uma gestão estruturada e processos validados por mais de 700 empresas.\n\nSOLICITE SEU DIAGNÓSTICO\nCidade / Região de Interesse\nCamboriú / SC\nToledo / PR\nLondrina / PR\nCuritiba / PR\nPorto Alegre / RS\nSolicitar Diagnóstico\n32\nAnos de atuação\n90+\nUnidades no Brasil\n+700\nEmpresas atendidas\nO CUSTO INVISÍVEL DE CRESCER SEM GESTÃO\n\nProcessos bem definidos separam empresas altamente lucrativas daquelas que apenas sobrevivem ao próprio faturamento. Para crescer com solidez, vender muito é apenas o primeiro passo. É comum que o crescimento comercial de uma empresa aconteça muito antes da sua estrutura de gestão amadurecer. O resultado é uma operação que depende fortemente do dono, decisões tomadas sem indicadores confiáveis e margens que não refletem o verdadeiro esforço de vendas.\n\nIdentificar esses pontos cedo é o que permite corrigir a rota com previsibilidade, antes que se tornem um obstáculo estrutural. É para isso que serve o nosso Diagnóstico Empresarial: um retrato completo da gestão, dos processos e dos resultados da sua empresa. Um trabalho conduzido lado a lado com você, e não apenas entregue em um relatório no final do processo.\n\nSolicitar contato com o Consultor da minha região\nCOMO FUNCIONA O DIAGNÓSTICO\n\nEm um processo estruturado de 4 semanas, mapeamos a operação, os processos e os resultados financeiros da empresa, com metodologia aplicada há mais de três décadas pela rede.\n\n01\nLevantamento e diagnóstico\n\nAnálise da gestão, processos e indicadores financeiros de forma profunda.\n\n02\nPlano de ação\n\nPriorização de oportunidades com metas, responsáveis e prazos definidos.\n\n03\nAcompanhamento da implantação\n\nA Consulting Now atua ao lado do time do cliente na execução, garantindo que o plano não fique apenas no papel.\n\nCONHEÇA OS ESPECIALISTAS DA REDE SUL\n\nNavegue pelos consultores para conhecer a liderança e as especialidades de cada praça regional.\n\nAdalberto\nCamboriú / SC\nRenato & Simone\nCuritiba / PR\nVladmir\nPorto Alegre / RS\nJosé Roberto\nLondrina / PR\nIvan\nToledo / PR\nCAMBORIÚ / SC\n1 de 5\nADALBERTO PELIM\n\nConsultor Regional & Sócio-Diretor\n\nEspecialista em gestão estratégica, governança e fortalecimento de cultura organizacional. Focado em reorganização de processos e alavancagem de lucratividade com total transparência e controle para o empresário.\n\nFalar no WhatsApp\nE-mail\nENCONTRE A UNIDADE MAIS PRÓXIMA DE VOCÊ\nCAMBORIÚ / SC\n\nEndereço: Rua Pedro Bento da Silva, 625\n\nTelefone:\n(47) 99143-0363\n\nChamar\n\nE-mail: adalberto.pelim@consultingnow.com.br\n\nCURITIBA / PR\n\nEndereço: Av Silva Jardim, 2389, 61\n\nTelefone:\n(41) 98757-8374 (Renato)\n\nChamar\n\nTelefone:\n(47) 99671-9974 (Simone)\n\nChamar\n\nE-mail: renato.osvaldo@consultingnow.com.br\n\nPORTO ALEGRE / RS\n\nEndereço: Rua Mostardeiro, 777, Sala 1401, Bairro Independência\n\nTelefone:\n(51) 98143-1700\n\nChamar\n\nE-mail: vladmir.rodrigues@consultingnow.com.br\n\nLONDRINA / PR\n\nEndereço: Av. Madre Leônia Milito, 1500 Atsushi Yoshii Tower sala 306\n\nTelefone:\n(43) 3026-1500\n\nChamar\n\nE-mail: jroberto.lopes@consultingnow.com.br\n\nTOLEDO / PR\n\nEndereço: Rua Guarani, 2106 - Sala 02\n\nTelefone:\n(45) 99972-8678\n\nChamar\n\nE-mail: ivan.goettems@consultingnow.com.br\n\nO QUE DIFERENCIA A CONSULTING NOW\n\nMais do que recomendações, entregamos execução. Trabalhamos lado a lado com a sua equipe para transformar a gestão da sua empresa, focando em resultados reais e mensuráveis.\n\nRESULTADO\n\nProjetos orientados a retorno mensurável sobre o investimento, com acompanhamento de indicadores.\n\nRESPONSABILIDADE\n\nAtuação conjunta na implantação, não apenas consultoria de recomendação.\n\nREDE\n\nMais de três décadas de metodologia consolidada em 90+ unidades no Brasil.\n\nREGIONAL\n\nAtendimento próximo, com a estrutura de uma consultoria nacional.\n\nComece seu diagnóstico agora\nO QUE NOSSOS CLIENTES DIZEM\n\nVeja como a Consulting Now transformou a realidade e a lucratividade de empresas por todo o Brasil. Conheça histórias de líderes que deixaram de apagar incêndios operacionais para construir negócios estruturados, escaláveis e com resultados financeiros consistentes.\n\n★★★★★\n\n\"O diagnóstico revelou gargalos financeiros que não enxergávamos. Implantamos a DRE gerencial com eles e hoje temos visibilidade total sobre nosso lucro.\"\n\nDiretor Financeiro\nSetor de Distribuição\n★★★★★\n\n\"A metodologia da Consulting Now foi o que precisávamos. Saímos de uma gestão familiar focada em 'apagar incêndios' para um modelo profissional de resultados práticos.\"\n\nSócio Proprietário\nRede Varejista Regional\n★★★★★\n\n\"Eles não vieram só dar dicas, a equipe botou a mão na massa junto conosco. Reduzimos custos operacionais já nos primeiros três meses de projeto.\"\n\nCEO\nIndústria Metalúrgica\nFaturamento aproximado (faixa)\nAté R$ 1 Milhão/ano\nR$ 1M a R$ 5 Milhões/ano\nR$ 5M a R$ 20 Milhões/ano\nAcima de R$ 20 Milhões/ano\nCidade / Unidade de atendimento (obrigatório)\nLondrina\nToledo\nCuritiba\nCamboriú\nPorto Alegre\nEnviar solicitação\nPRONTO PARA TRANSFORMAR A GESTÃO DA SUA EMPRESA?\n\nPreencha os dados ao lado. Nossos especialistas farão uma análise do seu cenário para mostrar os caminhos exatos que vão organizar sua operação e aumentar seus lucros.\n\nConsultoria e Gestão Empresarial focada em resultados reais e estruturação inteligente para o seu negócio.\n\nNAVEGAÇÃO\nA Solução\nMetodologia\nUnidades\nDiferenciais\nClientes\nLEGAL\nTermos de Uso\nPolítica de Privacidade\nFale Conosco\n\n© 2026 Consulting Now - Rede Sul. Todos os direitos reservados.",
+    "headings": [
+      "Ela está preparada para lucrar com solidez?",
+      "Solicite seu Diagnóstico",
+      "O custo invisível de crescer sem gestão",
+      "Como funciona o diagnóstico",
+      "Levantamento e diagnóstico",
+      "Plano de ação",
+      "Acompanhamento da implantação",
+      "Conheça os Especialistas da Rede Sul",
+      "Adalberto Pelim",
+      "Renato Osvaldo & Simone",
+      "Vladmir Rodrigues",
+      "José Roberto Lopes",
+      "Ivan Goettems",
+      "Encontre a unidade mais próxima de você",
+      "O que diferencia a Consulting Now",
+      "Resultado",
+      "Responsabilidade",
+      "Rede",
+      "Regional",
+      "O que nossos clientes dizem",
+      "Pronto para transformar a gestão da sua empresa?"
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "A Solução",
+        "href": "https://lpconsultingnow.vercel.app/#solucao"
+      },
+      {
+        "text": "Metodologia",
+        "href": "https://lpconsultingnow.vercel.app/#metodologia"
+      },
+      {
+        "text": "Consultores",
+        "href": "https://lpconsultingnow.vercel.app/#consultores"
+      },
+      {
+        "text": "Unidades",
+        "href": "https://lpconsultingnow.vercel.app/#unidades"
+      },
+      {
+        "text": "Diferenciais",
+        "href": "https://lpconsultingnow.vercel.app/#diferenciais"
+      },
+      {
+        "text": "Clientes",
+        "href": "https://lpconsultingnow.vercel.app/#clientes"
+      },
+      {
+        "text": "Solicitar contato",
+        "href": "https://lpconsultingnow.vercel.app/#contato"
+      },
+      {
+        "text": "Solicitar contato",
+        "href": "https://lpconsultingnow.vercel.app/#contato"
+      },
+      {
+        "text": "Solicitar contato com o Consultor da minha região",
+        "href": "https://lpconsultingnow.vercel.app/#contato"
+      },
+      {
+        "text": "Falar no WhatsApp",
+        "href": "https://wa.me/5547991430363"
+      },
+      {
+        "text": "E-mail",
+        "href": "mailto:adalberto.pelim@consultingnow.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/5541987578374"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/5547996719974"
+      },
+      {
+        "text": "",
+        "href": "mailto:renato.osvaldo@consultingnow.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/5551981431700"
+      },
+      {
+        "text": "",
+        "href": "mailto:vladmir.rodrigues@consultingnow.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/554330261500"
+      },
+      {
+        "text": "",
+        "href": "mailto:jroberto.lopes@consultingnow.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://wa.me/5545999728678"
+      },
+      {
+        "text": "",
+        "href": "mailto:ivan.goettems@consultingnow.com.br"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/5547991430363"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/5541987578374"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/5547996719974"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/5551981431700"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/554330261500"
+      },
+      {
+        "text": "Chamar",
+        "href": "https://wa.me/5545999728678"
+      },
+      {
+        "text": "Comece seu diagnóstico agora",
+        "href": "https://lpconsultingnow.vercel.app/#contato"
+      },
+      {
+        "text": "",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "A Solução",
+        "href": "https://lpconsultingnow.vercel.app/#solucao"
+      },
+      {
+        "text": "Metodologia",
+        "href": "https://lpconsultingnow.vercel.app/#metodologia"
+      },
+      {
+        "text": "Unidades",
+        "href": "https://lpconsultingnow.vercel.app/#unidades"
+      },
+      {
+        "text": "Diferenciais",
+        "href": "https://lpconsultingnow.vercel.app/#diferenciais"
+      },
+      {
+        "text": "Clientes",
+        "href": "https://lpconsultingnow.vercel.app/#clientes"
+      },
+      {
+        "text": "Termos de Uso",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "https://lpconsultingnow.vercel.app/#"
+      },
+      {
+        "text": "Fale Conosco",
+        "href": "https://lpconsultingnow.vercel.app/#contato"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "bmk",
+    "url": "https://bmk-omega.vercel.app/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:20.906Z",
+    "status": 200,
+    "title": "BMK | Inteligência Operacional",
+    "finalUrl": "https://bmk-omega.vercel.app/",
+    "text": "BUSINESS\n•\nMARKETING\n•\nKERNEL\npsychology\nBMK.AI\n>>>\nCONHEÇA A PLATAFORMA NËXXO\nchevron_left\nchevron_right\n\nA NËXXO é a plataforma proprietária da BMK responsável por integrar inteligência, automação, performance, percepção e dados dentro de um único ecossistema estratégico. Mais do que tecnologia, ela funciona como o núcleo operacional que conecta branding, crescimento, posicionamento e tomada de decisão em tempo real.\n\npublic\nSite\n>>>\nInstagram\n>>>\nFacebook\n>>>\nLinkedIn\n>>>\nYouTube\n>>>\nCONHEÇA NOSSOS SERVIÇOS\nESTRUTURA\nEssential\n\nPara empresas que desejam construir uma presença estratégica com direção e posicionamento.\n\ncheck_circle\nDiagnóstico estratégico\ncheck_circle\nEstrutura inicial de posicionamento\ncheck_circle\nGestão de canais estratégicos\ncheck_circle\nDashboard de performance\nSaiba Mais\n>>>\nESTRUTURA\nPremium\nstar\n\nPara marcas que desejam autoridade, crescimento previsível e presença forte de mercado.\n\ncheck_circle\nBranding + Performance + Conteúdo\ncheck_circle\nSEO + AEO + Growth Marketing\ncheck_circle\nCRM & Automação Inteligente\ncheck_circle\nReuniões estratégicas mensais\ncheck_circle\nDashboard avançado\nSaiba Mais\n>>>\nESTRUTURA\nEnterprise\n\nPara empresas que desejam dominar percepção e liderar seus segmentos.\n\ncheck_circle\nNúcleo estratégico dedicado\ncheck_circle\nEcossistema BMK completo\ncheck_circle\nInteligência competitiva contínua\ncheck_circle\nEstrutura operacional prioritária\nSaiba Mais\n>>>\nchevron_left\nchevron_right\ncall\nLigação\n>>>\nConverse agora no WhatsApp\n>>>\nTERMOS DE USO\n•\nPOLÍTICA DE PRIVACIDADE\n\nEste site não é afiliado ao Facebook, Google ou a qualquer de suas entidades associadas. Todos os conteúdos e estratégias são de propriedade exclusiva da BMK.\n\n© 2026 BMK. Todos os direitos reservados.\n\nlock\nCONEXÃO SEGURA VIA SSL",
+    "headings": [
+      "BUSINESS•MARKETING•KERNEL",
+      "CONHEÇA A PLATAFORMA NËXXO",
+      "CONHEÇA NOSSOS SERVIÇOS",
+      "Essential",
+      "Premium",
+      "Enterprise"
+    ],
+    "links": [
+      {
+        "text": "public\nSite\n>>>",
+        "href": "https://bmkgow.com/"
+      },
+      {
+        "text": "Instagram\n>>>",
+        "href": "https://www.instagram.com/bmk.gow/"
+      },
+      {
+        "text": "Facebook\n>>>",
+        "href": "https://www.facebook.com/people/BMK/61572581300553/#"
+      },
+      {
+        "text": "LinkedIn\n>>>",
+        "href": "https://www.linkedin.com/company/bmk-gow/posts/?feedView=all"
+      },
+      {
+        "text": "YouTube\n>>>",
+        "href": "https://www.youtube.com/@GerenteBihMark"
+      },
+      {
+        "text": "call\nLigação\n>>>",
+        "href": "tel:+554384390164"
+      },
+      {
+        "text": "Converse agora no WhatsApp\n>>>",
+        "href": "https://wa.me/554384390164?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20Multilink%20e%20gostaria%20de%20solicitar%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os%20de%20marketing."
+      },
+      {
+        "text": "TERMOS DE USO",
+        "href": "https://bmk-omega.vercel.app/termos"
+      },
+      {
+        "text": "POLÍTICA DE PRIVACIDADE",
+        "href": "https://bmk-omega.vercel.app/privacidade"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "odc-morro-agudo",
+    "url": "https://lpodcmorroagudo.vercel.app/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:20.121Z",
+    "status": 200,
+    "title": "ODONTOCOMPANY MORRO AGUDO - Agende sua Avaliação",
+    "finalUrl": "https://lpodcmorroagudo.vercel.app/",
+    "text": "MORRO AGUDO\nTratamentos\nVídeo\nEstrutura\nDentistas\nDepoimentos\nDúvidas\nContato\nAgendar Avaliação\nUNIDADE MORRO AGUDO\nSorria de verdade com a ODONTOCOMPANY MORRO AGUDO\n\nTratamentos odontológicos modernos e completos com parcelas que cabem perfeitamente no seu bolso. Agende sua avaliação hoje mesmo!\n\nAgende sua avaliação gratuita\n\nPreencha o formulário e fale no WhatsApp da nossa Unidade\n\nNome Completo\nWhatsApp com DDD\nDigite DDD + número.\nTratamento de interesse (Opcional)\nSelecione um procedimento...\nImplantes Dentários\nOrtodontia (Aparelhos)\nLentes de Contato Dental\nClareamento Dental\nPróteses Dentárias\nClínico Geral & Limpeza\nIniciar Agendamento\n\n🔒 Seus dados estão seguros e protegidos em conformidade com a LGPD.\n\nTodas as especialidades odontológicas\nEquipamentos de alta tecnologia\nAtendimento humanizado e acolhedor\nCondições e parcelamento facilitados\nCFO - REGULAMENTADO\nSELO EXCELÊNCIA ABF\nAVALIAÇÃO GOOGLE 4.9/5\n+25 MILHÕES DE SORRISOS\nCFO - REGULAMENTADO\nSELO EXCELÊNCIA ABF\nAVALIAÇÃO GOOGLE 4.9/5\n+25 MILHÕES DE SORRISOS\nEspecialidades Odontológicas\nTratamentos completos para você e sua família\n\nDispomos de profissionais qualificados em todas as áreas da odontologia moderna para atender a qualquer necessidade.\n\nImplantes Dentários\n\nRecupere sua autoestima e a capacidade mastigatória com procedimentos modernos, seguros e parcelamento facilitado.\n\nSABER MAIS\nOrtodontia (Aparelhos)\n\nAlinhamento dentário com aparelhos fixos metálicos, estéticos e os modernos alinhadores transparentes.\n\nSABER MAIS\nLentes de Contato Dental\n\nHarmonia, brilho e alinhamento impecável com facetas e lentes de porcelana de alta durabilidade.\n\nSABER MAIS\nClareamento Dental\n\nDentes mais brancos e radiantes com técnicas a laser em consultório ou moldeira caseira supervisionada.\n\nSABER MAIS\nPróteses Dentárias\n\nSoluções fixas e removíveis com materiais de alto padrão para restabelecer seu sorriso e conforto.\n\nSABER MAIS\nClínico Geral & Limpeza\n\nPrevenção, profilaxia, restaurações e diagnóstico completo para a manutenção da sua saúde bucal.\n\nSABER MAIS\nConsultar outros procedimentos\nA marca que você conhece e confia na TV aberta\n\nCom presença diária nos maiores canais do país, trazemos a segurança e a credibilidade da maior rede de clínicas odontológicas do mundo diretamente para cuidar do seu sorriso.\n\nCampanha de Destaque Nacional OdontoCompany\n\nCONHEÇA NOSSA UNIDADE\nEstrutura moderna planejada para o seu bem-estar\n\nAmbientes climatizados, salas esterilizadas e equipamentos de ponta para garantir a segurança e o conforto do seu atendimento em Morro Agudo.\n\nLOCALIZAÇÃO DA UNIDADE\n\nRua Carlos Gomes, 463 - Centro\n\nVisitar Unidade\nResponsável Técnica\n\nConheça a profissional responsável por cuidar da saúde e excelência no atendimento na unidade Morro Agudo.\n\nDra. Leticia de Melo Maia\n\nRESPONSÁVEL TÉCNICO(A) & CIRURGIÃO(Ã) DENTISTA\n\nCRO-SP 115568\n\nO que dizem nossos pacientes\n\nA satisfação de quem confiou o sorriso à ODONTOCOMPANY MORRO AGUDO.\n\n\"Excelente atendimento na OdontoCompany Morro Agudo! A clínica é muito bonita, os profissionais super atenciosos e o tratamento de implante foi super tranquilo.\"\n\nCarlos Alberto M.\n\nPaciente da Unidade\n\nImplante Dentário\n\n\"Coloquei meu aparelho na OdontoCompany Morro Agudo e já vejo muita diferença no meu sorriso. Facilidade no pagamento e equipe maravilhosa!\"\n\nMariana Silveira\n\nPaciente da Unidade\n\nOrtodontia\n\n\"Fiz clareamento e limpeza preventiva na unidade. Atendimento pontual, ambiente muito limpo e profissionais que passam muita segurança. Recomendo a todos de Morro Agudo e região.\"\n\nLuciana Ramos\n\nPaciente da Unidade\n\nClareamento Dental\nDúvidas Frequentes\nComo funciona a primeira consulta de avaliação?\nQuais são as formas de pagamento disponíveis?\nA OdontoCompany atende convênios odontológicos?\nOnde fica a clínica em Morro Agudo e como agendar?\nPronto para transformar o seu sorriso?\n\nUse o formulário ao lado para solicitar sua avaliação gratuita na OdontoCompany Morro Agudo. Escolha o procedimento desejado e preencha seus dados para garantirmos o melhor horário para você.\n\nEndereço da Unidade:\n\nRua Carlos Gomes, 463 - Centro\n\nMorro Agudo - SP, CEP 14640-000\n\n(16) 3851-5050\n\nPASSO 1 DE 2\nPré-Agendamento Online\nQual é o seu objetivo?\n\nSelecione o procedimento que deseja realizar para direcionarmos você ao especialista correto.\n\nImplantes Dentários\nOrtodontia (Aparelhos)\nLentes de Contato Dental\nClareamento Dental\nPróteses Dentárias\nClínico Geral & Limpeza\nPRÓXIMO\n\nODONTOCOMPANY MORRO AGUDO\n\nRUA CARLOS GOMES, 463 - CENTRO\n\nMORRO AGUDO - SP, CEP 14640-000\n\nRT: DRA. LETICIA DE MELO MAIA | CRO-SP 115568\n\nCRO-SP 115.568\n\n© 2026 OdontoCompany Morro Agudo. Todos os direitos reservados.\n\nTratamentos\n·\nEstrutura\n·\nDentistas",
+    "headings": [
+      "Sorria de verdade com a OdontoCompany Morro Agudo",
+      "Agende sua avaliação gratuita",
+      "Especialidades Odontológicas",
+      "Tratamentos completos para você e sua família",
+      "Implantes Dentários",
+      "Ortodontia (Aparelhos)",
+      "Lentes de Contato Dental",
+      "Clareamento Dental",
+      "Próteses Dentárias",
+      "Clínico Geral & Limpeza",
+      "A marca que você conhece e confia na TV aberta",
+      "Estrutura moderna planejada para o seu bem-estar",
+      "Responsável Técnica",
+      "Dra. Leticia de Melo Maia",
+      "O que dizem nossos pacientes",
+      "Dúvidas Frequentes",
+      "Pronto para transformar o seu sorriso?",
+      "Qual é o seu objetivo?"
+    ],
+    "links": [
+      {
+        "text": "Tratamentos",
+        "href": "https://lpodcmorroagudo.vercel.app/#tratamentos"
+      },
+      {
+        "text": "Vídeo",
+        "href": "https://lpodcmorroagudo.vercel.app/#video"
+      },
+      {
+        "text": "Estrutura",
+        "href": "https://lpodcmorroagudo.vercel.app/#estrutura"
+      },
+      {
+        "text": "Dentistas",
+        "href": "https://lpodcmorroagudo.vercel.app/#profissionais"
+      },
+      {
+        "text": "Depoimentos",
+        "href": "https://lpodcmorroagudo.vercel.app/#depoimentos"
+      },
+      {
+        "text": "Dúvidas",
+        "href": "https://lpodcmorroagudo.vercel.app/#faq"
+      },
+      {
+        "text": "Contato",
+        "href": "https://lpodcmorroagudo.vercel.app/#localizacao"
+      },
+      {
+        "text": "Agendar Avaliação",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20de%20avalia%C3%A7%C3%A3o%20na%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "Tratamentos",
+        "href": "https://lpodcmorroagudo.vercel.app/#tratamentos"
+      },
+      {
+        "text": "Vídeo",
+        "href": "https://lpodcmorroagudo.vercel.app/#video"
+      },
+      {
+        "text": "Estrutura",
+        "href": "https://lpodcmorroagudo.vercel.app/#estrutura"
+      },
+      {
+        "text": "Dentistas",
+        "href": "https://lpodcmorroagudo.vercel.app/#profissionais"
+      },
+      {
+        "text": "Depoimentos",
+        "href": "https://lpodcmorroagudo.vercel.app/#depoimentos"
+      },
+      {
+        "text": "Dúvidas",
+        "href": "https://lpodcmorroagudo.vercel.app/#faq"
+      },
+      {
+        "text": "Contato",
+        "href": "https://lpodcmorroagudo.vercel.app/#localizacao"
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Implantes%20Dent%C3%A1rios%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Ortodontia%20(Aparelhos)%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Lentes%20de%20Contato%20Dental%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Clareamento%20Dental%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Pr%C3%B3teses%20Dent%C3%A1rias%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "SABER MAIS",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20Cl%C3%ADnico%20Geral%20%26%20Limpeza%20na%20unidade%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "Consultar outros procedimentos",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20tratamentos%20na%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "Visitar Unidade",
+        "href": "https://wa.me/5516990515050?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20de%20avalia%C3%A7%C3%A3o%20na%20OdontoCompany%20Morro%20Agudo."
+      },
+      {
+        "text": "",
+        "href": "https://www.op7franchising.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/odontocompany_morroagudo/"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/odontocompanymorroagudosp/"
+      },
+      {
+        "text": "Tratamentos",
+        "href": "https://lpodcmorroagudo.vercel.app/#tratamentos"
+      },
+      {
+        "text": "Estrutura",
+        "href": "https://lpodcmorroagudo.vercel.app/#estrutura"
+      },
+      {
+        "text": "Dentistas",
+        "href": "https://lpodcmorroagudo.vercel.app/#profissionais"
+      },
+      {
+        "text": "",
+        "href": "https://api.whatsapp.com/send?phone=5516990515050&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20de%20avalia%C3%A7%C3%A3o%20na%20OdontoCompany%20Morro%20Agudo."
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "flamex",
+    "url": "https://lp.flamexfranchising.com.br/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:27.517Z",
+    "status": 200,
+    "title": "Flamex - Seja um Franqueado",
+    "finalUrl": "https://lp.flamexfranchising.com.br/",
+    "text": "SOBRE NÓS\nPERFIL IDEAL\nPROCESSO\nO MERCADO\nDÚVIDAS\nQUERO SER FRANQUEADO\nMais de 20 anos no mercado financeiro.\nAGORA É A SUA VEZ.\nDê o primeiro passo\n\nLeva 1 minuto. Sem compromisso. Nosso time de expansão fala com você em até 24h.\n\nNOME COMPLETO\nTELEFONE / WHATSAPP\nE-MAIL\nQUERO SER UM FRANQUEADO FLAMEX\n✓\n\nSeus dados estão seguros. Sem spam. Nossa equipe de expansão entra em contato em até 24h.\n\nOperação Simplificada\nEstrutura Completa\nAutoridade de Mercado\nESTRUTURA OPERACIONAL\n•\nSOLIDEZ DA MARCA\n•\nFACILIDADE DE GESTÃO\n•\nESTRUTURA OPERACIONAL\n•\nSOLIDEZ DA MARCA\n•\nFACILIDADE DE GESTÃO\n•\nESTRUTURA OPERACIONAL\n•\nSOLIDEZ DA MARCA\n•\nFACILIDADE DE GESTÃO\n•\nESTRUTURA OPERACIONAL\n•\nSOLIDEZ DA MARCA\n•\nFACILIDADE DE GESTÃO\n•\n• SOBRE NÓS •\nPor que a Flamex é diferente?\n\nUma abordagem institucional sólida combinada com agilidade operacional, desenhada para líderes do setor financeiro e de franquias.\n\nGovernança interna\n\nProtocolos de compliance rigorosos e infraestrutura de ponta garantem proteção total das suas operações financeiras.\n\nVelocidade de Execução\n\nProcessos simplificados que reduzem a burocracia, permitindo que sua rede expanda com agilidade incomparável no mercado.\n\nSuporte Premium\n\nAtendimento humanizado e dedicado. Nossa equipe de especialistas atua como uma extensão do seu próprio negócio.\n\nSolidez de Rede\n\nUma marca com forte presença no mercado e credibilidade comprovada nas instituições parceiras.\n\nTecnologia Proprietária\n\nSistema de gestão desenvolvido pela nossa equipe que te auxiliará na administração do seu negócio e integração com as principais plataformas de CRM e IA do mercado.\n\nSegurança institucional\n\nPossuímos todas as certificações para atuar no mercado e somos auditados anualmente pela EY, um dos maiores escritórios de auditoria independente do mundo.\n\nSua marca vista por milhões na TV aberta\n\nA autoridade da Flamex Redline não se constrói apenas nos bastidores institucionais. Nossa força de mídia coloca sua franquia em evidência nas principais emissoras do país, garantindo credibilidade instantânea.\n\nAlcance Massivo\n\nImpacto direto em milhões de lares brasileiros em horário nobre.\n\nValidação Social\n\nO selo de confiança que apenas a presença na mídia tradicional proporciona.\n\nQuero ser um franqueado\n02:45\n+20 anos\nDE MERCADO FINANCEIRO\n600+\nPARCEIROS ATIVOS NO BRASIL\n100\nPESSOAS DEDICADAS NA MATRIZ\n• PERFIL IDEAL •\nEssa oportunidade foi feita pra você!\n\nQue tem experiencia no setor financeiro ou áreas correlatas.\n\nVocê que busca independência financeira com segurança e suporte.\n\nQuer sair da CLT ou diversificar sua renda com um negócio próprio.\n\nOu quer empreender em uma rede consolidada e não arriscar abrir um negócio sem ajuda especializada.\n\n• PROCESSO •\nDo primeiro contato à abertura da sua unidade\n\nUm caminho simples e guiado, do cadastro à inauguração.\n\n01\nPreencha o formulário\n\nRecebemos seu cadastro e entramos em contato em até 24h.\n\n02\nConversa sem compromisso\n\nApresentamos o modelo, tiramos dúvidas e entendemos seu perfil.\n\n03\nAprovação e onboarding\n\nVocê recebe suporte completo para estruturar sua operação.\n\n04\nAbertura e acompanhamento\n\nEstaremos ao seu lado na abertura e nossos consultores vão te acompanhar diariamente\n\n• O MERCADO •\nVocê está entrando no setor certo e na hora certa!\n\nO franchising brasileiro ultrapassou R$ 301 bilhões em faturamento em 2025, o maior da história do setor. E o segmento financeiro é um dos mais resilientes: quando a economia vai bem, as pessoas investem. Quando aperta, precisam de crédito. A demanda não para, puxada por consignado, refinanciamento, portabilidades entre outros serviços. E na Flamex você terá acesso a todas essas oportunidades!\n\n+10,5%\n\nCrescimento do franchising brasileiro em 2025\n\n202.000\n\nUnidades de franquia operando no Brasil\n\nA segunda metade de 2026 começa\ncom uma decisão.\n\nAs vagas exclusivas para cada região não vão ficar abertas para sempre.\n\nQUERO SER UM FRANQUEADO FLAMEX\n• DÚVIDAS •\nPerguntas frequentes\nPreciso ter experiência no setor financeiro?\nComo funciona o suporte da matriz?\nA Flamex é uma operação segura e formalizada?\nQuais produtos posso oferecer?\nQuanto tempo leva para abrir minha unidade?\nQuanto preciso investir?\n• ÚLTIMA CHAMADA •\nMais de 20 anos construindo algo que funciona.\nAGORA QUEREMOS CONSTRUIR COM VOCÊ.\n\nPreencha o formulário. Nossa equipe entra em contato em até 24h, sem pressão, sem compromisso. Só clareza.\n\nDê o primeiro passo\n\nLeva 1 minuto. Sem compromisso. Nosso time de expansão fala com você em até 24h.\n\nNOME COMPLETO\nTELEFONE / WHATSAPP\nE-MAIL\nQUERO SER UM FRANQUEADO FLAMEX\n✓\n\nSeus dados estão seguros. Sem spam. Nossa equipe de expansão entra em contato em até 24h.\n\nVoltar ao topo\n\nNossa prioridade é você.\nEmpréstimos e Financiamentos.\n\n© 2026 Focus Agendamento de Contratos LTDA\nLondrina, PR · CNPJ 51.406.710/0001-57\nMENU\nSobre Nós\nPerfil Ideal\nProcesso\nO Mercado\nDúvidas\nEMPRESA\nTrabalhe Conosco\nPolítica de Privacidade\nTermos de Uso\nCompliance\nCONTATO\nWhatsApp / (43) 98800-0486\nexpansao@flamexnet.com.br\nFALE COM UM ESPECIALISTA",
+    "headings": [
+      "Mais de 20 anos no mercado financeiro.Agora é a sua vez.",
+      "Dê o primeiro passo",
+      "Por que a Flamex é diferente?",
+      "Governança interna",
+      "Velocidade de Execução",
+      "Suporte Premium",
+      "Solidez de Rede",
+      "Tecnologia Proprietária",
+      "Segurança institucional",
+      "Sua marca vista por milhões na TV aberta",
+      "Essa oportunidade foi feita pra você!",
+      "Do primeiro contato à abertura da sua unidade",
+      "Preencha o formulário",
+      "Conversa sem compromisso",
+      "Aprovação e onboarding",
+      "Abertura e acompanhamento",
+      "Você está entrando no setor certo e na hora certa!",
+      "A segunda metade de 2026 começa com uma decisão.",
+      "Perguntas frequentes",
+      "Preciso ter experiência no setor financeiro?",
+      "Como funciona o suporte da matriz?",
+      "A Flamex é uma operação segura e formalizada?",
+      "Quais produtos posso oferecer?",
+      "Quanto tempo leva para abrir minha unidade?",
+      "Quanto preciso investir?",
+      "Mais de 20 anos construindo algo que funciona.Agora queremos construir com você.",
+      "Dê o primeiro passo"
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "SOBRE NÓS",
+        "href": "https://lp.flamexfranchising.com.br/#diferenciais"
+      },
+      {
+        "text": "PERFIL IDEAL",
+        "href": "https://lp.flamexfranchising.com.br/#para-quem"
+      },
+      {
+        "text": "PROCESSO",
+        "href": "https://lp.flamexfranchising.com.br/#processo-etapas"
+      },
+      {
+        "text": "O MERCADO",
+        "href": "https://lp.flamexfranchising.com.br/#mercado"
+      },
+      {
+        "text": "DÚVIDAS",
+        "href": "https://lp.flamexfranchising.com.br/#duvidas"
+      },
+      {
+        "text": "QUERO SER FRANQUEADO",
+        "href": "https://wa.me/5543988000486"
+      },
+      {
+        "text": "Quero ser um franqueado",
+        "href": "https://lp.flamexfranchising.com.br/#form"
+      },
+      {
+        "text": "QUERO SER UM FRANQUEADO FLAMEX",
+        "href": "https://lp.flamexfranchising.com.br/#form"
+      },
+      {
+        "text": "Sobre Nós",
+        "href": "https://lp.flamexfranchising.com.br/#diferenciais"
+      },
+      {
+        "text": "Perfil Ideal",
+        "href": "https://lp.flamexfranchising.com.br/#para-quem"
+      },
+      {
+        "text": "Processo",
+        "href": "https://lp.flamexfranchising.com.br/#processo-etapas"
+      },
+      {
+        "text": "O Mercado",
+        "href": "https://lp.flamexfranchising.com.br/#mercado"
+      },
+      {
+        "text": "Dúvidas",
+        "href": "https://lp.flamexfranchising.com.br/#duvidas"
+      },
+      {
+        "text": "Trabalhe Conosco",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "Termos de Uso",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "Compliance",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "WhatsApp / (43) 98800-0486",
+        "href": "https://wa.me/5543988000486"
+      },
+      {
+        "text": "expansao@flamexnet.com.br",
+        "href": "mailto:expansao@flamexnet.com.br"
+      },
+      {
+        "text": "",
+        "href": "https://lp.flamexfranchising.com.br/#"
+      },
+      {
+        "text": "FALE COM UM ESPECIALISTA",
+        "href": "https://wa.me/5543988000486"
+      }
+    ],
+    "scriptErrors": []
+  },
+  {
+    "id": "autopost",
+    "url": "https://autopost.op7franquia.com.br/",
+    "type": "projeto",
+    "checkedAt": "2026-09-10T22:51:27.244Z",
+    "status": 200,
+    "title": "NËXXO - CIA",
+    "finalUrl": "https://autopost.op7franquia.com.br/",
+    "text": "AUTOMAÇÃO\nCLIQUE PARA PULAR\nAcesso Restrito\nINTELIGÊNCIA E AUTOMAÇÃO\nNËXXO\nE-mail\nSenha\nManter conectado neste computador\nAutenticar Sessão",
+    "headings": [
+      "Acesso Restrito",
+      "INTELIGÊNCIA E AUTOMAÇÃONËXXO"
+    ],
+    "links": [],
+    "scriptErrors": []
+  }
+]

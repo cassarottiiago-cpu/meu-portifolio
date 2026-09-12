@@ -1,0 +1,207 @@
+{
+  "id": "scan-type",
+  "url": "https://www.dia.studio/work/scan-type",
+  "inspectedAt": "2026-09-12T13:18:03.355Z",
+  "actions": [
+    "Movimento do ponteiro do canto superior esquerdo à região inferior direita.",
+    "Três rolagens de 650px, registradas separadamente."
+  ],
+  "frames": [
+    "scan-type-abertura.jpg",
+    "scan-type-ponteiro.jpg",
+    "scan-type-scroll-1.jpg",
+    "scan-type-scroll-2.jpg",
+    "scan-type-scroll-3.jpg"
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "Scan Type – DIA Studio",
+  "finalUrl": "https://www.dia.studio/work/scan-type",
+  "text": "DIA\nWork\nAbout\nProcess\nIndex\n[\nSearch\n]\n[\nClose\n]\nDIA:\n Scan Type\n[\nNext\n]\nLoading\nLoading\nLoading\nLoading\nLoading\nLoading\n\nScan Type is one of our most recognized designs, originally released in 2017 as part of our A-Trak stage visuals and widely reproduced and tutorialized since. In 2024 we rebuilt it as a real-time GPU application, applying slit-scan to live text input with adjustable direction, speed, and slice geometry.\n\nCredits:\n\nMitch Paone\nMeg Donohoe\nDaniel Wenzel\n\nYear:\n\n2024\n\n[\nPrivacy Policy\n]\n[\nAccept\n]",
+  "links": [
+    {
+      "text": "DIA",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "DIA",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "Work",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "About",
+      "href": "https://www.dia.studio/about"
+    },
+    {
+      "text": "Process",
+      "href": "https://www.dia.studio/process"
+    },
+    {
+      "text": "Index",
+      "href": "https://www.dia.studio/index"
+    },
+    {
+      "text": "DIA:",
+      "href": "https://www.dia.studio/"
+    },
+    {
+      "text": "[\nPrivacy Policy\n]",
+      "href": "https://www.dia.studio/privacy"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "text": "[ Search ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 75.921875,
+        "height": 18
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Menu ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Close ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 68.296875,
+        "height": 18
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Next ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 63.90625,
+        "height": 18
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "",
+      "type": null,
+      "src": "https://dvsvuzllz60pv.cloudfront.net/media/4453/scan-01.mp4",
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "VIDEO",
+      "text": "",
+      "type": null,
+      "src": "https://dvsvuzllz60pv.cloudfront.net/media/4453/scan-02.mp4",
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Loading ",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 702.5,
+        "height": 395.15625
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 1440,
+        "height": 360
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "[ Accept ]",
+      "type": "submit",
+      "src": null,
+      "box": {
+        "width": 195,
+        "height": 16
+      }
+    }
+  ]
+}

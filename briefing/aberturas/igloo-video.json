@@ -1,0 +1,52 @@
+{
+  "id": "igloo",
+  "url": "https://www.igloo.inc/",
+  "checkedAt": "2026-09-11T23:29:55.993Z",
+  "mobile": false,
+  "actions": [
+    {
+      "atMs": 40677,
+      "description": "Movimento do cursor pela cena"
+    },
+    {
+      "atMs": 46212,
+      "description": "Quatro rolagens de 460 px"
+    }
+  ],
+  "frames": [
+    {
+      "file": "igloo-video-03s.jpg",
+      "startedAtMs": 3038,
+      "finishedAtMs": 3038
+    },
+    {
+      "file": "igloo-video-loaded.jpg",
+      "startedAtMs": 40005,
+      "finishedAtMs": 40037
+    },
+    {
+      "file": "igloo-video-experience.jpg",
+      "startedAtMs": 40080,
+      "finishedAtMs": 40081
+    },
+    {
+      "file": "igloo-video-scroll.jpg",
+      "startedAtMs": 46212,
+      "finishedAtMs": 46213
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": 200,
+  "domContentLoadedAtMs": 11104,
+  "title": "Igloo Inc.",
+  "text": "",
+  "controls": [],
+  "afterText": "",
+  "finalUrl": "https://www.igloo.inc/",
+  "video": {
+    "frames": 817,
+    "seconds": 40.85,
+    "notes": "Captura de navegador headless, sem áudio. Não é benchmark de desempenho nem medição de FPS do site."
+  }
+}
