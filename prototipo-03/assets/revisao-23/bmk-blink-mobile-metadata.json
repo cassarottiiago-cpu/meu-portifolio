@@ -1,0 +1,232 @@
+{
+  "id": "bmk-blink",
+  "mobile": true,
+  "url": "https://blink.bmkgow.com/",
+  "finalUrl": "https://blink.bmkgow.com/",
+  "status": 200,
+  "capturedAt": "2026-09-23T22:04:55.359Z",
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "files": [
+    {
+      "role": "cover",
+      "filename": "revisao-23/bmk-blink-mobile-cover.webp",
+      "width": 860,
+      "height": 1456,
+      "bytes": 124084
+    },
+    {
+      "role": "completo",
+      "filename": "revisao-23/bmk-blink-mobile-completo.webp",
+      "width": 860,
+      "height": 4340,
+      "bytes": 253926
+    },
+    {
+      "role": "secao",
+      "filename": "revisao-23/bmk-blink-mobile-secao.webp",
+      "width": 796,
+      "height": 990,
+      "bytes": 54962
+    }
+  ],
+  "ready": {
+    "title": "BMK | Inteligência Operacional",
+    "pageHeight": 2170,
+    "text": "BUSINESS\n•\nMARKETING\n•\nKERNEL\npsychology\nBMK.AI\n>>>\nCONHEÇA A PLATAFORMA NËXXO\nchevron_left\nchevron_right\n\nA NËXXO é a plataforma proprietária da BMK responsável por integrar inteligência, automação, performance, percepção e dados dentro de um único ecossistema estratégico. Mais do que tecnologia, ela funciona como o núcleo operacional que conecta branding, crescimento, posicionamento e tomada de decisão em tempo real.\n\npublic\nSite\n>>>\nInstagram\n>>>\nFacebook\n>>>\nLinkedIn\n>>>\nYouTube\n>>>\nCONHEÇA NOSSOS SERVIÇOS\nESTRUTURA\nEssential\n\nPara empresas que desejam construir uma presença estratégica com direção e posicionamento.\n\ncheck_circle\nDiagnóstico estratégico\ncheck_circle\nEstrutura inicial de posicionamento\ncheck_circle\nGestão de canais estratégicos\ncheck_circle\nDashboard de performance\nSaiba Mais\n>>>\nESTRUTURA\nPremium\nstar\n\nPara marcas que desejam autoridade, crescimento previsível e presença forte de mercado.\n\ncheck_circle\nBranding + Performance + Conteúdo\ncheck_circle\nSEO + AEO + Growth Marketing\ncheck_circle\nCRM & Automação Inteligente\ncheck_circle\nReuniões estratégicas mensais\ncheck_circle\nDashboard avançado\nSaiba Mais\n>>>\nESTRUTURA\nEnterprise\n\nPara empresas que desejam dominar percepção e liderar seus segmentos.\n\ncheck_circle\nNúcleo estratégico dedicado\ncheck_circle\nEcossistema BMK completo\ncheck_circle\nInteligência competitiva contínua\ncheck_circle\nEstrutura operacional prioritária\nSaiba Mais\n>>>\nchevron_left\nchevron_right\ncall\nLigação\n>>>\nConverse agora no WhatsApp\n>>>\nTERMOS DE USO\n•\nPOLÍTICA DE PRIVACIDADE\n\nEste site não é afiliado ao Facebook, Google ou a qualquer de suas entidades associadas. Todos os conteúdos e estratégias são de propriedade exclusiva da BMK.\n\n© 2026 BMK. Todos os direitos reservados.\n\nlock\nCONEXÃO SEGURA VIA SSL",
+    "sections": [
+      {
+        "tag": "HEADER",
+        "id": "",
+        "class": "w-full flex flex-col items-center text-center pt-8 md:pt-12 mb-6 relative",
+        "top": 0,
+        "height": 195,
+        "width": 398,
+        "heading": "BUSINESS•MARKETING•KERNEL",
+        "text": "BUSINESS\n•\nMARKETING\n•\nKERNEL"
+      },
+      {
+        "tag": "SECTION",
+        "id": "",
+        "class": "w-full mb-2 mt-4",
+        "top": 321,
+        "height": 274,
+        "width": 398,
+        "heading": "CONHEÇA A PLATAFORMA NËXXO",
+        "text": "CONHEÇA A PLATAFORMA NËXXO\nchevron_left\nchevron_right"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "w-full flex flex-col gap-3 mb-6",
+        "top": 752,
+        "height": 358,
+        "width": 398,
+        "text": "public\nSite\n>>>\nInstagram\n>>>\nFacebook\n>>>\nLinkedIn\n>>>\nYouTube\n>>>"
+      },
+      {
+        "tag": "DIV",
+        "id": "pricing-carousel-container",
+        "class": "w-full relative py-6 mb-8 max-w-4xl mx-auto overflow-hidden px-4",
+        "top": 1134,
+        "height": 494,
+        "width": 398,
+        "heading": "CONHEÇA NOSSOS SERVIÇOS",
+        "text": "CONHEÇA NOSSOS SERVIÇOS\nESTRUTURA\nEssential\n\nPara empresas que desejam construir uma presença estratégica com direção e posicionamento.\n\ncheck_circle\n"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "psychologyBMK.AI>>>",
+        "aria": "Falar com Assistente BMK.AI",
+        "visible": true
+      },
+      {
+        "text": "chevron_left",
+        "aria": "Mockup anterior",
+        "visible": true
+      },
+      {
+        "text": "chevron_right",
+        "aria": "Próximo mockup",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para slide 1",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para slide 2",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para slide 3",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para slide 4",
+        "visible": true
+      },
+      {
+        "text": "Saiba Mais>>>",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "text": "Saiba Mais>>>",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "text": "Saiba Mais>>>",
+        "aria": null,
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para plano 1",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para plano 2",
+        "visible": true
+      },
+      {
+        "text": "",
+        "aria": "Ir para plano 3",
+        "visible": true
+      },
+      {
+        "text": "chevron_left",
+        "aria": "Plano anterior",
+        "visible": true
+      },
+      {
+        "text": "chevron_right",
+        "aria": "Próximo plano",
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://blink.bmkgow.com/logobmk.webp",
+        "width": 640,
+        "height": 640,
+        "complete": true,
+        "loading": "auto",
+        "alt": "BMK Marketing Logo",
+        "rect": {
+          "top": 42,
+          "left": 167,
+          "width": 96,
+          "height": 96
+        }
+      },
+      {
+        "src": "https://blink.bmkgow.com/3D_MacBook_dashboard_mock-up_4K_202607301054.webp",
+        "width": 5504,
+        "height": 3072,
+        "complete": true,
+        "loading": "auto",
+        "alt": "Site Mockup 1",
+        "rect": {
+          "top": 341.09375,
+          "left": 34.546875,
+          "width": 360.890625,
+          "height": 224.796875
+        }
+      },
+      {
+        "src": "https://blink.bmkgow.com/plataforma2.webp",
+        "width": 5504,
+        "height": 3072,
+        "complete": true,
+        "loading": "auto",
+        "alt": "Site Mockup 2",
+        "rect": {
+          "top": 364.512939453125,
+          "left": 201.14784240722656,
+          "width": 274.94635009765625,
+          "height": 177.95941162109375
+        }
+      },
+      {
+        "src": "https://blink.bmkgow.com/plataforma3.webp",
+        "width": 5504,
+        "height": 3072,
+        "complete": true,
+        "loading": "auto",
+        "alt": "Site Mockup 3",
+        "rect": {
+          "top": 385.5432434082031,
+          "left": 336.55853271484375,
+          "width": 205.195068359375,
+          "height": 135.89962768554688
+        }
+      },
+      {
+        "src": "https://blink.bmkgow.com/plataforma4.webp",
+        "width": 5504,
+        "height": 3072,
+        "complete": true,
+        "loading": "auto",
+        "alt": "Site Mockup 4",
+        "rect": {
+          "top": 364.512939453125,
+          "left": -46.108917236328125,
+          "width": 274.9473571777344,
+          "height": 177.95941162109375
+        }
+      }
+    ],
+    "videos": []
+  },
+  "failed": []
+}

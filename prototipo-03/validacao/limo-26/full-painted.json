@@ -1,0 +1,483 @@
+{
+  "scrollY": 0,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "pageHeight": 8741,
+  "supportsContentVisibility": true,
+  "scripts": [
+    {
+      "src": "",
+      "inline": "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"Restaurant\",\n      \"name\": \"Churrascaria Limozini\",\n      \"url\": \"https://limozini.com.br/\",\n      \"telephone\": \"+55 43 3328 2212\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Av. Tiradentes, 1100\",\n        \"addressLocality\": \"Londrina\",\n        \"addressRegion\": \"PR\",\n        \"postalCode\": \"86070-545\",\n        \"addressCountry\": \"BR\"\n      },\n      \"openingHoursSpecification\": [\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": [\"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"],\n          \"opens\": \"11:00\",\n          \"closes\": \"14:30\"\n        },\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": [\"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"],\n          \"opens\": \"18:45\",\n          \"closes\": \"22:30\"\n        },\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": [\"Sunday\"],\n          \"opens\": \"11:00\",\n          \"closes\": \"15:00\"\n        }\n      ]\n    }\n    "
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    },
+    {
+      "src": "",
+      "inline": "\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n      gtag('config', 'G-XXXXXXXXXX');\n    "
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/assets/index-qlCejXIs.js"
+    }
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap",
+    "https://lplimozine-nu.vercel.app/assets/index-s_fJwNRv.css"
+  ],
+  "sections": [
+    {
+      "tag": "SECTION",
+      "id": "",
+      "class": "hero",
+      "top": 0,
+      "left": 0,
+      "width": 1440,
+      "height": 1010,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "visible",
+      "headings": []
+    },
+    {
+      "tag": "SECTION",
+      "id": "historia",
+      "class": "editorial-section",
+      "top": 1015,
+      "left": 0,
+      "width": 1440,
+      "height": 678.84375,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "visible",
+      "headings": [
+        {
+          "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+          "top": 1111,
+          "left": 136.796875,
+          "width": 384.078125,
+          "height": 360,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "editorial-headline gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "tag": "DIV",
+              "class": "container editorial-grid",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "galeria",
+      "class": "gallery-section",
+      "top": 1693.84375,
+      "left": 0,
+      "width": 1440,
+      "height": 1871.875,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "visible",
+      "headings": [
+        {
+          "text": "A EXPERIÊNCIA\nLIMOZINI",
+          "top": 1815.765625,
+          "left": 136.796875,
+          "width": 451.40625,
+          "height": 172.78125,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "gallery-title-block",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "tag": "DIV",
+              "class": "gallery-header-row gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "diferenciais",
+      "class": "diferenciais-section",
+      "top": 3565.71875,
+      "left": 0,
+      "width": 1440,
+      "height": 1200.875,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "auto",
+      "headings": [
+        {
+          "text": "",
+          "top": 3692.90625,
+          "left": 136.796875,
+          "width": 1166.40625,
+          "height": 144,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "diferenciais-header gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "tag": "DIV",
+              "class": "container",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "text": "",
+          "top": 4402.96875,
+          "left": 176.796875,
+          "width": 691.671875,
+          "height": 38.71875,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "card-content",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "tag": "DIV",
+              "class": "magazine-card gsap-stagger-diff",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ]
+        },
+        {
+          "text": "",
+          "top": 4215.953125,
+          "left": 1012.46875,
+          "width": 250.734375,
+          "height": 38.71875,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "card-content",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "tag": "DIV",
+              "class": "magazine-card gsap-stagger-diff",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "promocao-casal",
+      "class": "promo-casal-section",
+      "top": 4766.59375,
+      "left": 0,
+      "width": 1440,
+      "height": 684.015625,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "visible",
+      "headings": [
+        {
+          "text": "PROMOÇÃO CASAL",
+          "top": 4893.78125,
+          "left": 136.796875,
+          "width": 600,
+          "height": 72,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "promo-casal-header gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "tag": "DIV",
+              "class": "promo-casal-grid",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "valores",
+      "class": "precos-section",
+      "top": 5450.609375,
+      "left": 0,
+      "width": 1440,
+      "height": 796.890625,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "auto",
+      "headings": [
+        {
+          "text": "",
+          "top": 5577.796875,
+          "left": 136.796875,
+          "width": 1166.40625,
+          "height": 72,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "precos-header gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "tag": "DIV",
+              "class": "container",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "avaliacoes",
+      "class": "reviews-section",
+      "top": 6247.5,
+      "left": 0,
+      "width": 1440,
+      "height": 968.4375,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "auto",
+      "headings": [
+        {
+          "text": "",
+          "top": 6374.6875,
+          "left": 136.796875,
+          "width": 1166.40625,
+          "height": 72,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "reviews-header gsap-fade-up",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "tag": "DIV",
+              "class": "container",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "reserva",
+      "class": "reservation-section gsap-fade-up",
+      "top": 7215.9375,
+      "left": 0,
+      "width": 1440,
+      "height": 1163.078125,
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "contentVisibility": "visible",
+      "headings": [
+        {
+          "text": "FAÇA SUA\nRESERVA",
+          "top": 7392.125,
+          "left": 185.796875,
+          "width": 319.84375,
+          "height": 115.1875,
+          "opacity": "1",
+          "visibility": "visible",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "class": "reservation-info",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "tag": "DIV",
+              "class": "reservation-grid",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "class": "footer",
+      "top": 8379.015625,
+      "left": 0,
+      "width": 1440,
+      "height": 362.46875,
+      "opacity": "1",
+      "transform": "none",
+      "contentVisibility": "visible",
+      "headings": []
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop",
+      "complete": true,
+      "width": 1600,
+      "height": 1068,
+      "alt": "Corte de carne na brasa na Churrascaria Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/LOGO%20LIMOZINI.svg",
+      "complete": true,
+      "width": 150,
+      "height": 150,
+      "alt": "Logo Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid1.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Corte nobre na Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid2.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Ambiente da Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid3.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Buffet Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid4.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Churrasco Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid5.webp",
+      "complete": true,
+      "width": 900,
+      "height": 600,
+      "alt": "Detalhes Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid6.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Carnes Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid7.webp",
+      "complete": true,
+      "width": 600,
+      "height": 900,
+      "alt": "Experiência Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid8.webp",
+      "complete": true,
+      "width": 900,
+      "height": 1125,
+      "alt": "Experiência Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/grid9.webp",
+      "complete": true,
+      "width": 900,
+      "height": 1125,
+      "alt": "Experiência Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/espacokids.webp",
+      "complete": true,
+      "width": 1200,
+      "height": 800,
+      "alt": "Espaço Kids"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/espacokids2.webp",
+      "complete": true,
+      "width": 1200,
+      "height": 800,
+      "alt": "Espaço Kids 2"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/espacokids3.webp",
+      "complete": true,
+      "width": 800,
+      "height": 1200,
+      "alt": "Espaço Kids 3"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/itau.webp",
+      "complete": true,
+      "width": 1000,
+      "height": 747,
+      "alt": "Valet Gratuito Itaú"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/LOGO%20LIMOZINI.svg",
+      "complete": true,
+      "width": 150,
+      "height": 150,
+      "alt": "Limozini"
+    },
+    {
+      "src": "https://lplimozine-nu.vercel.app/logo-branca-bmk.png",
+      "complete": true,
+      "width": 649,
+      "height": 237,
+      "alt": "BMK"
+    }
+  ]
+}

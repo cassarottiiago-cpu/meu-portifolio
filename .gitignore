@@ -3,3 +3,7 @@ node_modules/
 .env.local
 .DS_Store
 Thumbs.db
+briefing/rodada-4/mcp-schema/
+prototipo-03/dist/
+.codex/pplx-thread
+briefing/rodada-4/esportes/*.mp4

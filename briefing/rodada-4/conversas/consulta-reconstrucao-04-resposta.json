@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-27",
+  "tool": "call_perplexity_computer",
+  "scope": "Reconstrução integral Eloy/Stefan, casos individuais e percurso com vinheta",
+  "response": {
+    "event": "insufficient_credits",
+    "text": "Computer isn't available for your account or plan. If you use Perplexity through an organization, contact your organization administrator.",
+    "interactive": { "type": "insufficient_credits", "reason": "feature_not_available" }
+  },
+  "thread_created": false
+}

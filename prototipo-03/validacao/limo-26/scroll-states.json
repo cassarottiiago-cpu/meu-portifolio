@@ -1,0 +1,4262 @@
+[
+  {
+    "requestedY": 0,
+    "scrollY": 0,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1151,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1855.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3998.90625,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4724.90625,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5408.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6500.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7341.921875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 400,
+    "scrollY": 400,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1111,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1855.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3998.90625,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4724.90625,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5408.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6500.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7341.921875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 800,
+    "scrollY": 800,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1111,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1855.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3998.90625,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4724.90625,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5408.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6500.921875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7341.921875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 1200,
+    "scrollY": 1200,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 3998.90625,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6709.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7550.796875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 1600,
+    "scrollY": 1600,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 3998.90625,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6709.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7550.796875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 2000,
+    "scrollY": 2000,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4245.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6709.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7550.796875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 2400,
+    "scrollY": 2400,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4245.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6709.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7550.796875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 2800,
+    "scrollY": 2800,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3732.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4432.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4245.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6709.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7550.796875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 3200,
+    "scrollY": 3200,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7255.6875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 3600,
+    "scrollY": 3600,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4933.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7255.6875,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 4000,
+    "scrollY": 4000,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 4400,
+    "scrollY": 4400,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5617.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 4800,
+    "scrollY": 4800,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 5200,
+    "scrollY": 5200,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 5600,
+    "scrollY": 5600,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6414.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 40)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 6000,
+    "scrollY": 6000,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "O QUE TORNAMOS\nINESQUECÍVEL",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "ESPAÇO KIDS",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "VALET GRATUITO",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6374.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7432.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 6400,
+    "scrollY": 6400,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6374.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7392.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 6800,
+    "scrollY": 6800,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6374.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7392.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 7200,
+    "scrollY": 7200,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6374.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7392.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requestedY": 7600,
+    "scrollY": 7600,
+    "headings": [
+      {
+        "text": "HÁ 38 ANOS SENDO A MELHOR CHURRASCARIA DE LONDRINA",
+        "top": 1158.65625,
+        "left": 136.796875,
+        "width": 384.078125,
+        "height": 360,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "editorial-headline gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container editorial-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "A EXPERIÊNCIA\nLIMOZINI",
+        "top": 1815.765625,
+        "left": 136.796875,
+        "width": 451.40625,
+        "height": 172.78125,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "gallery-title-block",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "gallery-header-row gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 3692.90625,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 144,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "diferenciais-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4402.96875,
+        "left": 176.796875,
+        "width": 691.671875,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "top": 4215.953125,
+        "left": 1012.46875,
+        "width": 250.734375,
+        "height": 38.71875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "card-content",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "magazine-card gsap-stagger-diff",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      {
+        "text": "PROMOÇÃO CASAL",
+        "top": 4893.78125,
+        "left": 136.796875,
+        "width": 600,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "promo-casal-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "promo-casal-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "VALORES DO RODÍZIO",
+        "top": 5577.796875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "precos-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "O QUE DIZEM NOSSOS CLIENTES",
+        "top": 6374.6875,
+        "left": 136.796875,
+        "width": 1166.40625,
+        "height": 72,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reviews-header gsap-fade-up",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "tag": "DIV",
+            "class": "container",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "text": "FAÇA SUA\nRESERVA",
+        "top": 7392.125,
+        "left": 185.796875,
+        "width": 319.84375,
+        "height": 115.1875,
+        "opacity": "1",
+        "visibility": "visible",
+        "ancestors": [
+          {
+            "tag": "DIV",
+            "class": "reservation-info",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "DIV",
+            "class": "reservation-grid",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  }
+]

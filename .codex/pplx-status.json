@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-27",
+  "server": "perplexity-computer",
+  "transport": "connected",
+  "authentication": "oAuth",
+  "tool": "call_perplexity_computer",
+  "result": "insufficient_credits",
+  "reason": "feature_not_available",
+  "thread_id": null,
+  "latest_request": "Consulta MCP direta: crítica da montagem da hero e do arquivo assimétrico",
+  "latest_response": "briefing/rodada-4/conversas/consulta-formacao-27-resposta.json",
+  "note": "O serviço recusou a consulta por indisponibilidade do Computer para a conta/plano. Não houve conversa criada; não inventar .codex/pplx-thread. Direção fornecida pelo usuário permanece como base documental."
+}

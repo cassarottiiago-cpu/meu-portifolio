@@ -1,0 +1,42 @@
+{
+  "duration": 24,
+  "dimensions": [
+    1600,
+    900
+  ],
+  "fps": 24,
+  "audio": false,
+  "cuts": [
+    {
+      "source": "skate.mp4",
+      "in": 1.5,
+      "duration": 4
+    },
+    {
+      "source": "bmx.mp4",
+      "in": 1,
+      "duration": 4
+    },
+    {
+      "source": "surf.mp4",
+      "in": 3,
+      "duration": 4
+    },
+    {
+      "source": "moto.mp4",
+      "in": 0.5,
+      "duration": 4
+    },
+    {
+      "source": "neve.mp4",
+      "in": 4,
+      "duration": 4
+    },
+    {
+      "source": "salto.mp4",
+      "in": 2.5,
+      "duration": 4
+    }
+  ],
+  "bytes": 7473476
+}

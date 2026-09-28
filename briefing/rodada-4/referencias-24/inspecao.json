@@ -1,0 +1,814 @@
+[
+  {
+    "name": "mike",
+    "url": "https://mikevandersanden.com/cases/",
+    "captured": "2026-09-24T22:03:16.672Z",
+    "frames": [
+      {
+        "y": 0,
+        "height": 4786,
+        "canvas": 1,
+        "images": 9,
+        "text": "[|||]\nCases\nAbout\n CODE EXAMPLE\nType Sound\n CODE EXAMPLE\nDemo — Design in Motion Festival\n CODE EXAMPLE\nLiving Art Lab\n LIVE TOOL\nAir Calligraphy\nCats on Grids\nMath Curves\n LIVE TOOL\nHello Fluo\nVCV-TD-learning\n LIVE TOOL\nExperimental Type 3\n LIVE TOOL\nAir Drawings\nArts & Crafts Festival\n LIVE TOOL\nModifier Tool\n LIVE TOOL\nCoded Typeface\nGenerative Lettering\n LIVE TOOL\nOde to Mandelbrot\n36 Days of Type 2023\nMorph Grid\n CODE EXAMPLE\n128kb Challenge\nA poster about birds\nWindow communication\n LIVE TOOL\nSave our Sound\n© 2026 Mike van der Sanden\nHome\nCases\nAbout\n[toggle grid]\nGet in touch:\n Instagram\n LinkedIn",
+        "grids": [
+          {
+            "class": "main-header__nav-item main-header__grid-toggle",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "slice-cases-grid masonry-grid",
+            "display": "grid",
+            "columns": "448px 448px 448px"
+          },
+          {
+            "class": "cases-grid-item masonry-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__link",
+            "display": "inline",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__image-container masonry-item__image-container ar-1x1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tags",
+            "display": "flex",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag label-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag-dot code-example",
+            "display": "inline-block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 700,
+        "height": 4786,
+        "canvas": 1,
+        "images": 9,
+        "text": "[|||]\nCases\nAbout\n CODE EXAMPLE\nType Sound\n CODE EXAMPLE\nDemo — Design in Motion Festival\n CODE EXAMPLE\nLiving Art Lab\n LIVE TOOL\nAir Calligraphy\nCats on Grids\nMath Curves\n LIVE TOOL\nHello Fluo\nVCV-TD-learning\n LIVE TOOL\nExperimental Type 3\n LIVE TOOL\nAir Drawings\nArts & Crafts Festival\n LIVE TOOL\nModifier Tool\n LIVE TOOL\nCoded Typeface\nGenerative Lettering\n LIVE TOOL\nOde to Mandelbrot\n36 Days of Type 2023\nMorph Grid\n CODE EXAMPLE\n128kb Challenge\nA poster about birds\nWindow communication\n LIVE TOOL\nSave our Sound\n© 2026 Mike van der Sanden\nHome\nCases\nAbout\n[toggle grid]\nGet in touch:\n Instagram\n LinkedIn",
+        "grids": [
+          {
+            "class": "main-header__nav-item main-header__grid-toggle",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "slice-cases-grid masonry-grid",
+            "display": "grid",
+            "columns": "448px 448px 448px"
+          },
+          {
+            "class": "cases-grid-item masonry-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__link",
+            "display": "inline",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__image-container masonry-item__image-container ar-1x1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tags",
+            "display": "flex",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag label-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag-dot code-example",
+            "display": "inline-block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 1400,
+        "height": 4786,
+        "canvas": 1,
+        "images": 9,
+        "text": "[|||]\nCases\nAbout\n CODE EXAMPLE\nType Sound\n CODE EXAMPLE\nDemo — Design in Motion Festival\n CODE EXAMPLE\nLiving Art Lab\n LIVE TOOL\nAir Calligraphy\nCats on Grids\nMath Curves\n LIVE TOOL\nHello Fluo\nVCV-TD-learning\n LIVE TOOL\nExperimental Type 3\n LIVE TOOL\nAir Drawings\nArts & Crafts Festival\n LIVE TOOL\nModifier Tool\n LIVE TOOL\nCoded Typeface\nGenerative Lettering\n LIVE TOOL\nOde to Mandelbrot\n36 Days of Type 2023\nMorph Grid\n CODE EXAMPLE\n128kb Challenge\nA poster about birds\nWindow communication\n LIVE TOOL\nSave our Sound\n© 2026 Mike van der Sanden\nHome\nCases\nAbout\n[toggle grid]\nGet in touch:\n Instagram\n LinkedIn",
+        "grids": [
+          {
+            "class": "main-header__nav-item main-header__grid-toggle",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "slice-cases-grid masonry-grid",
+            "display": "grid",
+            "columns": "448px 448px 448px"
+          },
+          {
+            "class": "cases-grid-item masonry-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__link",
+            "display": "inline",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__image-container masonry-item__image-container ar-1x1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tags",
+            "display": "flex",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag label-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag-dot code-example",
+            "display": "inline-block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 2400,
+        "height": 4786,
+        "canvas": 1,
+        "images": 9,
+        "text": "[|||]\nCases\nAbout\n CODE EXAMPLE\nType Sound\n CODE EXAMPLE\nDemo — Design in Motion Festival\n CODE EXAMPLE\nLiving Art Lab\n LIVE TOOL\nAir Calligraphy\nCats on Grids\nMath Curves\n LIVE TOOL\nHello Fluo\nVCV-TD-learning\n LIVE TOOL\nExperimental Type 3\n LIVE TOOL\nAir Drawings\nArts & Crafts Festival\n LIVE TOOL\nModifier Tool\n LIVE TOOL\nCoded Typeface\nGenerative Lettering\n LIVE TOOL\nOde to Mandelbrot\n36 Days of Type 2023\nMorph Grid\n CODE EXAMPLE\n128kb Challenge\nA poster about birds\nWindow communication\n LIVE TOOL\nSave our Sound\n© 2026 Mike van der Sanden\nHome\nCases\nAbout\n[toggle grid]\nGet in touch:\n Instagram\n LinkedIn",
+        "grids": [
+          {
+            "class": "main-header__nav-item main-header__grid-toggle",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "slice-cases-grid masonry-grid",
+            "display": "grid",
+            "columns": "448px 448px 448px"
+          },
+          {
+            "class": "cases-grid-item masonry-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__link",
+            "display": "inline",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__image-container masonry-item__image-container ar-1x1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tags",
+            "display": "flex",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag label-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "cases-grid-item__tag-dot code-example",
+            "display": "inline-block",
+            "columns": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lax",
+    "url": "https://www.laxspace.co/",
+    "captured": "2026-09-24T22:03:16.673Z",
+    "frames": [
+      {
+        "y": 0,
+        "height": 1000,
+        "canvas": 1,
+        "images": 2,
+        "text": "LAX SPACE.\nDigital Creative Director + Developer crafting bold, thoughtful design.\nView Works\nWorks _Code.\n00\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n00\n13\nStamped\n\n// Branding // Design // FE Dev\n\nFukuda\n\n// Design // FE Dev\n\nReckn\n\n// Design // FE Dev\n\nA3 Design Inc.\n\n// Design // FE Dev\n\nMotion Blue\n\n// Design\n\nMEME Planning\n\n// Design\n\nSake of Nada\n\n// Design\n\nSougen\n\n// Branding // Design\n\nUtsubo\n\n// Branding\n\nOEDO Food Hall\n\n// Design\n\nKuma Hachimitsu\n\n// Design\n\nAvoidant\n\n// Illustrations // FE Dev\n\nMy Info\n\n// Designer // Font-end Developer\n\nDESIGN\nCODE\nPoints\n000000\nFPS\n000000\nOrbit Off\n[Tab]\nRewind\n[Space]\nView My Sandbox",
+        "grids": [
+          {
+            "class": "gridContainer",
+            "display": "grid",
+            "columns": "2.76562px 2.78125px 2.78125px 2.78125px 2.76562px 2.78125px 2.78125px 2.78125px 2.76562px"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 0,
+        "height": 1000,
+        "canvas": 1,
+        "images": 2,
+        "text": "LAX SPACE.\nDigital Creative Director + Developer crafting bold, thoughtful design.\nView Works\nWorks _Code.\n00\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n00\n13\nStamped\n\n// Branding // Design // FE Dev\n\nFukuda\n\n// Design // FE Dev\n\nReckn\n\n// Design // FE Dev\n\nA3 Design Inc.\n\n// Design // FE Dev\n\nMotion Blue\n\n// Design\n\nMEME Planning\n\n// Design\n\nSake of Nada\n\n// Design\n\nSougen\n\n// Branding // Design\n\nUtsubo\n\n// Branding\n\nOEDO Food Hall\n\n// Design\n\nKuma Hachimitsu\n\n// Design\n\nAvoidant\n\n// Illustrations // FE Dev\n\nMy Info\n\n// Designer // Font-end Developer\n\nDESIGN\nCODE\nPoints\n000000\nFPS\n000000\nOrbit Off\n[Tab]\nRewind\n[Space]\nView My Sandbox",
+        "grids": [
+          {
+            "class": "gridContainer",
+            "display": "grid",
+            "columns": "2.76562px 2.78125px 2.78125px 2.78125px 2.76562px 2.78125px 2.78125px 2.78125px 2.76562px"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 0,
+        "height": 1000,
+        "canvas": 1,
+        "images": 2,
+        "text": "LAX SPACE.\nDigital Creative Director + Developer crafting bold, thoughtful design.\nView Works\nWorks _Code.\n00\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n00\n13\nStamped\n\n// Branding // Design // FE Dev\n\nFukuda\n\n// Design // FE Dev\n\nReckn\n\n// Design // FE Dev\n\nA3 Design Inc.\n\n// Design // FE Dev\n\nMotion Blue\n\n// Design\n\nMEME Planning\n\n// Design\n\nSake of Nada\n\n// Design\n\nSougen\n\n// Branding // Design\n\nUtsubo\n\n// Branding\n\nOEDO Food Hall\n\n// Design\n\nKuma Hachimitsu\n\n// Design\n\nAvoidant\n\n// Illustrations // FE Dev\n\nMy Info\n\n// Designer // Font-end Developer\n\nDESIGN\nCODE\nPoints\n000000\nFPS\n000000\nOrbit Off\n[Tab]\nRewind\n[Space]\nView My Sandbox",
+        "grids": [
+          {
+            "class": "gridContainer",
+            "display": "grid",
+            "columns": "2.76562px 2.78125px 2.78125px 2.78125px 2.76562px 2.78125px 2.78125px 2.78125px 2.76562px"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 0,
+        "height": 1000,
+        "canvas": 1,
+        "images": 2,
+        "text": "LAX SPACE.\nDigital Creative Director + Developer crafting bold, thoughtful design.\nView Works\nWorks _Code.\n00\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n00\n13\nStamped\n\n// Branding // Design // FE Dev\n\nFukuda\n\n// Design // FE Dev\n\nReckn\n\n// Design // FE Dev\n\nA3 Design Inc.\n\n// Design // FE Dev\n\nMotion Blue\n\n// Design\n\nMEME Planning\n\n// Design\n\nSake of Nada\n\n// Design\n\nSougen\n\n// Branding // Design\n\nUtsubo\n\n// Branding\n\nOEDO Food Hall\n\n// Design\n\nKuma Hachimitsu\n\n// Design\n\nAvoidant\n\n// Illustrations // FE Dev\n\nMy Info\n\n// Designer // Font-end Developer\n\nDESIGN\nCODE\nPoints\n000000\nFPS\n000000\nOrbit Off\n[Tab]\nRewind\n[Space]\nView My Sandbox",
+        "grids": [
+          {
+            "class": "gridContainer",
+            "display": "grid",
+            "columns": "2.76562px 2.78125px 2.78125px 2.78125px 2.76562px 2.78125px 2.78125px 2.78125px 2.76562px"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "gridBox",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "formation",
+    "url": "https://tympanus.net/Development/OnScrollLayoutFormations/",
+    "captured": "2026-09-24T22:03:16.676Z",
+    "frames": [
+      {
+        "y": 0,
+        "height": 42945,
+        "canvas": 0,
+        "images": 0,
+        "text": "LENNOX MONTGOMERY\nLAYOUT FORMATION ON SCROLL\nARTICLE\nALL DEMOS\nGITHUB\n#SCROLL\n#GRID\nLM\nWITH READYMAG, NOTHING STANDS BETWEEN YOUR IDEAS AND THE FINAL RESULT →\nINTRO\n\nWelcome to Lennox Montgomery's photography portfolio. In a world dominated by speed and constant motion, Lennox Montgomery's photography invites you to slow down and immerse yourself in a visual experience that touches human fragility.\n\nABOUT\n\nHis lens captures the quiet ache of reality, where shadow and light blur the line between seen and felt. Soft, muted tones breathe life into the ordinary, revealing the sensual curves and fragile textures hidden in plain sight. Each image lingers in the tension of what’s almost forgotten, where touch and absence coexist. There’s no rush, no spectacle—just the raw, intimate beauty of life unfolding in quiet moments. Light grazes skin, shadows hold secrets, and the world feels both distant and deeply near.\n\nLIFE\n\nLennox Montgomery, born in 1987 in Brooklyn, grew up attuned to the gentle interplay of light and shadow in the city’s quieter corners. His eye was drawn to the unnoticed beauty in the mundane, the softness in the grit. In his early 20s, he relocated to Los Angeles, where the hazy sunlight, muted colors, and sprawling landscapes deepened his introspective approach to art. There, he found inspiration in the delicate moments between movement and stillness, capturing the fleeting, sensual beauty of everyday life in a way that feels both intimate and timeless.\n\nWORK ETHI",
+        "grids": [
+          {
+            "class": "grid grid--spaced",
+            "display": "grid",
+            "columns": "169px 169px 169px 169px 169px 169px 169px 169px"
+          },
+          {
+            "class": "grid__img pos-1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-3",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-4",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-5",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-6",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-7",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 700,
+        "height": 42945,
+        "canvas": 0,
+        "images": 0,
+        "text": "LENNOX MONTGOMERY\nLAYOUT FORMATION ON SCROLL\nARTICLE\nALL DEMOS\nGITHUB\n#SCROLL\n#GRID\nLM\nWITH READYMAG, NOTHING STANDS BETWEEN YOUR IDEAS AND THE FINAL RESULT →\nINTRO\n\nWelcome to Lennox Montgomery's photography portfolio. In a world dominated by speed and constant motion, Lennox Montgomery's photography invites you to slow down and immerse yourself in a visual experience that touches human fragility.\n\nABOUT\n\nHis lens captures the quiet ache of reality, where shadow and light blur the line between seen and felt. Soft, muted tones breathe life into the ordinary, revealing the sensual curves and fragile textures hidden in plain sight. Each image lingers in the tension of what’s almost forgotten, where touch and absence coexist. There’s no rush, no spectacle—just the raw, intimate beauty of life unfolding in quiet moments. Light grazes skin, shadows hold secrets, and the world feels both distant and deeply near.\n\nLIFE\n\nLennox Montgomery, born in 1987 in Brooklyn, grew up attuned to the gentle interplay of light and shadow in the city’s quieter corners. His eye was drawn to the unnoticed beauty in the mundane, the softness in the grit. In his early 20s, he relocated to Los Angeles, where the hazy sunlight, muted colors, and sprawling landscapes deepened his introspective approach to art. There, he found inspiration in the delicate moments between movement and stillness, capturing the fleeting, sensual beauty of everyday life in a way that feels both intimate and timeless.\n\nWORK ETHI",
+        "grids": [
+          {
+            "class": "grid grid--spaced",
+            "display": "grid",
+            "columns": "169px 169px 169px 169px 169px 169px 169px 169px"
+          },
+          {
+            "class": "grid__img pos-1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-3",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-4",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-5",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-6",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-7",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 1400,
+        "height": 42945,
+        "canvas": 0,
+        "images": 0,
+        "text": "LENNOX MONTGOMERY\nLAYOUT FORMATION ON SCROLL\nARTICLE\nALL DEMOS\nGITHUB\n#SCROLL\n#GRID\nLM\nWITH READYMAG, NOTHING STANDS BETWEEN YOUR IDEAS AND THE FINAL RESULT →\nINTRO\n\nWelcome to Lennox Montgomery's photography portfolio. In a world dominated by speed and constant motion, Lennox Montgomery's photography invites you to slow down and immerse yourself in a visual experience that touches human fragility.\n\nABOUT\n\nHis lens captures the quiet ache of reality, where shadow and light blur the line between seen and felt. Soft, muted tones breathe life into the ordinary, revealing the sensual curves and fragile textures hidden in plain sight. Each image lingers in the tension of what’s almost forgotten, where touch and absence coexist. There’s no rush, no spectacle—just the raw, intimate beauty of life unfolding in quiet moments. Light grazes skin, shadows hold secrets, and the world feels both distant and deeply near.\n\nLIFE\n\nLennox Montgomery, born in 1987 in Brooklyn, grew up attuned to the gentle interplay of light and shadow in the city’s quieter corners. His eye was drawn to the unnoticed beauty in the mundane, the softness in the grit. In his early 20s, he relocated to Los Angeles, where the hazy sunlight, muted colors, and sprawling landscapes deepened his introspective approach to art. There, he found inspiration in the delicate moments between movement and stillness, capturing the fleeting, sensual beauty of everyday life in a way that feels both intimate and timeless.\n\nWORK ETHI",
+        "grids": [
+          {
+            "class": "grid grid--spaced",
+            "display": "grid",
+            "columns": "169px 169px 169px 169px 169px 169px 169px 169px"
+          },
+          {
+            "class": "grid__img pos-1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-3",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-4",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-5",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-6",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-7",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 2400,
+        "height": 42945,
+        "canvas": 0,
+        "images": 0,
+        "text": "LENNOX MONTGOMERY\nLAYOUT FORMATION ON SCROLL\nARTICLE\nALL DEMOS\nGITHUB\n#SCROLL\n#GRID\nLM\nWITH READYMAG, NOTHING STANDS BETWEEN YOUR IDEAS AND THE FINAL RESULT →\nINTRO\n\nWelcome to Lennox Montgomery's photography portfolio. In a world dominated by speed and constant motion, Lennox Montgomery's photography invites you to slow down and immerse yourself in a visual experience that touches human fragility.\n\nABOUT\n\nHis lens captures the quiet ache of reality, where shadow and light blur the line between seen and felt. Soft, muted tones breathe life into the ordinary, revealing the sensual curves and fragile textures hidden in plain sight. Each image lingers in the tension of what’s almost forgotten, where touch and absence coexist. There’s no rush, no spectacle—just the raw, intimate beauty of life unfolding in quiet moments. Light grazes skin, shadows hold secrets, and the world feels both distant and deeply near.\n\nLIFE\n\nLennox Montgomery, born in 1987 in Brooklyn, grew up attuned to the gentle interplay of light and shadow in the city’s quieter corners. His eye was drawn to the unnoticed beauty in the mundane, the softness in the grit. In his early 20s, he relocated to Los Angeles, where the hazy sunlight, muted colors, and sprawling landscapes deepened his introspective approach to art. There, he found inspiration in the delicate moments between movement and stillness, capturing the fleeting, sensual beauty of everyday life in a way that feels both intimate and timeless.\n\nWORK ETHI",
+        "grids": [
+          {
+            "class": "grid grid--spaced",
+            "display": "grid",
+            "columns": "169px 169px 169px 169px 169px 169px 169px 169px"
+          },
+          {
+            "class": "grid__img pos-1",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-2",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-3",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-4",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-5",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-6",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid__img pos-7",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "stewart",
+    "url": "https://www.stewartpartners.studio/",
+    "captured": "2026-09-24T22:03:16.677Z",
+    "frames": [
+      {
+        "y": 0,
+        "height": 9333,
+        "canvas": 0,
+        "images": 36,
+        "text": "Stewart & Partners\nHome\nAbout\nWork\nArchive\nNews\nContact\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\n\nAll rights reserved ©Stewart&Partners\n\nCLOSE\nCLOSE\nMENU\nMENU\nFEATURE WORK\n(10)\nOUR STUDIO\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudantium, totam rem aperiam\n\nDESIGN INTELLIGENCE\n51° 30' 35.5140'' N 0°\n19:03:26\nSHOWREEL©2024\nWATCH REEL\nSCROLL\nA120/03\nSP_A\nOur architecture practice fosters connection and grows relationships between people, society and the environment. Our rigorous creative process ensures we evolve not only what is made, but how ideas are generated, evaluated and realised. Since 2003, our team has grown across disciplines and thrives on collaboration. Driven by curiosity and ambition, we believe that any enduring solution needs to synchronise cogent analysis with sensitivity to the finer contextual impact.\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\nOUR STUDIO\nOUR STUDIO\n\nOur portfolio is expanding. The range of projects, from polished and structured to speculative and experimental, testify to the way our creative philosophy permeates every area we work in.\n\nCONTACT US\nCONTACT US\n\nWe look forward to hearing from you. Email us to collaborate.\n\nAll rights reserved ©Stewart&Partners\n\nHOME\nHOME\nABOUT\nABOUT\nWORK\nWORK\nARCHIVE\nARCHIVE\nNEWS\nNEWS\nCONTACT\nCONTACT\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\ninfo@stewartpartners.studio\nStewart & Partners\n\nDESIGN INTELLIGENCE\n\nS&P\n\nARCHITECTURE\n\nINFRASTRUCTURE\n\nINTERIOR\n\nDIGITAL\n\nRESEARCH",
+        "grids": [
+          {
+            "class": "image-grid-info_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_section",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_wrap w-dyn-list",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid w-dyn-items",
+            "display": "flex",
+            "columns": "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr"
+          },
+          {
+            "class": "image-grid_item w-dyn-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img",
+            "display": "inline-block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img-number_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img_number",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 700,
+        "height": 9333,
+        "canvas": 0,
+        "images": 36,
+        "text": "Stewart & Partners\nHome\nAbout\nWork\nArchive\nNews\nContact\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\n\nAll rights reserved ©Stewart&Partners\n\nCLOSE\nCLOSE\nMENU\nMENU\nFEATURE WORK\n(10)\nOUR STUDIO\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudantium, totam rem aperiam\n\nDESIGN INTELLIGENCE\n51° 30' 35.5140'' N 0°\n19:03:28\nSHOWREEL©2024\nWATCH REEL\nSCROLL\nA120/03\nSP_A\nOur architecture practice fosters connection and grows relationships between people, society and the environment. Our rigorous creative process ensures we evolve not only what is made, but how ideas are generated, evaluated and realised. Since 2003, our team has grown across disciplines and thrives on collaboration. Driven by curiosity and ambition, we believe that any enduring solution needs to synchronise cogent analysis with sensitivity to the finer contextual impact.\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\nOUR STUDIO\nOUR STUDIO\n\nOur portfolio is expanding. The range of projects, from polished and structured to speculative and experimental, testify to the way our creative philosophy permeates every area we work in.\n\nCONTACT US\nCONTACT US\n\nWe look forward to hearing from you. Email us to collaborate.\n\nAll rights reserved ©Stewart&Partners\n\nHOME\nHOME\nABOUT\nABOUT\nWORK\nWORK\nARCHIVE\nARCHIVE\nNEWS\nNEWS\nCONTACT\nCONTACT\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\ninfo@stewartpartners.studio\nStewart & Partners\n\nDESIGN INTELLIGENCE\n\nS&P\n\nARCHITECTURE\n\nINFRASTRUCTURE\n\nINTERIOR\n\nDIGITAL\n\nRESEARCH",
+        "grids": [
+          {
+            "class": "image-grid-info_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_section",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_wrap w-dyn-list",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid w-dyn-items",
+            "display": "flex",
+            "columns": "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr"
+          },
+          {
+            "class": "image-grid_item w-dyn-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img",
+            "display": "inline-block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img-number_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img_number",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 1400,
+        "height": 9333,
+        "canvas": 0,
+        "images": 36,
+        "text": "Stewart & Partners\nHome\nAbout\nWork\nArchive\nNews\nContact\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\n\nAll rights reserved ©Stewart&Partners\n\nCLOSE\nCLOSE\nMENU\nMENU\nFEATURE WORK\n(10)\nOUR STUDIO\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudantium, totam rem aperiam\n\nDESIGN INTELLIGENCE\n51° 30' 35.5140'' N 0°\n19:03:29\nSHOWREEL©2024\nWATCH REEL\nSCROLL\nA120/03\nSP_A\nOur architecture practice fosters connection and grows relationships between people, society and the environment. Our rigorous creative process ensures we evolve not only what is made, but how ideas are generated, evaluated and realised. Since 2003, our team has grown across disciplines and thrives on collaboration. Driven by curiosity and ambition, we believe that any enduring solution needs to synchronise cogent analysis with sensitivity to the finer contextual impact.\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\nOUR STUDIO\nOUR STUDIO\n\nOur portfolio is expanding. The range of projects, from polished and structured to speculative and experimental, testify to the way our creative philosophy permeates every area we work in.\n\nCONTACT US\nCONTACT US\n\nWe look forward to hearing from you. Email us to collaborate.\n\nAll rights reserved ©Stewart&Partners\n\nHOME\nHOME\nABOUT\nABOUT\nWORK\nWORK\nARCHIVE\nARCHIVE\nNEWS\nNEWS\nCONTACT\nCONTACT\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\ninfo@stewartpartners.studio\nStewart & Partners\n\nDESIGN INTELLIGENCE\n\nS&P\n\nARCHITECTURE\n\nINFRASTRUCTURE\n\nINTERIOR\n\nDIGITAL\n\nRESEARCH",
+        "grids": [
+          {
+            "class": "image-grid-info_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_section",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_wrap w-dyn-list",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid w-dyn-items",
+            "display": "flex",
+            "columns": "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr"
+          },
+          {
+            "class": "image-grid_item w-dyn-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img",
+            "display": "inline-block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img-number_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img_number",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      },
+      {
+        "y": 2400,
+        "height": 9333,
+        "canvas": 0,
+        "images": 36,
+        "text": "Stewart & Partners\nHome\nAbout\nWork\nArchive\nNews\nContact\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\n\nAll rights reserved ©Stewart&Partners\n\nCLOSE\nCLOSE\nMENU\nMENU\nFEATURE WORK\n(10)\nOUR STUDIO\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudantium, totam rem aperiam\n\nDESIGN INTELLIGENCE\n51° 30' 35.5140'' N 0°\n19:03:30\nSHOWREEL©2024\nWATCH REEL\nSCROLL\nA120/03\nSP_A\nOur architecture practice fosters connection and grows relationships between people, society and the environment. Our rigorous creative process ensures we evolve not only what is made, but how ideas are generated, evaluated and realised. Since 2003, our team has grown across disciplines and thrives on collaboration. Driven by curiosity and ambition, we believe that any enduring solution needs to synchronise cogent analysis with sensitivity to the finer contextual impact.\n01\n02\n03\n04\n05\n06\n07\n08\n09\n10\nOUR STUDIO\nOUR STUDIO\n\nOur portfolio is expanding. The range of projects, from polished and structured to speculative and experimental, testify to the way our creative philosophy permeates every area we work in.\n\nCONTACT US\nCONTACT US\n\nWe look forward to hearing from you. Email us to collaborate.\n\nAll rights reserved ©Stewart&Partners\n\nHOME\nHOME\nABOUT\nABOUT\nWORK\nWORK\nARCHIVE\nARCHIVE\nNEWS\nNEWS\nCONTACT\nCONTACT\nLINKEDIN\nLINKEDIN\nINSTAGRAM\nINSTAGRAM\ninfo@stewartpartners.studio\nStewart & Partners\n\nDESIGN INTELLIGENCE\n\nS&P\n\nARCHITECTURE\n\nINFRASTRUCTURE\n\nINTERIOR\n\nDIGITAL\n\nRESEARCH",
+        "grids": [
+          {
+            "class": "image-grid-info_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_section",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid_wrap w-dyn-list",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "photo-grid w-dyn-items",
+            "display": "flex",
+            "columns": "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr"
+          },
+          {
+            "class": "image-grid_item w-dyn-item",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img",
+            "display": "inline-block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img-number_holder",
+            "display": "block",
+            "columns": "none"
+          },
+          {
+            "class": "grid-img_number",
+            "display": "block",
+            "columns": "none"
+          }
+        ]
+      }
+    ]
+  }
+]

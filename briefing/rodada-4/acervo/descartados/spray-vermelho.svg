@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1500" viewBox="0 0 1440 1500">
+  <defs>
+    <filter id="spray" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".48" numOctaves="3" seed="29" result="grain"/>
+      <feColorMatrix in="grain" type="matrix" values="0 0 0 0 .757 0 0 0 0 .173 0 0 0 0 .125 0 0 0 9 -4.1" result="pigment"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="25" result="mist"/>
+      <feComposite in="pigment" in2="mist" operator="in"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#c12c20" stroke-linecap="round" opacity=".65" filter="url(#spray)">
+    <path d="M1020 -80 C1300 130 1360 260 1070 420 S560 630 640 790" stroke-width="200"/>
+    <path d="M-110 460 C160 530 180 700 55 890 S190 1190 460 1230" stroke-width="165"/>
+    <path d="M1410 1030 C1030 930 1000 1210 1270 1460" stroke-width="145"/>
+  </g>
+</svg>

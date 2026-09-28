@@ -1,0 +1,596 @@
+ConsentirDetalhes[#IABV2SETTINGS#]SobreSua privacidade é importanteUtilizamos cookies para melhorar sua experiência, analisar o tráfego e oferecer conteúdo personalizado. Clique em 'Aceitar todos' para consentir de acordo com nossas políticas de Cookies e Privacidade. [#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]Seleção de consentimentoCookies necessários Preferências Estatísticas e desempenho Marketing Gerenciar preferênciasDetalhesCookies necessários  20 Esses cookies ajudam a tornar um site utilizável ao ativar funções básicas como navegação na página, segurança do site e acesso a informações que exigem autenticação.Cookiebot1Saiba mais sobre este provedorCookieConsentStores the user's cookie consent state for the current domainDuração máxima de armazenamento: 1 anoTipo: Cookie HTTPassets.mixkit.co14object(#-#-##:#:#.#) [x3]Registra dados estatísticos sobre o comportamento dos usuários no site. Usado para análise interna pelo operador do site. Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLt3DEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtADeEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtADuEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtAEEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtCEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtMQEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtPLEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtTDeEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtTDuEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtTEEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLtTfEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLenvatousercontent.commixkit.co4__cf_bm [x4]Esse cookie é usado para distinguir entre humanos e bots. Isso é benéfico para o site, que faz relatórios válidos sobre o uso do seu site.Duração máxima de armazenamento: 1 diaTipo: Cookie HTTPmixkit.co1tnsAppEsse cookie é parte de um pacote de cookies que serve ao propósito de entrega de conteúdo e apresentação. Os cookies mantêm o estado correto da fonte, slides de blog/imagem, cores temáticas e outras configurações do site.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLPreferências  0 Esses cookies permitem o armazenamento de informações que mudam a maneira como um site se comporta ou se parece, como configurações para sua região.Não usamos cookies deste tipo.Estatísticas e desempenho  5 Esses cookies nos ajudam a entender como os visitantes interagem com nossos sites e são usados para rastrear quais seções do site são mais acessadas para otimizar o conteúdo.Cloudflare1Saiba mais sobre este provedorcf.turnstile.uEsse cookie é usado para distinguir entre humanos e bots. Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLGoogle3Saiba mais sobre este provedorEste provedor coleta alguns dados com o objetivo de personalizar e medir a eficácia da publicidade. O provedor pode usar os endereços IP para medir e personalizar os anúncios._gaUsado para enviar dados para o Google Analytics sobre o aparelho e o comportamento do visitante. Rastreia o visitante em aparelhos e canais de publicidade.Duração máxima de armazenamento: 2 anosTipo: Cookie HTTP_ga_# [x2]Usado por Google Analytics para coletar dados sobre o número de vezes um usuário visitou o site, assim como as datas da primeira e da mais recente visita. Duração máxima de armazenamento: 2 anosTipo: Cookie HTTPassets.mixkit.co1algolia-user-tokenPendenteDuração máxima de armazenamento: 6 mesesTipo: Cookie HTTPMarketing  3 Esses cookies são usados para rastrear a atividade de navegação e para personalizar e exibir anúncios relevantes e cativantes. Isso pode envolver o compartilhamento de informações sobre a maneira como você usa nosso site com terceiros para fins de marketing e publicidade. Meta Platforms, Inc.3Saiba mais sobre este provedorlastExternalReferrerDetecta como o usuário acessou o site ao registrar seu último endereço de URL.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTMLlastExternalReferrerTimeDetecta como o usuário acessou o site ao registrar seu último endereço de URL.Duração máxima de armazenamento: PersistenteTipo: Armazenamento Local HTML_fbpUsed by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.Duração máxima de armazenamento: 3 mesesTipo: Cookie HTTPNão classificado  0Cookies não classificados são cookies que estão no processo de classificação, juntamente com os fornecedores de cookies individuais.Não usamos cookies deste tipo.Consentimento entre domínios[#BULK_CONSENT_DOMAINS_COUNT#][#BULK_CONSENT_TITLE#]Lista de domínios aos quais seu consentimento se aplica: [#BULK_CONSENT_DOMAINS#]Última atualização da declaração de cookies feita em 24/08/2026 por Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]SobreCookies são pequenos arquivos de texto que podem ser usados por sites para tornar a experiência de um usuário mais eficiente.  A lei determina que podemos armazenar cookies no seu dispositivo se forem estritamente necessários para o funcionamento do site. Para todos os outros tipos de cookies, precisamos da sua permissão. Você pode, a qualquer momento, alterar ou retirar seu consentimento usando os links Cookies e Não vender ou compartilhar minhas informações pessoais no rodapé desta página da web. Suas preferências de cookies podem ser aplicadas em determinados sites da Envato. Você pode encontrar informações mais detalhadas em nossa Política de Cookies e nossa Política de Privacidade. Não compartilhar ou vender as minhas informações pessoaisAceitar todosGerenciar preferênciasSalvar preferênciasRejeitar todos
+
+
+  window.dataLayer = window.dataLayer || [];
+
+  function normalizeAttributeValue(value) {
+    if (value === undefined || value === null) return undefined
+
+    var normalizedValue
+
+    if (Array.isArray(value)) {
+      normalizedValue = normalizedValue || value
+        .map(normalizeAttributeValue)
+        .filter(Boolean)
+        .join(', ')
+    }
+
+    normalizedValue = normalizedValue || value
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/&amp;/g, '&')
+      .replace(/&#39;/g, "'")
+      .replace(/\s+/g, ' ')
+
+    if (normalizedValue === '') return undefined
+    return normalizedValue
+  }
+
+  (function () {
+    if (document.documentElement.hasAttribute('data-turbo-preview')) return
+
+    var pageAttributes = {
+      app_name: 'mixkit',
+      app_version: 'v1815',
+      app_env: 'production',
+      page_type: 'license',
+      category: '',
+      sub_category: '',
+      tag: ''
+    }
+
+    var additionalAttributes = {
+      page_location: window.location.href,
+      page_referrer: document.referrer,
+      page_title: document.title
+    }
+
+    var normalizedPageAttributes = { event_attributes: null }
+    Object.keys(pageAttributes).forEach(function(key) {
+      normalizedPageAttributes[key] =  normalizeAttributeValue(pageAttributes[key])
+    })
+
+    dataLayer.push({...normalizedPageAttributes, ...additionalAttributes})
+    dataLayer.push({
+      event: 'analytics_ready',
+      event_attributes: {
+        custom_timestamp: Date.now()
+      }
+    })
+  })()
+
+
+
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-WVRS4FR"
+    height="0"
+    width="0"
+    style="display:none;visibility:hidden"
+  >
+  </iframe>
+
+
+
+
+  
+  
+  
+      
+        
+          Envato:
+        
+        
+          Go unlimited!
+        
+      
+
+      
+        
+          Unlimited creative stock assets, all in one place.
+        
+        Subscribe to Envato.
+        
+            Let's go!
+        
+      
+
+
+
+  
+  
+    
+      
+      
+      
+      
+    
+  
+  
+    
+  
+    Videos
+    
+      Videos
+      Music
+      Sound Effects
+      Templates
+      Icons
+    
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    
+  
+
+
+  
+  
+    
+  
+  
+    Video
+    Music
+    Sound Effects
+    
+      Templates
+      
+        Premiere Pro
+        After Effects
+        Final Cut Pro
+        DaVinci Resolve
+      
+    
+    
+      
+          Unlimited stock assets 
+
+      
+          
+            
+            
+              
+                The ultimate creative subscription
+              
+              
+                
+    
+      Unlimited stock assets
+    
+    
+      Millions of premium assets
+    
+    
+      Lifetime commercial licence
+    
+
+
+
+              
+            
+            
+              Let's create
+            
+          
+
+          
+            
+          
+
+    
+  
+
+
+  
+
+
+
+
+      
+    
+      
+        Mixkit License
+        On Mixkit, we have a specific license for each of our item types. Be sure you are aware of which license applies to the item you have downloaded.
+      
+      
+        
+          Stock Video 
+          Free License
+        
+        View License
+      
+      
+        
+          Stock Video 
+          Restricted License
+        
+        View License
+      
+      
+        
+          Stock Music 
+          Free License
+        
+        View License
+      
+      
+        
+          Sound Effects 
+          Free License
+        
+        View License
+      
+      
+        
+          Video Templates 
+          Free License
+        
+        View License
+      
+      
+        
+          Art 
+          Free License
+        
+        View License
+    
+
+    
+  
+    
+
+    
+      Unlimited creative stock assets, all in one place.
+    
+    
+    
+      Millions of premium assets
+    
+    
+      Lifetime commercial licence
+    
+
+
+
+    Start creating now
+
+  
+
+
+
+
+
+  
+    
+      
+      
+    
+  
+  
+  
+    Close
+  
+    
+      Stock Video Free License
+    
+    
+      
+        
+          Videos under the Free license can be used in
+          
+            YouTube videos
+            Social Media video posts
+            Online marketing ads
+            Educational purposes
+            Music videos
+            Commercial projects
+            Filmmaking
+          
+        
+      
+      Items under the Mixkit Stock Video Free License can be used in your commercial and non-commercial projects, for free.
+      You’re permitted to download, copy, modify, distribute, publicly perform and broadcast the Items. Your rights are non-exclusive, worldwide, sub-licensable and ongoing. Attribution is not required, however, we would appreciate it if you credit Mixkit where reasonably possible.
+      There are some important limits to these rights, described in our User Terms.
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+    Videos
+    
+  
+  
+      Generate Videos with AI
+      4K Videos
+      Nature
+      Lifestyle
+      Business
+      Animals
+      Zoom Backgrounds
+      Vertical
+      Backgrounds
+  
+
+
+    
+  
+  
+    Music
+    
+  
+  
+      Generate Music with AI
+      Ambient
+      Drum & Bass
+      Funk
+      Hip-Hop
+      Jazz
+  
+
+
+    
+  
+  
+    Sound Effects
+    
+  
+  
+      Generate Sounds with AI
+      Game
+      Animals
+      Human
+      Instrument
+      Lifestyle
+      Nature
+      Technology
+      Transition
+      Warfare
+  
+
+
+      
+  
+  
+    Premiere Pro
+    
+  
+  
+      Subscribe
+      Instagram
+      Logo
+      Lower-thirds
+      Opener
+      Slideshows
+      Titles
+      Transitions
+      YouTube
+  
+
+
+      
+  
+  
+    After Effects
+    
+  
+  
+      Audio visualizer
+      Call-outs
+      Instagram
+      Lower-thirds
+      Opener
+      Slideshows
+      Titles
+      Transitions
+      YouTube
+  
+
+
+      
+  
+  
+    Final Cut Pro
+    
+  
+  
+      Instagram
+      Logo
+      Lower-thirds
+      Opener
+      Promotion
+      Slideshows
+      Titles
+      Transitions
+      YouTube
+  
+
+
+      
+  
+  
+    DaVinci Resolve
+    
+  
+  
+      Call-outs
+      Instagram
+      Lower-thirds
+      Titles
+      YouTube
+  
+
+
+    
+  
+  
+    Mixkit
+    
+  
+  
+      License
+      Terms
+      Sitemap
+      Privacy
+      Cookies
+      Cookie Settings
+      Do not sell or share my
+personal information
+      Hey AI, learn about Mixkit
+      Art
+  
+
+
+  
+  
+    
+      
+        
+      
+    
+    
+      Copyright © 2026. All rights reserved - Made by
+        Envato
+
+      
+    
+    
+      
+        
+          
+        
+      
+      
+        
+          
+          
+        
+      
+      
+        
+          
+        
+      
+      
+        
+          
+        
+      
+    
+  
+
+
+
+
+
+  
+      
+      
+        
+          The ultimate creative subscription
+        
+        
+          
+    
+      Unlimited stock assets
+    
+    
+      Millions of premium assets
+    
+    
+      Lifetime commercial licence
+    
+
+
+
+        
+    
+
+
+  Start creating now
+
+
+  
+    
+      
+      
+    
+  
+
+
+
+  Our site is great except that we don‘t support your browser. We recommend using the latest version of
+  Google Chrome,
+  Mozilla Firefox,
+  Microsoft Edge, or
+  Apple Safari.
+
+
+  var browserSupportsAbortController = typeof AbortController !== "undefined"
+  var browserSupportsCss = !!((window.CSS && window.CSS.supports) || window.supportsCSS || false);
+  var browserSupportsCustomElements = !!(window.customElements);
+  var isIE = navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1;
+  if (browserSupportsAbortController && browserSupportsCss && browserSupportsCustomElements && !isIE) {
+    document.getElementById('global-browser-support').style.display = 'none';
+  }
+
+
+
+
+
+
+  function checkFileLoaded() {
+    var criticalFiles = ['application.js'];
+    for (var i = 0; i < criticalFiles.length; i++) {
+      var criticalFile = criticalFiles[i]
+      var errorMessage = `Error: The ${criticalFile} file didn’t load.`
+      var loadingErrorBanner = document.getElementById('global-loading-error')
+      if (!window.__FILES_LOADED__?.[criticalFile]) {
+        loadingErrorBanner.style.display = 'block'
+        loadingErrorBanner.innerText = errorMessage
+        logToRollbar(errorMessage)
+        break;
+      }
+    }
+  }
+
+  function logToRollbar(errorMessage) {
+    if (_rollbarConfig.payload.environment == 'development') {
+      console.log(errorMessage)
+    }
+    if (typeof window !== 'undefined' && typeof window.Rollbar !== 'undefined') {
+      window.Rollbar.error(errorMessage)
+    }
+  }
+
+  setTimeout(checkFileLoaded, 500);
+
+
+
+
+
+
+

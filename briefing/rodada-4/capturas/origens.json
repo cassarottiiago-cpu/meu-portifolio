@@ -1,0 +1,59 @@
+[
+  {
+    "id": "phron-noturno",
+    "source": "Build local PHRON; banco temporário vazio; sessão exclusiva de captura; tema dark.",
+    "url": "PHRON/.next",
+    "capturedAt": "2026-09-12T14:29:29.028Z",
+    "status": 200,
+    "title": "PHRON · PHRON Operations OS",
+    "cssViewport": [
+      1440,
+      1000
+    ],
+    "deviceScaleFactor": 3,
+    "pixels": [
+      4320,
+      3000
+    ],
+    "image": "phron-noturno-3x.webp",
+    "theme": "dark"
+  },
+  {
+    "id": "qozt",
+    "source": "Site publicado indicado pelo usuário. Alegações do site não são resultados verificados do portfólio.",
+    "url": "https://www.qozt.com.br/",
+    "capturedAt": "2026-09-12T14:29:37.592Z",
+    "status": 200,
+    "title": "QOZ'T | Agentes inteligentes para negócios inteligentes",
+    "cssViewport": [
+      1440,
+      1000
+    ],
+    "deviceScaleFactor": 3,
+    "pixels": [
+      4320,
+      3000
+    ],
+    "image": "qozt-3x.webp",
+    "theme": "original"
+  },
+  {
+    "id": "natalia",
+    "source": "Build local em site-nat-work/dist, sem alteração de conteúdo.",
+    "url": "site-nat-work/dist",
+    "capturedAt": "2026-09-12T14:29:44.025Z",
+    "status": 200,
+    "title": "Dra. Natália Messias | Neurodesenvolvimento infantil em Londrina",
+    "cssViewport": [
+      1440,
+      1000
+    ],
+    "deviceScaleFactor": 3,
+    "pixels": [
+      4320,
+      3000
+    ],
+    "image": "natalia-3x.webp",
+    "theme": "original"
+  }
+]

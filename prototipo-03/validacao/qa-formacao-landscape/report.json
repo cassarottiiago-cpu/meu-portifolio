@@ -1,0 +1,1771 @@
+{
+  "checks": [
+    "landscape-load: global motion remains on",
+    "landscape-load: opening static only",
+    "landscape-load: no scene remains inert or hidden",
+    "landscape-load: no card intersections",
+    "landscape-load: no title and description collisions",
+    "landscape-load: all scene content contained by journey",
+    "landscape-load: no horizontal overflow",
+    "landscape-load: correct four case hrefs",
+    "landscape-load: images loaded",
+    "autopost: modal opens with keyboard",
+    "autopost: close preserves scroll",
+    "autopost: close restores focus",
+    "phron: modal opens with keyboard",
+    "phron: close preserves scroll",
+    "phron: close restores focus",
+    "qozt: modal opens with keyboard",
+    "qozt: close preserves scroll",
+    "qozt: close restores focus",
+    "natalia: modal opens with keyboard",
+    "natalia: close preserves scroll",
+    "natalia: close restores focus",
+    "reduced-motion globally off",
+    "reduced-motion pieces interactive",
+    "landscape-motion-restored: global motion remains on",
+    "landscape-motion-restored: opening static only",
+    "landscape-motion-restored: no scene remains inert or hidden",
+    "landscape-motion-restored: no card intersections",
+    "landscape-motion-restored: no title and description collisions",
+    "landscape-motion-restored: all scene content contained by journey",
+    "landscape-motion-restored: no horizontal overflow",
+    "landscape-motion-restored: correct four case hrefs",
+    "landscape-motion-restored: images loaded",
+    "fallback navigation reaches real QOZT case",
+    "portrait animation enabled",
+    "rotated-landscape: global motion remains on",
+    "rotated-landscape: opening static only",
+    "rotated-landscape: no scene remains inert or hidden",
+    "rotated-landscape: no card intersections",
+    "rotated-landscape: no title and description collisions",
+    "rotated-landscape: all scene content contained by journey",
+    "rotated-landscape: no horizontal overflow",
+    "rotated-landscape: correct four case hrefs",
+    "rotated-landscape: images loaded",
+    "return to portrait restores motion",
+    "restored spread no overlaps",
+    "restored spread no inert pieces",
+    "no page errors"
+  ],
+  "states": [
+    {
+      "label": "landscape-load",
+      "motion": "on",
+      "opening": "off",
+      "layout": "static",
+      "width": 844,
+      "height": 390,
+      "scroll": 0,
+      "scrollWidth": 844,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 1538.5,
+        "right": 844,
+        "bottom": 1538.5
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 505.25,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 379.328125,
+            "right": 818.6875,
+            "bottom": 491.328125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 491.328125,
+            "w": 793.375,
+            "h": 125.921875,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 503.328125,
+            "w": 485.640625,
+            "h": 113.921875,
+            "right": 510.953125,
+            "bottom": 617.25
+          },
+          "description": {
+            "x": 642.703125,
+            "y": 574.25,
+            "w": 175.984375,
+            "h": 43,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": false
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 369.203125,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 288.203125,
+            "right": 440.34375,
+            "bottom": 969.453125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 969.453125,
+            "w": 415.03125,
+            "h": 81,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 981.453125,
+            "w": 415.03125,
+            "h": 44,
+            "right": 440.34375,
+            "bottom": 1025.453125
+          },
+          "description": {
+            "x": 25.3125,
+            "y": 1035.453125,
+            "w": 415.03125,
+            "h": 15,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 369.203125,
+            "right": 818.6875,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 155.40625,
+            "right": 818.6875,
+            "bottom": 836.65625
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 836.65625,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 848.65625,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 892.65625
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 902.65625,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 296.046875,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 215.046875,
+            "right": 818.6875,
+            "bottom": 1329.5
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 1329.5,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 1341.5,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 1385.5
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 1395.5,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "label": "landscape-reduced",
+      "motion": "off",
+      "opening": "off",
+      "layout": "static",
+      "width": 844,
+      "height": 390,
+      "scroll": 1015,
+      "scrollWidth": 844,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 1538.5,
+        "right": 844,
+        "bottom": 1538.5
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 505.25,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 379.328125,
+            "right": 818.6875,
+            "bottom": 491.328125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 491.328125,
+            "w": 793.375,
+            "h": 125.921875,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 503.328125,
+            "w": 485.640625,
+            "h": 113.921875,
+            "right": 510.953125,
+            "bottom": 617.25
+          },
+          "description": {
+            "x": 642.703125,
+            "y": 574.25,
+            "w": 175.984375,
+            "h": 43,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": false
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 369.203125,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 288.203125,
+            "right": 440.34375,
+            "bottom": 969.453125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 969.453125,
+            "w": 415.03125,
+            "h": 81,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 981.453125,
+            "w": 415.03125,
+            "h": 44,
+            "right": 440.34375,
+            "bottom": 1025.453125
+          },
+          "description": {
+            "x": 25.3125,
+            "y": 1035.453125,
+            "w": 415.03125,
+            "h": 15,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 369.203125,
+            "right": 818.6875,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 155.40625,
+            "right": 818.6875,
+            "bottom": 836.65625
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 836.65625,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 848.65625,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 892.65625
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 902.65625,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 296.046875,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 215.046875,
+            "right": 818.6875,
+            "bottom": 1329.5
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 1329.5,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 1341.5,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 1385.5
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 1395.5,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "label": "landscape-motion-restored",
+      "motion": "on",
+      "opening": "off",
+      "layout": "static",
+      "width": 844,
+      "height": 390,
+      "scroll": 1015,
+      "scrollWidth": 844,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 1538.5,
+        "right": 844,
+        "bottom": 1538.5
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 505.25,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 379.328125,
+            "right": 818.6875,
+            "bottom": 491.328125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 491.328125,
+            "w": 793.375,
+            "h": 125.921875,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 503.328125,
+            "w": 485.640625,
+            "h": 113.921875,
+            "right": 510.953125,
+            "bottom": 617.25
+          },
+          "description": {
+            "x": 642.703125,
+            "y": 574.25,
+            "w": 175.984375,
+            "h": 43,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": false
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 369.203125,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 288.203125,
+            "right": 440.34375,
+            "bottom": 969.453125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 969.453125,
+            "w": 415.03125,
+            "h": 81,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 981.453125,
+            "w": 415.03125,
+            "h": 44,
+            "right": 440.34375,
+            "bottom": 1025.453125
+          },
+          "description": {
+            "x": 25.3125,
+            "y": 1035.453125,
+            "w": 415.03125,
+            "h": 15,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 369.203125,
+            "right": 818.6875,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 155.40625,
+            "right": 818.6875,
+            "bottom": 836.65625
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 836.65625,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 848.65625,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 892.65625
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 902.65625,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 296.046875,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 215.046875,
+            "right": 818.6875,
+            "bottom": 1329.5
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 1329.5,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 1341.5,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 1385.5
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 1395.5,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "label": "portrait-before-rotation",
+      "motion": "on",
+      "opening": "on",
+      "layout": "spread",
+      "width": 390,
+      "height": 844,
+      "scroll": 780,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 1772.390625,
+        "right": 390,
+        "bottom": 1772.390625
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 20,
+            "y": 934.0692291259766,
+            "w": 188.453125,
+            "h": 259.65625,
+            "right": 208.453125,
+            "bottom": 1193.7254791259766
+          },
+          "image": {
+            "x": 20,
+            "y": 934.0692291259766,
+            "w": 188.453125,
+            "h": 188.65623474121094,
+            "right": 208.453125,
+            "bottom": 1122.7254638671875
+          },
+          "caption": {
+            "x": 20,
+            "y": 1122.7254638671875,
+            "w": 188.453125,
+            "h": 71,
+            "right": 208.453125,
+            "bottom": 1193.7254638671875
+          },
+          "title": {
+            "x": 20,
+            "y": 1132.7254638671875,
+            "w": 188.453125,
+            "h": 36,
+            "right": 208.453125,
+            "bottom": 1168.7254638671875
+          },
+          "description": {
+            "x": 20,
+            "y": 1178.7254638671875,
+            "w": 188.453125,
+            "h": 15,
+            "right": 208.453125,
+            "bottom": 1193.7254638671875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 230.89743041992188,
+            "y": 974.4538421630859,
+            "w": 139.09375,
+            "h": 159.07814025878906,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "image": {
+            "x": 230.89743041992188,
+            "y": 974.4538421630859,
+            "w": 139.09375,
+            "h": 96.57814025878906,
+            "right": 369.9911804199219,
+            "bottom": 1071.031982421875
+          },
+          "caption": {
+            "x": 230.89743041992188,
+            "y": 1071.031982421875,
+            "w": 139.09375,
+            "h": 62.5,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "title": {
+            "x": 230.89743041992188,
+            "y": 1081.031982421875,
+            "w": 139.09375,
+            "h": 36,
+            "right": 369.9911804199219,
+            "bottom": 1117.031982421875
+          },
+          "description": {
+            "x": 230.89743041992188,
+            "y": 1120.031982421875,
+            "w": 139.09375,
+            "h": 13.5,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 230.89743041992188,
+            "y": 1252.6589660644531,
+            "w": 139.09375,
+            "h": 130.20309448242188,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "image": {
+            "x": 230.89743041992188,
+            "y": 1252.6589660644531,
+            "w": 139.09375,
+            "h": 67.70309448242188,
+            "right": 369.9911804199219,
+            "bottom": 1320.362060546875
+          },
+          "caption": {
+            "x": 230.89743041992188,
+            "y": 1320.362060546875,
+            "w": 139.09375,
+            "h": 62.5,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "title": {
+            "x": 230.89743041992188,
+            "y": 1330.362060546875,
+            "w": 139.09375,
+            "h": 36,
+            "right": 369.9911804199219,
+            "bottom": 1366.362060546875
+          },
+          "description": {
+            "x": 230.89743041992188,
+            "y": 1369.362060546875,
+            "w": 139.09375,
+            "h": 13.5,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 20,
+            "y": 1275.0948791503906,
+            "w": 197.421875,
+            "h": 195.48434448242188,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "image": {
+            "x": 20,
+            "y": 1275.0948791503906,
+            "w": 197.421875,
+            "h": 132.98434448242188,
+            "right": 217.421875,
+            "bottom": 1408.0792236328125
+          },
+          "caption": {
+            "x": 20,
+            "y": 1408.0792236328125,
+            "w": 197.421875,
+            "h": 62.5,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "title": {
+            "x": 20,
+            "y": 1418.0792236328125,
+            "w": 197.421875,
+            "h": 36,
+            "right": 217.421875,
+            "bottom": 1454.0792236328125
+          },
+          "description": {
+            "x": 20,
+            "y": 1457.0792236328125,
+            "w": 197.421875,
+            "h": 13.5,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "label": "rotated-landscape",
+      "motion": "on",
+      "opening": "off",
+      "layout": "static",
+      "width": 844,
+      "height": 390,
+      "scroll": 780,
+      "scrollWidth": 844,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 1538.5,
+        "right": 844,
+        "bottom": 1538.5
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 505.25,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 112,
+            "w": 793.375,
+            "h": 379.328125,
+            "right": 818.6875,
+            "bottom": 491.328125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 491.328125,
+            "w": 793.375,
+            "h": 125.921875,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 503.328125,
+            "w": 485.640625,
+            "h": 113.921875,
+            "right": 510.953125,
+            "bottom": 617.25
+          },
+          "description": {
+            "x": 642.703125,
+            "y": 574.25,
+            "w": 175.984375,
+            "h": 43,
+            "right": 818.6875,
+            "bottom": 617.25
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": false
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 369.203125,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 25.3125,
+            "y": 681.25,
+            "w": 415.03125,
+            "h": 288.203125,
+            "right": 440.34375,
+            "bottom": 969.453125
+          },
+          "caption": {
+            "x": 25.3125,
+            "y": 969.453125,
+            "w": 415.03125,
+            "h": 81,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "title": {
+            "x": 25.3125,
+            "y": 981.453125,
+            "w": 415.03125,
+            "h": 44,
+            "right": 440.34375,
+            "bottom": 1025.453125
+          },
+          "description": {
+            "x": 25.3125,
+            "y": 1035.453125,
+            "w": 415.03125,
+            "h": 15,
+            "right": 440.34375,
+            "bottom": 1050.453125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 369.203125,
+            "right": 818.6875,
+            "bottom": 1050.453125
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 681.25,
+            "w": 319.265625,
+            "h": 155.40625,
+            "right": 818.6875,
+            "bottom": 836.65625
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 836.65625,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 848.65625,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 892.65625
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 902.65625,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 917.65625
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 296.046875,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "image": {
+            "x": 499.421875,
+            "y": 1114.453125,
+            "w": 319.265625,
+            "h": 215.046875,
+            "right": 818.6875,
+            "bottom": 1329.5
+          },
+          "caption": {
+            "x": 499.421875,
+            "y": 1329.5,
+            "w": 319.265625,
+            "h": 81,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "title": {
+            "x": 499.421875,
+            "y": 1341.5,
+            "w": 319.265625,
+            "h": 44,
+            "right": 818.6875,
+            "bottom": 1385.5
+          },
+          "description": {
+            "x": 499.421875,
+            "y": 1395.5,
+            "w": 319.265625,
+            "h": 15,
+            "right": 818.6875,
+            "bottom": 1410.5
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "label": "rotated-portrait",
+      "motion": "on",
+      "opening": "on",
+      "layout": "cover",
+      "width": 390,
+      "height": 844,
+      "scroll": 0,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 1772.390625,
+        "right": 390,
+        "bottom": 1772.390625
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 20,
+            "y": 170.5399932861328,
+            "w": 350,
+            "h": 461.5625,
+            "right": 370,
+            "bottom": 632.1024932861328
+          },
+          "image": {
+            "x": 20,
+            "y": 170.5399932861328,
+            "w": 350,
+            "h": 343.5625,
+            "right": 370,
+            "bottom": 514.1024932861328
+          },
+          "caption": {
+            "x": 20,
+            "y": 514.1024780273438,
+            "w": 350,
+            "h": 118,
+            "right": 370,
+            "bottom": 632.1024780273438
+          },
+          "title": {
+            "x": 20,
+            "y": 524.1024780273438,
+            "w": 350,
+            "h": 63,
+            "right": 370,
+            "bottom": 587.1024780273438
+          },
+          "description": {
+            "x": 20,
+            "y": 597.1024780273438,
+            "w": 350,
+            "h": 35,
+            "right": 370,
+            "bottom": 632.1024780273438
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 230,
+            "y": 194.0293731689453,
+            "w": 111.28125,
+            "h": 139.76560974121094,
+            "right": 341.28125,
+            "bottom": 333.79498291015625
+          },
+          "image": {
+            "x": 230,
+            "y": 194.0293731689453,
+            "w": 111.28125,
+            "h": 77.26560974121094,
+            "right": 341.28125,
+            "bottom": 271.29498291015625
+          },
+          "caption": {
+            "x": 230,
+            "y": 271.29498291015625,
+            "w": 111.28125,
+            "h": 62.5,
+            "right": 341.28125,
+            "bottom": 333.79498291015625
+          },
+          "title": {
+            "x": 230,
+            "y": 281.29498291015625,
+            "w": 111.28125,
+            "h": 36,
+            "right": 341.28125,
+            "bottom": 317.29498291015625
+          },
+          "description": {
+            "x": 230,
+            "y": 320.29498291015625,
+            "w": 111.28125,
+            "h": 13.5,
+            "right": 341.28125,
+            "bottom": 333.79498291015625
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "hidden",
+          "inert": true,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 48,
+            "y": 318.1875,
+            "w": 111.28125,
+            "h": 116.671875,
+            "right": 159.28125,
+            "bottom": 434.859375
+          },
+          "image": {
+            "x": 48,
+            "y": 318.1875,
+            "w": 111.28125,
+            "h": 54.171875,
+            "right": 159.28125,
+            "bottom": 372.359375
+          },
+          "caption": {
+            "x": 48,
+            "y": 372.359375,
+            "w": 111.28125,
+            "h": 62.5,
+            "right": 159.28125,
+            "bottom": 434.859375
+          },
+          "title": {
+            "x": 48,
+            "y": 382.359375,
+            "w": 111.28125,
+            "h": 36,
+            "right": 159.28125,
+            "bottom": 418.359375
+          },
+          "description": {
+            "x": 48,
+            "y": 421.359375,
+            "w": 111.28125,
+            "h": 13.5,
+            "right": 159.28125,
+            "bottom": 434.859375
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "hidden",
+          "inert": true,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 219.5,
+            "y": 334.96563720703125,
+            "w": 157.9375,
+            "h": 197.46875,
+            "right": 377.4375,
+            "bottom": 532.4343872070312
+          },
+          "image": {
+            "x": 219.5,
+            "y": 334.96563720703125,
+            "w": 157.9375,
+            "h": 106.375,
+            "right": 377.4375,
+            "bottom": 441.34063720703125
+          },
+          "caption": {
+            "x": 219.5,
+            "y": 441.34063720703125,
+            "w": 157.9375,
+            "h": 91.09375,
+            "right": 377.4375,
+            "bottom": 532.4343872070312
+          },
+          "title": {
+            "x": 219.5,
+            "y": 451.34063720703125,
+            "w": 157.9375,
+            "h": 64.59375,
+            "right": 377.4375,
+            "bottom": 515.9343872070312
+          },
+          "description": {
+            "x": 219.5,
+            "y": 518.9343872070312,
+            "w": 157.9375,
+            "h": 13.5,
+            "right": 377.4375,
+            "bottom": 532.4343872070312
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "hidden",
+          "inert": true,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": [
+        {
+          "a": "autopost",
+          "b": "phron",
+          "area": 15553.29175901413
+        },
+        {
+          "a": "autopost",
+          "b": "qozt",
+          "area": 12983.39208984375
+        },
+        {
+          "a": "autopost",
+          "b": "natalia",
+          "area": 29719.046875
+        }
+      ]
+    },
+    {
+      "label": "restored-spread",
+      "motion": "on",
+      "opening": "on",
+      "layout": "spread",
+      "width": 390,
+      "height": 844,
+      "scroll": 780,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "journey": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 1772.390625,
+        "right": 390,
+        "bottom": 1772.390625
+      },
+      "pieces": [
+        {
+          "id": "autopost",
+          "box": {
+            "x": 20,
+            "y": 934.0692291259766,
+            "w": 188.453125,
+            "h": 259.65625,
+            "right": 208.453125,
+            "bottom": 1193.7254791259766
+          },
+          "image": {
+            "x": 20,
+            "y": 934.0692291259766,
+            "w": 188.453125,
+            "h": 188.65623474121094,
+            "right": 208.453125,
+            "bottom": 1122.7254638671875
+          },
+          "caption": {
+            "x": 20,
+            "y": 1122.7254638671875,
+            "w": 188.453125,
+            "h": 71,
+            "right": 208.453125,
+            "bottom": 1193.7254638671875
+          },
+          "title": {
+            "x": 20,
+            "y": 1132.7254638671875,
+            "w": 188.453125,
+            "h": 36,
+            "right": 208.453125,
+            "bottom": 1168.7254638671875
+          },
+          "description": {
+            "x": 20,
+            "y": 1178.7254638671875,
+            "w": 188.453125,
+            "h": 15,
+            "right": 208.453125,
+            "bottom": 1193.7254638671875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/autopost.html",
+          "assets": [
+            {
+              "src": "assets/autopost-hero.jpg",
+              "loaded": true,
+              "visible": true
+            },
+            {
+              "src": "assets/autopost-queue.jpg",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "phron",
+          "box": {
+            "x": 230.89743041992188,
+            "y": 974.4538421630859,
+            "w": 139.09375,
+            "h": 159.07814025878906,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "image": {
+            "x": 230.89743041992188,
+            "y": 974.4538421630859,
+            "w": 139.09375,
+            "h": 96.57814025878906,
+            "right": 369.9911804199219,
+            "bottom": 1071.031982421875
+          },
+          "caption": {
+            "x": 230.89743041992188,
+            "y": 1071.031982421875,
+            "w": 139.09375,
+            "h": 62.5,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "title": {
+            "x": 230.89743041992188,
+            "y": 1081.031982421875,
+            "w": 139.09375,
+            "h": 36,
+            "right": 369.9911804199219,
+            "bottom": 1117.031982421875
+          },
+          "description": {
+            "x": 230.89743041992188,
+            "y": 1120.031982421875,
+            "w": 139.09375,
+            "h": 13.5,
+            "right": 369.9911804199219,
+            "bottom": 1133.531982421875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/phron.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/phron-noturno-agenda.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "qozt",
+          "box": {
+            "x": 230.89743041992188,
+            "y": 1252.6589660644531,
+            "w": 139.09375,
+            "h": 130.20309448242188,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "image": {
+            "x": 230.89743041992188,
+            "y": 1252.6589660644531,
+            "w": 139.09375,
+            "h": 67.70309448242188,
+            "right": 369.9911804199219,
+            "bottom": 1320.362060546875
+          },
+          "caption": {
+            "x": 230.89743041992188,
+            "y": 1320.362060546875,
+            "w": 139.09375,
+            "h": 62.5,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "title": {
+            "x": 230.89743041992188,
+            "y": 1330.362060546875,
+            "w": 139.09375,
+            "h": 36,
+            "right": 369.9911804199219,
+            "bottom": 1366.362060546875
+          },
+          "description": {
+            "x": 230.89743041992188,
+            "y": 1369.362060546875,
+            "w": 139.09375,
+            "h": 13.5,
+            "right": 369.9911804199219,
+            "bottom": 1382.862060546875
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/qozt.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/qozt-cover.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "natalia",
+          "box": {
+            "x": 20,
+            "y": 1275.0948791503906,
+            "w": 197.421875,
+            "h": 195.48434448242188,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "image": {
+            "x": 20,
+            "y": 1275.0948791503906,
+            "w": 197.421875,
+            "h": 132.98434448242188,
+            "right": 217.421875,
+            "bottom": 1408.0792236328125
+          },
+          "caption": {
+            "x": 20,
+            "y": 1408.0792236328125,
+            "w": 197.421875,
+            "h": 62.5,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "title": {
+            "x": 20,
+            "y": 1418.0792236328125,
+            "w": 197.421875,
+            "h": 36,
+            "right": 217.421875,
+            "bottom": 1454.0792236328125
+          },
+          "description": {
+            "x": 20,
+            "y": 1457.0792236328125,
+            "w": 197.421875,
+            "h": 13.5,
+            "right": 217.421875,
+            "bottom": 1470.5792236328125
+          },
+          "titleDescriptionOverlap": 0,
+          "visibility": "visible",
+          "inert": false,
+          "href": "projetos/natalia.html",
+          "assets": [
+            {
+              "src": "assets/revisao-23/natalia-inicio.webp",
+              "loaded": true,
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "errors": []
+}

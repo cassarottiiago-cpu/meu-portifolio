@@ -1,0 +1,167 @@
+{
+  "title": "BMK | Inteligência Operacional",
+  "pageHeight": 2371,
+  "text": "BUSINESS\n•\nMARKETING\n•\nKERNEL\npsychology\nBMK.AI\n>>>\nCONHEÇA A PLATAFORMA NËXXO\nchevron_left\nchevron_right\n\nA NËXXO é a plataforma proprietária da BMK responsável por integrar inteligência, automação, performance, percepção e dados dentro de um único ecossistema estratégico. Mais do que tecnologia, ela funciona como o núcleo operacional que conecta branding, crescimento, posicionamento e tomada de decisão em tempo real.\n\npublic\nSite\n>>>\nInstagram\n>>>\nFacebook\n>>>\nLinkedIn\n>>>\nYouTube\n>>>\nCONHEÇA NOSSOS SERVIÇOS\nESTRUTURA\nEssential\n\nPara empresas que desejam construir uma presença estratégica com direção e posicionamento.\n\ncheck_circle\nDiagnóstico estratégico\ncheck_circle\nEstrutura inicial de posicionamento\ncheck_circle\nGestão de canais estratégicos\ncheck_circle\nDashboard de performance\nSaiba Mais\n>>>\nESTRUTURA\nPremium\nstar\n\nPara marcas que desejam autoridade, crescimento previsível e presença forte de mercado.\n\ncheck_circle\nBranding + Performance + Conteúdo\ncheck_circle\nSEO + AEO + Growth Marketing\ncheck_circle\nCRM & Automação Inteligente\ncheck_circle\nReuniões estratégicas mensais\ncheck_circle\nDashboard avançado\nSaiba Mais\n>>>\nESTRUTURA\nEnterprise\n\nPara empresas que desejam dominar percepção e liderar seus segmentos.\n\ncheck_circle\nNúcleo estratégico dedicado\ncheck_circle\nEcossistema BMK completo\ncheck_circle\nInteligência competitiva contínua\ncheck_circle\nEstrutura operacional prioritária\nSaiba Mais\n>>>\nchevron_left\nchevron_right\ncall\nLigação\n>>>\nConverse agora no WhatsApp\n>>>\nTERMOS DE USO\n•\nPOLÍTICA DE PRIVACIDADE\n\nEste site não é afiliado ao Facebook, Google ou a qualquer de suas entidades associadas. Todos os conteúdos e estratégias são de propriedade exclusiva da BMK.\n\n© 2026 BMK. Todos os direitos reservados.\n\nlock\nCONEXÃO SEGURA VIA SSL",
+  "sections": [
+    {
+      "tag": "HEADER",
+      "id": "",
+      "class": "w-full flex flex-col items-center text-center pt-8 md:pt-12 mb-6 relative",
+      "top": 0,
+      "height": 219,
+      "width": 544,
+      "heading": "BUSINESS•MARKETING•KERNEL",
+      "text": "BUSINESS\n•\nMARKETING\n•\nKERNEL"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "class": "w-full mb-2 mt-4",
+      "top": 345,
+      "height": 426,
+      "width": 544,
+      "heading": "CONHEÇA A PLATAFORMA NËXXO",
+      "text": "CONHEÇA A PLATAFORMA NËXXO\nchevron_left\nchevron_right"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "w-full flex flex-col gap-3 mb-6",
+      "top": 908,
+      "height": 358,
+      "width": 544,
+      "text": "public\nSite\n>>>\nInstagram\n>>>\nFacebook\n>>>\nLinkedIn\n>>>\nYouTube\n>>>"
+    },
+    {
+      "tag": "DIV",
+      "id": "pricing-carousel-container",
+      "class": "w-full relative py-6 mb-8 max-w-4xl mx-auto overflow-hidden px-4",
+      "top": 1290,
+      "height": 554,
+      "width": 544,
+      "heading": "CONHEÇA NOSSOS SERVIÇOS",
+      "text": "CONHEÇA NOSSOS SERVIÇOS\nESTRUTURA\nEssential\n\nPara empresas que desejam construir uma presença estratégica com direção e posicionamento.\n\ncheck_circle\n"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "psychologyBMK.AI>>>",
+      "aria": "Falar com Assistente BMK.AI",
+      "visible": true
+    },
+    {
+      "text": "chevron_left",
+      "aria": "Mockup anterior",
+      "visible": true
+    },
+    {
+      "text": "chevron_right",
+      "aria": "Próximo mockup",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para slide 1",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para slide 2",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para slide 3",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para slide 4",
+      "visible": true
+    },
+    {
+      "text": "Saiba Mais>>>",
+      "aria": null,
+      "visible": true
+    },
+    {
+      "text": "Saiba Mais>>>",
+      "aria": null,
+      "visible": true
+    },
+    {
+      "text": "Saiba Mais>>>",
+      "aria": null,
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para plano 1",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para plano 2",
+      "visible": true
+    },
+    {
+      "text": "",
+      "aria": "Ir para plano 3",
+      "visible": true
+    },
+    {
+      "text": "chevron_left",
+      "aria": "Plano anterior",
+      "visible": true
+    },
+    {
+      "text": "chevron_right",
+      "aria": "Próximo plano",
+      "visible": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://blink.bmkgow.com/logobmk.webp",
+      "width": 640,
+      "height": 640,
+      "complete": true,
+      "loading": "auto",
+      "alt": "BMK Marketing Logo"
+    },
+    {
+      "src": "https://blink.bmkgow.com/3D_MacBook_dashboard_mock-up_4K_202607301054.webp",
+      "width": 5504,
+      "height": 3072,
+      "complete": true,
+      "loading": "auto",
+      "alt": "Site Mockup 1"
+    },
+    {
+      "src": "https://blink.bmkgow.com/plataforma2.webp",
+      "width": 5504,
+      "height": 3072,
+      "complete": true,
+      "loading": "auto",
+      "alt": "Site Mockup 2"
+    },
+    {
+      "src": "https://blink.bmkgow.com/plataforma3.webp",
+      "width": 5504,
+      "height": 3072,
+      "complete": true,
+      "loading": "auto",
+      "alt": "Site Mockup 3"
+    },
+    {
+      "src": "https://blink.bmkgow.com/plataforma4.webp",
+      "width": 5504,
+      "height": 3072,
+      "complete": true,
+      "loading": "auto",
+      "alt": "Site Mockup 4"
+    }
+  ],
+  "videos": [],
+  "failed": []
+}

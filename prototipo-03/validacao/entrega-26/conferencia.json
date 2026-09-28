@@ -1,0 +1,457 @@
+{
+  "host": "http://127.0.0.1:4177",
+  "checkedAt": "2026-09-27T13:33:59.590Z",
+  "originals": [
+    {
+      "file": "autopost-hero.jpg",
+      "sha256": "e978d9189f667954d72dfea98243b767e816764795de9a5dbd9a99da2b52cdaf",
+      "unchanged": true
+    },
+    {
+      "file": "autopost-calendar.jpg",
+      "sha256": "43760e1e2cafb7dc28a806f9b0feaaa87bdd451bd63dfc8c1bb0a0107423439f",
+      "unchanged": true
+    },
+    {
+      "file": "autopost-queue.jpg",
+      "sha256": "219e25a94d4a9f30ccb3e79a14a8d1cd7d48b99a7e4a23a3c70bcafc64e58b4b",
+      "unchanged": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "autopost",
+      "prints": [
+        {
+          "src": "../assets/autopost-hero.jpg",
+          "native": [
+            1600,
+            765
+          ],
+          "declared": [
+            1600,
+            765
+          ],
+          "displayed": [
+            1267.21875,
+            605.875
+          ]
+        },
+        {
+          "src": "../assets/autopost-calendar.jpg",
+          "native": [
+            1600,
+            766
+          ],
+          "declared": [
+            1600,
+            766
+          ],
+          "displayed": [
+            1109.96875,
+            531.390625
+          ]
+        },
+        {
+          "src": "../assets/autopost-queue.jpg",
+          "native": [
+            1600,
+            769
+          ],
+          "declared": [
+            1600,
+            769
+          ],
+          "displayed": [
+            1109.96875,
+            533.46875
+          ]
+        }
+      ],
+      "source": {
+        "file": "autopost-hero.jpg",
+        "dimensions": [
+          1600,
+          765
+        ],
+        "sha256": "e978d9189f667954d72dfea98243b767e816764795de9a5dbd9a99da2b52cdaf"
+      }
+    },
+    {
+      "id": "phron",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/phron-noturno-agenda.webp",
+          "native": [
+            2880,
+            2000
+          ],
+          "declared": [
+            2880,
+            2000
+          ],
+          "displayed": [
+            1267.21875,
+            880
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/phron-noturno-inicio.webp",
+          "native": [
+            2880,
+            3266
+          ],
+          "declared": [
+            2880,
+            3266
+          ],
+          "displayed": [
+            1109.96875,
+            1258.734375
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/phron-noturno-agenda.webp",
+        "dimensions": [
+          2880,
+          2000
+        ],
+        "sha256": "7fe37fcd32f986bd5dfe090fb32d6fd83d4dabec26645d93110891ab38c9be3e"
+      }
+    },
+    {
+      "id": "qozt",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/qozt-cover.webp",
+          "native": [
+            2880,
+            1402
+          ],
+          "declared": [
+            2880,
+            1402
+          ],
+          "displayed": [
+            1267.21875,
+            616.875
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/qozt-secao.webp",
+          "native": [
+            1920,
+            1128
+          ],
+          "declared": [
+            1920,
+            1128
+          ],
+          "displayed": [
+            1109.96875,
+            652.09375
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/qozt-cover.webp",
+        "dimensions": [
+          2880,
+          1402
+        ],
+        "sha256": "44d0b0cd639a1a5159a75fb1f53ae75970c8aed37034a58ed0779016c24b35b0"
+      }
+    },
+    {
+      "id": "natalia",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/natalia-inicio.webp",
+          "native": [
+            2880,
+            1940
+          ],
+          "declared": [
+            2880,
+            1940
+          ],
+          "displayed": [
+            1267.21875,
+            853.609375
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/natalia-sobre.webp",
+          "native": [
+            2880,
+            1888
+          ],
+          "declared": [
+            2880,
+            1888
+          ],
+          "displayed": [
+            1109.96875,
+            727.640625
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/natalia-inicio.webp",
+        "dimensions": [
+          2880,
+          1940
+        ],
+        "sha256": "ead88f9e1a20db405583c61435141edea2c3f968d0780cee224b8c0d31f1d74b"
+      }
+    },
+    {
+      "id": "dr-paulo",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/dr-paulo-cover.webp",
+          "native": [
+            2880,
+            2000
+          ],
+          "declared": [
+            2880,
+            2000
+          ],
+          "displayed": [
+            1267.21875,
+            880
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/dr-paulo-secao.webp",
+          "native": [
+            1920,
+            1644
+          ],
+          "declared": [
+            1920,
+            1644
+          ],
+          "displayed": [
+            1109.96875,
+            950.40625
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/dr-paulo-cover.webp",
+        "dimensions": [
+          2880,
+          2000
+        ],
+        "sha256": "6a7c2c5c11d468b1d3c84e938eef6d143174d0a2778f78f142101d32daca7545"
+      }
+    },
+    {
+      "id": "limozine",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/limozine-cover.webp",
+          "native": [
+            2880,
+            1636
+          ],
+          "declared": [
+            2880,
+            1636
+          ],
+          "displayed": [
+            1267.21875,
+            719.84375
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/limozine-secao.webp",
+          "native": [
+            1920,
+            2495
+          ],
+          "declared": [
+            1920,
+            2495
+          ],
+          "displayed": [
+            1109.96875,
+            1442.375
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/limozine-cover.webp",
+        "dimensions": [
+          2880,
+          1636
+        ],
+        "sha256": "3e5928615731a417593e239260c977150df5956d240fa051978a3f965cec06cf"
+      }
+    },
+    {
+      "id": "dominos",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/dominos-cover.webp",
+          "native": [
+            2880,
+            1658
+          ],
+          "declared": [
+            2880,
+            1658
+          ],
+          "displayed": [
+            1267.21875,
+            729.515625
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/dominos-mobile-cover.webp",
+          "native": [
+            860,
+            1642
+          ],
+          "declared": [
+            860,
+            1642
+          ],
+          "displayed": [
+            347.203125,
+            662.90625
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/dominos-secao.webp",
+          "native": [
+            960,
+            1200
+          ],
+          "declared": [
+            960,
+            1200
+          ],
+          "displayed": [
+            856.8125,
+            1071.015625
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/dominos-cover.webp",
+        "dimensions": [
+          2880,
+          1658
+        ],
+        "sha256": "c43dcb48a17de377e4ddfc8ad8c23bd61d4b664fe066c964ebf60ee4cbbcc5ed"
+      }
+    },
+    {
+      "id": "bmk-blink",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/bmk-blink-cover.webp",
+          "native": [
+            2880,
+            1768
+          ],
+          "declared": [
+            2880,
+            1768
+          ],
+          "displayed": [
+            1267.21875,
+            777.921875
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/bmk-blink-mobile-cover.webp",
+          "native": [
+            860,
+            1456
+          ],
+          "declared": [
+            860,
+            1456
+          ],
+          "displayed": [
+            347.203125,
+            587.8125
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/bmk-blink-secao.webp",
+          "native": [
+            1088,
+            1108
+          ],
+          "declared": [
+            1088,
+            1108
+          ],
+          "displayed": [
+            856.8125,
+            872.5625
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/bmk-blink-cover.webp",
+        "dimensions": [
+          2880,
+          1768
+        ],
+        "sha256": "5e48b24acadc1c3ba9c74248db2fdcf0dd748d84336f0b34ec363c1cdb6e1564"
+      }
+    },
+    {
+      "id": "odonto",
+      "prints": [
+        {
+          "src": "../assets/revisao-23/odonto-cover.webp",
+          "native": [
+            2880,
+            2232
+          ],
+          "declared": [
+            2880,
+            2232
+          ],
+          "displayed": [
+            1267.21875,
+            982.09375
+          ]
+        },
+        {
+          "src": "../assets/revisao-23/odonto-secao.webp",
+          "native": [
+            1920,
+            1789
+          ],
+          "declared": [
+            1920,
+            1789
+          ],
+          "displayed": [
+            1109.96875,
+            1034.234375
+          ]
+        }
+      ],
+      "source": {
+        "file": "revisao-23/odonto-cover.webp",
+        "dimensions": [
+          2880,
+          2232
+        ],
+        "sha256": "e0669336543b63abdec90edfeab25beb021bce2244efe2387799c24d483f39bc"
+      }
+    }
+  ],
+  "errors": [],
+  "homeImageAttributesChecked": 13
+}

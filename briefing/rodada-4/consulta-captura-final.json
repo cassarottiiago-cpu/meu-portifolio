@@ -1,0 +1,4 @@
+{
+  "message": "Correção de captura para o portfólio: esperar carregamento completo do site correto do Dr. Paulo (https://drpaulo-eight.vercel.app/) e do Blink BMK (https://blink.bmkgow.com/) para que a hero/carrossel não apareça vazia; substituir Galpão Nelore pelo projeto Limozine do inventário; e manter o header preso durante a hero. Faça uma crítica curta sobre o que verificar visualmente na captura estabilizada. Não implementar código nem gerar assets.",
+  "include_local_direction": true
+}

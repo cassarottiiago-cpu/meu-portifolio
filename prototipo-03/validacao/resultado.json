@@ -1,0 +1,345 @@
+{
+  "date": "2026-09-27T18:07:54.285Z",
+  "checks": [
+    {
+      "name": "Identificação profissional, seleção correta e nenhuma biografia sensível",
+      "passed": true
+    },
+    {
+      "name": "Capturas nativas, sem dimensões inventadas e com duas famílias tipográficas",
+      "passed": true,
+      "detail": [
+        [
+          1600,
+          769,
+          1600,
+          769
+        ],
+        [
+          1313,
+          609,
+          1313,
+          609
+        ],
+        [
+          2880,
+          1402,
+          2880,
+          1402
+        ],
+        [
+          2880,
+          1940,
+          2880,
+          1940
+        ]
+      ]
+    },
+    {
+      "name": "AUTOPOST já está inteiro e visível antes do primeiro scroll",
+      "passed": true,
+      "detail": {
+        "x": 581.21875,
+        "y": 502.5,
+        "width": 740,
+        "bottom": 858.15625,
+        "captionTop": 704.953125,
+        "captionBottom": 858.15625,
+        "footerTop": 2586.078125,
+        "ratioError": 0.000017573148229477198
+      }
+    },
+    {
+      "name": "Um único papel e cores originais nos quatro projetos",
+      "passed": true
+    },
+    {
+      "name": "Roleta nativa avança e recua sem captura artificial da rolagem",
+      "passed": true
+    },
+    {
+      "name": "Nenhuma renderização contínua com a página parada",
+      "passed": true,
+      "detail": {
+        "mutationsIn350ms": 0
+      }
+    },
+    {
+      "name": "Pôster tipográfico: interação reversível sem recortar os prints",
+      "passed": true
+    },
+    {
+      "name": "Header fica preso somente dentro da hero",
+      "passed": true,
+      "detail": {
+        "position": "sticky",
+        "top": 0,
+        "z": "1000",
+        "parent": "stage",
+        "redPixels": 2139
+      }
+    },
+    {
+      "name": "Layout e controles acessíveis em 1440×1000",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 1366×768",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 1024×768",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 768×1024",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 700×900",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 390×844",
+      "passed": true
+    },
+    {
+      "name": "Layout e controles acessíveis em 320×740",
+      "passed": true
+    },
+    {
+      "name": "Acessibilidade automatizada da abertura",
+      "passed": true
+    },
+    {
+      "name": "Índice de projeto oferece entrada direta",
+      "passed": true
+    },
+    {
+      "name": "Projeto autopost: abre, prende foco, fecha por Esc e restaura posição",
+      "passed": true
+    },
+    {
+      "name": "Projeto phron: abre, prende foco, fecha por Esc e restaura posição",
+      "passed": true
+    },
+    {
+      "name": "Projeto qozt: abre, prende foco, fecha por Esc e restaura posição",
+      "passed": true
+    },
+    {
+      "name": "Projeto natalia: abre, prende foco, fecha por Esc e restaura posição",
+      "passed": true
+    },
+    {
+      "name": "Movimento reduzido elimina a passagem obrigatória e preserva os trabalhos",
+      "passed": true
+    },
+    {
+      "name": "Preferência do sistema sempre prevalece",
+      "passed": true
+    },
+    {
+      "name": "Teclado pula a abertura; conteúdo de trabalho recebe foco",
+      "passed": true
+    },
+    {
+      "name": "Celular: acessibilidade e detalhes sem transbordamento",
+      "passed": true
+    },
+    {
+      "name": "Sem JavaScript, os trabalhos e links continuam disponíveis",
+      "passed": true
+    },
+    {
+      "name": "Nenhum recurso proibido ou dependência de animação no runtime",
+      "passed": true
+    },
+    {
+      "name": "Servidor bloqueia scripts internos, arquivos de trabalho e travessia de diretório",
+      "passed": true
+    },
+    {
+      "name": "Abertura por arquivo local mantém navegação dos projetos",
+      "passed": true
+    },
+    {
+      "name": "Navegação direta funciona por teclado e elimina o menu redundante",
+      "passed": true
+    },
+    {
+      "name": "Arquivo contém nove projetos distintos e a seleção corrigida",
+      "passed": true
+    },
+    {
+      "name": "Continuação revela imagens e títulos; fichas ficam inteiramente vermelhas",
+      "passed": true,
+      "detail": {
+        "before": "inset(0px 100% 0px 0px)",
+        "after": "inset(0px)",
+        "color": "rgb(193, 44, 32)"
+      }
+    },
+    {
+      "name": "Arquivo preserva proporções e não sobrepõe trabalhos",
+      "passed": true
+    },
+    {
+      "name": "Print abre em cores originais, amplia, fecha e devolve foco sem saltar a leitura",
+      "passed": true
+    },
+    {
+      "name": "Página completa amplia sem sobrepor o conteúdo e restaura foco",
+      "passed": true
+    },
+    {
+      "name": "AUTOPOST usa os três prints fornecidos com legendas corretas",
+      "passed": true
+    },
+    {
+      "name": "Caso completo autopost: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo phron: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo qozt: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo natalia: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo dr-paulo: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo limozine: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo dominos: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo bmk-blink: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Caso completo odonto: conteúdo, imagens, acessibilidade e próximo projeto",
+      "passed": true
+    },
+    {
+      "name": "Vídeo só carrega no rodapé, pausa fora dele e respeita escolha manual",
+      "passed": true
+    },
+    {
+      "name": "Movimento reduzido e economia de dados não baixam o vídeo automaticamente",
+      "passed": true
+    },
+    {
+      "name": "Rodapé responsivo, contraste do vídeo e entrega parcial de mídia",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "label": "abertura-desktop",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "indice-modal",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "projeto-phron",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "sem-movimento",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "abertura-mobile",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "projeto-mobile",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "arquivo-mobile",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "ampliacao-print",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-autopost",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-phron",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-qozt",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-natalia",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-dr-paulo",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-limozine",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-dominos",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-bmk-blink",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "caso-odonto",
+      "rawAxeViolations": [],
+      "unresolved": []
+    },
+    {
+      "label": "rodape-mobile",
+      "rawAxeViolations": [],
+      "unresolved": []
+    }
+  ],
+  "limits": [
+    "Chromium/Edge automatizado; Safari iOS e dispositivos físicos não ensaiados.",
+    "Não equivale a teste de satisfação, retenção ou conversão com usuários."
+  ]
+}
