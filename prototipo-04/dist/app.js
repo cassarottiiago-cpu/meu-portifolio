@@ -251,11 +251,10 @@ if(viewer){
  viewer.addEventListener('close',()=>{document.body.style.overflow=overflow;origin?.focus({preventScroll:true});});
 }
 if(document.body.classList.contains('closing')){
- const display=document.querySelector('[data-seconds]'),pause=document.querySelector('[data-pause]'),timer=document.querySelector('.closing-timer');
- let remaining=40,paused=false,endingVisible=false,leaving=false;
+ let leaving=false;
  const returnLink=document.querySelector('.closing-bottom a');
  async function returnToOpening(){
-  if(leaving)return;leaving=true;clearInterval(interval);
+  if(leaving)return;leaving=true;
   if(motion()){
    const curtain=document.createElement('div');curtain.className='replay-curtain';curtain.setAttribute('aria-hidden','true');
    curtain.innerHTML='<div class="replay-strips">'+Array.from({length:5},(_,i)=>'<div style="--strip:'+i+'"><span>OBRIGADO.</span></div>').join('')+'</div><div class="replay-signature"><span>CREATIVE</span><span>DEVELOPER</span></div>';
@@ -268,18 +267,7 @@ if(document.body.classList.contains('closing')){
   }
   location.replace(returnLink.href);
  }
- returnLink.addEventListener('click',event=>{if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();returnToOpening();});
- new IntersectionObserver(entries=>{endingVisible=entries[0].intersectionRatio>=.8;},{threshold:.8}).observe(document.querySelector('.closing-bottom'));
- timer.hidden=false;pause.hidden=false;
- pause.addEventListener('click',()=>{paused=!paused;pause.textContent=paused?'Retomar retorno':'Permanecer aqui';timer.hidden=paused;});
- let interval=0;
- function startTimer(){
-  clearInterval(interval);
-  interval=setInterval(()=>{if(paused||document.hidden||!endingVisible||leaving)return;remaining--;display.textContent=String(Math.max(0,remaining));if(remaining<=0)returnToOpening();},1000);
- }
- startTimer();
- addEventListener('pagehide',()=>clearInterval(interval));
- addEventListener('pageshow',event=>{if(event.persisted)startTimer();});
+ returnLink?.addEventListener('click',event=>{if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();returnToOpening();});
 }
 const buttonResets=new Map();
 const buttonObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(!entry.isIntersecting)buttonResets.get(entry.target)?.();});

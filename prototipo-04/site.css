@@ -17,3 +17,5 @@
 .closing-stage h1>span:nth-child(2){animation-delay:.35s}
 @keyframes closing-print{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
 @media(prefers-reduced-motion:reduce){.closing-stage h1>span{animation:none}}
+
+.brand-tag{display:flex;align-items:center;gap:20px}.owner-role{font-size:11px;line-height:1.25;opacity:.85}@media(max-width:700px){.brand-tag{gap:10px}.owner-role{font-size:9px}}
