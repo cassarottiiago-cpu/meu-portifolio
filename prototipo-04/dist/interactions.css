@@ -1,4 +1,39 @@
 /* Refinamentos pedidos em 28/09: referência de botões fornecida pelo usuário. */
+/* Shared project caption: sticky only inside the gallery, with native scrolling. */
+.following-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:5vw;align-items:start}
+.following-project{position:sticky;top:24vh;min-width:0;padding-top:24px;border-top:1px solid var(--line)}
+.following-title{overflow:clip;font-size:clamp(32px,4.2vw,66px);font-weight:500;line-height:1.12;letter-spacing:-.055em;margin-bottom:18px}
+.following-title span{display:block}
+.following-title{position:relative}
+.title-splice,.title-splice-band{position:absolute;inset:0;pointer-events:none}
+.title-splice-track{display:flex;width:100%;height:100%;will-change:transform}
+.title-splice-track>span{flex:0 0 100%;width:100%;white-space:nowrap}
+.following-title,.work-continuous .panel-heading h3{color:var(--red)}
+.following-title,.work-continuous .panel-heading h3{font-weight:600}
+.following-description{font-size:12px;line-height:1.5;max-width:290px}
+.following-project .doodle-link{margin-top:24px;font-size:12px}
+.work-continuous[data-following=true] .project-story{display:block;position:relative;padding-top:24px;margin-bottom:clamp(70px,12vh,150px)}
+.work-continuous[data-following=true] .project-story:last-child{margin-bottom:0}
+.work-continuous[data-following=true] .panel-heading{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.case-phron .case-meta>div:last-child dd{color:#8be4f4;font-weight:650}
+.replay-curtain{position:fixed;inset:0;z-index:1000;pointer-events:none;overflow:clip}
+.replay-strips{height:100%;display:grid;grid-template-rows:repeat(5,1fr)}
+.replay-strips>div{background:var(--red);color:var(--paper);overflow:hidden;display:flex;align-items:center;margin-bottom:-1px}
+.replay-strips span{display:block;font-size:clamp(50px,15vw,220px);line-height:.82;font-weight:550;letter-spacing:-.065em;white-space:nowrap;padding:0 3vw}
+.replay-strips>div:nth-child(even){justify-content:flex-end}
+.replay-signature{display:flex;flex-direction:column;justify-content:center;padding:0 4vw;background:var(--red);color:var(--paper);font-size:13vw;line-height:.86;letter-spacing:-.07em;font-weight:500}
+.replay-signature{position:absolute;inset:0;clip-path:inset(100% 0 0)}
+.replay-signature>span:first-child{padding-left:9vw}
+@media(max-width:700px){
+ .following-layout{display:block}
+ .following-project{top:0;z-index:10;background:var(--paper) url('assets/field.svg');height:120px;padding:14px 0 16px;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:34px 36px;align-content:center;gap:5px 12px;border-bottom:1px solid var(--line);margin-bottom:22px}
+ .following-title{font-size:clamp(24px,6.5vw,36px);margin:0;grid-column:1;grid-row:1;white-space:nowrap;align-self:center}
+ .following-description{font-size:9px;grid-column:1;grid-row:2}
+ .following-project .doodle-link{grid-column:2;grid-row:1/3;margin:0;align-self:center;font-size:10px;min-height:40px;padding:4px 10px 4px 7px;gap:4px}
+ .following-project .doodle-icon{width:22px;height:22px}
+ .work-continuous[data-following=true] .project-story{padding-top:0;border-top:0;margin-bottom:65px}
+ .replay-strips span{font-size:18vw}
+}
 .type-creative .type-full,.type-developer .type-full{color:var(--red)}
 .work-stage:not([data-ready=true]) .project-panel .panel-media>a:first-child{view-transition-name:none}
 .invitation-copy{font-size:clamp(18px,2vw,32px);padding:3px 8px;animation:quiet-copy 1.5s both}
@@ -7,16 +42,15 @@
 .doodle-link:hover,.doodle-link:focus-visible{text-decoration:none!important;background-color:#d6c9aa}
 .doodle-icon{width:34px;height:34px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
 .doodle-icon .hammer{transform-origin:20px 34px}
+.doodle-icon .visit-door{transform-origin:12px 22px}
+.case-page .case-copy .doodle-visit{margin-top:18px;border:1px solid var(--case-line);background:var(--case-soft);color:var(--case-ink);font-size:12px;padding-right:18px}
+.case-page .case-copy .doodle-visit:hover{background:var(--case-soft)}
+.doodle-visit .doodle-icon{width:30px;height:30px}
 .doodle-icon .eyes{transform-origin:21px 21px}
 .doodle-icon .pupils{transform:translate(var(--eye-x,0px),var(--eye-y,0px))}
 .button-word{display:inline-flex!important;gap:0;color:inherit!important;font-size:inherit!important}
 .button-letter{display:inline-block;font:inherit;transform-origin:50% 100%;color:inherit}
 .doodle-work .button-letter{position:relative}
-.letter-base{display:block}
-.letter-piece{position:absolute;inset:0;opacity:0;pointer-events:none;transform-origin:center}
-.piece-0{clip-path:polygon(0 0,100% 0,100% 30%,40% 46%,0 26%)}
-.piece-1{clip-path:polygon(0 26%,40% 46%,100% 30%,100% 72%,58% 62%,0 80%)}
-.piece-2{clip-path:polygon(0 80%,58% 62%,100% 72%,100% 100%,0 100%)}
 .home-nav nav{gap:12px}.home-nav{align-items:center}
 .home-nav nav .doodle-link{min-height:42px;padding:4px 14px 4px 9px;gap:7px;font-size:12px;background-color:#ded7c8;border-radius:24px}
 .home-nav nav .doodle-icon{width:27px;height:27px}
@@ -39,6 +73,8 @@
 .closing-thanks>p:first-child{font-size:clamp(23px,2.5vw,38px);letter-spacing:-.045em;line-height:1.15;max-width:500px}
 .closing-thanks>p:nth-child(2){font-size:13px;line-height:1.6;max-width:390px}
 .closing-bottom{border-top:1px solid var(--line);padding-top:20px}
+.closing-stage h1{line-height:1.08;overflow:visible}
+.closing-stage h1>span{animation:none;padding-bottom:.14em;overflow:visible}
 @media(max-width:700px){
  .home-nav{flex-wrap:wrap;gap:6px 16px}.home-nav .owner{font-size:17px}.home-nav nav{gap:7px}
  .home-nav nav .doodle-link{min-height:42px;padding:3px 11px 3px 7px;gap:5px;font-size:11px}.home-nav .doodle-icon{width:26px;height:26px}
@@ -47,7 +83,7 @@
  .case-nav{flex-wrap:wrap;gap:4px 12px}.case-nav nav{gap:6px}.case-nav nav .doodle-link{font-size:10px;min-height:42px;padding:4px 10px 4px 6px;gap:4px}.case-nav .doodle-icon{width:24px;height:24px}
  .invitation-top .doodle-link{font-size:11px;min-height:42px;padding:4px 12px 4px 8px}.invitation-top .doodle-icon{width:25px;height:25px}
  .closing-stage{padding:22px var(--pad);gap:30px}.closing-presentation{display:block;margin:0}
- .closing-stage h1{font-size:18vw;line-height:.95;margin:0 0 32px}.closing-intro{font-size:17px;margin-bottom:32px}
+ .closing-stage h1{font-size:18vw;line-height:1.08;margin:0 0 32px}.closing-intro{font-size:17px;margin-bottom:32px}
  .closing-capabilities{gap:18px}.closing-capabilities>div{grid-template-columns:1fr;gap:6px}.closing-capabilities dt{font-size:13px}.closing-capabilities dd{font-size:12px}
  .closing-thanks{display:block;margin-top:35px;padding-top:24px}.closing-thanks>p:first-child{font-size:28px;margin-bottom:16px}.closing-thanks>p:nth-child(2){font-size:13px;margin-bottom:22px}
  .closing-bottom{gap:14px}.closing-bottom .doodle-link{font-size:12px}.closing-bottom .closing-timer{width:100%;order:2}

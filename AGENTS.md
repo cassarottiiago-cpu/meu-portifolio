@@ -1,5 +1,51 @@
 # Portfólio de Iago Cassarotti
 
+## Revelação imóvel das frases — vigente
+
+Usuário autorizou abandonar o deslocamento lateral. Nos casos, apenas o título original ganha contraste com o scroll, sem cópias, máscaras, divisão em linhas ou transform. Opacidade inicial calculada para preservar pelo menos 3.2:1 nos títulos grandes; cresce linearmente até 1 no percurso entre 94% e 22% da viewport (72vh, limitado pelo final da página). Ao parar o scroll, para; ao completar, mantém texto integral. Hero, nomes, prints e demais superfícies preservados. Instruções abaixo de recortes/linhas nas frases são históricas. Teste vigente: scripts/verificar-frases-scroll.cjs.
+
+## Frases vinculadas à rolagem — atualização vigente
+
+Somente a entrada interna dos casos foi revisada após o usuário apontar rapidez e falta de vínculo com o scroll. Hero e nomes preservados. Linhas dos títulos abaixo da dobra agora avançam pela posição de rolagem, sem timeline autônoma: percurso entre 94% e 50% da altura da viewport, pequeno desfasamento entre linhas, todas na mesma direção. Parar a rolagem congela a entrada; voltar reverte enquanto incompleta. Ao completar, remove camadas e mantém o texto legível definitivamente. Movimento reduzido, resize e aba oculta finalizam o efeito. Teste atual: scripts/verificar-frases-scroll.cjs; nove casos em desktop/mobile, parada, reversão parcial e conclusão. As durações fixas das frases documentadas abaixo são históricas.
+
+## Hero aprovada; recortes dos nomes e frases — vigente
+
+Usuário aprovou a hero em 28/09 e pediu preservá-la. Não alterar sua montagem. Rejeitou novamente os nomes com máscara vertical e as frases cortadas pelo bloco. Pesquisa consultada: Codrops On-Scroll Sliced Text Animation (2023/12/05) e case de Eloy Benoffi (2025/10/15). Nomes passam em três faixas horizontais alternadas, 780ms + stagger de 55ms, curva igual à hero. Sem dissolução; apenas uma transição ativa, seguida do último alvo da rolagem. Frases abaixo da dobra usam linhas medidas via Range após document.fonts.ready; conteúdo original não é dividido nem refluído. Camadas temporárias aria-hidden deslizam lateralmente por linha e são removidas ao concluir/cancelar. Texto já visível no carregamento não some para reaparecer. Prints, parágrafos e títulos pequenos das decisões permanecem imóveis. Teste específico: scripts/verificar-recortes.cjs, incluindo quadros intermediários e geometria de nove casos. Detalhes e limites: briefing/rodada-4/RECORTES-TIPOGRAFICOS.md.
+
+## Correção após rejeição dos três efeitos — versão anterior rejeitada
+
+O usuário rejeitou a dissolução sobreposta dos nomes, a entrada por palavras e a diferença pouco perceptível na hero. Os nomes agora usam um único nó: recorte de saída (240ms), troca enquanto oculto e revelação (480ms), sem cópias ou transparências. Rolagem rápida cancela a transição anterior. Frases dos casos recebem recorte vertical do bloco original (850ms), sem dividir palavras, alterar HTML ou reconstruir quebras de linha. Prints continuam estáticos. Hero recebe entrada lateral ampla das faixas e formação dos caracteres dispersos do IC em 1450ms, sem overlay. Movimento reduzido e rolagem interrompem a montagem. Testes técnicos não significam aprovação estética.
+
+## Entrada das frases e hero — versão anterior rejeitada
+
+Troca dos nomes: saída e entrada simultâneas, 650ms, deslocamento de 28% da altura e dissolução breve, reversível conforme a direção da rolagem. Uma cópia temporária no máximo; rolagem rápida cancela a transição anterior sem acumular nomes. Movimento reduzido troca imediatamente.
+
+Frases de abertura dos casos, títulos de contexto e decisões recebem impressão breve por palavras, com atraso máximo de 280ms. Títulos das seções recebem recorte lateral simples. Parágrafos de leitura e todos os prints continuam estáticos. Wrappers de palavras são temporários e removidos ao concluir ou cancelar a entrada.
+
+Hero mantém layout aprovado: as palavras principais chegam por direções opostas dentro dos recortes; ecos se alinham em seguida e o monograma IC se monta em cerca de 850ms. Não é overlay, loader ou nova vinheta. Rolagem interrompe a montagem; movimento reduzido apresenta o estado final. Canvas continua sem RAF em repouso.
+
+## Refino de movimento — correção após avaliação
+
+Usuário rejeitou as entradas das imagens dos projetos selecionados. Imagens ficam no fluxo, sem máscaras, shutters, zoom ou animação de entrada. Também foram removidas as cópias de texto em metades; entradas novas limitam-se a uma impressão lateral breve em Projetos selecionados, títulos de contexto dos casos e as duas linhas do encerramento. Não aplicar a todo parágrafo/título. Nomes em peso 600, mantendo vermelho.
+
+Visitar o projeto usa botão doodle-visit com porta e passagem, preservando href real e nova aba. Da ideia à execução tem line-height 1.08, folga para descendentes e nenhum clip permanente. A transição nativa do navegador é desativada só no encerramento, que já possui sua própria vinheta.
+
+Performance: posições de projetos em cache, glyph atlas no canvas, interações dos olhos só nos botões com olhos, Work interrompido fora da tela. Medições locais em validacao/motion-before.json e motion-after.json; contagens de operações, não benchmark de FPS.
+
+## Correção posterior — vídeo do Work e abertura
+
+O vídeo local `WhatsApp Video 2026-09-28 at 01.33.27.mp4` foi inspecionado quadro a quadro. Prevalece sobre o pedido histórico de fragmentação: martelo bate a cada aproximadamente 640ms enquanto hover/foco permanece; letras inteiras se deslocam e inclinam progressivamente, voltando ao sair. Não recriar fragmentos das letras. Botão permanece compacto e navegação imediata.
+
+Nomes da ficha de projetos em vermelho `--red`. A vinheta tipográfica nova é exclusiva do encerramento. Não criar overlay vermelho na home ao retornar. A miniabertura é a entrada breve dos próprios recortes CREATIVE/DEVELOPER, respeita movimento reduzido e termina se o usuário começar a rolar.
+
+## Revisão de scroll e fechamento — 28/09
+
+Pedido posterior: na home, uma ficha acompanha a rolagem e troca nome, descrição e link conforme o projeto em leitura. Implementação em `app.js` e `interactions.css`, com sticky dentro da galeria; no celular, altura reservada evita saltos ao trocar texto. Mantidos os quatro trabalhos e um print por trabalho da seleção atual. Sem JavaScript, as fichas individuais continuam disponíveis. Movimento reduzido troca o conteúdo sem animar.
+
+PHRON é explicitamente um projeto pessoal em desenvolvimento. Copy-fonte em `prototipo-04/data/projects.cjs`; não apresentar capturas ou o teste de WhatsApp como produto concluído.
+
+O retorno do encerramento usa faixas tipográficas de OBRIGADO e CREATIVE DEVELOPER, seguidas pela revelação da abertura. Retorno manual e contagem de 40 segundos com pausa mantidos. Pesquisa e limites em `briefing/rodada-4/SCROLL-E-FECHAMENTO.md`. Teste focado: `scripts/verificar-scroll-fechamento.cjs`, com módulo Playwright configurável por `PORTFOLIO_PLAYWRIGHT`.
+
 ## ATUAL: reconstrução integral em 27/09/2026
 
 ### Ajustes aprovados em 28/09

@@ -22,16 +22,16 @@ module.exports = [
     image: 'revisao-23/phron-home-27.png', thumb: 'revisao-23/phron-home-27.png', detail: 'revisao-23/phron-home-27.png', mobile: 'revisao-23/phron-whatsapp-27.jpeg',
     mobileCaption: 'Teste do PHRON no WhatsApp: conversa, mensagem de áudio e resposta com horários disponíveis. Captura fornecida por Iago.',
     alt: 'PHRON no tema noturno: Home com notícias, acompanhamentos e assistente pessoal',
-    line: 'Um lugar para dar forma à rotina.',
+    line: 'Estou construindo um espaço para conectar rotina, informação e assistência.',
     scope: 'Interface, experiência e desenvolvimento de produto',
-    heading: 'Organizar sem perder o contexto.',
-    context: ['Trabalho, vida pessoal e estudo dividem a mesma rotina. O PHRON parte desse encontro: um espaço que reúne diferentes contextos sem exigir uma interface inteiramente nova para cada um.', 'A tela apresentada aproxima três áreas: navegação, espaço de trabalho e assistente. O projeto é pessoal e continua em construção; o recorte aqui é a interface local, em modo noturno.'],
+    heading: 'Um produto em construção. Uma rotina como ponto de partida.',
+    context: ['O PHRON é meu projeto pessoal em desenvolvimento. A proposta é aproximar trabalho, estudo e vida pessoal em um espaço onde informação e assistência possam ser consultadas juntas.', 'Estou desenvolvendo a experiência e a implementação em paralelo. A Home apresentada mostra o estágio atual da interface: navegação lateral, widgets e assistente em uma mesma tela. É um recorte do processo, ainda não um produto finalizado.'],
     decisions: [
       ['Contextos reconhecíveis', 'A navegação lateral mantém os caminhos disponíveis enquanto o conteúdo do espaço de trabalho muda. O usuário não precisa voltar a uma tela inicial para se orientar.'],
       ['Rotina editável', 'Widgets organizam o espaço central. A composição permite tratar a área de trabalho como algo que pode ser ajustado, não como um painel único e imutável.'],
       ['Assistente ao lado', 'O assistente ocupa uma coluna própria. A conversa e o conteúdo principal podem coexistir na mesma tela, preservando o contexto do que está sendo feito.']
     ],
-    development: ['A implementação local usa Next.js e React, com componentes para navegação, espaço de trabalho e assistência. A separação acompanha a estrutura visual: cada área tem sua responsabilidade sem transformar toda interação em uma troca de página.', 'O modo noturno organiza navegação, widgets e conversa em áreas distintas. A Home e a conversa de WhatsApp apresentadas são capturas fornecidas por Iago em 27 de setembro de 2026.', 'O teste no WhatsApp mostra uma saudação, uma mensagem de áudio e uma resposta com horários disponíveis. Esse registro apresenta um recorte da integração, não uma validação de todas as capacidades do produto, que segue em desenvolvimento.'],
+    development: ['Desenvolvo o PHRON localmente com Next.js e React. A construção está organizada em três áreas: navegação, espaço de trabalho e assistência. Essa divisão permite evoluir a interface e os fluxos de cada parte ao longo do projeto.', 'As imagens registram o estágio de desenvolvimento de 27 de setembro de 2026: a Home em modo noturno e um teste de conversa pelo WhatsApp.', 'No teste, a conversa inclui uma mensagem de áudio e uma resposta com horários disponíveis. É uma demonstração pontual da integração em construção; os demais fluxos e capacidades ainda precisam ser concluídos e validados.'],
     detailCaption: 'Home do PHRON em modo noturno, com notícias, acompanhamentos e assistente. Captura fornecida por Iago.'
   },
   {
