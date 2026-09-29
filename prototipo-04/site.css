@@ -162,7 +162,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 @supports(animation-timeline:view()){.process-mark .asterisk{animation:spin linear both;animation-timeline:view();animation-range:entry 0% exit 100%}}
 .process-head h2{align-self:end;font-size:clamp(54px,7.8vw,125px);line-height:.91;font-weight:500;letter-spacing:-.07em}
 .process-lead{align-self:start;font-size:clamp(15px,1.25vw,19px);line-height:1.45;max-width:440px}
-.process-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px clamp(20px,3vw,48px);}
+.process-steps{list-style:none;margin:0;padding:0 0 0 34px;background:linear-gradient(var(--ink),var(--ink)) 0 0/1px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 8px) 0 0/6px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 48px) 0 0/13px 100% no-repeat;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px clamp(20px,3vw,48px);}
 .step-number{display:block;font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--red)}
 .process-steps h3{margin:14px 0 12px;font-size:clamp(25px,2.4vw,38px);font-weight:600;line-height:1.02;letter-spacing:-.05em}
 .process-steps p{font-size:14px;line-height:1.6;max-width:300px}
@@ -283,6 +283,9 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .copy-email:hover .copy-address{text-decoration-color:currentColor}
 }
 
+/* Régua em pé ao lado de cada passo no computador; no celular, uma régua contínua ao lado da lista. */
+@media(min-width:701px){.process-steps{padding-left:0;background:none}.process-steps li{padding-left:26px;background:linear-gradient(var(--ink),var(--ink)) 0 0/1px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 8px) 0 0/6px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 48px) 0 0/13px 100% no-repeat}}
+
 /* ——— Responsivo ——— */
 @media(min-width:1051px){.work-heading h2 br{display:none}}
 @media(max-width:1050px){
@@ -311,12 +314,12 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .doodle-link{min-height:42px;padding:4px 16px 4px 9px;gap:7px;font-size:13px}
  .doodle-icon{width:28px;height:28px}
  /* Abertura (aprovada): só acompanha a altura nova do cabeçalho */
- .intro{min-height:90svh}
- .intro-type{font-size:18.5vw;margin-top:15svh;margin-bottom:50px;letter-spacing:-.07em}
- .type-creative{margin-left:2vw}
- .type-developer{font-size:17vw;margin-left:0;margin-top:.35em}
- .type-developer .type-echo{margin-left:.35em}
- .type-developer .type-fragment{margin-left:1em}
+ /* Celular: título e recortes alinhados na mesma margem, logo abaixo do cabeçalho; o IC ocupa o resto da tela */
+ .intro{min-height:0;padding-bottom:calc((100vw - 36px) * .8 + 20px)}
+ .intro-type{font-size:18.6vw;margin:6svh 0 0 var(--pad);letter-spacing:-.07em}
+ .type-creative,.type-developer,.type-creative .type-fragment,.type-developer .type-echo,.type-developer .type-fragment{margin-left:0}
+ .type-developer{font-size:18.6vw;margin-top:.12em}
+ .type-group>span>span{padding-left:0}
  /* Projetos selecionados */
  .work-stage{padding-top:28px;padding-bottom:48px}
  .work-heading{margin-bottom:26px}
@@ -341,7 +344,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .process-mark .doodle-icon{width:44px;height:44px}
  .process-head h2{font-size:11vw}
  .process-lead{grid-column:1/-1;margin-top:14px;font-size:15px}
- .process-steps{grid-template-columns:1fr;row-gap:24px;padding-top:26px}
+ .process-steps{grid-template-columns:1fr;row-gap:24px;padding:4px 0 4px 26px}
  .process-steps h3{font-size:23px;margin:8px 0 6px}
  .process-steps p{font-size:14px;max-width:none}
  /* Rodapé */

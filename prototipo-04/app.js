@@ -119,16 +119,18 @@ if(intro&&canvas){
  if(ctx){
   const source=document.createElement('canvas'),mask=source.getContext('2d',{willReadFrequently:true});
   source.width=300;source.height=220;
-  let samples=[],width=1,height=1,introTop=0,frame=0,visible=true,px=0,py=0,targetX=0,targetY=0,scroll=0,targetScroll=0,previous=0;
+  let samples=[],bounds={cx:150,cy:110,w:300,h:220},typeBottom=0,width=1,height=1,introTop=0,frame=0,visible=true,px=0,py=0,targetX=0,targetY=0,scroll=0,targetScroll=0,previous=0;
   let assembly=1,assemblyStart=null,assembling=false,heat=0,inside=false,stampTime=0;
   const atlases=new Map();
   function build(){
    mask.clearRect(0,0,300,220);mask.fillStyle='#000';mask.textBaseline='alphabetic';mask.font='800 220px DM,Arial';mask.fillText('IC',12,183);
    const pixels=mask.getImageData(0,0,300,220).data;samples=[];
    for(let y=0;y<220;y+=5)for(let x=0;x<300;x+=4){const alpha=pixels[(y*300+x)*4+3]/255;if(alpha>.2){const seed=((x*17+y*29)%101)/101;samples.push({x,y,seed,wave:Math.sin(y*.15),glyph:seed<.26?0:seed<.52?1:seed<.76?2:3});}}
+   const xs=samples.map(p=>p.x),ys=samples.map(p=>p.y),x0=Math.min(...xs),x1=Math.max(...xs)+5,y0=Math.min(...ys),y1=Math.max(...ys)+5;
+   bounds={cx:(x0+x1)/2,cy:(y0+y1)/2,w:x1-x0,h:y1-y0};
   }
   function size(){
-   const rect=intro.getBoundingClientRect();width=rect.width;height=rect.height;introTop=rect.top+scrollY;const dpr=Math.min(2,devicePixelRatio||1);atlases.clear();
+   const rect=intro.getBoundingClientRect();width=rect.width;height=rect.height;typeBottom=(intro.querySelector('.intro-type')?.getBoundingClientRect().bottom??0)-rect.top;introTop=rect.top+scrollY;const dpr=Math.min(2,devicePixelRatio||1);atlases.clear();
    canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);schedule();
   }
   // Os quatro caracteres (bloco, =, #, :) em duas cores são desenhados uma vez numa folha e copiados.
@@ -168,7 +170,8 @@ if(intro&&canvas){
    ctx.clearRect(0,0,width,height);
    const compact=width<700,scale=compact?width/330:Math.min(width/460,height/250);
    // Celular: um monograma IC inteiro sob o título; computador: dois, sangrando pelas bordas.
-   if(compact)stamp(width*.5,height*.72,width/300,0);
+   // Celular: o IC centralizado no espaço entre o título e o fim da tela, do maior tamanho que couber.
+   if(compact){const room=Math.max(120,height-typeBottom-20),s=Math.min((width-36)/bounds.w,(room-24)/bounds.h);stamp(width*.5+(150-bounds.cx)*s,typeBottom+10+room/2+(110-bounds.cy)*s,s,1);}
    else{stamp(width*.83,height*.33,scale,0);stamp(width*.08,height*.78,scale*.85,1);}
    // Perto do ponteiro os caracteres trocam de forma enquanto ele se mexe.
    const awake=inside&&motion()&&performance.now()-pointer.moved<520;
