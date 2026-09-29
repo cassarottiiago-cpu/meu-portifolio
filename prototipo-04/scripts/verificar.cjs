@@ -39,7 +39,7 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
   check(await page.locator('.home-nav .doodle-chat').getAttribute('href')==='https://wa.me/5543988174922','WhatsApp corresponde ao currículo');
   await page.locator('.home-nav .doodle-work').hover();await page.waitForTimeout(280);
   check(await page.locator('.home-nav .hammer').evaluate(e=>e.getAnimations().length)>0,'Botão Work reage ao hover');await picture(page,'botao-work-hover');await page.mouse.move(500,700);await page.waitForTimeout(600);
-  check((await page.locator('.project-story:visible img').first().getAttribute('src')).includes('/autopost-queue-'),'Calendário AUTOPOST como primeira capa');
+  check((await page.locator('.project-story:visible img').first().getAttribute('src')).includes('/autopost-calendario-'),'Calendário AUTOPOST como primeira capa');
   await page.waitForTimeout(800);await picture(page,'abertura-desktop');await axe(page,'home desktop');
   const still=await page.locator('#brand-canvas').evaluate(c=>c.toDataURL());await page.mouse.move(1220,320);await page.waitForTimeout(700);
   check(still!==await page.locator('#brand-canvas').evaluate(c=>c.toDataURL()),'Campo IC responde ao ponteiro');

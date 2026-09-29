@@ -1,73 +1,101 @@
 {
- "autopost-queue.jpg": {
-  "width": 1600,
-  "height": 769,
+ "autopost-calendario.webp": {
+  "width": 3200,
+  "height": 2000,
+  "top": "#f3f5f9",
   "variants": [
    [
     480,
-    "img/autopost-queue-480.webp"
+    "img/autopost-calendario-480.webp"
    ],
    [
     800,
-    "img/autopost-queue-800.webp"
+    "img/autopost-calendario-800.webp"
    ],
    [
     1200,
-    "img/autopost-queue-1200.webp"
+    "img/autopost-calendario-1200.webp"
    ],
    [
     1600,
-    "img/autopost-queue-1600.webp"
+    "img/autopost-calendario-1600.webp"
+   ],
+   [
+    2000,
+    "img/autopost-calendario-2000.webp"
+   ],
+   [
+    3200,
+    "img/autopost-calendario-3200.webp"
    ]
   ]
  },
- "autopost-calendar.jpg": {
-  "width": 1600,
-  "height": 766,
+ "autopost-unidades.webp": {
+  "width": 3200,
+  "height": 2000,
+  "top": "#f3f5f9",
   "variants": [
    [
     480,
-    "img/autopost-calendar-480.webp"
+    "img/autopost-unidades-480.webp"
    ],
    [
     800,
-    "img/autopost-calendar-800.webp"
+    "img/autopost-unidades-800.webp"
    ],
    [
     1200,
-    "img/autopost-calendar-1200.webp"
+    "img/autopost-unidades-1200.webp"
    ],
    [
     1600,
-    "img/autopost-calendar-1600.webp"
+    "img/autopost-unidades-1600.webp"
+   ],
+   [
+    2000,
+    "img/autopost-unidades-2000.webp"
+   ],
+   [
+    3200,
+    "img/autopost-unidades-3200.webp"
    ]
   ]
  },
- "autopost-hero.jpg": {
-  "width": 1600,
-  "height": 765,
+ "autopost-fila.webp": {
+  "width": 3200,
+  "height": 2000,
+  "top": "#f3f5f9",
   "variants": [
    [
     480,
-    "img/autopost-hero-480.webp"
+    "img/autopost-fila-480.webp"
    ],
    [
     800,
-    "img/autopost-hero-800.webp"
+    "img/autopost-fila-800.webp"
    ],
    [
     1200,
-    "img/autopost-hero-1200.webp"
+    "img/autopost-fila-1200.webp"
    ],
    [
     1600,
-    "img/autopost-hero-1600.webp"
+    "img/autopost-fila-1600.webp"
+   ],
+   [
+    2000,
+    "img/autopost-fila-2000.webp"
+   ],
+   [
+    3200,
+    "img/autopost-fila-3200.webp"
    ]
   ]
  },
  "revisao-23/phron-home-27.png": {
   "width": 1313,
   "height": 609,
+  "top": "#171f2c",
   "variants": [
    [
     480,
@@ -86,6 +114,7 @@
  "revisao-23/phron-whatsapp-27.jpeg": {
   "width": 739,
   "height": 1600,
+  "top": "#101010",
   "variants": [
    [
     480,
@@ -100,6 +129,7 @@
  "revisao-23/qozt-cover.webp": {
   "width": 2880,
   "height": 1402,
+  "top": "#ffffff",
   "variants": [
    [
     480,
@@ -130,6 +160,7 @@
  "revisao-23/qozt-secao.webp": {
   "width": 1920,
   "height": 1128,
+  "top": "#ffffff",
   "variants": [
    [
     480,
@@ -156,6 +187,7 @@
  "revisao-23/qozt-completo.webp": {
   "width": 1920,
   "height": 14304,
+  "top": "#ffffff",
   "variants": [
    [
     1080,
@@ -170,6 +202,7 @@
  "revisao-23/natalia-inicio.webp": {
   "width": 2880,
   "height": 1940,
+  "top": "#ebece5",
   "variants": [
    [
     480,
@@ -200,6 +233,7 @@
  "revisao-23/natalia-sobre.webp": {
   "width": 2880,
   "height": 1888,
+  "top": "#ebede5",
   "variants": [
    [
     480,
@@ -230,6 +264,7 @@
  "revisao-23/natalia-completo.webp": {
   "width": 2880,
   "height": 11890,
+  "top": "#ebece5",
   "variants": [
    [
     1080,
@@ -244,6 +279,7 @@
  "revisao-23/dr-paulo-cover.webp": {
   "width": 2880,
   "height": 2000,
+  "top": "#ebece5",
   "variants": [
    [
     480,
@@ -274,6 +310,7 @@
  "revisao-23/dr-paulo-secao.webp": {
   "width": 1920,
   "height": 1644,
+  "top": "#e3e5db",
   "variants": [
    [
     480,
@@ -300,6 +337,7 @@
  "revisao-23/dr-paulo-completo.webp": {
   "width": 1920,
   "height": 11639,
+  "top": "#ebede5",
   "variants": [
    [
     1080,
@@ -314,6 +352,7 @@
  "revisao-23/limozine-cover.webp": {
   "width": 2880,
   "height": 1636,
+  "top": "#f0ebe1",
   "variants": [
    [
     480,
@@ -344,6 +383,7 @@
  "revisao-23/limozine-secao.webp": {
   "width": 1920,
   "height": 2495,
+  "top": "#111111",
   "variants": [
    [
     480,
@@ -370,6 +410,7 @@
  "revisao-23/limozine-completo.webp": {
   "width": 1920,
   "height": 11655,
+  "top": "#f0ebe1",
   "variants": [
    [
     1080,
@@ -384,6 +425,7 @@
  "revisao-23/dominos-cover.webp": {
   "width": 2880,
   "height": 1658,
+  "top": "#866350",
   "variants": [
    [
     480,
@@ -411,41 +453,55 @@
    ]
   ]
  },
- "revisao-23/dominos-secao.webp": {
-  "width": 960,
-  "height": 1200,
+ "revisao-23/dominos-celular-1.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#034070",
   "variants": [
    [
     480,
-    "img/dominos-secao-480.webp"
+    "img/dominos-celular-1-480.webp"
    ],
    [
-    800,
-    "img/dominos-secao-800.webp"
-   ],
-   [
-    960,
-    "img/dominos-secao-960.webp"
+    804,
+    "img/dominos-celular-1-804.webp"
    ]
   ]
  },
- "revisao-23/dominos-mobile-cover.webp": {
-  "width": 860,
-  "height": 1642,
+ "revisao-23/dominos-celular-2.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#5a1f24",
   "variants": [
    [
     480,
-    "img/dominos-mobile-cover-480.webp"
+    "img/dominos-celular-2-480.webp"
    ],
    [
-    860,
-    "img/dominos-mobile-cover-860.webp"
+    804,
+    "img/dominos-celular-2-804.webp"
+   ]
+  ]
+ },
+ "revisao-23/dominos-celular-3.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#f4f5f5",
+  "variants": [
+   [
+    480,
+    "img/dominos-celular-3-480.webp"
+   ],
+   [
+    804,
+    "img/dominos-celular-3-804.webp"
    ]
   ]
  },
  "revisao-23/dominos-completo.webp": {
   "width": 1920,
-  "height": 2604,
+  "height": 2615,
+  "top": "#876452",
   "variants": [
    [
     1080,
@@ -460,6 +516,7 @@
  "revisao-23/bmk-blink-cover.webp": {
   "width": 2880,
   "height": 1768,
+  "top": "#f2f2f3",
   "variants": [
    [
     480,
@@ -487,41 +544,55 @@
    ]
   ]
  },
- "revisao-23/bmk-blink-secao.webp": {
-  "width": 1088,
-  "height": 1108,
+ "revisao-23/bmk-blink-celular-1.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#f2f2f3",
   "variants": [
    [
     480,
-    "img/bmk-blink-secao-480.webp"
+    "img/bmk-blink-celular-1-480.webp"
    ],
    [
-    800,
-    "img/bmk-blink-secao-800.webp"
-   ],
-   [
-    1088,
-    "img/bmk-blink-secao-1088.webp"
+    804,
+    "img/bmk-blink-celular-1-804.webp"
    ]
   ]
  },
- "revisao-23/bmk-blink-mobile-cover.webp": {
-  "width": 860,
-  "height": 1456,
+ "revisao-23/bmk-blink-celular-2.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#f2f2f3",
   "variants": [
    [
     480,
-    "img/bmk-blink-mobile-cover-480.webp"
+    "img/bmk-blink-celular-2-480.webp"
    ],
    [
-    860,
-    "img/bmk-blink-mobile-cover-860.webp"
+    804,
+    "img/bmk-blink-celular-2-804.webp"
+   ]
+  ]
+ },
+ "revisao-23/bmk-blink-celular-3.webp": {
+  "width": 804,
+  "height": 1640,
+  "top": "#f1f2f2",
+  "variants": [
+   [
+    480,
+    "img/bmk-blink-celular-3-480.webp"
+   ],
+   [
+    804,
+    "img/bmk-blink-celular-3-804.webp"
    ]
   ]
  },
  "revisao-23/bmk-blink-completo.webp": {
   "width": 1920,
   "height": 3161,
+  "top": "#f3f3f4",
   "variants": [
    [
     1080,
@@ -536,6 +607,7 @@
  "revisao-23/melhem-cover.png": {
   "width": 2880,
   "height": 2000,
+  "top": "#242629",
   "variants": [
    [
     480,
@@ -566,6 +638,7 @@
  "revisao-23/melhem-secao.png": {
   "width": 2880,
   "height": 2428,
+  "top": "#e8e5de",
   "variants": [
    [
     480,
@@ -596,6 +669,7 @@
  "revisao-23/melhem-completo.png": {
   "width": 2880,
   "height": 15692,
+  "top": "#242629",
   "variants": [
    [
     1080,

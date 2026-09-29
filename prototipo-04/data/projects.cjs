@@ -3,19 +3,19 @@
 module.exports = [
   {
     id: 'autopost', name: 'AUTOPOST', kind: 'Produto digital', status: 'Plataforma interna em produção',
-    image: 'autopost-queue.jpg', detail: 'autopost-calendar.jpg', extraPrint: 'autopost-hero.jpg',
-    alt: 'AUTOPOST: calendário mensal de publicações, agenda do dia e chat de agendamento',
-    line: 'Uma publicação. O destino certo para cada unidade.', scope: 'Concepção, UI/UX e desenvolvimento full-stack',
+    image: 'autopost-calendario.webp', detail: 'autopost-unidades.webp', extraPrint: 'autopost-fila.webp',
+    alt: 'AUTOPOST: calendário mensal de publicações por unidade e chat de agendamento, com dados de demonstração',
+    line: 'Uma publicação. O destino certo para cada unidade.', scope: 'Concepção, UI/UX e desenvolvimento full stack',
     heading: 'Distribuir sem perder o controle.',
     context: ['O AUTOPOST nasceu para uma operação com dezenas de marcas e mais de 80 unidades de clientes. A mesma campanha precisava chegar ao Instagram e ao Facebook corretos, sem depender de uma sequência manual sujeita a erro.', 'A equipe escreve o pedido em português, anexa a mídia, confere os destinos e confirma. A plataforma interpreta o agendamento, aplica a assinatura técnica de cada unidade e acompanha a publicação até o fim.'],
     decisions: [
       ['Confirmação humana', 'O agente interpreta datas, horários, redes e unidades, mas nunca publica sozinho. A lista final de destinos fica visível antes da confirmação.'],
-      ['Operadoras isoladas', 'Row Level Security no PostgreSQL separa os dados de cada operadora no próprio banco. Os destinos de publicação são vinculados ao cadastro da unidade, e a separação não depende apenas de validação no front-end.'],
+      ['Operadoras isoladas', 'Row Level Security no PostgreSQL separa os dados de cada operadora no próprio banco. Os destinos de publicação são vinculados ao cadastro da unidade, e a separação não depende apenas de validação no front end.'],
       ['Fila que não duplica', 'A fila verifica a rede antes de reenviar, monitora falhas e conexões vencidas e oferece nova tentativa sem duplicar o post no feed.']
     ],
-    development: ['A interface usa React, TypeScript, Vite e CSS sem framework, com teto de peso controlado no build. Chat com agente de IA, calendário com arrastar e soltar e fila de publicação fazem parte do mesmo fluxo de trabalho.', 'A Meta Graph API publica Reels, imagens e carrosséis no Instagram e no Facebook. Cada rede recebe sua própria legenda, com o link de WhatsApp onde ele é clicável. Nas clínicas, responsável técnico e registro profissional vêm do cadastro da unidade. Avisos sobre preço, promessas de resultado e antes e depois apoiam a revisão humana do conteúdo de saúde.', 'O back-end usa Node.js, Express, TypeScript e PostgreSQL com Row Level Security. Credenciais da Meta são criptografadas com AES-256-GCM e não voltam à tela. A fila acompanha falhas, atrasos e conexões vencendo, permite tentar novamente e apagar publicações em lote. Agendamentos usam o horário de Brasília, independentemente do fuso do servidor.', 'A infraestrutura roda em Oracle Cloud com Ubuntu, Caddy com HTTPS, systemd e backup diário. Cerca de 800 testes em Vitest cobrem unidades, integrações e isolamento entre clientes contra um banco real.', 'Meu papel atravessou o produto inteiro: concepção, design da interface e da experiência, desenvolvimento full-stack, banco de dados, integrações e deploy em produção.'],
-    detailCaption: 'Cadastro de unidades: operadora, marca, responsável técnico e registro profissional associados a cada destino.',
-    extraCaption: 'Fila de publicações para Instagram e Facebook, com monitoramento e chat de agendamento.'
+    development: ['A interface usa React, TypeScript, Vite e CSS sem framework, com teto de peso controlado no build. Chat com agente de IA, calendário com arrastar e soltar e fila de publicação fazem parte do mesmo fluxo de trabalho.', 'A Meta Graph API publica Reels, imagens e carrosséis no Instagram e no Facebook. Cada rede recebe sua própria legenda, com o link de WhatsApp onde ele é clicável. Nas clínicas, responsável técnico e registro profissional vêm do cadastro da unidade. Avisos sobre preço, promessas de resultado e antes e depois apoiam a revisão humana do conteúdo de saúde.', 'O back end usa Node.js, Express, TypeScript e PostgreSQL com Row Level Security. Credenciais da Meta são criptografadas com AES 256 em modo GCM e não voltam à tela. A fila acompanha falhas, atrasos e conexões vencendo, permite tentar novamente e apagar publicações em lote. Agendamentos usam o horário de Brasília, independentemente do fuso do servidor.', 'A infraestrutura roda em Oracle Cloud com Ubuntu, Caddy com HTTPS, systemd e backup diário. Cerca de 800 testes em Vitest cobrem unidades, integrações e isolamento entre clientes contra um banco real.', 'Meu papel atravessou o produto inteiro: concepção, design da interface e da experiência, desenvolvimento full stack, banco de dados, integrações e deploy em produção.'],
+    detailCaption: 'Cadastro de unidades: marca, responsável técnico e registro profissional associados a cada destino. Dados de demonstração.',
+    extraCaption: 'Fila de publicações: cada falha mostra a causa e a ação para corrigir, com nova tentativa. Dados de demonstração.'
   },
   {
     id: 'phron', name: 'PHRON', kind: 'Produto digital', status: 'Projeto pessoal em desenvolvimento',
@@ -99,7 +99,8 @@ module.exports = [
   },
   {
     id: 'dominos', name: 'Domino’s', location: 'Chácara Flora', kind: 'Link in bio', status: 'Site publicado · Chácara Flora, SP',
-    image: 'revisao-23/dominos-cover.webp', detail: 'revisao-23/dominos-secao.webp', mobile: 'revisao-23/dominos-mobile-cover.webp', full: 'revisao-23/dominos-completo.webp',
+    image: 'revisao-23/dominos-cover.webp', full: 'revisao-23/dominos-completo.webp',
+    phones: [['revisao-23/dominos-celular-1.webp', 'Topo no celular: iFood em destaque, site oficial e redes da unidade.'], ['revisao-23/dominos-celular-2.webp', 'Ofertas com imagem, descrição, preço e dois caminhos de pedido.'], ['revisao-23/dominos-celular-3.webp', 'Localização e horário de funcionamento no fim da página.']],
     url: 'https://dominosblink.vercel.app/',
     alt: 'Domino’s Chácara Flora: página com iFood, site oficial, redes sociais e ofertas',
     line: 'Da vontade de pizza ao próximo toque.', scope: 'Design e desenvolvimento da página de links',
@@ -115,8 +116,9 @@ module.exports = [
   },
   {
     id: 'bmk-blink', name: 'Blink BMK', kind: 'Link in bio', status: 'Site publicado',
-    mobile: 'revisao-23/bmk-blink-mobile-cover.webp',
-    image: 'revisao-23/bmk-blink-cover.webp', detail: 'revisao-23/bmk-blink-secao.webp', full: 'revisao-23/bmk-blink-completo.webp', url: 'https://blink.bmkgow.com/',
+    image: 'revisao-23/bmk-blink-cover.webp',
+    phones: [['revisao-23/bmk-blink-celular-1.webp', 'Topo no celular: BMK.AI em destaque e apresentação da NËXXO.'], ['revisao-23/bmk-blink-celular-2.webp', 'Canais da BMK e início da seção de serviços.'], ['revisao-23/bmk-blink-celular-3.webp', 'Planos de serviço em carrossel, seguidos de ligação e WhatsApp.']],
+    full: 'revisao-23/bmk-blink-completo.webp', url: 'https://blink.bmkgow.com/',
     alt: 'Blink da BMK com BMK.AI, apresentação da NËXXO e links de serviços',
     line: 'Uma entrada para todo o ecossistema BMK.', scope: 'Design e desenvolvimento da página de links',
     heading: 'Concentrar sem achatar a oferta.',

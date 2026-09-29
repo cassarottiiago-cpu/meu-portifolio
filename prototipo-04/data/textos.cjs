@@ -8,7 +8,7 @@ module.exports = {
     role: 'UI / UX · Design & desenvolvimento',
     switchTo: { label: 'EN', title: 'English version', lang: 'en' },
     navMain: 'Navegação principal', navPortfolio: 'Navegação do portfólio',
-    work: 'Work', previous: 'Anterior', back: 'Voltar', viewCase: 'Ver caso', visit: 'Visitar o projeto', backToStart: 'Voltar ao início',
+    work: 'Work', previous: 'Anterior', back: 'Voltar', nextCase: 'Próximo', stepsLabel: 'Navegação entre projetos', viewCase: 'Ver caso', visit: 'Visitar o projeto', backToStart: 'Voltar ao início',
     enlarge: 'Ampliar', viewer: { title: 'Imagem do projeto', actual: 'Tamanho real', fit: 'Ajustar à tela', close: 'Fechar', canvas: 'Imagem ampliada; use a rolagem para explorar', fullAlt: 'Página completa do projeto' },
     home: {
       title: 'Creative Developer', description: 'Design de interfaces, UI/UX e desenvolvimento. Os trabalhos de Iago Cassarotti.',
@@ -18,7 +18,7 @@ module.exports = {
         steps: [
           ['Entender', 'Conversa, contexto e objetivo antes de qualquer tela: o que precisa mudar, para quem e por quê.'],
           ['Desenhar', 'Arquitetura de informação, fluxos e interface, com protótipo navegável para decidir antes de construir.'],
-          ['Construir', 'Código de produção: front-end, back-end, banco de dados e integrações, com IA quando faz sentido.'],
+          ['Construir', 'Código de produção: front end, back end, banco de dados e integrações, com IA quando faz sentido.'],
           ['Lançar e cuidar', 'Deploy, testes e ajustes com o projeto no ar. O trabalho continua depois da entrega.']
         ]
       },
@@ -41,17 +41,17 @@ module.exports = {
       title: 'About', description: 'Iago Cassarotti: estudante de Publicidade e Propaganda, designer e desenvolvedor autodidata.',
       heading: ['Da ideia', 'à execução.'],
       intro: 'Sou Iago Cassarotti. Estudo Publicidade e Propaganda e sou desenvolvedor autodidata. Meu trabalho nasce do encontro entre comunicação, design e código.',
-      story: 'A publicidade me faz perguntar o que vale a pena dizer. O design, como tornar isso claro. Aprendi a desenvolver construindo: testando ideias, resolvendo problemas e colocando projetos no ar. Hoje, participo da ideia à implementação — da primeira conversa aos detalhes da interface.',
+      story: 'A publicidade me faz perguntar o que vale a pena dizer. O design, como tornar isso claro. Aprendi a desenvolver construindo: testando ideias, resolvendo problemas e colocando projetos no ar. Hoje, participo da ideia à implementação, da primeira conversa aos detalhes da interface.',
       facts: [['Em formação', 'Publicidade e Propaganda'], ['Aprendizado na prática', 'Desenvolvedor autodidata']],
       capabilities: [
         ['pen', 'Design & UX/UI', 'Pesquisa, arquitetura de informação, prototipação e interfaces responsivas.'],
-        ['code', 'Desenvolvimento full-stack', 'React e TypeScript, APIs, bancos de dados, segurança e deploy.'],
+        ['code', 'Desenvolvimento full stack', 'React e TypeScript, APIs, bancos de dados, segurança e deploy.'],
         ['spark', 'IA aplicada & automação', 'Integração de modelos de linguagem e automações conectadas a fluxos reais de trabalho.']
       ],
       thanks: ['OBRI', 'GADO.'], thanksLabel: 'Obrigado.',
       lead: 'Uma boa conversa pode virar o próximo projeto.',
       text: 'Se você tem uma ideia para tirar do papel ou procura alguém para somar à equipe, me chama. Vamos entender o que podemos construir juntos.',
-      email: 'E-mail', copy: 'Copiar', copied: 'Copiado'
+      email: 'Email', copy: 'Copiar', copied: 'Copiado'
     },
     credits: {
       title: 'Fontes & créditos', description: 'Créditos tipográficos e visuais.', heading: 'Fontes<br>& créditos.',
@@ -70,7 +70,7 @@ module.exports = {
     role: 'UI / UX · Design & development',
     switchTo: { label: 'PT', title: 'Versão em português', lang: 'pt-BR' },
     navMain: 'Main navigation', navPortfolio: 'Portfolio navigation',
-    work: 'Work', previous: 'Previous', back: 'Back', viewCase: 'View case', visit: 'Visit project', backToStart: 'Back to start',
+    work: 'Work', previous: 'Previous', back: 'Back', nextCase: 'Next', stepsLabel: 'Project navigation', viewCase: 'View case', visit: 'Visit project', backToStart: 'Back to start',
     enlarge: 'Enlarge', viewer: { title: 'Project image', actual: 'Actual size', fit: 'Fit to screen', close: 'Close', canvas: 'Enlarged image; scroll to explore', fullAlt: 'Full project page' },
     home: {
       title: 'Creative Developer', description: 'Interface design, UI/UX and development. The work of Iago Cassarotti.',
@@ -100,15 +100,15 @@ module.exports = {
       build: 'From design<br>to build.', newTab: 'Opens in a new tab', next: 'Next project', last: 'The last project ends here.', finish: 'Finish the tour'
     },
     closing: {
-      title: 'About', description: 'Iago Cassarotti: advertising student, designer and self-taught developer.',
+      title: 'About', description: 'Iago Cassarotti: advertising student, designer and self taught developer.',
       heading: ['From idea', 'to execution.'],
-      intro: 'I’m Iago Cassarotti. I study Advertising and I’m a self-taught developer. My work brings communication, design and code together.',
+      intro: 'I’m Iago Cassarotti. I study Advertising and I’m a self taught developer. My work brings communication, design and code together.',
       story: 'Advertising makes me ask what is worth saying. Design, how to make it clear. I learned to code by building: testing ideas, solving problems and launching projects. Today, I work from the first conversation through implementation, down to the details of the interface.',
-      facts: [['Currently studying', 'Advertising'], ['Learning by building', 'Self-taught developer']],
+      facts: [['Currently studying', 'Advertising'], ['Learning by building', 'Self taught developer']],
       capabilities: [
         ['pen', 'Design & UX/UI', 'Research, information architecture, prototyping and responsive interfaces.'],
-        ['code', 'Full-stack development', 'React and TypeScript, APIs, databases, security and deployment.'],
-        ['spark', 'Applied AI & automation', 'Language-model integrations and automations connected to real workflows.']
+        ['code', 'Full stack development', 'React and TypeScript, APIs, databases, security and deployment.'],
+        ['spark', 'Applied AI & automation', 'Integrations with language models and automations connected to real workflows.']
       ],
       thanks: ['THANK ', 'YOU.'], thanksLabel: 'Thank you.',
       lead: 'A good conversation could become the next project.',

@@ -10,5 +10,6 @@ module.exports = {
   url: (process.env.SITE_URL || DOMINIO || (vercel ? 'https://' + vercel : '')).replace(/\/$/, ''),
   indexar: true,
   email: 'cassarottiiago@gmail.com',
-  whatsapp: 'https://wa.me/5543988174922'
+  whatsapp: 'https://wa.me/5543988174922',
+  linkedin: 'https://www.linkedin.com/in/iago-cassarotti-305a72208/'
 };

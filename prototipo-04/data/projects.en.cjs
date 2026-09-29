@@ -3,18 +3,18 @@
 module.exports = {
   autopost: {
     kind: 'Digital product', status: 'Internal platform in production',
-    alt: 'AUTOPOST: monthly publishing calendar, the day’s schedule and the scheduling chat',
-    line: 'One post. The right destination for every location.', scope: 'Concept, UI/UX and full-stack development',
+    alt: 'AUTOPOST: monthly publishing calendar by location and the scheduling chat, with demo data',
+    line: 'One post. The right destination for every location.', scope: 'Concept, UI/UX and full stack development',
     heading: 'Distribute without losing control.',
-    context: ['AUTOPOST was built for an operation with dozens of brands and more than 80 client locations. The same campaign had to reach the right Instagram and Facebook accounts without depending on an error-prone manual routine.', 'The team writes the request in Portuguese, attaches the media, checks the destinations and confirms. The platform interprets the schedule, applies each location’s technical sign-off and follows the post all the way to publication.'],
+    context: ['AUTOPOST was built for an operation with dozens of brands and more than 80 client locations. The same campaign had to reach the right Instagram and Facebook accounts without depending on an manual routine prone to errors.', 'The team writes the request in Portuguese, attaches the media, checks the destinations and confirms. The platform interprets the schedule, applies each location’s technical sign off and follows the post all the way to publication.'],
     decisions: [
       ['Human confirmation', 'The agent interprets dates, times, networks and locations, but never posts on its own. The final list of destinations stays visible before confirmation.'],
-      ['Isolated operators', 'Row Level Security in PostgreSQL separates each operator’s data inside the database itself. Publishing destinations are tied to the location’s record, and isolation does not rely on front-end validation alone.'],
+      ['Isolated operators', 'Row Level Security in PostgreSQL separates each operator’s data inside the database itself. Publishing destinations are tied to the location’s record, and isolation does not rely on front end validation alone.'],
       ['A queue that never duplicates', 'The queue checks the network before resending, monitors failures and expired connections, and offers a retry without duplicating the post in the feed.']
     ],
-    development: ['The interface uses React, TypeScript, Vite and plain CSS, with a weight budget enforced at build time. An AI agent chat, a drag-and-drop calendar and the publishing queue are part of the same workflow.', 'The Meta Graph API publishes Reels, images and carousels to Instagram and Facebook. Each network gets its own caption, with the WhatsApp link where it is clickable. For clinics, the technical lead and professional registration come from the location’s record. Warnings about pricing, promises of results and before-and-after images support the human review of health content.', 'The back end uses Node.js, Express, TypeScript and PostgreSQL with Row Level Security. Meta credentials are encrypted with AES-256-GCM and never return to the screen. The queue tracks failures, delays and connections about to expire, allows retries and bulk deletion of posts. Scheduling uses Brasília time, regardless of the server’s time zone.', 'The infrastructure runs on Oracle Cloud with Ubuntu, Caddy with HTTPS, systemd and daily backups. Around 800 Vitest tests cover units, integrations and isolation between clients against a real database.', 'My role spanned the whole product: concept, interface and experience design, full-stack development, database, integrations and production deployment.'],
-    detailCaption: 'Location registry: operator, brand, technical lead and professional registration tied to each destination.',
-    extraCaption: 'Publishing queue for Instagram and Facebook, with monitoring and the scheduling chat.'
+    development: ['The interface uses React, TypeScript, Vite and plain CSS, with a weight budget enforced at build time. An AI agent chat, a drag and drop calendar and the publishing queue are part of the same workflow.', 'The Meta Graph API publishes Reels, images and carousels to Instagram and Facebook. Each network gets its own caption, with the WhatsApp link where it is clickable. For clinics, the technical lead and professional registration come from the location’s record. Warnings about pricing, promises of results and before and after images support the human review of health content.', 'The back end uses Node.js, Express, TypeScript and PostgreSQL with Row Level Security. Meta credentials are encrypted with AES 256 in GCM mode and never return to the screen. The queue tracks failures, delays and connections about to expire, allows retries and bulk deletion of posts. Scheduling uses Brasília time, regardless of the server’s time zone.', 'The infrastructure runs on Oracle Cloud with Ubuntu, Caddy with HTTPS, systemd and daily backups. Around 800 Vitest tests cover units, integrations and isolation between clients against a real database.', 'My role spanned the whole product: concept, interface and experience design, full stack development, database, integrations and production deployment.'],
+    detailCaption: 'Location registry: brand, technical lead and professional registration tied to each destination. Demo data.',
+    extraCaption: 'Publishing queue: each failure shows the cause and the fix, with a retry. Demo data.'
   },
   phron: {
     kind: 'Digital product', status: 'Personal project in development',
@@ -29,12 +29,12 @@ module.exports = {
       ['Editable routine', 'Widgets organize the central space. The layout treats the workspace as something that can be adjusted, not as a single fixed dashboard.'],
       ['Assistant alongside', 'The assistant has its own column. The conversation and the main content can coexist on the same screen, keeping the context of what is being done.']
     ],
-    development: ['I develop PHRON locally with Next.js and React. The build is organized into three areas: navigation, workspace and assistance. This split lets the interface and the flows of each part evolve over the course of the project.', 'The images record the development stage of September 27, 2026: the Home in dark mode and a conversation test over WhatsApp.', 'In the test, the conversation includes a voice message and a reply with available times. It is a one-off demonstration of the integration in progress; the remaining flows and capabilities still need to be finished and validated.'],
+    development: ['I develop PHRON locally with Next.js and React. The build is organized into three areas: navigation, workspace and assistance. This split lets the interface and the flows of each part evolve over the course of the project.', 'The images record the development stage of September 27, 2026: the Home in dark mode and a conversation test over WhatsApp.', 'In the test, the conversation includes a voice message and a reply with available times. It is a single demonstration of the integration in progress; the remaining flows and capabilities still need to be finished and validated.'],
     detailCaption: 'PHRON Home in dark mode, with news, trackers and assistant. Capture provided by Iago.'
   },
   qozt: {
     kind: 'Landing page', status: 'Live site',
-    alt: 'QOZT page with the sales pitch, an intelligent-agents interface and access to the demo',
+    alt: 'QOZT page with the sales pitch, an interface for intelligent agents and access to the demo',
     line: 'Conversation becomes connection.', scope: 'Page design and development',
     heading: 'Making an intangible service visible.',
     context: ['Intelligent sales agents are not a product anyone can hold. The page has to give the proposition an understandable shape before asking visitors to take the next step.', 'The opening brings the sales message close to a representation of the interface. The invitation to see the solution appears next to what is being presented, without depending on reading the whole page.'],
@@ -69,10 +69,10 @@ module.exports = {
     decisions: [
       ['Permanent index', 'Numbering and section labels keep the journey legible. People can see where they are before deciding to continue.'],
       ['Reasons to seek care', 'The section turns symptoms and situations into entry points. The content helps people recognize a need without forcing a diagnosis through the interface.'],
-      ['The appointment explained', 'First appointment, a written plan and follow-up appear as steps. The care is described before booking.']
+      ['The appointment explained', 'First appointment, a written plan and follow up appear as steps. The care is described before booking.']
     ],
     development: ['The observed published version uses a long page with section navigation and direct contact points. The content alternates editorial blocks, numbered cards and care steps.', 'The interface prioritizes typography, spacing and reading order. Reasons to seek care, training, method, readings and contact each have a distinct role, so the first screen doesn’t carry every decision.', 'The capture was taken on the live site, drpauloseraphim.com.br. The case describes the observed interface and does not turn medical information, testimonials or claims on the site into proven results of this portfolio.'],
-    detailCaption: 'Dr. Paulo’s care section: first appointment, written plan and follow-up.'
+    detailCaption: 'Dr. Paulo’s care section: first appointment, written plan and follow up.'
   },
   limozine: {
     kind: 'Landing page', status: 'Live site',
@@ -90,6 +90,7 @@ module.exports = {
     detailCaption: 'Limozine’s menu gallery, captured after the photos loaded.'
   },
   dominos: {
+    phones: [['revisao-23/dominos-celular-1.webp', 'Top of the page on mobile: iFood first, then the official website and the store’s social networks.'], ['revisao-23/dominos-celular-2.webp', 'Deals with image, description, price and two ways to order.'], ['revisao-23/dominos-celular-3.webp', 'Location and opening hours at the end of the page.']],
     kind: 'Link in bio', status: 'Live site · Chácara Flora, SP',
     alt: 'Domino’s Chácara Flora: page with iFood, the official website, social networks and deals',
     line: 'From pizza craving to the next tap.', scope: 'Link page design and development',
@@ -104,6 +105,7 @@ module.exports = {
     detailCaption: 'Deals and ordering paths of Domino’s Chácara Flora.'
   },
   'bmk-blink': {
+    phones: [['revisao-23/bmk-blink-celular-1.webp', 'Top of the page on mobile: BMK.AI first and the NËXXO presentation.'], ['revisao-23/bmk-blink-celular-2.webp', 'BMK channels and the start of the services section.'], ['revisao-23/bmk-blink-celular-3.webp', 'Service plans in a carousel, followed by call and WhatsApp.']],
     kind: 'Link in bio', status: 'Live site',
     alt: 'BMK’s Blink with BMK.AI, the NËXXO presentation and service links',
     line: 'One entry point to the whole BMK ecosystem.', scope: 'Link page design and development',

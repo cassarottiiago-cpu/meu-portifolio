@@ -2,6 +2,13 @@
 
 Site estático em `prototipo-04/` (HTML/CSS/JS nativos, português na raiz e inglês em `/en/`). O diário antigo de decisões, com direções já descartadas, está em `briefing/HISTORICO-AGENTS.md`: é histórico, não vale como regra.
 
+## Ajustes de 29/09/2026, tarde (Claude Code, a pedido de Iago)
+- Casos: topo com Work e WhatsApp (lugar do WhatsApp, não mexer). Voltar e Próximo ficam no fim do caso (`.case-steps`, acima de Explorar projetos); `next` é o bumerangue do voltar espelhado. Próximo segue a ordem de `projects.cjs` e volta ao primeiro no fim.
+- About: Voltar ao início dentro de `.closing-thanks`, na linha do agradecimento; sem faixa isolada no rodapé. LinkedIn (`site.linkedin`) ao lado de WhatsApp e Email.
+- Sem hífens nem travessões no texto visível (pt e en): "full stack", "front end", "Email", nomes das fontes nos créditos por extenso. Não reintroduzir.
+- Link in bio (Domino's e Blink BMK): só a capa em janela de navegador; o resto em três telas de iPhone (`phones` em projects.cjs, capturas de `briefing/rodada-4/capturar-celulares-29.cjs`, 402×820 pt). Mock de celular é um iPhone 17 Pro em CSS (`.device-phone`, cor da moldura em `--frame` por caso; barra de status desenhada com a cor do topo da captura, lida em `imagens.cjs`). O site do Domino's teve os ícones corrigidos no repo `dominos-blink`.
+- AUTOPOST: prints novos `autopost-calendario.webp`, `autopost-unidades.webp`, `autopost-fila.webp`, capturados da interface real rodando local com banco de demonstração (unidades fictícias, sem telefones). Legendas dizem "dados de demonstração". Os JPGs antigos continuam em `assets/` sem uso.
+
 ## Estado atual (29/09/2026)
 - Fonte de conteúdo: `data/projects.cjs` (pt) e `data/projects.en.cjs` (en), `data/textos.cjs` (interface), `data/site.cjs` (domínio, e-mail, indexação). Páginas geradas por `scripts/gerar.cjs`; nunca editar os HTML.
 - Comandos em `prototipo-04/`: `npm run dev` (host em http://127.0.0.1:4177), `npm run build` (dist/ minificado), `npm test`, `npm run imagens` (versões leves das capturas), `npm run og` (prévias de compartilhamento).

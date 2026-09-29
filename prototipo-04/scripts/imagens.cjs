@@ -10,6 +10,7 @@ const DISPLAY=[480,800,1200,1600,2000],FULL=[1080];
 const jobs=new Map();
 for(const p of projects){
  for(const key of ['image','detail','mobile','extraPrint'])if(p[key])jobs.set(p[key],DISPLAY);
+ for(const [file] of p.phones||[])jobs.set(file,DISPLAY);
  if(p.full)jobs.set(p.full,FULL);
 }
 (async()=>{
@@ -29,7 +30,9 @@ for(const p of projects){
    variants.push([w,'img/'+name]);after+=fs.statSync(path.join(out,name)).size;
   }
   before+=fs.statSync(source).size;
-  manifest[file]={width,height,variants};
+  // Cor da primeira faixa da captura: fundo da barra de status desenhada no mock de celular.
+  const {data}=await sharp(source,{limitInputPixels:false}).extract({left:0,top:0,width,height:Math.min(16,height)}).resize(1,1).removeAlpha().raw().toBuffer({resolveWithObject:true});
+  manifest[file]={width,height,top:'#'+[...data].map(v=>v.toString(16).padStart(2,'0')).join(''),variants};
   console.log(file.padEnd(40),width+'x'+height,'→',variants.map(v=>v[0]).join(', ')||'(sem versões)');
  }
  fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify(manifest,null,1)+'\n');

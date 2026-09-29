@@ -113,11 +113,21 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .device-window .device-screen{border:1px solid #c3c0b9;border-top:32px solid #e3e1db;border-radius:9px;box-shadow:0 10px 24px -20px #25231f66}
 .device-window::before{content:'';position:absolute;z-index:1;left:12px;top:12px;width:8px;height:8px;border-radius:50%;background:#ed6a5e;box-shadow:14px 0 #f4bf4f,28px 0 #61c454}
 .device-window .device-base{display:none}
-.device-phone{max-width:340px;padding:0 5px}
-.device-phone .device-screen{border:7px solid #272727;border-top-width:25px;border-bottom-width:19px;border-radius:32px;box-shadow:0 0 0 2px #8b8a85,0 14px 26px -19px #25231f99}
-.device-phone::before{content:'';position:absolute;z-index:1;left:calc(50% - 21px);top:10px;width:42px;height:5px;background:#080808;border-radius:6px}
-.device-phone .device-base{bottom:9px;left:calc(50% - 26px);width:52px;height:3px;min-height:0;background:#8d8d87;border-radius:3px;box-shadow:none}
-.device-phone .device-base::after{display:none}
+/* iPhone 17 Pro: moldura de titânio (--frame), borda preta fina, Dynamic Island e botões laterais. */
+.device-phone{--frame:#c9c6bf;--btn:color-mix(in srgb,var(--frame) 72%,#000);max-width:290px;padding:1.9%;border-radius:15.5%/7.3%;background:linear-gradient(135deg,color-mix(in srgb,var(--frame) 50%,#fff) 0%,var(--frame) 16%,color-mix(in srgb,var(--frame) 80%,#000) 46%,var(--frame) 74%,color-mix(in srgb,var(--frame) 58%,#fff) 100%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.5),inset 0 0 0 2.5px rgba(0,0,0,.16),0 44px 64px -40px rgba(20,18,15,.6),0 14px 26px -18px rgba(20,18,15,.35)}
+.device-phone::before,.device-phone::after{content:'';position:absolute;z-index:-1;width:1.6%;border-radius:2px}
+.device-phone::before{left:-1.2%;top:16%;height:32%;background:linear-gradient(var(--btn) 0 0) 0 0/100% 12% no-repeat,linear-gradient(var(--btn) 0 0) 0 40%/100% 22% no-repeat,linear-gradient(var(--btn) 0 0) 0 84%/100% 22% no-repeat}
+.device-phone::after{right:-1.2%;top:28%;height:13%;background:var(--btn)}
+.device-phone .device-screen{border:0;padding:2.7%;background:#060606;border-radius:14%/6.5%;box-shadow:0 0 0 1px rgba(0,0,0,.55);container-type:inline-size}
+.phone-display{display:block;position:relative;overflow:hidden;border-radius:11.8%/5.45%;background:#000}
+.phone-display img{display:block;width:100%;height:auto;border-radius:0}
+.phone-status{display:flex;align-items:center;justify-content:space-between;height:13.4cqw;padding:1.2cqw 7cqw 0 10cqw;background:var(--status-bg);color:var(--status-ink);font:600 4.2cqw/1 -apple-system,'SF Pro Text',Inter,Arial,sans-serif;letter-spacing:-.01em}
+.phone-status svg{width:17cqw;height:auto;display:block}
+.phone-island{position:absolute;left:50%;top:5.4cqw;width:31cqw;height:9.2cqw;transform:translateX(-50%);background:#000;border-radius:99px;pointer-events:none}
+.phone-island::after{content:'';position:absolute;right:13%;top:50%;width:2.9cqw;height:2.9cqw;transform:translateY(-50%);border-radius:50%;background:radial-gradient(circle at 35% 35%,#2d3b58,#0a0d14 65%)}
+
+
+
 
 /* ——— Abertura: CREATIVE DEVELOPER e monograma IC em caracteres ——— */
 .intro,.end-invitation{touch-action:pan-y}
@@ -266,7 +276,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .thanks-word{position:relative;margin:0 0 clamp(22px,4vh,46px);font-size:min(calc((100vw - 2 * var(--pad)) / var(--fit)),34svh);line-height:.8;font-weight:500;letter-spacing:-.078em;white-space:nowrap;color:var(--ink);--pupil:var(--red);--fit:4.68}
 :lang(en) .thanks-word{--fit:4.96}
 .thanks-word>span{display:inline}
-.closing-thanks{display:grid;grid-template-columns:1.05fr 1fr;gap:4vw;align-items:center}
+.closing-thanks{display:grid;grid-template-columns:1.05fr 1fr auto;gap:4vw;align-items:center}
 .closing-thanks>p:first-child{font-size:clamp(23px,2.5vw,38px);letter-spacing:-.045em;line-height:1.15;max-width:500px}
 .closing-thanks>p:nth-child(2){font-size:13px;line-height:1.6;max-width:390px}
 .closing-contact{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
@@ -285,7 +295,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .copy-address{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
 .copy-label{font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:10px;color:var(--red)}
 .copy-email.is-copied .copy-label{color:var(--ink)}
-.closing-bottom{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:25px;margin-top:clamp(30px,6vh,64px);padding-top:20px;border-top:1px solid var(--line)}
+.closing-bottom{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:25px}
 /* Vinheta de volta ao início: o último quadro é a própria abertura */
 .replay-curtain{position:fixed;inset:0;z-index:1000;pointer-events:none;overflow:clip}
 .replay-paper{position:absolute;inset:0;background:var(--paper) url('assets/field.svg');overflow:clip}
@@ -352,7 +362,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .closing-presentation{grid-template-columns:1fr;align-content:start}
  .closing-stage h1{grid-row:auto}
  .closing-capabilities{grid-column:auto}
- .closing-thanks{grid-template-columns:1fr 1fr}
+ .closing-thanks{grid-template-columns:1fr 1fr}.closing-thanks .closing-bottom{grid-column:1/-1;justify-content:flex-start}
  .closing-contact{grid-column:1/-1;flex-direction:row;flex-wrap:wrap;align-items:center}
 }
 @media(max-width:700px){
@@ -443,7 +453,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .closing-contact{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px}
  .closing-contact .doodle-link{min-height:44px;padding:4px 18px 4px 10px;gap:8px;font-size:14px}
  .closing-contact .doodle-icon{width:30px;height:30px}
- .closing-bottom{gap:14px;margin-top:40px}
+ .closing-bottom{gap:14px;justify-content:flex-start}
  .closing-bottom .doodle-link{font-size:12px}
  .replay-spacer{min-height:56px}
  .replay-strips span{font-size:18vw}

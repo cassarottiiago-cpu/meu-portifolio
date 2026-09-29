@@ -38,6 +38,10 @@ const drawings={
  // Voltar: um bumerangue; no hover ele é lançado para a esquerda, gira e volta para a mão (app.js).
  back:seed=>
   part('boomerang',[shape('M33 5.8C34.8 5.2 36.4 7.4 35.4 9.6L16.8 21 35.4 32.4C36.4 34.6 34.8 36.8 33 36.2L8.6 23.4C6.6 22.3 6.6 19.7 8.6 18.6Z','fill="var(--btn-paper)"'),shape('M28.6 9.7 30.8 13.3M28.6 32.3 30.8 28.7M22.4 13.6 24.4 16.9','stroke-width="1.5"',.25)],seed),
+ next:seed=>'<g transform="matrix(-1 0 0 1 42 0)">'+drawings.back(seed)+'</g>',
+ linkedin:seed=>
+  part('in-box',[shape('M6.6 7.4C6.7 6.5 7.3 6 8.2 6L33.6 5.8C34.6 5.8 35.2 6.4 35.2 7.4L35.6 33.8C35.6 34.8 35 35.4 34 35.4L8.4 35.8C7.4 35.8 6.8 35.2 6.8 34.2Z','fill="var(--btn-paper)"')],seed)+
+  part('in-letters',[shape('M13 18.6 13.2 29.4','stroke-width="2.6"',.3),shape('M13 12.8h.2','stroke-width="3.2"',.15),shape('M18.8 29.4 18.6 18.6M18.8 22.6C19.8 19.6 22.2 18.4 24.8 18.6 27.8 18.8 29 21 29 24.2L29.2 29.4','stroke-width="2.4"',.3)],seed+5),
  pen:seed=>
   part('cap-pen',[shape('M7.5 35 9.3 27 28 8.3C29.4 6.9 31.6 6.9 33 8.3L34 9.3C35.4 10.7 35.4 12.9 34 14.3L15.3 33Z','fill="var(--btn-paper)"'),shape('M25.5 10.8 31.5 16.8'),shape('M9.3 27 15.3 33'),shape('M7.5 35 12 33.6','stroke-width="1.4"',.2)],seed),
  code:seed=>
@@ -60,6 +64,6 @@ const drawings={
 function icon(kind,seed=1){return '<svg class="doodle-icon" viewBox="0 0 42 42" aria-hidden="true" focusable="false">'+drawings[kind](seed)+'</svg>';}
 function button(href,label,kind='open',extra=''){
  const letters=[...label].map((letter,i)=>{const glyph=letter===' '?'&nbsp;':escape(letter);return '<span class="button-letter" style="--letter:'+i+'">'+glyph+'</span>';}).join('');
- return '<a class="doodle-link doodle-'+kind+'" href="'+escape(href)+'" aria-label="'+escape(label)+'" '+extra+'>'+icon(kind,{visit:31,work:11,chat:23,back:47,open:59,process:83,mail:89}[kind]||1)+(kind==='work'?'<span class="work-chip" aria-hidden="true"></span>':'')+'<span class="button-word" aria-hidden="true">'+letters+'</span></a>';
+ return '<a class="doodle-link doodle-'+kind+'" href="'+escape(href)+'" aria-label="'+escape(label)+'" '+extra+'>'+icon(kind,{visit:31,work:11,chat:23,back:47,next:47,linkedin:97,open:59,process:83,mail:89}[kind]||1)+(kind==='work'?'<span class="work-chip" aria-hidden="true"></span>':'')+'<span class="button-word" aria-hidden="true">'+letters+'</span></a>';
 }
 module.exports={button,icon};
