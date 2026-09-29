@@ -34,6 +34,7 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
   check(JSON.stringify(await page.locator('[data-project]').evaluateAll(list=>list.map(e=>e.dataset.project)))===JSON.stringify(featured.map(p=>p.id)),'Sequência exata de quatro trabalhos');
   check(await page.locator('.type-creative .type-full').evaluate(e=>getComputedStyle(e).color)==='rgb(189, 41, 31)','Creative em vermelho');
   check(await page.locator('.type-developer .type-full').evaluate(e=>getComputedStyle(e).color)==='rgb(189, 41, 31)','Developer em vermelho');
+  check(await page.locator('.type-extra').evaluateAll(list=>list.length>0&&list.every(e=>getComputedStyle(e).display==='none')),'Fragmentos extras ocultos no desktop');
   check(await page.locator('.home-nav .doodle-chat').getAttribute('href')==='https://wa.me/5543988174922','WhatsApp corresponde ao currículo');
   await page.locator('.home-nav .doodle-work').hover();await page.waitForTimeout(280);
   check(await page.locator('.home-nav .hammer').evaluate(e=>e.getAnimations().length)>0,'Botão Work reage ao hover');await picture(page,'botao-work-hover');await page.mouse.move(500,700);await page.waitForTimeout(600);
@@ -54,7 +55,7 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
   check(await page.locator('.invitation-copy').count()>0&&await page.locator('.invitation-copy').count()<=8,'Rodapé com frequência ampliada');await picture(page,'rodape-interativo');await page.waitForTimeout(1700);check(await page.locator('.invitation-copy').count()===0,'Cópias temporárias não acumulam');
   check((await page.locator('.invitation-link').getAttribute('href'))==='projetos/autopost.html','Rodapé inicia percurso diretamente');
   await page.mouse.move(10,0);await page.evaluate(()=>scrollTo(0,0));await page.waitForTimeout(100);
-  for(const width of [1366,1024,768,390,320]){await page.setViewportSize({width,height:900});await ready(page);await bounds(page,'home '+width);if(width===390){await picture(page,'abertura-mobile');await axe(page,'home mobile');await page.evaluate(()=>scrollTo(0,document.querySelector('#trabalhos').offsetTop));await picture(page,'indice-mobile');await page.evaluate(()=>scrollTo(0,0));}}
+  for(const width of [1366,1024,768,390,320]){await page.setViewportSize({width,height:900});await ready(page);await bounds(page,'home '+width);check(await page.locator('.type-extra').evaluateAll((list,mobile)=>list.length>0&&list.every(e=>(getComputedStyle(e).display!=='none')===mobile),width<=700),'Fragmentos extras no viewport '+width);if(width===390){await picture(page,'abertura-mobile');await axe(page,'home mobile');await page.evaluate(()=>scrollTo(0,document.querySelector('#trabalhos').offsetTop));await picture(page,'indice-mobile');await page.evaluate(()=>scrollTo(0,0));}}
   const expected={autopost:'Inter',phron:'Plus Jakarta Sans',qozt:'Outfit',natalia:'Marble','dr-paulo':'Instrument Serif',limozine:'Bebas Neue',dominos:'Inter','bmk-blink':'Archivo',odonto:'Montserrat'};
   for(let i=0;i<projects.length;i++){
    const p=projects[i];await page.setViewportSize({width:1440,height:900});await page.goto(base+'/projetos/'+p.id+'.html');await ready(page);

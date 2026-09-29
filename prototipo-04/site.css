@@ -116,8 +116,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .type-creative .type-fragment{margin-left:.4em}
 .type-developer .type-echo{margin-left:1.05em;margin-top:.05em;margin-bottom:0}
 .type-developer .type-fragment{margin-left:2.05em}
-/* Fragmentos extras: só no celular, passando da borda direita */
-.type-extra{display:none}
+/* Fragmentos extras: só no celular; a especificidade precisa vencer .type-group>span. */
+.type-group>.type-extra{display:none}
 /* Olhos nos "O" (DEVELOPER e OBRIGADO.): pupila segue o ponteiro (app.js) */
 .type-developer .type-full>span{position:relative}
 .o-eye{position:absolute;left:var(--ex,0);top:var(--ey,0);width:var(--ew,0);height:var(--eh,0);transform:translate(-50%,-50%);pointer-events:none;opacity:0}
