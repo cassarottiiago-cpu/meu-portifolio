@@ -16,6 +16,10 @@
 .case-meta dd{font-size:12px;line-height:1.5;margin:0}
 .case-print{margin:0;min-width:0}
 .case-print>a{display:block;position:relative}
+.case-print .print-hint{bottom:16px;right:5%;opacity:0;transition:opacity .2s ease}
+.case-print>a:is(:hover,:focus-visible) .print-hint{opacity:1}
+@media(hover:none){.case-print .print-hint{opacity:1}}
+.case-exit-about{padding:0 5vw 45px}
 .case-print img{width:100%;height:auto}
 .case-print figcaption{font-family:var(--case-text);font-size:11px;line-height:1.5;margin-top:12px;max-width:800px}
 .case-cover{margin:0 5vw 0}

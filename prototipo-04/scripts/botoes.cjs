@@ -20,6 +20,9 @@ const eyeLLine='M13.4 8.3C16.1 11 16.9 15.6 16.7 21.4 16.5 27.8 14.6 32.6 10.6 3
 const eyeR='M31.4 6.6C36.2 6.4 40.6 12 40.6 21 40.6 29.6 37.4 35.8 32.2 35.8 27 35.8 24.1 30 24.3 21.6 24.5 13 27.2 6.8 31.4 6.6Z';
 const eyeRLine='M28.9 8.4C26.2 11.2 25.7 15.8 25.9 21.8 26.1 28 28 32.8 31.6 34.2';
 const drawings={
+ about:seed=>
+  part('about-card',[shape('M7 6 34 7 35 35 8 36Z','fill="var(--btn-paper)"'),shape('M24 26 30 26M24 30 30 30','stroke-width="1.6"',.2)],seed)+
+  part('about-person',[shape('M22 16C22 22 12 22 12 16 12 10 22 10 22 16Z'),shape('M10 30C10 22 23 22 24 30')],seed+7),
  visit:seed=>
   part('visit-window',[shape('M6 11.5C6 10.3 6.8 9.6 8 9.6L31.6 9.4C32.9 9.4 33.8 10.2 33.8 11.5L34 27.8C34 29 33.2 29.8 32 29.8L8.4 30C7.1 30 6.2 29.2 6.2 28Z','fill="var(--btn-paper)"'),shape('M6.2 16.4 33.9 16.2'),shape('M10 13.1h.2M13.6 13.1h.2M17.2 13.1h.2','stroke-width="2.6"',.15)],seed)+
   part('visit-burst',[shape('M31.8 3.2 33.4 6M36.4 5.6 34.2 7.6M38.4 10.2l-2.7.5','stroke-width="1.8"',.2)],seed+7)+

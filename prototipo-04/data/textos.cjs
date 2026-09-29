@@ -3,7 +3,7 @@
 module.exports = {
   pt: {
     code: 'pt', lang: 'pt-BR', locale: 'pt_BR',
-    files: { home: 'index.html', caseDir: 'projetos/', closing: 'encerramento.html', credits: 'creditos.html' },
+    files: { home: 'index.html', catalog: 'projetos.html', caseDir: 'projetos/', closing: 'encerramento.html', credits: 'creditos.html' },
     titleSuffix: ' | Iago Cassarotti',
     role: 'UI / UX · Design & desenvolvimento',
     switchTo: { label: 'EN', title: 'English version', lang: 'en' },
@@ -25,23 +25,32 @@ module.exports = {
       footerTop: 'Agora, por dentro.', footerLink: ['VER TODOS', 'OS PROJETOS'], footerCopy: 'VER TODOS OS PROJETOS',
       footerNote: 'Da primeira ideia<br>ao que foi construído.', footerIndex: 'Ir direto a um projeto'
     },
+    catalog: {
+      title: 'Outros projetos', description: 'Mais cinco trabalhos de Iago Cassarotti. Escolha o projeto que quer conhecer.',
+      heading: 'Outros<br>projetos.', lead: 'Cada projeto, uma história. Escolha por onde entrar.',
+      selected: 'Voltar aos selecionados', footerTop: 'Você viu o que eu faço.', footerLink: ['QUEM ESTÁ', 'POR TRÁS?'],
+      footerCopy: 'IDEIA. DESIGN. CÓDIGO.', footerNote: 'Um pouco de quem sou.<br>E de como cheguei até aqui.',
+      choose: 'Escolher outro projeto', all: 'Explorar projetos'
+    },
     case: {
       skip: 'Pular para o caso', role: 'Meu papel', status: 'Estado', start: 'O ponto de partida', inside: 'Por dentro<br>da interface.',
       mobileCaption: name => 'Interface ' + name + ' no celular.', fullPage: 'Ver a página completa', development: 'Desenvolvimento',
       build: 'Do desenho<br>à construção.', newTab: 'Abre em nova aba', next: 'Próximo trabalho', last: 'O último trabalho termina aqui.', finish: 'Fechar o percurso'
     },
     closing: {
-      title: 'Design, desenvolvimento e IA aplicada', description: 'Conheça as capacidades por trás dos projetos de Iago Cassarotti.',
+      title: 'About', description: 'Iago Cassarotti: estudante de Publicidade e Propaganda, designer e desenvolvedor autodidata.',
       heading: ['Da ideia', 'à execução.'],
-      intro: 'Sou designer e desenvolvedor. Uno estratégia de comunicação, experiência do usuário e execução técnica para levar produtos digitais do conceito à produção.',
+      intro: 'Sou Iago Cassarotti. Estudo Publicidade e Propaganda e sou desenvolvedor autodidata. Meu trabalho nasce do encontro entre comunicação, design e código.',
+      story: 'A publicidade me faz perguntar o que vale a pena dizer. O design, como tornar isso claro. Aprendi a desenvolver construindo: testando ideias, resolvendo problemas e colocando projetos no ar. Hoje, participo da ideia à implementação — da primeira conversa aos detalhes da interface.',
+      facts: [['Em formação', 'Publicidade e Propaganda'], ['Aprendizado na prática', 'Desenvolvedor autodidata']],
       capabilities: [
         ['pen', 'Design & UX/UI', 'Pesquisa, arquitetura de informação, prototipação e interfaces responsivas.'],
         ['code', 'Desenvolvimento full-stack', 'React e TypeScript, APIs, bancos de dados, segurança e deploy.'],
         ['spark', 'IA aplicada & automação', 'Integração de modelos de linguagem e automações conectadas a fluxos reais de trabalho.']
       ],
       thanks: ['OBRI', 'GADO.'], thanksLabel: 'Obrigado.',
-      lead: 'Obrigado por conhecer meu trabalho.',
-      text: 'Se essas capacidades fizerem sentido para o seu próximo projeto ou para a sua equipe, vamos conversar.',
+      lead: 'Uma boa conversa pode virar o próximo projeto.',
+      text: 'Se você tem uma ideia para tirar do papel ou procura alguém para somar à equipe, me chama. Vamos entender o que podemos construir juntos.',
       email: 'E-mail', copy: 'Copiar', copied: 'Copiado'
     },
     credits: {
@@ -56,7 +65,7 @@ module.exports = {
   },
   en: {
     code: 'en', lang: 'en', locale: 'en_US',
-    files: { home: 'index.html', caseDir: 'work/', closing: 'thanks.html', credits: 'credits.html' },
+    files: { home: 'index.html', catalog: 'projects.html', caseDir: 'work/', closing: 'thanks.html', credits: 'credits.html' },
     titleSuffix: ' | Iago Cassarotti',
     role: 'UI / UX · Design & development',
     switchTo: { label: 'PT', title: 'Versão em português', lang: 'pt-BR' },
@@ -78,23 +87,32 @@ module.exports = {
       footerTop: 'Now, from the inside.', footerLink: ['VIEW ALL', 'PROJECTS'], footerCopy: 'VIEW ALL PROJECTS',
       footerNote: 'From the first idea<br>to what got built.', footerIndex: 'Go straight to a project'
     },
+    catalog: {
+      title: 'More projects', description: 'Five more projects by Iago Cassarotti. Choose the work you want to explore.',
+      heading: 'More<br>projects.', lead: 'Every project has a story. Choose where to begin.',
+      selected: 'Back to selected work', footerTop: 'You have seen what I make.', footerLink: ['WHO IS', 'BEHIND IT?'],
+      footerCopy: 'IDEA. DESIGN. CODE.', footerNote: 'A little about me.<br>And how I got here.',
+      choose: 'Choose another project', all: 'Explore projects'
+    },
     case: {
       skip: 'Skip to the case', role: 'My role', status: 'Status', start: 'The starting point', inside: 'Inside<br>the interface.',
       mobileCaption: name => name + ' interface on mobile.', fullPage: 'See the full page', development: 'Development',
       build: 'From design<br>to build.', newTab: 'Opens in a new tab', next: 'Next project', last: 'The last project ends here.', finish: 'Finish the tour'
     },
     closing: {
-      title: 'Design, development and applied AI', description: 'The capabilities behind the work of Iago Cassarotti.',
+      title: 'About', description: 'Iago Cassarotti: advertising student, designer and self-taught developer.',
       heading: ['From idea', 'to execution.'],
-      intro: 'I’m a designer and developer. I bring together communication strategy, user experience and technical execution to take digital products from concept to production.',
+      intro: 'I’m Iago Cassarotti. I study Advertising and I’m a self-taught developer. My work brings communication, design and code together.',
+      story: 'Advertising makes me ask what is worth saying. Design, how to make it clear. I learned to code by building: testing ideas, solving problems and launching projects. Today, I work from the first conversation through implementation, down to the details of the interface.',
+      facts: [['Currently studying', 'Advertising'], ['Learning by building', 'Self-taught developer']],
       capabilities: [
         ['pen', 'Design & UX/UI', 'Research, information architecture, prototyping and responsive interfaces.'],
         ['code', 'Full-stack development', 'React and TypeScript, APIs, databases, security and deployment.'],
         ['spark', 'Applied AI & automation', 'Language-model integrations and automations connected to real workflows.']
       ],
       thanks: ['THANK ', 'YOU.'], thanksLabel: 'Thank you.',
-      lead: 'Thank you for taking the time to see my work.',
-      text: 'If these capabilities fit your next project or your team, let’s talk.',
+      lead: 'A good conversation could become the next project.',
+      text: 'If you have an idea to bring to life or need someone on your team, get in touch. Let’s see what we can build together.',
       email: 'Email', copy: 'Copy', copied: 'Copied'
     },
     credits: {

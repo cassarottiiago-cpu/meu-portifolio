@@ -97,6 +97,30 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .doodle-visit:is(:hover,:focus-visible) .visit-window{animation:visit-window .7s cubic-bezier(.3,.7,.3,1) both}
 .doodle-visit:is(:hover,:focus-visible) .visit-burst{animation:visit-burst .7s ease-out both}
 
+/* About: um retrato desenhado na mesma família dos outros botões. */
+.doodle-about .about-card,.doodle-about .about-person{transform-origin:21px 22px;transition:transform .45s cubic-bezier(.3,1.4,.5,1)}
+.doodle-about:is(:hover,:focus-visible) .about-card{transform:rotate(-8deg)}
+.doodle-about:is(:hover,:focus-visible) .about-person{transform:translateY(-2px) rotate(7deg)}
+.owner{transition:color .2s ease}
+.owner:hover,.owner:focus-visible{color:var(--case-accent,var(--red));text-decoration:underline;text-underline-offset:.2em}
+
+/* Capturas em dispositivos: proporção original, sem máscaras animadas. */
+.device-mock{display:block;position:relative;width:100%;max-width:min(100%,var(--capture-width));margin-inline:auto;isolation:isolate}
+.device-screen{display:block;position:relative;overflow:hidden;background:#20201f;border:clamp(5px,.7vw,11px) solid #262626;border-top-width:clamp(13px,1.5vw,23px);border-radius:clamp(8px,1.2vw,18px) clamp(8px,1.2vw,18px) 3px 3px;box-shadow:0 0 0 1px #74736f}
+.device-screen img{width:100%;height:auto;border-radius:1px}
+.device-mac{padding:0 3.5% 2.1%}
+.device-mac::before{content:'';position:absolute;z-index:1;top:clamp(4px,.52vw,8px);left:calc(50% - 2px);width:4px;height:4px;background:#565b5c;border-radius:50%}
+.device-base{display:block;position:absolute;bottom:0;left:0;width:100%;height:2.3%;min-height:7px;background:linear-gradient(#d7d6d2,#a5a5a2 45%,#777773);border-radius:2px 2px 40% 40%/2px 2px 100% 100%;box-shadow:0 8px 12px -8px #25231f66}
+.device-base::after{content:'';position:absolute;top:0;left:43%;width:14%;height:40%;background:#7b7b78;border-radius:0 0 5px 5px}
+.device-window .device-screen{border:1px solid #92918c;border-top:24px solid #deddd8;border-radius:9px;box-shadow:0 10px 24px -20px #25231f66}
+.device-window::before{content:'';position:absolute;z-index:1;left:10px;top:9px;width:6px;height:6px;border-radius:50%;background:#b7b4ad;box-shadow:11px 0 #b7b4ad,22px 0 #b7b4ad}
+.device-window .device-base{display:none}
+.device-phone{max-width:340px;padding:0 5px}
+.device-phone .device-screen{border:7px solid #272727;border-top-width:25px;border-bottom-width:19px;border-radius:32px;box-shadow:0 0 0 2px #8b8a85,0 14px 26px -19px #25231f99}
+.device-phone::before{content:'';position:absolute;z-index:1;left:calc(50% - 21px);top:10px;width:42px;height:5px;background:#080808;border-radius:6px}
+.device-phone .device-base{bottom:9px;left:calc(50% - 26px);width:52px;height:3px;min-height:0;background:#8d8d87;border-radius:3px;box-shadow:none}
+.device-phone .device-base::after{display:none}
+
 /* ——— Abertura: CREATIVE DEVELOPER e monograma IC em caracteres ——— */
 .intro,.end-invitation{touch-action:pan-y}
 .intro{position:relative;isolation:isolate;display:flex;flex-direction:column;min-height:100svh;overflow:clip}
@@ -129,11 +153,11 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 /* ——— Projetos selecionados: ficha que acompanha a rolagem ——— */
 .work-stage{padding:40px var(--pad) 90px}
 .work-heading{margin-bottom:80px}
-.work-heading h2{font-size:clamp(54px,7.8vw,125px);line-height:.91;font-weight:500;letter-spacing:-.07em}
+.work-heading h2,.work-heading h1{font-size:clamp(54px,7.8vw,125px);line-height:.91;font-weight:500;letter-spacing:-.07em}
 .work-panels{min-width:0}
 .project-story{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:5vw;align-items:start;margin-bottom:76px;padding-top:24px;border-top:1px solid var(--line)}
 .project-story:last-child{margin-bottom:0}
-.panel-heading h3{font-size:clamp(32px,4vw,60px);font-weight:600;line-height:1;letter-spacing:-.055em;margin-bottom:16px;color:var(--red)}
+.panel-heading :is(h2,h3){font-size:clamp(32px,4vw,60px);font-weight:600;line-height:1;letter-spacing:-.055em;margin-bottom:16px;color:var(--red)}
 .panel-heading p{font-size:12px;line-height:1.5;max-width:290px}
 .panel-heading .doodle-link{margin-top:22px;font-size:12px;padding-right:15px;min-height:44px}
 .panel-heading .doodle-icon{width:28px;height:28px}
@@ -202,7 +226,33 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 /* Duas telas: a apresentação ocupa a primeira; o agradecimento, a segunda, sempre inteiro na tela. */
 .closing-stage{padding:0 var(--pad)}
 .closing-presentation{min-height:calc(100svh - 65px);display:grid;grid-template-columns:1.05fr 1fr;gap:34px 8vw;align-content:center;align-items:start;padding:clamp(30px,7vh,84px) 0 clamp(40px,8vh,96px)}
-.closing-stage h1{grid-row:span 2;font-size:clamp(65px,8vw,120px);font-weight:500;line-height:1.08;letter-spacing:-.065em}
+.closing-stage h1{font-size:clamp(65px,8vw,120px);font-weight:500;line-height:1.08;letter-spacing:-.065em}
+.about-heading{grid-row:span 2}
+.about-kicker,.catalog-kicker{font-size:11px;letter-spacing:.09em;margin-bottom:28px}
+.about-facts{display:grid;gap:18px;margin:30px 0 0;padding-top:22px;border-top:1px solid var(--line);max-width:430px}
+.about-facts dt{font-size:10px;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.about-facts dd{margin:4px 0 0;font-size:clamp(18px,2vw,27px);line-height:1.2;letter-spacing:-.035em}
+.about-story{font-size:14px;line-height:1.75;margin-top:22px;max-width:590px}
+.catalog-stage{padding-top:clamp(50px,7vw,110px)}
+.catalog-stage .work-heading{display:grid;grid-template-columns:1fr 1fr;gap:0 5vw;align-items:end}
+.catalog-stage .catalog-kicker{grid-column:1/-1}
+.catalog-lead{max-width:360px;font-size:clamp(17px,2vw,28px);letter-spacing:-.035em;line-height:1.35}
+.about-invitation{background:var(--ink)}
+.about-invitation::after{content:'';position:absolute;inset:0;background:var(--btn-grain);opacity:.05;pointer-events:none}
+.about-invitation .invitation-link{font-size:clamp(54px,11.2vw,182px)}
+.about-invitation .invitation-link>span:first-child{color:var(--paper)}
+.about-invitation .invitation-link>span:last-child{color:#eee9df}
+.about-invitation::before{content:'IC';position:absolute;right:0;top:0;font-size:60vw;font-weight:650;line-height:1;letter-spacing:-.09em;color:#eee9df0a;pointer-events:none;transform:rotate(-10deg)}
+@media(max-width:1000px){.about-heading{grid-row:auto}.about-copy{max-width:650px}}
+@media(max-width:700px){
+ .catalog-stage .work-heading{display:block}
+ .catalog-stage .work-heading h1{font-size:16vw}
+ .catalog-lead{margin-top:26px;font-size:18px;max-width:300px}
+ .about-facts{margin:20px 0 30px}
+ .about-copy{margin-bottom:30px}
+ .about-copy .closing-intro{margin-bottom:0}
+ .about-invitation .invitation-link{font-size:13vw}
+}
 .closing-stage h1>span{display:block;padding-bottom:.14em}
 .closing-stage h1>span:first-child{color:var(--red);margin-bottom:.1em}
 .closing-intro{font-size:clamp(17px,1.6vw,23px);line-height:1.45;max-width:650px;letter-spacing:-.025em}
@@ -259,7 +309,6 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .closing{--enter-dur:1150;--enter-y:.22;--enter-blur:7}
 
 /* ——— Transição entre páginas ——— */
-@view-transition{navigation:auto}
 ::view-transition-old(root){animation:exit-page .3s ease both}
 ::view-transition-new(root){animation:enter-page .5s cubic-bezier(.2,.7,.2,1) both}
 @keyframes exit-page{to{clip-path:inset(0 0 100%)}}

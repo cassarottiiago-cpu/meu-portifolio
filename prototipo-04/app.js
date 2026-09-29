@@ -28,8 +28,8 @@ if(stage){
  rail.innerHTML='<div class="following-title" aria-hidden="true"><span></span></div><p class="following-description"></p>';
  const title=rail.querySelector('span'),description=rail.querySelector('p');
  const link=panels[0].querySelector('.panel-heading a').cloneNode(true),viewLabel=link.getAttribute('aria-label');rail.append(link);
- let active=-1,displayed=-1,frame=0,positions=[],captionHeight=120,visible=true,transitionId=0,signal=null;
- const records=panels.map(panel=>({id:panel.dataset.project,name:panel.querySelector('h3').textContent,description:panel.querySelector('.panel-heading p').textContent,href:panel.querySelector('.panel-heading a').href}));
+ let active=-1,displayed=-1,frame=0,positions=[],captionHeight=120,measuredWidth=0,visible=true,transitionId=0,signal=null;
+ const records=panels.map(panel=>({id:panel.dataset.project,name:panel.querySelector('h2,h3').textContent,description:panel.querySelector('.panel-heading p').textContent,href:panel.querySelector('.panel-heading a').href}));
  panels.forEach(panel=>panel.querySelector('.panel-heading a').tabIndex=-1);
  stage.dataset.following='true';
  function settleTitle(){transitionId++;signal?.cancel();signal=null;title.style.removeProperty('visibility');}
@@ -87,7 +87,13 @@ if(stage){
   active=next;transitionTo(next);
  }
  function schedule(){if(visible&&!frame)frame=requestAnimationFrame(update);}
- function measure(){if(signal){settleTitle();showProject(active);}positions=panels.map(panel=>panel.getBoundingClientRect().top+scrollY);captionHeight=rail.offsetHeight;update();}
+ function measure(){
+  const nextPositions=panels.map(panel=>panel.getBoundingClientRect().top+scrollY),width=stage.clientWidth;
+  // A decodificação das capturas pode arredondar frações de pixel. Isso não deve cortar a troca do nome.
+  const changed=width!==measuredWidth||nextPositions.length!==positions.length||nextPositions.some((top,i)=>Math.abs(top-positions[i])>1);
+  if(signal&&changed){settleTitle();showProject(active);}
+  positions=nextPositions;measuredWidth=width;captionHeight=rail.offsetHeight;update();
+ }
  addEventListener('scroll',schedule,{passive:true});addEventListener('resize',measure);
  addEventListener('pageshow',measure);reduce.addEventListener('change',()=>{settleTitle();if(active>=0)showProject(active);schedule();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden){settleTitle();if(active>=0)showProject(active);}});
@@ -377,7 +383,7 @@ if(document.body.classList.contains('closing')){
  // Mesma composição da abertura: o último quadro da vinheta é o primeiro quadro da home, sem corte.
  const HERO_TYPE='<h1 class="intro-type"><span class="type-group type-creative"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span><span class="type-extra x1"><span>CREATIVE</span></span><span class="type-extra x2"><span>CREATIVE</span></span></span><span class="type-group type-developer"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span><span class="type-extra x1"><span>DEVELOPER</span></span><span class="type-extra x2"><span>DEVELOPER</span></span><span class="type-extra x3"><span>DEVELOPER</span></span></span></h1>';
  async function returnToOpening(){
-  if(leaving)return;leaving=true;
+  if(leaving)return;leaving=true;window.__replaying=true;
   if(motion()){
    const curtain=document.createElement('div');curtain.className='replay-curtain';curtain.setAttribute('aria-hidden','true');
    curtain.innerHTML='<div class="replay-paper"><section class="intro replay-hero"><div class="replay-spacer"></div>'+HERO_TYPE+'</section></div><div class="replay-strips">'+Array.from({length:5},()=>'<div><span></span></div>').join('')+'</div>';

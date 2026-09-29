@@ -29,7 +29,8 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
   await page.goto(base);await ready(page);
   check(await page.getByRole('heading',{name:'Creative Developer',exact:true}).count()===1,'Título acessível da abertura');
   check(await page.locator('.owner').count()===1,'Assinatura única na home');
-  check(await page.locator('[href="projetos.html"]').count()===0,'Sem aba separada de projetos');
+  check(await page.locator('.owner').getAttribute('href')==='encerramento.html','Assinatura abre About');
+  check(await page.locator('.end-invitation .doodle-about').getAttribute('href')==='encerramento.html','Botão About no rodapé');
   check(await page.locator('[role=tab]').count()===0,'Sem seletor de abas na home');
   check(JSON.stringify(await page.locator('[data-project]').evaluateAll(list=>list.map(e=>e.dataset.project)))===JSON.stringify(featured.map(p=>p.id)),'Sequência exata de quatro trabalhos');
   check(await page.locator('.type-creative .type-full').evaluate(e=>getComputedStyle(e).color)==='rgb(189, 41, 31)','Creative em vermelho');
@@ -53,15 +54,28 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
   await images(page,'.project-story img');await page.evaluate(()=>scrollTo(0,document.querySelector('#trabalhos').offsetTop));await picture(page,'indice-desktop');
   await page.locator('.end-invitation').scrollIntoViewIfNeeded();for(let x=70;x<1400;x+=130)await page.mouse.move(x,450);await page.waitForTimeout(250);
   check(await page.locator('.invitation-copy').count()>0&&await page.locator('.invitation-copy').count()<=8,'Rodapé com frequência ampliada');await picture(page,'rodape-interativo');await page.waitForTimeout(1700);check(await page.locator('.invitation-copy').count()===0,'Cópias temporárias não acumulam');
-  check((await page.locator('.invitation-link').getAttribute('href'))==='projetos/autopost.html','Rodapé inicia percurso diretamente');
+  check((await page.locator('.invitation-link').getAttribute('href'))==='projetos.html','Rodapé abre a seleção de projetos');
   await page.mouse.move(10,0);await page.evaluate(()=>scrollTo(0,0));await page.waitForTimeout(100);
   for(const width of [1366,1024,768,390,320]){await page.setViewportSize({width,height:900});await ready(page);await bounds(page,'home '+width);check(await page.locator('.type-extra').evaluateAll((list,mobile)=>list.length>0&&list.every(e=>(getComputedStyle(e).display!=='none')===mobile),width<=700),'Fragmentos extras no viewport '+width);if(width===390){await picture(page,'abertura-mobile');await axe(page,'home mobile');await page.evaluate(()=>scrollTo(0,document.querySelector('#trabalhos').offsetTop));await picture(page,'indice-mobile');await page.evaluate(()=>scrollTo(0,0));}}
+  for(const [catalog,about,caseDir] of [['projetos.html','encerramento.html','projetos/'],['en/projects.html','thanks.html','work/']]){
+   await page.goto(base+'/'+catalog);await ready(page);
+   check(JSON.stringify(await page.locator('[data-project]').evaluateAll(list=>list.map(e=>e.dataset.project)))===JSON.stringify(['phron','qozt','dominos','bmk-blink','odonto']),'Catálogo com os cinco projetos complementares '+catalog);
+   check(await page.locator('.invitation-link').getAttribute('href')===about,'Rodapé do catálogo leva ao About '+catalog);
+   for(const width of [1440,1024,390,320]){await page.setViewportSize({width,height:900});await ready(page);await bounds(page,'catálogo '+catalog+' '+width);if(width===1440||width===390){await picture(page,'catalogo-'+(catalog.startsWith('en/')?'en':'pt')+'-'+width);await axe(page,'catálogo '+catalog+' '+width);}}
+   await page.locator('.panel-media a').first().click();await ready(page);
+   check(page.url().endsWith(caseDir+'phron.html'),'Só o clique abre o caso '+catalog);
+   await page.locator('.owner').click();await ready(page);
+   check(page.url().endsWith(about),'About acessível a partir do caso '+catalog);
+   check(await page.locator('.about-facts dd').count()===2,'Formação e aprendizado no About '+catalog);
+   for(const width of [1440,390,320]){await page.setViewportSize({width,height:900});await ready(page);await settle(page);await bounds(page,'About '+catalog+' '+width);await picture(page,'about-'+(catalog.startsWith('en/')?'en':'pt')+'-'+width);}
+  }
   const expected={autopost:'Inter',phron:'Plus Jakarta Sans',qozt:'Outfit',natalia:'Marble','dr-paulo':'Instrument Serif',limozine:'Bebas Neue',dominos:'Inter','bmk-blink':'Archivo',odonto:'Montserrat'};
   for(let i=0;i<projects.length;i++){
    const p=projects[i];await page.setViewportSize({width:1440,height:900});await page.goto(base+'/projetos/'+p.id+'.html');await ready(page);
    check(await page.locator('h1').textContent()===p.name,'Título '+p.id);const font=await page.locator('h1').evaluate(e=>getComputedStyle(e).fontFamily);check(font.includes(expected[p.id]),'Fonte do projeto '+p.id,font);
    check((await page.locator('.case-cover img').getAttribute('src')).includes('/'+p.image.split('/').pop().replace(/.[a-z]+$/,'')+'-'),'Capa correta '+p.id);
-   check(await page.locator('.next-case').getAttribute('href')===(projects[i+1]?projects[i+1].id+'.html':'../encerramento.html'),'Continuidade '+p.id);
+   check(await page.locator('.next-case').getAttribute('href')==='../projetos.html','Voltar à escolha de projetos '+p.id);
+   check(await page.locator('.case-exit-about a').getAttribute('href')==='../encerramento.html','About direto no caso '+p.id);
    await bounds(page,'caso '+p.id+' desktop');await axe(page,p.id);await picture(page,'caso-'+p.id+'-desktop');
    for(const width of [1024,768,390,320]){await page.setViewportSize({width,height:844});await ready(page);await bounds(page,'caso '+p.id+' '+width);if(width===390)await picture(page,'caso-'+p.id+'-mobile');}
    console.log('Caso revisto:',p.id);

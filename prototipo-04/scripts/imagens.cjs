@@ -24,7 +24,8 @@ for(const p of projects){
   const variants=[];
   for(const w of list){
    const name=base+'-'+w+'.webp';
-   await sharp(source,{limitInputPixels:false}).resize({width:w}).webp({quality:82,effort:5,smartSubsample:true}).toFile(path.join(out,name));
+   // Texto pequeno e linhas de UI pedem menos perda; nunca ampliamos além do original.
+   await sharp(source,{limitInputPixels:false}).resize({width:w,withoutEnlargement:true}).webp({quality:width<=1600?94:90,effort:5,smartSubsample:true}).toFile(path.join(out,name));
    variants.push([w,'img/'+name]);after+=fs.statSync(path.join(out,name)).size;
   }
   before+=fs.statSync(source).size;

@@ -79,7 +79,7 @@ const angleOf=matrix=>{const m=matrix.match(/matrix\(([^)]+)\)/);if(!m)return 0;
    assert.equal(await page.locator('h1[data-enter]').evaluate(e=>getComputedStyle(e).opacity),'1','Título visível '+p.id);
    for(let y=0;y<=await page.evaluate(()=>document.documentElement.scrollHeight);y+=420){await page.evaluate(v=>scrollTo(0,v),y);await page.waitForTimeout(70);}await page.waitForTimeout(300);await settle(); // rolando como o visitante: cada título entra ao aparecer
    assert.equal(await page.locator('[data-enter]').evaluateAll(list=>list.filter(e=>getComputedStyle(e).opacity!=='1').length),0,'Títulos visíveis ao fim da página '+p.id);
-   const next=projects[i+1];assert.equal(await page.locator('.next-case').getAttribute('data-next'),next?next.id:'encerramento');
+   assert.equal(await page.locator('.next-case').getAttribute('href'),'../projetos.html');
    if(p.url){
     assert.equal(await page.locator('.visit-url strong').innerText(),new URL(p.url).hostname.replace(/^www\./,''),'Endereço da visita '+p.id);
     assert.equal(await page.locator('.doodle-visit').getAttribute('href'),p.url);
