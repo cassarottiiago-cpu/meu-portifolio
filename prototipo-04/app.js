@@ -14,7 +14,7 @@ const jitterFrames=(from,to,steps=10,spread=1)=>Array.from({length:steps+1},(_,k
 // Ponteiro compartilhado: olhos dos botões, olhos nos "O" e brilho do campo de caracteres.
 const pointer={x:innerWidth*.5,y:innerHeight*.8,moved:0};
 const pointerHooks=new Set();
-addEventListener('pointermove',event=>{if(event.pointerType==='touch')return;pointer.x=event.clientX;pointer.y=event.clientY;pointer.moved=performance.now();pointerHooks.forEach(hook=>hook());},{passive:true});
+addEventListener('pointermove',event=>{pointer.moved=performance.now();if(event.pointerType==='touch')return;pointer.x=event.clientX;pointer.y=event.clientY;pointer.moved=performance.now();pointerHooks.forEach(hook=>hook());},{passive:true});
 document.addEventListener('mouseleave',()=>{pointer.x=innerWidth*.5;pointer.y=innerHeight*.9;pointerHooks.forEach(hook=>hook());});
 
 // ——— Projetos selecionados: uma ficha acompanha a rolagem; o documento mantém a rolagem nativa ———
@@ -59,6 +59,7 @@ if(stage){
   const split=(layer,a,b,duration)=>anims.push(layer.animate([{filter:fringe(a)},{filter:fringe(b)}],{duration,fill:'both'}));
   signal={cancel(){timers.forEach(clearTimeout);anims.forEach(animation=>animation.cancel());layers.forEach(layer=>layer.remove());}};
   title.style.visibility='hidden';
+  if(!fine.matches)navigator.vibrate?.([14,40,10]); // no celular a troca também dá um tranco na mão
   // 0–200 ms: o nome antigo perde o sinal.
   const before=bands(from);shake(before,0,15,210);split(before,0,4,210);
   // 200–290 ms: estática de caracteres do próprio portfólio e troca do texto por trás dela.
@@ -166,17 +167,18 @@ if(intro&&canvas){
    px+=(targetX-px)*ease;py+=(targetY-py)*ease;scroll+=(targetScroll-scroll)*ease;
    ctx.clearRect(0,0,width,height);
    const compact=width<700,scale=compact?width/330:Math.min(width/460,height/250);
-   stamp(width*(compact?.88:.83),height*.33,scale,0);
-   stamp(width*.08,height*.78,scale*.85,1);
+   // Celular: um monograma IC inteiro sob o título; computador: dois, sangrando pelas bordas.
+   if(compact)stamp(width*.5,height*.72,width/300,0);
+   else{stamp(width*.83,height*.33,scale,0);stamp(width*.08,height*.78,scale*.85,1);}
    // Perto do ponteiro os caracteres trocam de forma enquanto ele se mexe.
-   const awake=inside&&motion()&&fine.matches&&performance.now()-pointer.moved<520;
+   const awake=inside&&motion()&&performance.now()-pointer.moved<520;
    heat+=((awake?1:0)-heat)*Math.min(1,dt/110);if(heat<.015&&!awake)heat=0;
    intro.style.setProperty('--intro-scroll',(motion()?scroll:0).toFixed(3));
    if(assembling||heat>0||awake||Math.abs(targetX-px)+Math.abs(targetY-py)+Math.abs(targetScroll-scroll)>.001)frame=requestAnimationFrame(draw);else previous=0;
   }
   function schedule(){if(!frame&&visible&&!document.hidden)frame=requestAnimationFrame(draw);}
   function onScroll(){if(scrollY>100||!motion()){assembling=false;assembly=1;}if(!visible)return;targetScroll=motion()?clamp((scrollY-introTop)/Math.max(1,height)):0;schedule();}
-  intro.addEventListener('pointermove',e=>{if(!motion()||!fine.matches||e.pointerType==='touch')return;inside=true;targetX=e.clientX/width*2-1;targetY=(e.clientY-introTop+scrollY)/height*2-1;schedule();},{passive:true});
+  intro.addEventListener('pointermove',e=>{if(!motion())return;inside=true;targetX=e.clientX/width*2-1;targetY=(e.clientY-introTop+scrollY)/height*2-1;schedule();},{passive:true});
   intro.addEventListener('pointerleave',()=>{inside=false;targetX=0;targetY=0;schedule();});
   new ResizeObserver(size).observe(intro);
   new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible){onScroll();schedule();}else{cancelAnimationFrame(frame);frame=0;previous=0;}},{rootMargin:'40px'}).observe(intro);
@@ -314,9 +316,9 @@ if(invitation){
  let lastX=null,lastY=null;
  const clear=()=>{field.replaceChildren();lastX=lastY=null;};
  invitation.addEventListener('pointermove',event=>{
-  if(!motion()||!fine.matches||event.pointerType==='touch')return;
+  if(!motion())return;
   const r=invitation.getBoundingClientRect(),x=event.clientX-r.left,y=event.clientY-r.top;
-  if(lastX!==null&&Math.hypot(x-lastX,y-lastY)<147)return;
+  if(lastX!==null&&Math.hypot(x-lastX,y-lastY)<(event.pointerType==='touch'?90:147))return;
   lastX=x;lastY=y;
   const label=document.createElement('span');label.className='invitation-copy';label.textContent=copy;
   label.style.left=clamp(x-100,-80,r.width-120)+'px';label.style.top=clamp(y-40,0,r.height-70)+'px';
