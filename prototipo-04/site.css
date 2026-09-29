@@ -124,6 +124,9 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .o-pupil::after{content:'';position:absolute;width:27%;height:27%;left:57%;top:15%;border-radius:50%;background:var(--paper)}
 @keyframes eye-open{from{opacity:0;scale:.5}to{opacity:1;scale:1}}
 
+/* Pé da abertura no celular: régua e legenda discretas para o fundo não ficar vazio */
+.intro-foot{display:none}
+
 /* ——— Projetos selecionados: ficha que acompanha a rolagem ——— */
 .work-stage{padding:40px var(--pad) 90px}
 .work-heading{margin-bottom:80px}
@@ -316,6 +319,12 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  /* Abertura (aprovada): só acompanha a altura nova do cabeçalho */
  /* Celular: título e recortes alinhados na mesma margem, logo abaixo do cabeçalho; o IC ocupa o resto da tela */
  .intro{min-height:100svh}
+ .intro-foot{display:block;position:absolute;left:var(--pad);right:var(--pad);bottom:18px;pointer-events:none}
+ .intro-foot .masthead-rule{display:block;margin:0 0 9px;height:11px;--tick:var(--ink);opacity:.55}
+ .intro-foot::before{content:'';position:absolute;right:0;bottom:44px;width:13px;height:25svh;opacity:.55;background:linear-gradient(var(--ink),var(--ink)) 100% 0/1px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 8px) 100% 0/6px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 48px) 100% 0/13px 100% no-repeat}
+ .intro-foot p{display:flex;justify-content:space-between;gap:12px;font-size:9.5px;line-height:1.2;letter-spacing:.09em;text-transform:uppercase}
+ .intro-foot span{background:var(--paper);padding:2px 4px 2px 0}
+ .intro-foot span+span{padding:2px 0 2px 4px}
  /* título centralizado na altura da tela, com os IC atrás */
  .intro-type{font-size:18.6vw;margin:auto 0 auto var(--pad);padding-bottom:56px;letter-spacing:-.07em}
  .type-creative,.type-developer,.type-creative .type-fragment,.type-developer .type-echo,.type-developer .type-fragment{margin-left:0}
