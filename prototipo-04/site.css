@@ -321,8 +321,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .type-group>.type-extra{display:block;position:absolute;height:.21em;max-width:none}
  .type-extra>span{transform:translate(calc(var(--intro-scroll,0) * 60px),-.36em)}
  .type-creative>.type-extra.x1{left:1.9em;top:-.62em}
- .type-developer>.type-extra.x1{left:2.5em;top:2.35em}
- .type-developer>.type-extra.x2{left:1.85em;top:3.55em}
+ .type-developer>.type-extra.x1{left:2.4em;top:1.3em}
+ .type-developer>.type-extra.x2{left:3.2em;top:1.72em}
  .type-developer>.type-extra.x2>span{transform:translate(calc(var(--intro-scroll,0) * -80px),-.6em)}
  .brand-field{bottom:-26svh}
  /* título centralizado na altura da tela, com os IC atrás */
