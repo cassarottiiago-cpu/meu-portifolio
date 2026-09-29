@@ -1,0 +1,606 @@
+{
+ "autopost-queue.jpg": {
+  "width": 1600,
+  "height": 769,
+  "variants": [
+   [
+    480,
+    "img/autopost-queue-480.webp"
+   ],
+   [
+    800,
+    "img/autopost-queue-800.webp"
+   ],
+   [
+    1200,
+    "img/autopost-queue-1200.webp"
+   ],
+   [
+    1600,
+    "img/autopost-queue-1600.webp"
+   ]
+  ]
+ },
+ "autopost-calendar.jpg": {
+  "width": 1600,
+  "height": 766,
+  "variants": [
+   [
+    480,
+    "img/autopost-calendar-480.webp"
+   ],
+   [
+    800,
+    "img/autopost-calendar-800.webp"
+   ],
+   [
+    1200,
+    "img/autopost-calendar-1200.webp"
+   ],
+   [
+    1600,
+    "img/autopost-calendar-1600.webp"
+   ]
+  ]
+ },
+ "autopost-hero.jpg": {
+  "width": 1600,
+  "height": 765,
+  "variants": [
+   [
+    480,
+    "img/autopost-hero-480.webp"
+   ],
+   [
+    800,
+    "img/autopost-hero-800.webp"
+   ],
+   [
+    1200,
+    "img/autopost-hero-1200.webp"
+   ],
+   [
+    1600,
+    "img/autopost-hero-1600.webp"
+   ]
+  ]
+ },
+ "revisao-23/phron-home-27.png": {
+  "width": 1313,
+  "height": 609,
+  "variants": [
+   [
+    480,
+    "img/phron-home-27-480.webp"
+   ],
+   [
+    800,
+    "img/phron-home-27-800.webp"
+   ],
+   [
+    1313,
+    "img/phron-home-27-1313.webp"
+   ]
+  ]
+ },
+ "revisao-23/phron-whatsapp-27.jpeg": {
+  "width": 739,
+  "height": 1600,
+  "variants": [
+   [
+    480,
+    "img/phron-whatsapp-27-480.webp"
+   ],
+   [
+    739,
+    "img/phron-whatsapp-27-739.webp"
+   ]
+  ]
+ },
+ "revisao-23/qozt-cover.webp": {
+  "width": 2880,
+  "height": 1402,
+  "variants": [
+   [
+    480,
+    "img/qozt-cover-480.webp"
+   ],
+   [
+    800,
+    "img/qozt-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/qozt-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/qozt-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/qozt-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/qozt-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/qozt-secao.webp": {
+  "width": 1920,
+  "height": 1128,
+  "variants": [
+   [
+    480,
+    "img/qozt-secao-480.webp"
+   ],
+   [
+    800,
+    "img/qozt-secao-800.webp"
+   ],
+   [
+    1200,
+    "img/qozt-secao-1200.webp"
+   ],
+   [
+    1600,
+    "img/qozt-secao-1600.webp"
+   ],
+   [
+    1920,
+    "img/qozt-secao-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/qozt-completo.webp": {
+  "width": 1920,
+  "height": 14304,
+  "variants": [
+   [
+    1080,
+    "img/qozt-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/qozt-completo-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/natalia-inicio.webp": {
+  "width": 2880,
+  "height": 1940,
+  "variants": [
+   [
+    480,
+    "img/natalia-inicio-480.webp"
+   ],
+   [
+    800,
+    "img/natalia-inicio-800.webp"
+   ],
+   [
+    1200,
+    "img/natalia-inicio-1200.webp"
+   ],
+   [
+    1600,
+    "img/natalia-inicio-1600.webp"
+   ],
+   [
+    2000,
+    "img/natalia-inicio-2000.webp"
+   ],
+   [
+    2880,
+    "img/natalia-inicio-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/natalia-sobre.webp": {
+  "width": 2880,
+  "height": 1888,
+  "variants": [
+   [
+    480,
+    "img/natalia-sobre-480.webp"
+   ],
+   [
+    800,
+    "img/natalia-sobre-800.webp"
+   ],
+   [
+    1200,
+    "img/natalia-sobre-1200.webp"
+   ],
+   [
+    1600,
+    "img/natalia-sobre-1600.webp"
+   ],
+   [
+    2000,
+    "img/natalia-sobre-2000.webp"
+   ],
+   [
+    2880,
+    "img/natalia-sobre-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/natalia-completo.webp": {
+  "width": 2880,
+  "height": 11890,
+  "variants": [
+   [
+    1080,
+    "img/natalia-completo-1080.webp"
+   ],
+   [
+    2880,
+    "img/natalia-completo-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/dr-paulo-cover.webp": {
+  "width": 2880,
+  "height": 2000,
+  "variants": [
+   [
+    480,
+    "img/dr-paulo-cover-480.webp"
+   ],
+   [
+    800,
+    "img/dr-paulo-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/dr-paulo-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/dr-paulo-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/dr-paulo-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/dr-paulo-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/dr-paulo-secao.webp": {
+  "width": 1920,
+  "height": 1644,
+  "variants": [
+   [
+    480,
+    "img/dr-paulo-secao-480.webp"
+   ],
+   [
+    800,
+    "img/dr-paulo-secao-800.webp"
+   ],
+   [
+    1200,
+    "img/dr-paulo-secao-1200.webp"
+   ],
+   [
+    1600,
+    "img/dr-paulo-secao-1600.webp"
+   ],
+   [
+    1920,
+    "img/dr-paulo-secao-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/dr-paulo-completo.webp": {
+  "width": 1920,
+  "height": 11639,
+  "variants": [
+   [
+    1080,
+    "img/dr-paulo-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/dr-paulo-completo-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/limozine-cover.webp": {
+  "width": 2880,
+  "height": 1636,
+  "variants": [
+   [
+    480,
+    "img/limozine-cover-480.webp"
+   ],
+   [
+    800,
+    "img/limozine-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/limozine-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/limozine-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/limozine-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/limozine-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/limozine-secao.webp": {
+  "width": 1920,
+  "height": 2495,
+  "variants": [
+   [
+    480,
+    "img/limozine-secao-480.webp"
+   ],
+   [
+    800,
+    "img/limozine-secao-800.webp"
+   ],
+   [
+    1200,
+    "img/limozine-secao-1200.webp"
+   ],
+   [
+    1600,
+    "img/limozine-secao-1600.webp"
+   ],
+   [
+    1920,
+    "img/limozine-secao-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/limozine-completo.webp": {
+  "width": 1920,
+  "height": 11655,
+  "variants": [
+   [
+    1080,
+    "img/limozine-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/limozine-completo-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/dominos-cover.webp": {
+  "width": 2880,
+  "height": 1658,
+  "variants": [
+   [
+    480,
+    "img/dominos-cover-480.webp"
+   ],
+   [
+    800,
+    "img/dominos-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/dominos-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/dominos-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/dominos-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/dominos-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/dominos-secao.webp": {
+  "width": 960,
+  "height": 1200,
+  "variants": [
+   [
+    480,
+    "img/dominos-secao-480.webp"
+   ],
+   [
+    800,
+    "img/dominos-secao-800.webp"
+   ],
+   [
+    960,
+    "img/dominos-secao-960.webp"
+   ]
+  ]
+ },
+ "revisao-23/dominos-mobile-cover.webp": {
+  "width": 860,
+  "height": 1642,
+  "variants": [
+   [
+    480,
+    "img/dominos-mobile-cover-480.webp"
+   ],
+   [
+    860,
+    "img/dominos-mobile-cover-860.webp"
+   ]
+  ]
+ },
+ "revisao-23/dominos-completo.webp": {
+  "width": 1920,
+  "height": 2604,
+  "variants": [
+   [
+    1080,
+    "img/dominos-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/dominos-completo-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/bmk-blink-cover.webp": {
+  "width": 2880,
+  "height": 1768,
+  "variants": [
+   [
+    480,
+    "img/bmk-blink-cover-480.webp"
+   ],
+   [
+    800,
+    "img/bmk-blink-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/bmk-blink-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/bmk-blink-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/bmk-blink-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/bmk-blink-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/bmk-blink-secao.webp": {
+  "width": 1088,
+  "height": 1108,
+  "variants": [
+   [
+    480,
+    "img/bmk-blink-secao-480.webp"
+   ],
+   [
+    800,
+    "img/bmk-blink-secao-800.webp"
+   ],
+   [
+    1088,
+    "img/bmk-blink-secao-1088.webp"
+   ]
+  ]
+ },
+ "revisao-23/bmk-blink-mobile-cover.webp": {
+  "width": 860,
+  "height": 1456,
+  "variants": [
+   [
+    480,
+    "img/bmk-blink-mobile-cover-480.webp"
+   ],
+   [
+    860,
+    "img/bmk-blink-mobile-cover-860.webp"
+   ]
+  ]
+ },
+ "revisao-23/bmk-blink-completo.webp": {
+  "width": 1920,
+  "height": 3161,
+  "variants": [
+   [
+    1080,
+    "img/bmk-blink-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/bmk-blink-completo-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/odonto-cover.webp": {
+  "width": 2880,
+  "height": 2232,
+  "variants": [
+   [
+    480,
+    "img/odonto-cover-480.webp"
+   ],
+   [
+    800,
+    "img/odonto-cover-800.webp"
+   ],
+   [
+    1200,
+    "img/odonto-cover-1200.webp"
+   ],
+   [
+    1600,
+    "img/odonto-cover-1600.webp"
+   ],
+   [
+    2000,
+    "img/odonto-cover-2000.webp"
+   ],
+   [
+    2880,
+    "img/odonto-cover-2880.webp"
+   ]
+  ]
+ },
+ "revisao-23/odonto-secao.webp": {
+  "width": 1920,
+  "height": 1789,
+  "variants": [
+   [
+    480,
+    "img/odonto-secao-480.webp"
+   ],
+   [
+    800,
+    "img/odonto-secao-800.webp"
+   ],
+   [
+    1200,
+    "img/odonto-secao-1200.webp"
+   ],
+   [
+    1600,
+    "img/odonto-secao-1600.webp"
+   ],
+   [
+    1920,
+    "img/odonto-secao-1920.webp"
+   ]
+  ]
+ },
+ "revisao-23/odonto-completo.webp": {
+  "width": 1920,
+  "height": 9933,
+  "variants": [
+   [
+    1080,
+    "img/odonto-completo-1080.webp"
+   ],
+   [
+    1920,
+    "img/odonto-completo-1920.webp"
+   ]
+  ]
+ }
+}

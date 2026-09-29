@@ -1,4 +1,4 @@
-const {chromium}=require(process.env.PORTFOLIO_PLAYWRIGHT||'playwright-core');
+const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict'),path=require('node:path');
 const {createServer}=require('./servidor.cjs');
 const projects=require('../data/projects.cjs');
@@ -11,7 +11,7 @@ const projects=require('../data/projects.cjs');
   const base='http://127.0.0.1:'+server.address().port;
   await page.goto(base);await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(1000);
   assert.equal(await page.locator('.following-title').evaluate(e=>getComputedStyle(e).fontWeight),'600');
-  await page.locator('.home-nav .doodle-work').hover();await page.waitForTimeout(380);
+  await page.locator('.home-nav .doodle-work').hover();await page.waitForTimeout(700);
   assert.ok(Number(await page.locator('.home-nav .doodle-work').getAttribute('data-hits'))>0);
   await page.evaluate(()=>scrollTo(0,1200));await page.waitForTimeout(500);
   assert.equal(await page.locator('.panel-media').evaluateAll(list=>list.reduce((sum,el)=>sum+el.getAnimations({subtree:true}).length,0)),0,'Selected project images never animate');
@@ -23,9 +23,9 @@ const projects=require('../data/projects.cjs');
    assert.equal(await link.getAttribute('href'),project.url);assert.equal(await link.getAttribute('target'),'_blank');
    assert.match(await link.getAttribute('rel'),/noopener/);
    await link.scrollIntoViewIfNeeded();await link.hover();await page.waitForTimeout(200);
-   assert.ok(await link.locator('.visit-door').evaluate(e=>e.getAnimations().length)>0);
+   assert.ok(await link.locator('.visit-window').evaluate(e=>e.getAnimations().length)>0);
    const contrast=await link.evaluate(el=>{
-    const c=getComputedStyle(el),rgb=s=>s.match(/[\d.]+/g).slice(0,3).map(Number),lum=a=>a.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4;}).reduce((s,x,i)=>s+x*[.2126,.7152,.0722][i],0);
+    const c=getComputedStyle(el),rgb=s=>{const v=s.match(/[\d.]+/g).slice(0,3).map(Number);return s.startsWith('color(')?v.map(x=>x*255):v;},lum=a=>a.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4;}).reduce((s,x,i)=>s+x*[.2126,.7152,.0722][i],0);
     const x=lum(rgb(c.color)),y=lum(rgb(c.backgroundColor));return(Math.max(x,y)+.05)/(Math.min(x,y)+.05);
    });assert.ok(contrast>=4.5,project.id+' text contrast '+contrast);
    if(project.id==='qozt')await link.screenshot({path:path.resolve(__dirname,'../validacao/visitar-porta.png')});
@@ -42,7 +42,7 @@ const projects=require('../data/projects.cjs');
   }
   await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'/projetos/qozt.html');
   const visit=page.getByRole('link',{name:'Visitar o projeto',exact:true});await visit.scrollIntoViewIfNeeded();await visit.hover();
-  assert.equal(await visit.locator('.visit-door').evaluate(e=>e.getAnimations().length),0);
+  assert.equal(await visit.locator('.visit-window').evaluate(e=>e.getAnimations().length),0);
   assert.equal(await page.locator('.ink-copy,.print-shutter').count(),0);
   const plain=await browser.newPage({javaScriptEnabled:false});await plain.goto(base+'/projetos/qozt.html');
   assert.equal(await plain.getByRole('link',{name:'Visitar o projeto',exact:true}).getAttribute('href'),'https://www.qozt.com.br/');

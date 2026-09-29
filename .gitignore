@@ -3,7 +3,9 @@ node_modules/
 .env.local
 .DS_Store
 Thumbs.db
+# gerados: rode "npm run build" / "npm test" para recriar
+prototipo-04/dist/
+prototipo-04/validacao/
+# material de pesquisa pesado, só local
 briefing/rodada-4/mcp-schema/
-prototipo-03/dist/
-.codex/pplx-thread
 briefing/rodada-4/esportes/*.mp4

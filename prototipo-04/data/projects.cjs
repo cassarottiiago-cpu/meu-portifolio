@@ -3,7 +3,7 @@
 module.exports = [
   {
     id: 'autopost', name: 'AUTOPOST', kind: 'Produto digital', status: 'Plataforma interna em produção',
-    image: 'autopost-queue.jpg', thumb: 'autopost-queue.jpg', detail: 'autopost-calendar.jpg', extraPrint: 'autopost-hero.jpg',
+    image: 'autopost-queue.jpg', detail: 'autopost-calendar.jpg', extraPrint: 'autopost-hero.jpg',
     alt: 'AUTOPOST: calendário mensal de publicações, agenda do dia e chat de agendamento',
     line: 'Uma publicação. O destino certo para cada unidade.', scope: 'Concepção, UI/UX e desenvolvimento full-stack',
     heading: 'Distribuir sem perder o controle.',
@@ -19,7 +19,7 @@ module.exports = [
   },
   {
     id: 'phron', name: 'PHRON', kind: 'Produto digital', status: 'Projeto pessoal em desenvolvimento',
-    image: 'revisao-23/phron-home-27.png', thumb: 'revisao-23/phron-home-27.png', detail: 'revisao-23/phron-home-27.png', mobile: 'revisao-23/phron-whatsapp-27.jpeg',
+    image: 'revisao-23/phron-home-27.png', detail: 'revisao-23/phron-home-27.png', mobile: 'revisao-23/phron-whatsapp-27.jpeg',
     mobileCaption: 'Teste do PHRON no WhatsApp: conversa, mensagem de áudio e resposta com horários disponíveis. Captura fornecida por Iago.',
     alt: 'PHRON no tema noturno: Home com notícias, acompanhamentos e assistente pessoal',
     line: 'Estou construindo um espaço para conectar rotina, informação e assistência.',
@@ -36,7 +36,7 @@ module.exports = [
   },
   {
     id: 'qozt', name: 'QOZT', kind: 'Landing page', status: 'Site publicado',
-    image: 'revisao-23/qozt-cover.webp', thumb: 'revisao-23/qozt-cover.webp', detail: 'revisao-23/qozt-secao.webp', full: 'revisao-23/qozt-completo.webp', url: 'https://www.qozt.com.br/',
+    image: 'revisao-23/qozt-cover.webp', detail: 'revisao-23/qozt-secao.webp', full: 'revisao-23/qozt-completo.webp', url: 'https://www.qozt.com.br/',
     alt: 'Página QOZT com proposta comercial, interface de agentes inteligentes e acesso à demonstração',
     line: 'Conversa vira conexão.', scope: 'Design e desenvolvimento da página',
     heading: 'Tornar visível um serviço intangível.',
@@ -50,8 +50,8 @@ module.exports = [
     detailCaption: 'Seção do aplicativo móvel no site público QOZT. O trabalho apresentado é a landing page, não o software mostrado dentro dela.'
   },
   {
-    id: 'natalia', name: 'Dra. Natália', kind: 'Site e interface', status: 'Em desenvolvimento',
-    image: 'revisao-23/natalia-inicio.webp', thumb: 'revisao-23/natalia-inicio.webp', detail: 'revisao-23/natalia-sobre.webp', full: 'revisao-23/natalia-completo.webp',
+    id: 'natalia', name: 'Dra. Natália', kind: 'Site e interface', status: 'Site publicado',
+    image: 'revisao-23/natalia-inicio.webp', detail: 'revisao-23/natalia-sobre.webp', full: 'revisao-23/natalia-completo.webp', url: 'https://www.dranataliamessias.com.br/',
     alt: 'Site da Dra. Natália Messias: tipografia, ilustração e conteúdo de neurodesenvolvimento infantil',
     line: 'Cuidado traduzido em linguagem visual.', scope: 'Design de interface e desenvolvimento do site',
     heading: 'Um olhar que acolhe.',
@@ -61,13 +61,13 @@ module.exports = [
       ['Leitura em camadas', 'Títulos, explicações e informações práticas têm pesos diferentes. O visitante pode localizar um assunto antes de se comprometer com um bloco de leitura.'],
       ['Presença da profissional', 'A apresentação da médica dá contexto ao serviço. Conteúdo e linguagem visual trabalham juntos na identificação de quem está por trás do atendimento.']
     ],
-    development: ['O site é uma implementação web com HTML, CSS e JavaScript, preparada com Vite. A composição é construída por seções, com regras responsivas que reorganizam texto e imagens conforme a largura disponível.', 'Tipografia e ilustração precisam funcionar como parte do conteúdo, inclusive em telas pequenas. O desenvolvimento acompanha essa hierarquia, preservando a leitura e os caminhos de navegação sem depender de uma única composição de desktop.', 'Esta é uma versão local em desenvolvimento. O caso apresenta a interface, não resultados clínicos nem uma avaliação de satisfação das famílias.'],
-    detailCaption: 'Seção de apresentação da Dra. Natália na versão local em desenvolvimento, capturada inteira.'
+    development: ['O site é uma implementação web com HTML, CSS e JavaScript, preparada com Vite. A composição é construída por seções, com regras responsivas que reorganizam texto e imagens conforme a largura disponível.', 'Tipografia e ilustração precisam funcionar como parte do conteúdo, inclusive em telas pequenas. O desenvolvimento acompanha essa hierarquia, preservando a leitura e os caminhos de navegação sem depender de uma única composição de desktop.', 'O caso apresenta a interface publicada, não resultados clínicos nem uma avaliação de satisfação das famílias.'],
+    detailCaption: 'Seção de apresentação da Dra. Natália, capturada inteira.'
   },
   {
     id: 'dr-paulo', name: 'Dr. Paulo', kind: 'Site e interface', status: 'Site publicado',
-    url: 'https://drpaulo-eight.vercel.app/',
-    image: 'revisao-23/dr-paulo-cover.webp', thumb: 'revisao-23/dr-paulo-cover.webp', detail: 'revisao-23/dr-paulo-secao.webp', full: 'revisao-23/dr-paulo-completo.webp',
+    url: 'https://www.drpauloseraphim.com.br/',
+    image: 'revisao-23/dr-paulo-cover.webp', detail: 'revisao-23/dr-paulo-secao.webp', full: 'revisao-23/dr-paulo-completo.webp',
     alt: 'Site do Dr. Paulo Rogério Seraphim com apresentação do atendimento em saúde mental',
     line: 'Nem tudo que aperta o peito tem nome ainda.', scope: 'Interface e desenvolvimento do site',
     heading: 'A primeira conversa não despacha uma receita.',
@@ -77,12 +77,12 @@ module.exports = [
       ['Motivos de procura', 'A seção transforma sintomas e situações em pontos de entrada. O conteúdo ajuda a reconhecer uma demanda sem forçar um diagnóstico pela interface.'],
       ['Consulta explicada', 'Primeira consulta, plano por escrito e acompanhamento aparecem como etapas. O atendimento é descrito antes do agendamento.']
     ],
-    development: ['A versão publicada observada usa uma página longa com navegação por seções e pontos de contato diretos. O conteúdo alterna blocos editoriais, cards numerados e etapas de atendimento.', 'A interface prioriza tipografia, espaçamento e sequência de leitura. Motivos de procura, formação, método, leituras e contato têm papéis distintos, evitando que a primeira tela carregue todas as decisões.', 'A captura foi feita no endereço correto informado por Iago: drpaulo-eight.vercel.app. O caso descreve a interface observada e não transforma informações médicas, depoimentos ou afirmações do site em resultados comprovados do portfólio.'],
+    development: ['A versão publicada observada usa uma página longa com navegação por seções e pontos de contato diretos. O conteúdo alterna blocos editoriais, cards numerados e etapas de atendimento.', 'A interface prioriza tipografia, espaçamento e sequência de leitura. Motivos de procura, formação, método, leituras e contato têm papéis distintos, evitando que a primeira tela carregue todas as decisões.', 'A captura foi feita no site publicado, drpauloseraphim.com.br. O caso descreve a interface observada e não transforma informações médicas, depoimentos ou afirmações do site em resultados comprovados do portfólio.'],
     detailCaption: 'Seção de atendimento do Dr. Paulo: primeira consulta, plano por escrito e acompanhamento.'
   },
   {
     id: 'limozine', name: 'Limozine', kind: 'Landing page', status: 'Site publicado',
-    image: 'revisao-23/limozine-cover.webp', thumb: 'revisao-23/limozine-cover.webp', detail: 'revisao-23/limozine-secao.webp', full: 'revisao-23/limozine-completo.webp',
+    image: 'revisao-23/limozine-cover.webp', detail: 'revisao-23/limozine-secao.webp', full: 'revisao-23/limozine-completo.webp',
     url: 'https://lplimozine-nu.vercel.app/',
     fullCaption: 'Página completa composta a partir de capturas reais das seções visíveis, para preservar o conteúdo animado.',
     alt: 'Limozine: abertura fotográfica da churrascaria, com a marca completa',
@@ -99,7 +99,7 @@ module.exports = [
   },
   {
     id: 'dominos', name: 'Domino’s', location: 'Chácara Flora', kind: 'Link in bio', status: 'Site publicado · Chácara Flora, SP',
-    image: 'revisao-23/dominos-cover.webp', thumb: 'revisao-23/dominos-cover.webp', detail: 'revisao-23/dominos-secao.webp', mobile: 'revisao-23/dominos-mobile-cover.webp', full: 'revisao-23/dominos-completo.webp',
+    image: 'revisao-23/dominos-cover.webp', detail: 'revisao-23/dominos-secao.webp', mobile: 'revisao-23/dominos-mobile-cover.webp', full: 'revisao-23/dominos-completo.webp',
     url: 'https://dominosblink.vercel.app/',
     alt: 'Domino’s Chácara Flora: página com iFood, site oficial, redes sociais e ofertas',
     line: 'Da vontade de pizza ao próximo toque.', scope: 'Design e desenvolvimento da página de links',
@@ -116,7 +116,7 @@ module.exports = [
   {
     id: 'bmk-blink', name: 'Blink BMK', kind: 'Link in bio', status: 'Site publicado',
     mobile: 'revisao-23/bmk-blink-mobile-cover.webp',
-    image: 'revisao-23/bmk-blink-cover.webp', thumb: 'revisao-23/bmk-blink-cover.webp', detail: 'revisao-23/bmk-blink-secao.webp', full: 'revisao-23/bmk-blink-completo.webp', url: 'https://blink.bmkgow.com/',
+    image: 'revisao-23/bmk-blink-cover.webp', detail: 'revisao-23/bmk-blink-secao.webp', full: 'revisao-23/bmk-blink-completo.webp', url: 'https://blink.bmkgow.com/',
     alt: 'Blink da BMK com BMK.AI, apresentação da NËXXO e links de serviços',
     line: 'Uma entrada para todo o ecossistema BMK.', scope: 'Design e desenvolvimento da página de links',
     heading: 'Concentrar sem achatar a oferta.',
@@ -131,7 +131,7 @@ module.exports = [
   },
   {
     id: 'odonto', name: 'OdontoCompany', kind: 'Landing page', status: 'Site publicado · Morro Agudo',
-    image: 'revisao-23/odonto-cover.webp', thumb: 'revisao-23/odonto-cover.webp', detail: 'revisao-23/odonto-secao.webp', full: 'revisao-23/odonto-completo.webp',
+    image: 'revisao-23/odonto-cover.webp', detail: 'revisao-23/odonto-secao.webp', full: 'revisao-23/odonto-completo.webp',
     url: 'https://lpodcmorroagudo.vercel.app/',
     alt: 'OdontoCompany Morro Agudo: apresentação da unidade e formulário inicial de agendamento',
     line: 'Uma rede conhecida. Um atendimento local.', scope: 'Design e desenvolvimento da landing page',

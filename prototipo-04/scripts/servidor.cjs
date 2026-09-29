@@ -2,20 +2,21 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.mp4': 'video/mp4' };
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.mp4': 'video/mp4', '.webmanifest': 'application/manifest+json' };
 Object.assign(types, { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.avif': 'image/avif' });
+const text = { 'Content-Type': 'text/plain; charset=utf-8' };
 function createServer(directory = root) {
   return http.createServer((request, response) => {
     let pathname;
-    try { pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname); } catch { response.writeHead(400).end(); return; }
-    const file = path.resolve(directory, '.' + (pathname === '/' ? '/index.html' : pathname));
+    try { pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname); } catch { response.writeHead(400, text).end(); return; }
+    const file = path.resolve(directory, '.' + (pathname.endsWith('/') ? pathname + 'index.html' : pathname));
     const relative = path.relative(directory, file);
     if (!relative || relative.startsWith('..') || path.isAbsolute(relative) || relative.split(path.sep).some(part => part.startsWith('.')) ||
-      ['scripts', 'validacao', 'dist', 'data'].includes(relative.split(path.sep)[0]) || !types[path.extname(file)] || !['GET', 'HEAD'].includes(request.method)) {
-      response.writeHead(403).end('Acesso não permitido'); return;
+      ['scripts', 'validacao', 'dist', 'data', 'node_modules'].includes(relative.split(path.sep)[0]) || !types[path.extname(file)] || !['GET', 'HEAD'].includes(request.method)) {
+      response.writeHead(403, text).end('Acesso não permitido'); return;
     }
     fs.stat(file, (error, stat) => {
-      if (error || !stat.isFile()) { response.writeHead(404).end('Não encontrado'); return; }
+      if (error || !stat.isFile()) { response.writeHead(404, text).end('Não encontrado'); return; }
       const headers = { 'Content-Type': types[path.extname(file)], 'Content-Length': stat.size, 'Cache-Control': 'no-store',
         'X-Content-Type-Options': 'nosniff', 'X-Robots-Tag': 'noindex, nofollow', 'Referrer-Policy': 'no-referrer', 'Accept-Ranges': 'bytes' };
       let start = 0, end = stat.size - 1, status = 200;

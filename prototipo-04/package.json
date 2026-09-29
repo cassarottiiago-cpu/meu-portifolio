@@ -5,6 +5,15 @@
   "scripts": {
     "dev": "node scripts/servidor.cjs",
     "build": "node scripts/build.cjs",
+    "og": "node scripts/og.cjs",
+    "imagens": "node scripts/imagens.cjs",
+    "test": "node scripts/verificar.cjs && node scripts/verificar-acabamento.cjs && node scripts/verificar-work.cjs && node scripts/verificar-refino-motion.cjs && node scripts/verificar-refinamentos.cjs && node scripts/verificar-scroll-fechamento.cjs",
     "verify": "node scripts/verificar.cjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.63.0",
+    "sharp": "^0.35.5"
   }
 }

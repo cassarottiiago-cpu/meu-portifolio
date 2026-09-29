@@ -1,61 +1,163 @@
-const fs=require('node:fs');
-const path=require('node:path');
+// Gera as páginas estáticas do portfólio: português na raiz e inglês em /en/.
+// Conteúdo: data/projects.cjs (+ projects.en.cjs), data/textos.cjs e data/site.cjs. Não editar os HTML gerados.
+//   node scripts/gerar.cjs                         páginas na raiz do projeto (desenvolvimento)
+//   require('./gerar.cjs').generate({dir,bundle})   build: bundle=true liga um único estilo.css
+const fs=require('node:fs'),path=require('node:path');
 const projects=require('../data/projects.cjs');
-const {button,whatsapp}=require('./botoes.cjs');
-const featured=['autopost','dr-paulo','natalia','qozt'].map(id=>projects.find(p=>p.id===id));
-const dimensions=require('./dimensoes.cjs');
+const english=require('../data/projects.en.cjs');
+const textos=require('../data/textos.cjs');
+const site=require('../data/site.cjs');
+const {button,icon}=require('./botoes.cjs');
 const root=path.resolve(__dirname,'..');
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'assets/img/manifest.json'),'utf8'));
+const FEATURED=['autopost','dr-paulo','natalia','limozine'];
+// Cor da barra do navegador no celular: o fundo de cada caso.
+const THEME={autopost:'#f6f8fc',phron:'#0e131d',qozt:'#fffdf9',natalia:'#edeee6','dr-paulo':'#edeee6',limozine:'#151311',dominos:'#f5f8fb','bmk-blink':'#fff9f5',odonto:'#f5faf5'};
+const PAPER='#eee9df';
+
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const chevron='<span aria-hidden="true">&gt;&gt;</span>';
 const para=list=>list.map(s=>'<p>'+esc(s)+'</p>').join('');
-function img(file,alt,prefix='',eager=false){const [w,h]=dimensions(file);return '<img src="'+prefix+'assets/'+file+'" width="'+w+'" height="'+h+'" alt="'+esc(alt)+'" '+(eager?'fetchpriority="high"':'loading="lazy"')+' decoding="async">';}
-function head(title,description,prefix=''){return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#eee9df"><title>'+esc(title)+' | Iago Cassarotti</title><meta name="description" content="'+esc(description)+'"><link rel="icon" href="'+prefix+'icon.svg"><link rel="preload" href="'+prefix+'assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="'+prefix+'fonts.css"><link rel="stylesheet" href="'+prefix+'site.css"><link rel="stylesheet" href="'+prefix+'cases.css"><link rel="stylesheet" href="'+prefix+'interactions.css"><script src="'+prefix+'app.js" defer></script></head>';}
-function mark(prefix=''){return '<div class="brand-tag"><a class="owner" href="'+prefix+'index.html">Iago Cassarotti</a><p class="owner-role">UI / UX<br>Design & desenvolvimento</p></div>';}
-function print(file,alt,cls='',eager=false){return '<figure class="case-print '+cls+'"><a href="../assets/'+file+'" data-print aria-label="Ampliar: '+esc(alt)+'">'+img(file,alt,'../',eager)+'<span class="print-hint">Ampliar '+chevron+'</span></a><figcaption>'+esc(alt)+'</figcaption></figure>';}
-function viewer(){return '<dialog class="print-viewer" aria-labelledby="print-title"><div class="print-toolbar"><h2 id="print-title">Imagem do projeto</h2><button type="button" data-size aria-pressed="false">Tamanho real '+chevron+'</button><button type="button" data-close autofocus>Fechar '+chevron+'</button></div><div class="print-canvas" tabindex="0" aria-label="Imagem ampliada; use a rolagem para explorar"></div></dialog>';}
-function renderHome(){
+const localized=(p,L)=>L.code==='en'?{...p,...english[p.id]}:p;
+const external='target="_blank" rel="noopener noreferrer"';
 
-const panels=featured.map(p=>{
- const media=[p.image];
- return '<div class="project-panel project-story" id="panel-'+p.id+'" aria-labelledby="project-title-'+p.id+'" data-project="'+p.id+'"><div class="panel-heading"><div><h3 id="project-title-'+p.id+'">'+esc(p.name)+'</h3><p>'+esc(p.kind)+' / '+esc(p.scope)+'</p></div>'+button('projetos/'+p.id+'.html','Ver caso','open')+'</div><div class="panel-media">'+media.map((f,i)=>'<a href="projetos/'+p.id+'.html" class="'+(f===p.mobile?'portrait':'landscape')+'" aria-label="Conhecer '+esc(p.name)+'">'+img(f,i===0?p.alt:f===p.mobile?(p.mobileCaption||p.alt):(p.detailCaption||p.alt),'',false)+'</a>').join('')+'</div></div>';
-}).join('');
-return head('Creative Developer','Design de interfaces, UI/UX e desenvolvimento. Os trabalhos de Iago Cassarotti.')+
-'<body class="home"><a class="skip" href="#trabalhos">Pular para os trabalhos</a><main>'+
-'<section class="intro" id="inicio" aria-labelledby="intro-title"><header class="home-nav">'+mark()+'<nav aria-label="Navegação principal">'+button('#trabalhos','Work','work')+button(whatsapp,'WhatsApp','chat','target="_blank" rel="noopener noreferrer"')+'</nav></header>'+
-'<div class="brand-field" aria-hidden="true"><canvas id="brand-canvas"></canvas></div>'+
-'<h1 id="intro-title" class="intro-type" aria-label="Creative Developer"><span class="type-group type-creative" aria-hidden="true"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span></span><span class="type-group type-developer" aria-hidden="true"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span></span></h1>'+
-'</section>'+
-'<section id="trabalhos" class="work-stage work-continuous" tabindex="-1" aria-labelledby="work-title"><div class="work-heading"><h2 id="work-title">Projetos<br> selecionados</h2></div><div class="work-panels">'+panels+'</div></section></main>'+
-'<footer id="percurso" class="end-invitation" aria-labelledby="invitation-title"><div class="invitation-top"><p>Agora, por dentro.</p></div><div class="clone-field" aria-hidden="true"></div><a id="invitation-title" class="invitation-link" href="projetos/autopost.html"><span>VER TODOS</span><span>OS PROJETOS '+chevron+'</span></a><div class="invitation-bottom"><p>Da primeira ideia<br>ao que foi construído.</p></div></footer></body></html>';
+// ——— Endereços. Cada página conhece o caminho até a raiz do site (assets) e até a raiz do idioma. ———
+const LANG_ROOT={pt:'',en:'en/'};
+const pagePath=(L,kind,id)=>LANG_ROOT[L.code]+(kind==='case'?L.files.caseDir+id+'.html':L.files[kind]);
+function context(L,kind,id){
+ const file=pagePath(L,kind,id),depth=file.split('/').length-1;
+ const other=textos[L.code==='pt'?'en':'pt'],base='../'.repeat(depth);
+ return {L,kind,id,file,base,toLang:kind==='case'?'../':'',counterpart:base+pagePath(other,kind,id),otherPath:pagePath(other,kind,id)};
 }
-function renderCase(p,index){
-const next=projects[index+1],previous=projects[index-1];
-const parts=[head(p.name,p.line,'../'),'<body class="case-page case-'+p.id+'"><a class="skip" href="#conteudo">Pular para o caso</a><header class="case-nav">'+mark('../')+'<nav aria-label="Navegação do portfólio">'+button('../index.html#trabalhos','Work','work')+button(previous?previous.id+'.html':'../index.html',previous?'Anterior':'Voltar','back')+'</nav></header><main id="conteudo" tabindex="-1">',
-'<header class="case-opening"><p class="case-eyebrow">'+esc(p.kind)+(p.location?' / '+esc(p.location):'')+'</p><div class="case-title-row"><h1>'+esc(p.name)+'</h1><p class="case-line">'+esc(p.line)+'</p></div><dl class="case-meta"><div><dt>Meu papel</dt><dd>'+esc(p.scope)+'</dd></div><div><dt>Estado</dt><dd>'+esc(p.status)+'</dd></div></dl></header>',
-print(p.image,p.alt,'case-cover',true),
-'<section class="case-context"><p class="section-label">O ponto de partida</p><h2>'+esc(p.heading)+'</h2><div class="case-copy">'+para(p.context)+'</div></section>',
-'<section class="case-decisions"><h2>Por dentro<br>da interface.</h2><div class="decisions-list">'+p.decisions.map(([title,text])=>'<article><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p></article>').join('')+'</div></section>',
-'<div class="case-gallery">'+(p.detail&&p.detail!==p.image?print(p.detail,p.detailCaption,'case-detail'):'')+(p.mobile?print(p.mobile,p.mobileCaption||'Interface '+p.name+' no celular.','case-mobile'):'')+(p.extraPrint?print(p.extraPrint,p.extraCaption||p.alt,'case-detail'):'')+'</div>',
-p.full?'<p class="full-page"><a href="../assets/'+p.full+'" data-print data-full>Ver a página completa '+chevron+'</a>'+(p.fullCaption?'<small>'+esc(p.fullCaption)+'</small>':'')+'</p>':'',
-'<section class="case-development"><div><p class="section-label">Desenvolvimento</p><h2>Do desenho<br>à construção.</h2></div><div class="case-copy">'+para(p.development)+(p.url?button(p.url,'Visitar o projeto','visit','target="_blank" rel="noopener noreferrer"'):'')+'</div></section>',
-'<a class="next-case" href="'+(next?next.id+'.html':'../encerramento.html')+'"><span>'+(next?'Próximo trabalho':'O último trabalho termina aqui.')+'</span><strong>'+(next?esc(next.name):'Fechar o percurso')+'</strong>'+chevron+'</a></main>',viewer(),'</body></html>'];
-return parts.join('');
+const caseHref=(c,id)=>(c.kind==='case'?'':c.L.files.caseDir)+id+'.html';
+const absolute=file=>site.url.replace(/\/$/,'')+'/'+file.replace(/(^|\/)index\.html$/,'$1');
+
+// ——— Capturas responsivas: versões em assets/img geradas por scripts/imagens.cjs ———
+function variants(file){const entry=manifest[file];if(!entry)throw Error('Sem versões para '+file+': rode node scripts/imagens.cjs');return entry;}
+const srcset=(file,base)=>variants(file).variants.map(([w,f])=>base+'assets/'+f+' '+w+'w').join(', ');
+const largest=file=>variants(file).variants.at(-1)[1];
+function img(file,alt,base,sizes,eager=false){
+ const {width,height,variants:list}=variants(file);
+ const fallback=(list.find(([w])=>w>=1200)||list.at(-1))[1];
+ return '<img src="'+base+'assets/'+fallback+'" srcset="'+srcset(file,base)+'" sizes="'+sizes+'" width="'+width+'" height="'+height+'" alt="'+esc(alt)+'" '+(eager?'fetchpriority="high"':'loading="lazy"')+' decoding="async">';
 }
-function renderClosing(){return head('Design, desenvolvimento e IA aplicada','Conheça as capacidades por trás dos projetos de Iago Cassarotti.')+'<body class="closing"><main class="closing-stage"><p class="closing-kicker">Iago Cassarotti / Creative Developer</p><div class="closing-presentation"><h1><span>Da ideia</span><span>à execução.</span></h1><p class="closing-intro">Sou designer e desenvolvedor. Uno estratégia de comunicação, experiência do usuário e execução técnica para levar produtos digitais do conceito à produção.</p><dl class="closing-capabilities"><div><dt>Design & UX/UI</dt><dd>Pesquisa, arquitetura de informação, prototipação e interfaces responsivas.</dd></div><div><dt>Desenvolvimento full-stack</dt><dd>React e TypeScript, APIs, bancos de dados, segurança e deploy.</dd></div><div><dt>IA aplicada & automação</dt><dd>Integração de modelos de linguagem e automações conectadas a fluxos reais de trabalho.</dd></div></dl><div class="closing-thanks"><p>Obrigado por conhecer meu trabalho.</p><p>Se essas capacidades fizerem sentido para o seu próximo projeto ou para a sua equipe, vamos conversar.</p>'+button(whatsapp,'WhatsApp','chat','target="_blank" rel="noopener noreferrer"')+'</div></div><div class="closing-bottom">'+button('index.html?replay=1#inicio','Voltar ao início','back')+'</div></main></body></html>';}
-function generate(){
-fs.mkdirSync(path.join(root,'projetos'),{recursive:true});
-// Register before pagereveal (deferred app.js runs too late for this event).
-const guard=html=>html.replace('<head>','<head><script>for(const type of ["pageswap","pagereveal"])addEventListener(type,event=>{if(event.viewTransition)for(const promise of [event.viewTransition.ready,event.viewTransition.finished,event.viewTransition.updateCallbackDone])promise?.catch(error=>{if(!["AbortError","InvalidStateError"].includes(error.name))reportError(error);});});</script>');
-fs.writeFileSync(path.join(root,'index.html'),guard(renderHome()));
-projects.forEach((p,i)=>fs.writeFileSync(path.join(root,'projetos',p.id+'.html'),guard(renderCase(p,i))));
-// The closing sequence already owns its transition; don't add a second native wipe.
-fs.writeFileSync(path.join(root,'encerramento.html'),guard(renderClosing()).replace('</head>','<style>@view-transition{navigation:none}</style></head>'));
-const familyFiles=fs.readdirSync(path.join(root,'assets/fonts')).filter(f=>f.endsWith('.css'));
-const fontCss=['@font-face{font-family:DM;src:url("assets/fonts/dm-sans.woff2") format("woff2");font-weight:100 1000;font-display:swap}','@font-face{font-family:Marble;src:url("assets/fonts/marble-regular.ttf") format("truetype");font-weight:400;font-display:swap}','@font-face{font-family:Marble;src:url("assets/fonts/marble-bold.ttf") format("truetype");font-weight:700;font-display:swap}',...familyFiles.map(f=>fs.readFileSync(path.join(root,'assets/fonts',f),'utf8'))].join('\n');
-fs.writeFileSync(path.join(root,'fonts.css'),fontCss);
-const licenses=fs.readdirSync(path.join(root,'assets/licenses')).filter(f=>f.endsWith('.txt'));
-fs.writeFileSync(path.join(root,'creditos.html'),head('Fontes & créditos','Créditos tipográficos e visuais.')+'<body class="credits-page"><header class="case-nav">'+mark()+'<a href="index.html#trabalhos">Trabalhos '+chevron+'</a></header><main class="credits"><h1>Fontes<br>& créditos.</h1><p>Interfaces e capturas dos projetos apresentados: trabalhos de Iago Cassarotti. A fotografia de WhatsApp é um registro de teste fornecido por Iago; não representa uma validação completa do PHRON.</p><p>Tipografias abertas distribuídas com suas licenças. Marble foi fornecida nos arquivos do projeto da Dra. Natália e preserva a identidade do trabalho.</p><ul>'+licenses.map(f=>'<li><a href="assets/licenses/'+f+'">'+esc(f.replace('.txt',''))+' / licença</a></li>').join('')+'</ul><p>Direção e referências de interação: <a href="https://eloyb.design/" target="_blank" rel="noopener">Eloy Benoffi</a> e <a href="https://stefanvitasovic.dev/" target="_blank" rel="noopener">Stefan Vitasović</a>. Elementos gráficos e código desta versão desenvolvidos para este portfólio; nenhum asset dos autores foi reutilizado.</p><a href="index.html">Voltar ao início '+chevron+'</a></main></body></html>');
-console.log('Home, nove casos, encerramento e créditos gerados. Sem página separada de projetos.');
+const SIZES={panel:'(max-width:700px) calc(100vw - 36px), 56vw',cover:'(max-width:700px) 100vw, 92vw',detail:'(max-width:700px) calc(100vw - 36px), 62vw',mobile:'(max-width:700px) 66vw, 26vw'};
+
+// ——— Cabeça do documento ———
+// Registra os eventos de transição antes do app.js (que é defer e chegaria tarde para o pagereveal).
+const GUARD='<script>try{if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("js-enter")}catch(e){}addEventListener("pagereveal",event=>{window.__pageTransition=event.viewTransition||null});for(const type of ["pageswap","pagereveal"])addEventListener(type,event=>{if(event.viewTransition)for(const promise of [event.viewTransition.ready,event.viewTransition.finished,event.viewTransition.updateCallbackDone])promise?.catch(error=>{if(!["AbortError","InvalidStateError"].includes(error.name))reportError(error);});});</script>';
+function head(c,{title,description,theme=PAPER,og='home',bundle}){
+ const L=c.L,full=title+L.titleSuffix;
+ let html='<!doctype html><html lang="'+L.lang+'"><head>'+GUARD+'<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">';
+ if(!site.indexar)html+='<meta name="robots" content="noindex,nofollow">';
+ html+='<meta name="theme-color" content="'+theme+'"><title>'+esc(full)+'</title><meta name="description" content="'+esc(description)+'">';
+ html+='<meta property="og:type" content="website"><meta property="og:site_name" content="Iago Cassarotti"><meta property="og:title" content="'+esc(full)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:locale" content="'+L.locale+'"><meta name="twitter:card" content="summary_large_image">';
+ if(site.url){
+  const [pt,en]=c.L.code==='pt'?[c.file,c.otherPath]:[c.otherPath,c.file];
+  html+='<link rel="canonical" href="'+absolute(c.file)+'"><meta property="og:url" content="'+absolute(c.file)+'"><meta property="og:image" content="'+absolute('assets/og/'+(L.code==='en'?'en-':'')+og+'.jpg')+'"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">';
+  html+='<link rel="alternate" hreflang="pt-BR" href="'+absolute(pt)+'"><link rel="alternate" hreflang="en" href="'+absolute(en)+'"><link rel="alternate" hreflang="x-default" href="'+absolute(pt)+'">';
+ }
+ html+='<link rel="icon" href="'+c.base+'icon.svg" type="image/svg+xml"><link rel="icon" href="'+c.base+'assets/icon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="'+c.base+'assets/apple-touch-icon.png"><link rel="manifest" href="'+c.base+'manifest.webmanifest"><link rel="preload" href="'+c.base+'assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>';
+ html+=bundle?'<link rel="stylesheet" href="'+c.base+'estilo.css">':['fonts','site','cases'].map(name=>'<link rel="stylesheet" href="'+c.base+name+'.css">').join('');
+ return html+'<script src="'+c.base+'app.js" defer></script></head>';
 }
-if(require.main===module)generate();
-module.exports={generate};
+
+// ——— Cabeçalho de jornal: botões nas pontas, assinatura e idioma ao centro, entre duas réguas ———
+const rule='<span class="masthead-rule" aria-hidden="true"></span>';
+function masthead(c,className,label,left,right){
+ const L=c.L,[first,second]=L.role.split(' · ');
+ const brand='<div class="brand-tag"><a class="owner" href="'+c.toLang+'index.html">Iago Cassarotti</a><p class="owner-role"><span class="role-text">'+esc(first)+' <span aria-hidden="true">·</span> '+esc(second)+'</span><span class="role-dot" aria-hidden="true">·</span><a class="lang-switch" href="'+c.counterpart+'" hreflang="'+L.switchTo.lang+'" lang="'+L.switchTo.lang+'" aria-label="'+esc(L.switchTo.title)+'">'+L.switchTo.label+'</a></p></div>';
+ return '<header class="'+className+'"><nav aria-label="'+esc(label)+'">'+left+rule+brand+rule+right+'</nav></header>';
+}
+
+// ——— Ampliação das capturas ———
+function print(c,file,alt,cls,sizes,eager=false){
+ return '<figure class="case-print '+cls+'"><a href="'+c.base+'assets/'+largest(file)+'" data-print aria-label="'+esc(c.L.enlarge+': '+alt)+'">'+img(file,alt,c.base,sizes,eager)+'<span class="print-hint">'+esc(c.L.enlarge)+' '+chevron+'</span></a><figcaption>'+esc(alt)+'</figcaption></figure>';
+}
+function viewer(L){
+ const V=L.viewer;
+ return '<dialog class="print-viewer" aria-labelledby="print-title"><div class="print-toolbar"><h2 id="print-title">'+esc(V.title)+'</h2><button type="button" data-size aria-pressed="false" data-actual="'+esc(V.actual)+'" data-fit="'+esc(V.fit)+'">'+esc(V.actual)+' '+chevron+'</button><button type="button" data-close autofocus>'+esc(V.close)+' '+chevron+'</button></div><div class="print-canvas" tabindex="0" aria-label="'+esc(V.canvas)+'" data-full-alt="'+esc(V.fullAlt)+'"></div></dialog>';
+}
+
+// ——— Home ———
+function renderHome(c,bundle){
+ const L=c.L,H=L.home,whatsapp=button(site.whatsapp,'WhatsApp','chat',external);
+ const panels=FEATURED.map(id=>localized(projects.find(p=>p.id===id),L)).map(p=>
+  '<div class="project-story" id="panel-'+p.id+'" aria-labelledby="project-title-'+p.id+'" data-project="'+p.id+'"><div class="panel-heading"><div><h3 id="project-title-'+p.id+'">'+esc(p.name)+'</h3><p>'+esc(p.kind)+' / '+esc(p.scope)+'</p></div>'+button(caseHref(c,p.id),L.viewCase,'open')+'</div>'+
+  '<div class="panel-media"><a href="'+caseHref(c,p.id)+'" aria-label="'+esc(H.meet+' '+p.name)+'">'+img(p.image,p.alt,c.base,SIZES.panel)+'</a></div></div>').join('');
+ const steps=H.process.steps.map(([title,text],i)=>'<li><span class="step-number" aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p></li>').join('');
+ return head(c,{title:H.title,description:H.description,bundle})+
+ '<body class="home"><a class="skip" href="#trabalhos">'+esc(H.skip)+'</a><main>'+
+ '<section class="intro" id="inicio" aria-labelledby="intro-title">'+masthead(c,'home-nav',L.navMain,button('#trabalhos',L.work,'work'),whatsapp)+
+ '<div class="brand-field" aria-hidden="true"><canvas id="brand-canvas"></canvas></div>'+
+ '<h1 id="intro-title" class="intro-type" aria-label="Creative Developer"><span class="type-group type-creative" aria-hidden="true"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span></span><span class="type-group type-developer" aria-hidden="true"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span></span></h1></section>'+
+ '<section id="trabalhos" class="work-stage work-continuous" tabindex="-1" aria-labelledby="work-title" data-rail-label="'+esc(H.rail)+'"><div class="work-heading"><h2 id="work-title" data-enter="title">'+H.workTitle+'</h2></div><div class="work-panels">'+panels+'</div></section>'+
+ '<section class="process" aria-labelledby="process-title"><div class="process-head"><span class="process-mark" aria-hidden="true">'+icon('process',83)+'</span><h2 id="process-title" data-enter="title">'+esc(H.process.title)+'</h2><p class="process-lead" data-enter="line">'+esc(H.process.lead)+'</p></div><ol class="process-steps">'+steps+'</ol></section></main>'+
+ '<footer id="percurso" class="end-invitation" aria-labelledby="invitation-title"><div class="invitation-top"><p>'+esc(H.footerTop)+'</p></div><div class="clone-field" aria-hidden="true"></div>'+
+ '<a id="invitation-title" class="invitation-link" href="'+L.files.caseDir+projects[0].id+'.html" data-copy="'+esc(H.footerCopy)+'"><span data-enter="title">'+esc(H.footerLink[0])+'</span><span data-enter="title">'+esc(H.footerLink[1])+' '+chevron+'</span></a>'+
+ '<div class="invitation-bottom"><p>'+H.footerNote+'</p><nav class="invitation-index" aria-label="'+esc(H.footerIndex)+'"><ol>'+projects.map((p,i)=>'<li><a href="'+L.files.caseDir+p.id+'.html"><span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>'+esc(p.name)+'</a></li>').join('')+'</ol></nav></div></footer></body></html>';
+}
+
+// ——— Casos ———
+function renderCase(c,index,bundle){
+ const L=c.L,C=L.case,p=localized(projects[index],L),next=projects[index+1],previous=projects[index-1];
+ const visit=p.url?'<div class="visit-cta">'+button(p.url,L.visit,'visit',external)+'<p class="visit-url"><span>'+esc(C.newTab)+'</span><strong>'+esc(new URL(p.url).hostname.replace(/^www\./,''))+'</strong></p></div>':'';
+ const gallery=(p.detail&&p.detail!==p.image?print(c,p.detail,p.detailCaption,'case-detail',SIZES.detail):'')+(p.mobile?print(c,p.mobile,p.mobileCaption||C.mobileCaption(p.name),'case-mobile',SIZES.mobile):'')+(p.extraPrint?print(c,p.extraPrint,p.extraCaption||p.alt,'case-detail',SIZES.detail):'');
+ const full=p.full?'<p class="full-page"><a href="'+c.base+'assets/'+largest(p.full)+'" data-print data-full data-srcset="'+srcset(p.full,c.base)+'">'+esc(C.fullPage)+' '+chevron+'</a>'+(p.fullCaption?'<small>'+esc(p.fullCaption)+'</small>':'')+'</p>':'';
+ return head(c,{title:p.name,description:p.line,theme:THEME[p.id],og:p.id,bundle})+
+ '<body class="case-page case-'+p.id+'"><a class="skip" href="#conteudo">'+esc(C.skip)+'</a>'+
+ masthead(c,'case-nav',L.navPortfolio,button('../index.html#trabalhos',L.work,'work'),button(previous?previous.id+'.html':'../index.html',previous?L.previous:L.back,'back'))+
+ '<main id="conteudo" tabindex="-1"><header class="case-opening"><p class="case-eyebrow" data-enter="fade">'+esc(p.kind)+(p.location?' / '+esc(p.location):'')+'</p><div class="case-title-row"><h1 data-enter="title">'+esc(p.name)+'</h1><p class="case-line" data-enter="line">'+esc(p.line)+'</p></div><dl class="case-meta" data-enter="fade"><div><dt>'+esc(C.role)+'</dt><dd>'+esc(p.scope)+'</dd></div><div><dt>'+esc(C.status)+'</dt><dd>'+esc(p.status)+'</dd></div></dl></header>'+
+ print(c,p.image,p.alt,'case-cover',SIZES.cover,true)+
+ '<section class="case-context"><p class="section-label">'+esc(C.start)+'</p><h2 data-enter="head">'+esc(p.heading)+'</h2><div class="case-copy">'+para(p.context)+'</div></section>'+
+ '<section class="case-decisions"><h2 data-enter="head">'+C.inside+'</h2><div class="decisions-list">'+p.decisions.map(([title,text])=>'<article><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p></article>').join('')+'</div></section>'+
+ '<div class="case-gallery">'+gallery+'</div>'+full+
+ '<section class="case-development"><div><p class="section-label">'+esc(C.development)+'</p><h2 data-enter="head">'+C.build+'</h2></div><div class="case-copy">'+para(p.development)+visit+'</div></section>'+
+ '<a class="next-case" data-next="'+(next?next.id:'encerramento')+'" href="'+(next?next.id+'.html':'../'+L.files.closing)+'"><span>'+esc(next?C.next:C.last)+'</span><strong>'+esc(next?next.name:C.finish)+'</strong>'+chevron+'</a></main>'+
+ viewer(L)+'</body></html>';
+}
+
+// ——— Fechamento: apresentação e agradecimento em duas telas ———
+function renderClosing(c,bundle){
+ const L=c.L,F=L.closing,whatsapp=button(site.whatsapp,'WhatsApp','chat',external);
+ const email=site.email?button('mailto:'+site.email,F.email,'mail')+'<button type="button" class="copy-email" data-copy="'+esc(site.email)+'" data-copied="'+esc(F.copied)+'"><span class="copy-address">'+esc(site.email)+'</span><span class="copy-label">'+esc(F.copy)+'</span></button>':'';
+ return head(c,{title:F.title,description:F.description,og:'encerramento',bundle}).replace('</head>','<style>@view-transition{navigation:none}</style></head>')+
+ '<body class="closing">'+masthead(c,'case-nav closing-nav',L.navPortfolio,button('index.html#trabalhos',L.work,'work'),whatsapp)+
+ '<main class="closing-stage"><section class="closing-presentation" aria-labelledby="closing-title"><h1 id="closing-title"><span data-enter="title">'+esc(F.heading[0])+'</span><span data-enter="title">'+esc(F.heading[1])+'</span></h1><p class="closing-intro" data-enter="line">'+esc(F.intro)+'</p><dl class="closing-capabilities">'+
+ F.capabilities.map(([kind,title,text],i)=>'<div data-enter="head"><dt><span class="cap-icon" aria-hidden="true">'+icon(kind,71+i*4)+'</span>'+esc(title)+'</dt><dd>'+esc(text)+'</dd></div>').join('')+'</dl></section>'+
+ '<section class="closing-sign" aria-labelledby="thanks-title"><h2 id="thanks-title" class="thanks-word" aria-label="'+esc(F.thanksLabel)+'">'+F.thanks.map(part=>'<span>'+esc(part)+'</span>').join('')+'</h2><div class="closing-thanks"><p data-enter="head">'+esc(F.lead)+'</p><p>'+esc(F.text)+'</p><div class="closing-contact">'+whatsapp+email+'</div></div>'+
+ '<div class="closing-bottom">'+button('index.html?replay=1#inicio',L.backToStart,'back')+'</div></section></main></body></html>';
+}
+
+// ——— Créditos ———
+function renderCredits(c,bundle){
+ const L=c.L,K=L.credits;
+ const licenses=fs.readdirSync(path.join(root,'assets/licenses')).filter(f=>f.endsWith('.txt'));
+ const refs=esc(K.references).replace('{eloy}','<a href="https://eloyb.design/" target="_blank" rel="noopener">Eloy Benoffi</a>').replace('{stefan}','<a href="https://stefanvitasovic.dev/" target="_blank" rel="noopener">Stefan Vitasović</a>');
+ return head(c,{title:K.title,description:K.description,bundle})+'<body class="credits-page">'+
+ masthead(c,'case-nav',L.navPortfolio,button('index.html#trabalhos',L.work,'work'),button('index.html',L.back,'back'))+
+ '<main class="credits"><h1>'+K.heading+'</h1>'+para(K.paragraphs)+'<ul>'+licenses.map(f=>'<li><a href="'+c.base+'assets/licenses/'+f+'">'+esc(f.replace('.txt',''))+' / '+esc(K.license)+'</a></li>').join('')+'</ul><p>'+refs+'</p><a href="index.html">'+esc(L.backToStart)+' '+chevron+'</a></main></body></html>';
+}
+
+function fontCss(){
+ const families=fs.readdirSync(path.join(root,'assets/fonts')).filter(f=>f.endsWith('.css')).sort();
+ return ['@font-face{font-family:DM;src:url(assets/fonts/dm-sans.woff2) format("woff2");font-weight:100 1000;font-display:swap}',
+  '@font-face{font-family:Marble;src:url(assets/fonts/marble-regular.woff2) format("woff2");font-weight:400;font-display:swap}',
+  '@font-face{font-family:Marble;src:url(assets/fonts/marble-bold.woff2) format("woff2");font-weight:700;font-display:swap}',
+  ...families.map(f=>fs.readFileSync(path.join(root,'assets/fonts',f),'utf8').trim())].join('\n')+'\n';
+}
+
+function generate({dir=root,bundle=false}={}){
+ const pages=[];
+ const write=(c,html)=>{const target=path.join(dir,c.file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,html);pages.push(c.file);};
+ for(const L of Object.values(textos)){
+  write(context(L,'home'),renderHome(context(L,'home'),bundle));
+  projects.forEach((p,i)=>write(context(L,'case',p.id),renderCase(context(L,'case',p.id),i,bundle)));
+  write(context(L,'closing'),renderClosing(context(L,'closing'),bundle));
+  write(context(L,'credits'),renderCredits(context(L,'credits'),bundle));
+ }
+ fs.writeFileSync(path.join(dir,'fonts.css'),fontCss());
+ return pages;
+}
+if(require.main===module){const pages=generate();console.log(pages.length+' páginas geradas (português e inglês).');}
+module.exports={generate,fontCss};

@@ -1,22 +1,22 @@
-const {chromium}=require(process.env.PORTFOLIO_PLAYWRIGHT||'playwright-core');
+const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict'),path=require('node:path');
 const {createServer}=require('./servidor.cjs');
 (async()=>{
  const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));
- const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+ const browser=await chromium.launch({channel:'msedge',headless:true});
  try{
   const page=await browser.newPage({viewport:{width:1440,height:900}}),errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto('http://127.0.0.1:'+server.address().port);await page.evaluate(()=>document.fonts.ready);
   const work=page.locator('.home-nav .doodle-work');assert.ok((await work.boundingBox()).height<=44);
   assert.equal(await page.locator('.replay-reveal,.replay-curtain').count(),0);
-  await work.hover();await page.waitForTimeout(310);
+  await work.hover();await page.waitForTimeout(700);
   await page.screenshot({path:path.resolve(__dirname,'../validacao/work-impacto.png'),clip:{x:1010,y:0,width:430,height:135}});
-  await page.waitForTimeout(2750);
+  await page.waitForTimeout(2600);
   assert.equal(await work.locator('.letter-piece').count(),0);
   assert.ok(Number(await work.getAttribute('data-hits'))>=5);
   const displaced=await work.locator('.button-letter').evaluateAll(list=>list.filter(e=>getComputedStyle(e).transform!=='none').length);assert.equal(displaced,4);
   await page.screenshot({path:path.resolve(__dirname,'../validacao/work-video-recriado.png'),clip:{x:1010,y:0,width:430,height:135}});
-  await page.mouse.move(300,400);assert.equal(await work.getAttribute('data-hits'),null);
+  await page.mouse.move(300,400);assert.equal(await work.getAttribute('data-hits'),null);await page.waitForTimeout(320); // as letras voltam em ~150ms, como no vídeo
   assert.equal(await work.locator('.button-letter').first().evaluate(e=>getComputedStyle(e).transform),'none');
   await page.emulateMedia({reducedMotion:'reduce'});await work.hover();assert.equal(await work.locator('.hammer').evaluate(e=>e.getAnimations().length),0);
   await work.click();assert.ok(page.url().endsWith('#trabalhos'));assert.equal(await page.locator('.project-story img').count(),4);assert.equal(await page.locator('.project-story:visible').count(),4);
