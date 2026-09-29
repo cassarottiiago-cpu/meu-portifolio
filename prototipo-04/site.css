@@ -7,7 +7,7 @@
  --paper:#eee9df;--ink:#25231f;--red:#bd291f;--line:#a4a098;
  --pad:clamp(18px,2vw,34px);--body:DM,Arial,sans-serif;
  /* Botões doodle: ajustes rápidos de cor só nestas quatro variáveis */
- --btn-bg:#ded7c8;--btn-bg-hover:#d6c9aa;--btn-text:#25231f;--btn-ink:#25231f;--btn-paper:transparent;--btn-grain:url('assets/field.svg');
+ --btn-bg:#ded7c8;--btn-bg-hover:#d6c9aa;--btn-text:#25231f;--btn-ink:#25231f;--btn-paper:transparent;--btn-grain:url('assets/grain.svg');
 }
 
 /* ——— Base ——— */
