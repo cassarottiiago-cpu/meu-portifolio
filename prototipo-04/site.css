@@ -315,8 +315,9 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .doodle-icon{width:28px;height:28px}
  /* Abertura (aprovada): só acompanha a altura nova do cabeçalho */
  /* Celular: título e recortes alinhados na mesma margem, logo abaixo do cabeçalho; o IC ocupa o resto da tela */
- .intro{min-height:0;padding-bottom:calc((100vw - 36px) * .8 + 20px)}
- .intro-type{font-size:18.6vw;margin:6svh 0 0 var(--pad);letter-spacing:-.07em}
+ .intro{min-height:100svh}
+ /* título centralizado na altura da tela, com os IC atrás */
+ .intro-type{font-size:18.6vw;margin:auto 0 auto var(--pad);padding-bottom:56px;letter-spacing:-.07em}
  .type-creative,.type-developer,.type-creative .type-fragment,.type-developer .type-echo,.type-developer .type-fragment{margin-left:0}
  .type-developer{font-size:18.6vw;margin-top:.12em}
  .type-group>span>span{padding-left:0}
