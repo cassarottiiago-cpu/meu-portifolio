@@ -19,7 +19,6 @@
 .case-print .print-hint{bottom:16px;right:5%;opacity:0;transition:opacity .2s ease}
 .case-print>a:is(:hover,:focus-visible) .print-hint{opacity:1}
 @media(hover:none){.case-print .print-hint{opacity:1}}
-.case-exit-about{padding:0 5vw 45px}
 .case-print img{width:100%;height:auto}
 .case-print figcaption{font-family:var(--case-text);font-size:11px;line-height:1.5;margin-top:12px;max-width:800px}
 .case-cover{margin:0 5vw 0}
@@ -157,17 +156,17 @@
 .case-bmk-blink .case-decisions>h2{font-size:clamp(50px,6.5vw,100px)}
 .case-bmk-blink .case-gallery .case-mobile{margin-top:90px}
 
-/* ——— OdontoCompany ——— */
-.case-odonto{--case-bg:#f5faf5;--case-ink:#0c3c2e;--case-accent:#236e31;--case-soft:#d9eddb;--case-line:#aac8b1;--case-title:Montserrat,Arial,sans-serif;--case-text:Montserrat,Arial,sans-serif;--case-weight:800}
-.case-odonto .case-opening{background:#0c3c2e;color:#fff;--case-line:#619781;padding-top:70px}
+/* ——— Melhem: mantém o identificador da rota anterior para preservar links publicados ——— */
+.case-odonto{--case-bg:#202325;--case-ink:#f1eee6;--case-accent:#d8cbb3;--case-on-accent:#202325;--case-soft:#2c3032;--case-line:#626361;--case-title:Montserrat,Arial,sans-serif;--case-text:Montserrat,Arial,sans-serif;--case-weight:500}
+.case-odonto .case-opening{background:#202325;color:#f1eee6;--case-line:#626361;padding-top:70px}
 .case-odonto .case-title-row{display:block}
 .case-odonto .case-title-row h1{font-size:clamp(62px,9.1vw,138px);letter-spacing:-.07em}
-.case-odonto .case-line{font-size:clamp(26px,3.2vw,44px);margin-top:35px;max-width:720px;color:#bcedbd}
+.case-odonto .case-line{font-size:clamp(26px,3.2vw,44px);margin-top:35px;max-width:720px;color:#d8cbb3}
 .case-odonto .case-meta{max-width:none}
 .case-odonto .case-cover{margin:0 5vw;padding-top:40px}
-.case-odonto .case-decisions{border-left:12px solid #38b549}
+.case-odonto .case-decisions{border-left:4px solid #d8cbb3}
 .case-odonto .case-gallery{padding-left:12vw;padding-right:12vw}
-.case-odonto .next-case{background:#0c3c2e;color:#fff}
+.case-odonto .next-case{background:#202325;color:#f1eee6}
 .case-odonto .next-case strong{font-size:clamp(42px,6.5vw,95px)}
 
 /* ——— Responsivo ——— */

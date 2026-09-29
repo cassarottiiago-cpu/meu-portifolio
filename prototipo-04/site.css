@@ -108,12 +108,10 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .device-mock{display:block;position:relative;width:100%;max-width:min(100%,var(--capture-width));margin-inline:auto;isolation:isolate}
 .device-screen{display:block;position:relative;overflow:hidden;background:#20201f;border:clamp(5px,.7vw,11px) solid #262626;border-top-width:clamp(13px,1.5vw,23px);border-radius:clamp(8px,1.2vw,18px) clamp(8px,1.2vw,18px) 3px 3px;box-shadow:0 0 0 1px #74736f}
 .device-screen img{width:100%;height:auto;border-radius:1px}
-.device-mac{padding:0 3.5% 2.1%}
-.device-mac::before{content:'';position:absolute;z-index:1;top:clamp(4px,.52vw,8px);left:calc(50% - 2px);width:4px;height:4px;background:#565b5c;border-radius:50%}
 .device-base{display:block;position:absolute;bottom:0;left:0;width:100%;height:2.3%;min-height:7px;background:linear-gradient(#d7d6d2,#a5a5a2 45%,#777773);border-radius:2px 2px 40% 40%/2px 2px 100% 100%;box-shadow:0 8px 12px -8px #25231f66}
 .device-base::after{content:'';position:absolute;top:0;left:43%;width:14%;height:40%;background:#7b7b78;border-radius:0 0 5px 5px}
-.device-window .device-screen{border:1px solid #92918c;border-top:24px solid #deddd8;border-radius:9px;box-shadow:0 10px 24px -20px #25231f66}
-.device-window::before{content:'';position:absolute;z-index:1;left:10px;top:9px;width:6px;height:6px;border-radius:50%;background:#b7b4ad;box-shadow:11px 0 #b7b4ad,22px 0 #b7b4ad}
+.device-window .device-screen{border:1px solid #c3c0b9;border-top:32px solid #e3e1db;border-radius:9px;box-shadow:0 10px 24px -20px #25231f66}
+.device-window::before{content:'';position:absolute;z-index:1;left:12px;top:12px;width:8px;height:8px;border-radius:50%;background:#ed6a5e;box-shadow:14px 0 #f4bf4f,28px 0 #61c454}
 .device-window .device-base{display:none}
 .device-phone{max-width:340px;padding:0 5px}
 .device-phone .device-screen{border:7px solid #272727;border-top-width:25px;border-bottom-width:19px;border-radius:32px;box-shadow:0 0 0 2px #8b8a85,0 14px 26px -19px #25231f99}
@@ -268,12 +266,18 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .thanks-word{position:relative;margin:0 0 clamp(22px,4vh,46px);font-size:min(calc((100vw - 2 * var(--pad)) / var(--fit)),34svh);line-height:.8;font-weight:500;letter-spacing:-.078em;white-space:nowrap;color:var(--ink);--pupil:var(--red);--fit:4.68}
 :lang(en) .thanks-word{--fit:4.96}
 .thanks-word>span{display:inline}
-.closing-thanks{display:grid;grid-template-columns:1.05fr 1fr auto;gap:4vw;align-items:center}
+.closing-thanks{display:grid;grid-template-columns:1.05fr 1fr;gap:4vw;align-items:center}
 .closing-thanks>p:first-child{font-size:clamp(23px,2.5vw,38px);letter-spacing:-.045em;line-height:1.15;max-width:500px}
 .closing-thanks>p:nth-child(2){font-size:13px;line-height:1.6;max-width:390px}
 .closing-contact{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 .closing-contact .doodle-link{min-height:58px;padding:6px 28px 6px 16px;gap:12px;font-size:16px}
 .closing-contact .doodle-icon{width:42px;height:42px}
+.closing-contact.about-contact{display:flex;flex-direction:row;flex-wrap:wrap;gap:12px;margin-top:26px}
+.doodle-selected .selected-back,.doodle-selected .selected-front{transform-origin:21px 25px}
+@keyframes selected-back{0%,100%{transform:none}40%,65%{transform:translate(4px,-3px) rotate(13deg)}}
+@keyframes selected-front{0%,100%{transform:none}30%,65%{transform:translate(-3px,2px) rotate(-11deg)}}
+.doodle-selected:is(:hover,:focus-visible) .selected-back{animation:selected-back .8s cubic-bezier(.3,.7,.2,1) both}
+.doodle-selected:is(:hover,:focus-visible) .selected-front{animation:selected-front .8s cubic-bezier(.3,.7,.2,1) both}
 .doodle-mail .mail-flap{transform-origin:21px 11px;transition:transform .35s cubic-bezier(.3,1.4,.5,1)}
 .doodle-mail:is(:hover,:focus-visible) .mail-flap{transform:scaleY(-1)}
 .doodle-mail:is(:hover,:focus-visible) .button-letter{animation:hop .34s cubic-bezier(.3,.7,.4,1) calc(var(--letter)*26ms) both}

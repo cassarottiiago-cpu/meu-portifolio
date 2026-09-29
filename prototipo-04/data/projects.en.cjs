@@ -118,17 +118,17 @@ module.exports = {
     detailCaption: 'Plans and services carousel of Blink BMK, after its images and fonts loaded.'
   },
   odonto: {
-    kind: 'Landing page', status: 'Live site · Morro Agudo',
-    alt: 'OdontoCompany Morro Agudo: introduction of the clinic and the initial booking form',
-    line: 'A well-known network. Local care.', scope: 'Landing page design and development',
-    heading: 'From doubt to practical information.',
-    context: ['The page presents OdontoCompany’s Morro Agudo clinic. It brings together a network brand and information specific to one clinic: treatments, facilities, the professional in charge, FAQs and contact.', 'The opening offers an interest form. Reading can continue through the specialties and the clinic before the person decides to start booking.'],
+    kind: 'Landing page', status: 'Live site · Nanuque, Brazil',
+    alt: 'Melhem Odontologia: dark opening with delicate lines, introduction and appointment links',
+    line: 'Precision in form. Clarity in the next step.', scope: 'Landing page design and development',
+    heading: 'A digital presence that reflects the clinic.',
+    context: ['Melhem Odontologia presents its aesthetic dentistry and oral rehabilitation practice in Nanuque, Brazil. The site introduces treatments, planning, facilities and the clinical team before inviting visitors to book.', 'The visual direction combines a dark background, sand tones and fine lines in the opening. Numbered sections guide the reading and give each subject its own space.'],
     decisions: [
-      ['The clinic in focus', 'Morro Agudo appears in the main message. The local identification sets this page apart from the network’s generic communication.'],
-      ['A short start', 'Name, phone and interest in a procedure make up the initial form. The first interaction is focused on contact information.'],
-      ['Answers nearby', 'Specialties, facilities and frequently asked questions are available along the way. The page offers context beyond the invitation to book.']
+      ['Identity and rhythm', 'Large typography, contrast and delicate lines introduce the clinic. Numbered sections support reading throughout the page.'],
+      ['Treatments in context', 'Procedures, planning stages and the team have their own sections. Visitors can get to know the clinic before making contact.'],
+      ['Two ways to get in touch', 'WhatsApp and a form offer alternative ways to start a conversation. Location and practical details sit near the booking options.']
     ],
-    development: ['The interface combines a form in the opening, section navigation and expandable FAQs. There is also an interest-selection sequence with procedure options.', 'The form uses name and phone fields and a procedure selection. For the portfolio presentation, no data was submitted: the inspection checked the available structure, not lead delivery or service integrations.', 'The case is limited to the Morro Agudo clinic’s landing page. Clinical claims, testimonials and commercial terms on the site are not validated or used as proof of results for this work.'],
-    detailCaption: 'Treatments section of the Morro Agudo clinic, with the full cards.'
+    development: ['The page combines anchor navigation, treatments, planning, facilities and team introductions. Visual hierarchy organizes the content into a continuous sequence.', 'Contact can begin through WhatsApp or a form with name, phone and procedure of interest. This case presents the published interface without attributing commercial or clinical outcomes to the page.'],
+    detailCaption: 'Melhem Odontologia procedures: specialties and contact links.'
   }
 };

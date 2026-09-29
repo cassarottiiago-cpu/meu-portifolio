@@ -10,6 +10,7 @@ Site estático em `prototipo-04/` (HTML/CSS/JS nativos, português na raiz e ing
 - Projetos selecionados na home: AUTOPOST, Dr. Paulo, Dra. Natália, Limozine. Sites: Natália em dranataliamessias.com.br, Dr. Paulo em drpauloseraphim.com.br.
 - `projetos.html` (`en/projects.html`) lista os cinco trabalhos restantes, com capas clicáveis e ficha que acompanha o scroll. Casos voltam ao catálogo; não existe percurso obrigatório pelos nove projetos.
 - A assinatura do cabeçalho e os botões About levam a `encerramento.html` (`en/thanks.html`): apresentação, formação em curso em Publicidade e Propaganda e desenvolvimento autodidata. A vinheta de retorno continua no fim dessa página.
-- Mockups são molduras CSS em `scripts/gerar.cjs` / `site.css`; as imagens conservam proporção e ampliação. Capturas altas usam janela de desktop; mobile usa celular. Não gerar interfaces fictícias para substituir os prints reais.
+- Mockups web são janelas com três bolinhas coloridas (não notebooks físicos); mobile usa celular. As imagens conservam proporção e ampliação. O botão About aparece só no rodapé da home. O catálogo usa a chamada “Quem está por trás?” e um botão de retorno com ícone/animação próprios (`selected`).
+- Melhem Odontologia substitui ODC, preservando o identificador `odonto` para manter os links antigos. Contatos ficam juntos na apresentação do About, sem exibir o endereço de e-mail como texto.
 - Pendências: e-mail profissional (`email` em data/site.cjs liga o botão de e-mail com copiar) e domínio final (`url`, gera canonical/og:image/sitemap).
 - Não publicar nem dar push sem Iago pedir. Aceite criativo é dele; testes não o substituem.

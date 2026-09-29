@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'..');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'assets/img/manifest.json'),'utf8'));
 const FEATURED=['autopost','dr-paulo','natalia','limozine'];
 // Cor da barra do navegador no celular: o fundo de cada caso.
-const THEME={autopost:'#f6f8fc',phron:'#0e131d',qozt:'#fffdf9',natalia:'#edeee6','dr-paulo':'#edeee6',limozine:'#151311',dominos:'#f5f8fb','bmk-blink':'#fff9f5',odonto:'#f5faf5'};
+const THEME={autopost:'#f6f8fc',phron:'#0e131d',qozt:'#fffdf9',natalia:'#edeee6','dr-paulo':'#edeee6',limozine:'#151311',dominos:'#f5f8fb','bmk-blink':'#fff9f5',odonto:'#202325'};
 const PAPER='#eee9df';
 
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -45,7 +45,7 @@ const SIZES={panel:'(max-width:700px) calc(100vw - 36px), 56vw',cover:'(max-widt
 
 // Molduras em CSS: a captura continua sendo uma imagem responsiva, sem cortes ou distorção.
 function mock(file,alt,base,sizes,eager=false,phone=false){
- const {width,height}=variants(file),type=phone?'phone':height>width*.95?'window':'mac';
+ const type=phone?'phone':'window';
  return '<span class="device-mock device-'+type+'" style="--capture-width:'+variants(file).width+'px"><span class="device-screen">'+img(file,alt,base,sizes,eager)+'</span><span class="device-base" aria-hidden="true"></span></span>';
 }
 function projectPanels(c,list){
@@ -56,8 +56,8 @@ function projectPanels(c,list){
 }
 function invitation(c,about=false){
  const L=c.L,H=about?L.catalog:L.home;
- const index=about?button('index.html#trabalhos',L.catalog.selected,'work'):'<nav class="invitation-index" aria-label="'+esc(H.footerIndex)+'"><ol>'+projects.map((p,i)=>'<li><a href="'+L.files.caseDir+p.id+'.html"><span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>'+esc(p.name)+'</a></li>').join('')+'</ol></nav>';
- return '<footer id="percurso" class="end-invitation'+(about?' about-invitation':'')+'" aria-labelledby="invitation-title"><div class="invitation-top"><p>'+esc(H.footerTop)+'</p>'+button(L.files.closing,'About','about')+'</div><div class="clone-field" aria-hidden="true"></div>'+
+ const index=about?button('index.html#trabalhos',L.catalog.selected,'selected'):'<nav class="invitation-index" aria-label="'+esc(H.footerIndex)+'"><ol>'+projects.map((p,i)=>'<li><a href="'+L.files.caseDir+p.id+'.html"><span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>'+esc(p.name)+'</a></li>').join('')+'</ol></nav>';
+ return '<footer id="percurso" class="end-invitation'+(about?' about-invitation':'')+'" aria-labelledby="invitation-title"><div class="invitation-top"><p>'+esc(H.footerTop)+'</p>'+(about?'':button(L.files.closing,'About','about'))+'</div><div class="clone-field" aria-hidden="true"></div>'+
  '<a id="invitation-title" class="invitation-link" href="'+(about?L.files.closing:L.files.catalog)+'" data-copy="'+esc(H.footerCopy)+'"><span data-enter="title">'+esc(H.footerLink[0])+'</span><span data-enter="title">'+esc(H.footerLink[1])+' '+chevron+'</span></a>'+
  '<div class="invitation-bottom"><p>'+H.footerNote+'</p>'+index+'</div></footer>';
 }
@@ -135,19 +135,19 @@ function renderCase(c,index,bundle){
  '<section class="case-decisions"><h2 data-enter="head">'+C.inside+'</h2><div class="decisions-list">'+p.decisions.map(([title,text])=>'<article><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p></article>').join('')+'</div></section>'+
  '<div class="case-gallery">'+gallery+'</div>'+full+
  '<section class="case-development"><div><p class="section-label">'+esc(C.development)+'</p><h2 data-enter="head">'+C.build+'</h2></div><div class="case-copy">'+para(p.development)+visit+'</div></section>'+
- '<footer class="case-exit"><a class="next-case" href="../'+L.files.catalog+'"><span>'+esc(L.catalog.choose)+'</span><strong>'+esc(L.catalog.all)+'</strong>'+chevron+'</a><div class="case-exit-about">'+button('../'+L.files.closing,'About','about')+'</div></footer></main>'+
+ '<footer class="case-exit"><a class="next-case" href="../'+L.files.catalog+'"><span>'+esc(L.catalog.choose)+'</span><strong>'+esc(L.catalog.all)+'</strong>'+chevron+'</a></footer></main>'+
  viewer(L)+'</body></html>';
 }
 
 // ——— Fechamento: apresentação e agradecimento em duas telas ———
 function renderClosing(c,bundle){
  const L=c.L,F=L.closing,whatsapp=button(site.whatsapp,'WhatsApp','chat',external);
- const email=site.email?button('mailto:'+site.email,F.email,'mail')+'<button type="button" class="copy-email" data-copy="'+esc(site.email)+'" data-copied="'+esc(F.copied)+'"><span class="copy-address">'+esc(site.email)+'</span><span class="copy-label">'+esc(F.copy)+'</span></button>':'';
+ const email=site.email?button('mailto:'+site.email,F.email,'mail'):'';
  return head(c,{title:F.title,description:F.description,og:'encerramento',bundle})+
- '<body class="closing">'+masthead(c,'case-nav closing-nav',L.navPortfolio,button('index.html#trabalhos',L.work,'work'),whatsapp)+
- '<main class="closing-stage"><section class="closing-presentation" aria-labelledby="closing-title"><div class="about-heading"><p class="about-kicker">ABOUT / IAGO CASSAROTTI</p><h1 id="closing-title"><span data-enter="title">'+esc(F.heading[0])+'</span><span data-enter="title">'+esc(F.heading[1])+'</span></h1><dl class="about-facts">'+F.facts.map(([label,value])=>'<div><dt>'+esc(label)+'</dt><dd>'+esc(value)+'</dd></div>').join('')+'</dl></div><div class="about-copy"><p class="closing-intro" data-enter="line">'+esc(F.intro)+'</p><p class="about-story">'+esc(F.story)+'</p></div><dl class="closing-capabilities">'+
+ '<body class="closing">'+masthead(c,'case-nav closing-nav',L.navPortfolio,button('index.html#trabalhos',L.work,'work'),button('index.html',L.back,'back'))+
+ '<main class="closing-stage"><section class="closing-presentation" aria-labelledby="closing-title"><div class="about-heading"><p class="about-kicker">ABOUT / IAGO CASSAROTTI</p><h1 id="closing-title"><span data-enter="title">'+esc(F.heading[0])+'</span><span data-enter="title">'+esc(F.heading[1])+'</span></h1><dl class="about-facts">'+F.facts.map(([label,value])=>'<div><dt>'+esc(label)+'</dt><dd>'+esc(value)+'</dd></div>').join('')+'</dl></div><div class="about-copy"><p class="closing-intro" data-enter="line">'+esc(F.intro)+'</p><p class="about-story">'+esc(F.story)+'</p><div class="closing-contact about-contact">'+whatsapp+email+'</div></div><dl class="closing-capabilities">'+
  F.capabilities.map(([kind,title,text],i)=>'<div data-enter="head"><dt><span class="cap-icon" aria-hidden="true">'+icon(kind,71+i*4)+'</span>'+esc(title)+'</dt><dd>'+esc(text)+'</dd></div>').join('')+'</dl></section>'+
- '<section class="closing-sign" aria-labelledby="thanks-title"><h2 id="thanks-title" class="thanks-word" aria-label="'+esc(F.thanksLabel)+'">'+F.thanks.map(part=>'<span>'+esc(part)+'</span>').join('')+'</h2><div class="closing-thanks"><p data-enter="head">'+esc(F.lead)+'</p><p>'+esc(F.text)+'</p><div class="closing-contact">'+whatsapp+email+'</div></div>'+
+ '<section class="closing-sign" aria-labelledby="thanks-title"><h2 id="thanks-title" class="thanks-word" aria-label="'+esc(F.thanksLabel)+'">'+F.thanks.map(part=>'<span>'+esc(part)+'</span>').join('')+'</h2><div class="closing-thanks"><p data-enter="head">'+esc(F.lead)+'</p><p>'+esc(F.text)+'</p></div>'+
  '<div class="closing-bottom">'+button('index.html?replay=1#inicio',L.backToStart,'back')+'</div></section></main></body></html>';
 }
 

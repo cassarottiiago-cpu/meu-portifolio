@@ -130,19 +130,19 @@ module.exports = [
     detailCaption: 'Carrossel de planos e serviços do Blink BMK, após carregar suas imagens e fontes.'
   },
   {
-    id: 'odonto', name: 'OdontoCompany', kind: 'Landing page', status: 'Site publicado · Morro Agudo',
-    image: 'revisao-23/odonto-cover.webp', detail: 'revisao-23/odonto-secao.webp', full: 'revisao-23/odonto-completo.webp',
-    url: 'https://lpodcmorroagudo.vercel.app/',
-    alt: 'OdontoCompany Morro Agudo: apresentação da unidade e formulário inicial de agendamento',
-    line: 'Uma rede conhecida. Um atendimento local.', scope: 'Design e desenvolvimento da landing page',
-    heading: 'Da dúvida à informação prática.',
-    context: ['A página apresenta a unidade Morro Agudo da OdontoCompany. Ela reúne uma marca de rede e informações específicas de uma clínica: tratamentos, estrutura, profissional responsável, dúvidas e contato.', 'A abertura oferece um formulário de interesse. A leitura pode continuar pelas especialidades e pela unidade antes que a pessoa decida iniciar o agendamento.'],
+    id: 'odonto', name: 'Melhem Odontologia', kind: 'Landing page', status: 'Site publicado · Nanuque, MG',
+    image: 'revisao-23/melhem-cover.png', detail: 'revisao-23/melhem-secao.png', full: 'revisao-23/melhem-completo.png',
+    url: 'https://melhemodontologia.vercel.app/',
+    alt: 'Melhem Odontologia: abertura escura com linhas delicadas, apresentação e acesso ao agendamento',
+    line: 'Precisão na forma. Clareza no próximo passo.', scope: 'Design e desenvolvimento da landing page',
+    heading: 'Uma presença digital à altura da clínica.',
+    context: ['A Melhem Odontologia apresenta seu trabalho em estética e reabilitação oral em Nanuque, Minas Gerais. O site organiza procedimentos, planejamento, ambiente e corpo clínico antes do convite para agendar.', 'A direção visual combina fundo escuro, tons de areia e linhas finas na abertura. A sequência numerada orienta a leitura e dá a cada assunto um espaço próprio.'],
     decisions: [
-      ['Unidade em evidência', 'Morro Agudo aparece na mensagem principal. A identificação local distingue esta página da comunicação genérica da rede.'],
-      ['Entrada curta', 'Nome, telefone e interesse em procedimento compõem o formulário inicial. A primeira interação fica concentrada em informações de contato.'],
-      ['Dúvidas próximas', 'Especialidades, estrutura e perguntas frequentes ficam disponíveis no percurso. A página oferece contexto além do convite para agendar.']
+      ['Identidade e ritmo', 'Tipografia ampla, contraste e linhas delicadas apresentam a clínica. Seções numeradas sustentam a leitura ao longo da página.'],
+      ['Tratamentos com contexto', 'Procedimentos, etapas do planejamento e equipe aparecem em blocos próprios. A pessoa pode conhecer a clínica antes de entrar em contato.'],
+      ['Dois caminhos de contato', 'WhatsApp e formulário oferecem alternativas para iniciar a conversa. Localização e informações práticas ficam próximas do agendamento.']
     ],
-    development: ['A interface combina um formulário na abertura, navegação por seções e perguntas frequentes expansíveis. Há também uma sequência de seleção de interesse com opções de procedimentos.', 'O formulário usa campos de nome e telefone e uma seleção de procedimento. Na apresentação do portfólio, nenhum dado foi enviado: a inspeção verificou a estrutura disponível, não o recebimento de leads ou integrações do atendimento.', 'O caso se limita à landing page da unidade Morro Agudo. Alegações clínicas, depoimentos e condições comerciais que aparecem no site não são validados nem usados como prova de resultado deste trabalho.'],
-    detailCaption: 'Seção de tratamentos da unidade Morro Agudo, com os cartões completos.'
+    development: ['A página reúne navegação por âncoras, apresentação dos procedimentos, método de atendimento, estrutura da clínica e equipe. A hierarquia visual organiza esse conteúdo em uma sequência contínua.', 'O contato pode começar por WhatsApp ou por um formulário com nome, telefone e procedimento de interesse. O caso apresenta a interface publicada, sem atribuir resultados comerciais ou clínicos à página.'],
+    detailCaption: 'Procedimentos da Melhem Odontologia: apresentação das especialidades e acessos ao contato.'
   }
 ];

@@ -75,7 +75,7 @@ async function axe(page,label){await settle(page);const result=await new AxeBuil
    check(await page.locator('h1').textContent()===p.name,'Título '+p.id);const font=await page.locator('h1').evaluate(e=>getComputedStyle(e).fontFamily);check(font.includes(expected[p.id]),'Fonte do projeto '+p.id,font);
    check((await page.locator('.case-cover img').getAttribute('src')).includes('/'+p.image.split('/').pop().replace(/.[a-z]+$/,'')+'-'),'Capa correta '+p.id);
    check(await page.locator('.next-case').getAttribute('href')==='../projetos.html','Voltar à escolha de projetos '+p.id);
-   check(await page.locator('.case-exit-about a').getAttribute('href')==='../encerramento.html','About direto no caso '+p.id);
+   check(await page.locator('.doodle-about').count()===0,'Sem botão About redundante no caso '+p.id);
    await bounds(page,'caso '+p.id+' desktop');await axe(page,p.id);await picture(page,'caso-'+p.id+'-desktop');
    for(const width of [1024,768,390,320]){await page.setViewportSize({width,height:844});await ready(page);await bounds(page,'caso '+p.id+' '+width);if(width===390)await picture(page,'caso-'+p.id+'-mobile');}
    console.log('Caso revisto:',p.id);

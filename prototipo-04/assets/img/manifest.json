@@ -533,73 +533,77 @@
    ]
   ]
  },
- "revisao-23/odonto-cover.webp": {
+ "revisao-23/melhem-cover.png": {
   "width": 2880,
-  "height": 2232,
+  "height": 2000,
   "variants": [
    [
     480,
-    "img/odonto-cover-480.webp"
+    "img/melhem-cover-480.webp"
    ],
    [
     800,
-    "img/odonto-cover-800.webp"
+    "img/melhem-cover-800.webp"
    ],
    [
     1200,
-    "img/odonto-cover-1200.webp"
+    "img/melhem-cover-1200.webp"
    ],
    [
     1600,
-    "img/odonto-cover-1600.webp"
+    "img/melhem-cover-1600.webp"
    ],
    [
     2000,
-    "img/odonto-cover-2000.webp"
+    "img/melhem-cover-2000.webp"
    ],
    [
     2880,
-    "img/odonto-cover-2880.webp"
+    "img/melhem-cover-2880.webp"
    ]
   ]
  },
- "revisao-23/odonto-secao.webp": {
-  "width": 1920,
-  "height": 1789,
+ "revisao-23/melhem-secao.png": {
+  "width": 2880,
+  "height": 2428,
   "variants": [
    [
     480,
-    "img/odonto-secao-480.webp"
+    "img/melhem-secao-480.webp"
    ],
    [
     800,
-    "img/odonto-secao-800.webp"
+    "img/melhem-secao-800.webp"
    ],
    [
     1200,
-    "img/odonto-secao-1200.webp"
+    "img/melhem-secao-1200.webp"
    ],
    [
     1600,
-    "img/odonto-secao-1600.webp"
+    "img/melhem-secao-1600.webp"
    ],
    [
-    1920,
-    "img/odonto-secao-1920.webp"
+    2000,
+    "img/melhem-secao-2000.webp"
+   ],
+   [
+    2880,
+    "img/melhem-secao-2880.webp"
    ]
   ]
  },
- "revisao-23/odonto-completo.webp": {
-  "width": 1920,
-  "height": 9933,
+ "revisao-23/melhem-completo.png": {
+  "width": 2880,
+  "height": 15692,
   "variants": [
    [
     1080,
-    "img/odonto-completo-1080.webp"
+    "img/melhem-completo-1080.webp"
    ],
    [
-    1920,
-    "img/odonto-completo-1920.webp"
+    2880,
+    "img/melhem-completo-2880.webp"
    ]
   ]
  }
