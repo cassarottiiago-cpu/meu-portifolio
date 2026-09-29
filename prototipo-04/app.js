@@ -375,7 +375,7 @@ if(document.body.classList.contains('closing')){
  let leaving=false;
  const returnLink=document.querySelector('.closing-bottom a'),word=document.querySelector('.thanks-word')?.textContent.trim()||'';
  // Mesma composição da abertura: o último quadro da vinheta é o primeiro quadro da home, sem corte.
- const HERO_TYPE='<h1 class="intro-type"><span class="type-group type-creative"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span><span class="type-extra x1"><span>CREATIVE</span></span></span><span class="type-group type-developer"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span><span class="type-extra x1"><span>DEVELOPER</span></span><span class="type-extra x2"><span>DEVELOPER</span></span></span></h1>';
+ const HERO_TYPE='<h1 class="intro-type"><span class="type-group type-creative"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span><span class="type-extra x1"><span>CREATIVE</span></span><span class="type-extra x2"><span>CREATIVE</span></span></span><span class="type-group type-developer"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span><span class="type-extra x1"><span>DEVELOPER</span></span><span class="type-extra x2"><span>DEVELOPER</span></span><span class="type-extra x3"><span>DEVELOPER</span></span></span></h1>';
  async function returnToOpening(){
   if(leaving)return;leaving=true;
   if(motion()){

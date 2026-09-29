@@ -320,10 +320,13 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .intro{min-height:100svh;overflow-x:clip;overflow-y:visible}
  .type-group>.type-extra{display:block;position:absolute;height:.21em;max-width:none}
  .type-extra>span{transform:translate(calc(var(--intro-scroll,0) * 60px),-.36em)}
- .type-creative>.type-extra.x1{left:1.9em;top:-.62em}
+ .type-creative>.type-extra.x1{left:-1.7em;top:-.62em}
+ .type-creative>.type-extra.x2{left:-2.4em;top:-1.02em}
+ .type-creative>.type-extra.x2>span{transform:translate(calc(var(--intro-scroll,0) * -70px),-.55em)}
  .type-developer>.type-extra.x1{left:2.4em;top:1.3em}
  .type-developer>.type-extra.x2{left:3.2em;top:1.72em}
- .type-developer>.type-extra.x2>span{transform:translate(calc(var(--intro-scroll,0) * -80px),-.6em)}
+ .type-developer>.type-extra.x3{left:1.5em;top:2.12em}
+ .type-developer>.type-extra.x2>span,.type-developer>.type-extra.x3>span{transform:translate(calc(var(--intro-scroll,0) * -80px),-.6em)}
  .brand-field{bottom:-26svh}
  /* título centralizado na altura da tela, com os IC atrás */
  .intro-type{font-size:18.6vw;margin:auto 0 auto var(--pad);padding-bottom:56px;letter-spacing:-.07em}
