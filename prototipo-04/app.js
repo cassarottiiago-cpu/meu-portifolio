@@ -119,7 +119,7 @@ if(intro&&canvas){
  if(ctx){
   const source=document.createElement('canvas'),mask=source.getContext('2d',{willReadFrequently:true});
   source.width=300;source.height=220;
-  let samples=[],bounds={cx:150,cy:110,w:300,h:220},typeBottom=0,width=1,height=1,introTop=0,frame=0,visible=true,px=0,py=0,targetX=0,targetY=0,scroll=0,targetScroll=0,previous=0;
+  let fieldH=1,samples=[],bounds={cx:150,cy:110,w:300,h:220},typeBottom=0,width=1,height=1,introTop=0,frame=0,visible=true,px=0,py=0,targetX=0,targetY=0,scroll=0,targetScroll=0,previous=0;
   let assembly=1,assemblyStart=null,assembling=false,heat=0,inside=false,stampTime=0;
   const atlases=new Map();
   function build(){
@@ -131,7 +131,9 @@ if(intro&&canvas){
   }
   function size(){
    const rect=intro.getBoundingClientRect();width=rect.width;height=rect.height;typeBottom=(intro.querySelector('.intro-type')?.getBoundingClientRect().bottom??0)-rect.top;introTop=rect.top+scrollY;const dpr=Math.min(2,devicePixelRatio||1);atlases.clear();
-   canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);schedule();
+   // No celular o campo passa da abertura (o C entra atrás de "Projetos selecionados"); as posições seguem a altura da abertura.
+   fieldH=canvas.parentElement.getBoundingClientRect().height||height;
+   canvas.width=Math.round(width*dpr);canvas.height=Math.round(fieldH*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);schedule();
   }
   // Os quatro caracteres (bloco, =, #, :) em duas cores são desenhados uma vez numa folha e copiados.
   function atlasFor(scale){
@@ -167,11 +169,11 @@ if(intro&&canvas){
    const dt=previous?Math.min(45,time-previous):16;previous=time;
    const ease=motion()?1-Math.exp(-dt/75):1;
    px+=(targetX-px)*ease;py+=(targetY-py)*ease;scroll+=(targetScroll-scroll)*ease;
-   ctx.clearRect(0,0,width,height);
+   ctx.clearRect(0,0,width,fieldH);
    const compact=width<700,scale=compact?width/330:Math.min(width/460,height/250);
    // Celular: um monograma IC inteiro sob o título; computador: dois, sangrando pelas bordas.
    // Celular: os dois IC como no computador, maiores que a tela, sangrando pelas bordas atrás do título.
-   if(compact){const s=Math.min(height*.42/bounds.h,width*1.15/bounds.w);const k=s*.9;stamp(width*.86,height*.24,k,0);stamp(width*.22,height*.84,k,1);}
+   if(compact){const s=Math.min(height*.42/bounds.h,width*1.15/bounds.w);const k=s*.9;stamp(width*.86,height*.24,k,0);stamp(width*.2,height*.93,k*1.18,1);}
    else{stamp(width*.83,height*.33,scale,0);stamp(width*.08,height*.78,scale*.85,1);}
    // Perto do ponteiro os caracteres trocam de forma enquanto ele se mexe.
    const awake=inside&&motion()&&performance.now()-pointer.moved<520;

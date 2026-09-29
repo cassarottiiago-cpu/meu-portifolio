@@ -318,7 +318,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .doodle-icon{width:28px;height:28px}
  /* Abertura (aprovada): só acompanha a altura nova do cabeçalho */
  /* Celular: título e recortes alinhados na mesma margem, logo abaixo do cabeçalho; o IC ocupa o resto da tela */
- .intro{min-height:100svh}
+ .intro{min-height:100svh;overflow:visible}
+ .brand-field{bottom:-26svh}
  .intro-foot{display:block;position:absolute;left:var(--pad);right:var(--pad);bottom:18px;pointer-events:none}
  .intro-foot .masthead-rule{display:block;margin:0 0 9px;height:11px;--tick:var(--ink);opacity:.55}
  .intro-foot::before{content:'';position:absolute;right:0;bottom:44px;width:13px;height:25svh;opacity:.55;background:linear-gradient(var(--ink),var(--ink)) 100% 0/1px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 8px) 100% 0/6px 100% no-repeat,repeating-linear-gradient(180deg,var(--ink) 0 1px,transparent 1px 48px) 100% 0/13px 100% no-repeat}
