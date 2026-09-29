@@ -116,6 +116,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .type-creative .type-fragment{margin-left:.4em}
 .type-developer .type-echo{margin-left:1.05em;margin-top:.05em;margin-bottom:0}
 .type-developer .type-fragment{margin-left:2.05em}
+/* Fragmentos extras: só no celular, passando da borda direita */
+.type-extra{display:none}
 /* Olhos nos "O" (DEVELOPER e OBRIGADO.): pupila segue o ponteiro (app.js) */
 .type-developer .type-full>span{position:relative}
 .o-eye{position:absolute;left:var(--ex,0);top:var(--ey,0);width:var(--ew,0);height:var(--eh,0);transform:translate(-50%,-50%);pointer-events:none;opacity:0}
@@ -315,7 +317,13 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
  .doodle-icon{width:28px;height:28px}
  /* Abertura (aprovada): só acompanha a altura nova do cabeçalho */
  /* Celular: título e recortes alinhados na mesma margem, logo abaixo do cabeçalho; o IC ocupa o resto da tela */
- .intro{min-height:100svh;overflow:visible}
+ .intro{min-height:100svh;overflow-x:clip;overflow-y:visible}
+ .type-group>.type-extra{display:block;position:absolute;height:.21em;max-width:none}
+ .type-extra>span{transform:translate(calc(var(--intro-scroll,0) * 60px),-.36em)}
+ .type-creative>.type-extra.x1{left:1.9em;top:-.62em}
+ .type-developer>.type-extra.x1{left:2.5em;top:2.35em}
+ .type-developer>.type-extra.x2{left:1.85em;top:3.55em}
+ .type-developer>.type-extra.x2>span{transform:translate(calc(var(--intro-scroll,0) * -80px),-.6em)}
  .brand-field{bottom:-26svh}
  /* título centralizado na altura da tela, com os IC atrás */
  .intro-type{font-size:18.6vw;margin:auto 0 auto var(--pad);padding-bottom:56px;letter-spacing:-.07em}

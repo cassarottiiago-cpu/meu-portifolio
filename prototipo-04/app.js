@@ -139,10 +139,10 @@ if(intro&&canvas){
   function atlasFor(scale){
    if(atlases.has(scale))return atlases.get(scale);
    const dpr=Math.min(2,devicePixelRatio||1),side=Math.ceil(Math.max(5,5.6*scale)*2),tile=Math.ceil(side*dpr),sheet=document.createElement('canvas');
-   sheet.width=tile*8;sheet.height=tile;
+   sheet.width=tile*16;sheet.height=tile;
    const pen=sheet.getContext('2d');pen.scale(dpr,dpr);pen.textBaseline='top';pen.font=Math.max(5,5.6*scale)+'px monospace';
    for(let color=0;color<2;color++)for(let glyph=0;glyph<4;glyph++){
-    pen.fillStyle=color?'#bd291f':'#25231f';const x=(color*4+glyph)*tile/dpr;
+    pen.fillStyle=color?'#bd291f':'#25231f';const x=(color*4+glyph)*2*tile/dpr;
     if(glyph===0)pen.fillRect(x,0,4*scale*.86,scale*3.9);else pen.fillText(['','=','#',':'][glyph],x,0);
    }
    const atlas={sheet,tile,side:tile/dpr};atlases.set(scale,atlas);return atlas;
@@ -158,7 +158,7 @@ if(intro&&canvas){
     if(heat>.02){const gx=x+shift-(px*.5+.5)*width,gy=y-(py*.5+.5)*height,radius=height*.19*heat;if(gx*gx+gy*gy<radius*radius)glyph=(p.glyph+1+Math.floor(stampTime/85+p.seed*11))%4;}
     const formation=1-Math.pow(1-clamp((assembly-p.seed*.18)/.82),3),spread=1-formation;
     ctx.globalAlpha=formation;
-    ctx.drawImage(atlas.sheet,(color*4+glyph)*atlas.tile,0,atlas.tile,atlas.tile,x+shift+spread*(p.wave*width*.45),y+spread*(p.seed-.5)*height*.65,atlas.side,atlas.side);
+    ctx.drawImage(atlas.sheet,(color*4+glyph)*2*atlas.tile,0,atlas.tile,atlas.tile,x+shift+spread*(p.wave*width*.45),y+spread*(p.seed-.5)*height*.65,atlas.side,atlas.side);
    }
    ctx.globalAlpha=1;
   }
@@ -375,7 +375,7 @@ if(document.body.classList.contains('closing')){
  let leaving=false;
  const returnLink=document.querySelector('.closing-bottom a'),word=document.querySelector('.thanks-word')?.textContent.trim()||'';
  // Mesma composição da abertura: o último quadro da vinheta é o primeiro quadro da home, sem corte.
- const HERO_TYPE='<h1 class="intro-type"><span class="type-group type-creative"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span></span><span class="type-group type-developer"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span></span></h1>';
+ const HERO_TYPE='<h1 class="intro-type"><span class="type-group type-creative"><span class="type-echo"><span>CREATIVE</span></span><span class="type-full"><span>CREATIVE</span></span><span class="type-fragment"><span>CREATIVE</span></span><span class="type-extra x1"><span>CREATIVE</span></span></span><span class="type-group type-developer"><span class="type-full"><span>DEVELOPER</span></span><span class="type-echo"><span>DEVELOPER</span></span><span class="type-fragment"><span>DEVELOPER</span></span><span class="type-extra x1"><span>DEVELOPER</span></span><span class="type-extra x2"><span>DEVELOPER</span></span></span></h1>';
  async function returnToOpening(){
   if(leaving)return;leaving=true;
   if(motion()){
