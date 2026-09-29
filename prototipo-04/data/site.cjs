@@ -9,6 +9,6 @@ const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
 module.exports = {
   url: (process.env.SITE_URL || DOMINIO || (vercel ? 'https://' + vercel : '')).replace(/\/$/, ''),
   indexar: true,
-  email: '',
+  email: 'cassarottiiago@gmail.com',
   whatsapp: 'https://wa.me/5543988174922'
 };
