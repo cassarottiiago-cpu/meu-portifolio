@@ -173,7 +173,7 @@ if(intro&&canvas){
    const compact=width<700,scale=compact?width/330:Math.min(width/460,height/250);
    // Celular: um monograma IC inteiro sob o título; computador: dois, sangrando pelas bordas.
    // Celular: os dois IC como no computador, maiores que a tela, sangrando pelas bordas atrás do título.
-   if(compact){const s=Math.min(height*.42/bounds.h,width*1.15/bounds.w);const k=s*.9;stamp(width*.86,height*.24,k,0);stamp(width*.2,height*.93,k*1.18,1);}
+   if(compact){const s=Math.min(height*.5/bounds.h,width*1.35/bounds.w);const k=s*.9;stamp(width*.86,height*.24,k,0);stamp(width*.26,height*.83,k*.86,1);}
    else{stamp(width*.83,height*.33,scale,0);stamp(width*.08,height*.78,scale*.85,1);}
    // Perto do ponteiro os caracteres trocam de forma enquanto ele se mexe.
    const awake=inside&&motion()&&performance.now()-pointer.moved<520;

@@ -12,7 +12,7 @@ module.exports = {
     enlarge: 'Ampliar', viewer: { title: 'Imagem do projeto', actual: 'Tamanho real', fit: 'Ajustar à tela', close: 'Fechar', canvas: 'Imagem ampliada; use a rolagem para explorar', fullAlt: 'Página completa do projeto' },
     home: {
       title: 'Creative Developer', description: 'Design de interfaces, UI/UX e desenvolvimento. Os trabalhos de Iago Cassarotti.',
-      skip: 'Pular para os trabalhos', count: n => n + ' projetos', workTitle: 'Projetos<br> selecionados', rail: 'Projeto em leitura', meet: 'Conhecer',
+      skip: 'Pular para os trabalhos', workTitle: 'Projetos<br> selecionados', rail: 'Projeto em leitura', meet: 'Conhecer',
       process: {
         title: 'Processo', lead: 'Como um projeto sai da conversa e chega ao ar.',
         steps: [
@@ -65,7 +65,7 @@ module.exports = {
     enlarge: 'Enlarge', viewer: { title: 'Project image', actual: 'Actual size', fit: 'Fit to screen', close: 'Close', canvas: 'Enlarged image; scroll to explore', fullAlt: 'Full project page' },
     home: {
       title: 'Creative Developer', description: 'Interface design, UI/UX and development. The work of Iago Cassarotti.',
-      skip: 'Skip to the work', count: n => n + ' projects', workTitle: 'Selected<br> work', rail: 'Project being read', meet: 'See',
+      skip: 'Skip to the work', workTitle: 'Selected<br> work', rail: 'Project being read', meet: 'See',
       process: {
         title: 'Process', lead: 'How a project goes from a conversation to going live.',
         steps: [
